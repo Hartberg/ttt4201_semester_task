@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dc_annotation_options>
+ <options NexusData="false" ToggleCurrent="true" ToggleVoltage="true" cell="SP_NF_GainMatchK" library="TTT4201_lib" view="schematic"/>
+</dc_annotation_options>

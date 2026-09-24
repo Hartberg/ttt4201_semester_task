@@ -1,0 +1,20 @@
+/* ---------------------------------------------------------------------------+/
+FILE            :    boot.ael
+This file controls the loading of the design kit.
+The value of variable designKitRecord is picked up from the eesof_lib.cfg file.
+/+-----------------------------------------------------------------------------*/
+
+// Read values from eesof_lib.cfg file.
+decl MA_RFP_ADS_v2p7_NAME = designKitRecord[0];
+decl MA_RFP_ADS_v2p7_PATH = designKitRecord[1];
+decl MA_RFP_ADS_v2p7_BOOT = designKitRecord[2];
+decl MA_RFP_ADS_v2p7_VER  = designKitRecord[3];
+
+decl MA_RFP_ADS_v2p7_BITMAP_DIR = sprintf("%s/circuit/bitmaps/", MA_RFP_ADS_v2p7_PATH);
+decl MA_RFP_ADS_v2p7_CIRCUIT_AEL_DIR = sprintf("%s/circuit/ael/", MA_RFP_ADS_v2p7_PATH);
+decl MA_RFP_ADS_v2p7_CIRCUIT_MODEL_DIR = sprintf("%s/circuit/models/", MA_RFP_ADS_v2p7_PATH);
+decl MA_RFP_ADS_v2p7_DE_AEL_DIR = sprintf("%s/de/ael/", MA_RFP_ADS_v2p7_PATH);
+
+// Load the circuit/ael files
+load(strcat(MA_RFP_ADS_v2p7_PATH,"circuit/ael/MA_RFP_ADS_v2p7_encode_item"));
+load(strcat(MA_RFP_ADS_v2p7_PATH,"circuit/ael/MA_RFP_ADS_v2p7_encode_def"));

@@ -1,0 +1,7 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE semester_task_lib semester_task_lib
+ASSIGN semester_task_lib libMode shared
+INCLUDE ../examples/Johanson_lib_v1.0/lib.defs
+INCLUDE ../examples/muRataLibWeb_C_confidential/lib.defs
+INCLUDE ../semester_task_lib/MA_RFP_ADS_v2p7/lib.defs

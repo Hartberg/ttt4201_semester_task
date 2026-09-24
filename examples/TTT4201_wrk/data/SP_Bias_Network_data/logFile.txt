@@ -1,0 +1,24 @@
+
+hpeesofsim (*) 650.shp Jul 29 2026, MINT version 5
+    (64-bit windows built: Wed Jul 29, 2026 11:10:28 +0000)
+
+***** Simulation started at Tue Sep 15 15:00:04 2026
+      Running on host: "NTNU31699"
+      In Directory: "c:\Users\olavsbra\OneDrive\ADS_NTNU31699\2027\TTT4201_wrk\data"
+      Process ID: 22812
+
+
+SP SP1[1] <TTT4201_lib:SP_Bias_Network:schematic>   freq=(10 MHz->10 GHz)
+
+
+Resource usage:
+    Total CPU time            =     6.09 seconds.
+    Simulation stopwatch time =     2.38 seconds.
+    Total stopwatch time      =     4.72 seconds.
+
+    Memory used:  153 MBytes
+
+    Max threads used:  32
+        (NOTE: max threads includes very-low-CPU-usage support threads,
+         as well as high-CPU-usage computational threads.)
+

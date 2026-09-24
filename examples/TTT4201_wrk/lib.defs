@@ -1,0 +1,6 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+DEFINE TTT4201_lib TTT4201_lib
+ASSIGN TTT4201_lib libMode shared
+INCLUDE $HOME/Downloads/MA_RFP_ADS_v2p7/MA_RFP_ADS_v2p7/lib.defs
+INCLUDE $HOME/Downloads/murata-lib-ads-s-mlcc-2602/muRataLibWeb_C_confidential/lib.defs
+INCLUDE $HOME/Downloads/Johanson_lib_v1.0/Johanson_lib_v1.0/lib.defs

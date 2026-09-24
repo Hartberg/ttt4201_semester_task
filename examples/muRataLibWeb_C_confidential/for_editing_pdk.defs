@@ -1,0 +1,7 @@
+# Library Defs for editing the muRataLibWeb_C design kit
+# Remove this from the design kit before distributing to customers.
+DEFINE muRataLibWeb_C_tech ./muRataLibWeb_C_tech
+ASSIGN muRataLibWeb_C_tech libMode shared
+DEFINE muRataLibWeb_C ./muRataLibWeb_C
+ASSIGN muRataLibWeb_C libMode shared
+

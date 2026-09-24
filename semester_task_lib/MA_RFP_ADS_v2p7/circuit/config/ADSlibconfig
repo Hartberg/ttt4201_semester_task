@@ -1,0 +1,13 @@
+MA_RFP_ADS_v2p7   MA_RFP_ADS_v2p7\circuit\models\MA_RFP_ADS_v2p7.library
+ma_gan_int_v3p7   ma_gan_int_v3p3\circuit\models\ma_gan_int_v3p7.library
+gan3c_v2p3   gan3c_v2p1\circuit\models\gan3c_v2p3.library
+g50v3d1_r8u6   g50v3d1_r8u6\circuit\models\g50v3d1_r8u6.library
+gan2p1_vp0   gan2p1_vp0\circuit\models\gan2p1_vp0.library
+g50v3d2_r8u1_core   g50v3d2_r8u1_core\circuit\models\g50v3d2_r8u1_core.library
+g28v4_r8u3   g28v4_r8u3\circuit\models\g28v4_r8u3.library
+g40v4_r8u1   g40v4_r8u1\circuit\models\g40v4_r8u1.library
+g50v3d3   g50v3d3\circuit\models\g50v3d3.library
+g50v3d1_r8u5   g50v3d1_r8u5\circuit\models\g50v3d1_r8u5.library
+gan3a_v2p0   gan3a_v2p0\circuit\models\gan3a_v2p0.library
+g28v5_r8u51_sc g28v5_r8u51_sc\circuit\models\g28v5_r8u51_sc.library
+g50v3d1_sc   g50v3d1_sc\circuit\models\g50v3d1_sc.library

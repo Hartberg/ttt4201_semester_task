@@ -1,0 +1,430 @@
+
+hpeesofsim (*) 650.shp Jul 29 2026, MINT version 5
+    (64-bit windows built: Wed Jul 29, 2026 11:10:28 +0000)
+
+***** Simulation started at Fri Sep 18 14:20:06 2026
+      Running on host: "NTNU31699"
+      In Directory: "c:\Users\olavsbra\OneDrive\ADS_NTNU31699\2027\TTT4201_wrk\data"
+      Process ID: 27052
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 1
+
+
+OPTIM Optim1[1] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=(0->2500)
+Optim1: Seed = 111161629
+Pt DC convergence is used.
+
+SP Optim1[1].SP1[0] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=0  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 0.0851277300897387
+  Optimization variables:
+    IMN.Ci = 1
+    IMN.Li1 = 1
+    IMN.Li2 = 1
+
+SP Optim1[1].SP1[1] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=1  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #1:
+  CurrentEF: 0.047560514046634
+  Optimization variables:
+    IMN.Ci = 54.55215269715796
+    IMN.Li1 = 6.546949481629865
+    IMN.Li2 = 5.558310065456672
+
+SP Optim1[1].SP1[2] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=2  freq=(200 MHz->10 GHz)
+
+Warning detected by hpeesofsim during Nominal Optimization `Optim1'.
+    `X1.Q1': Unable to resolve variable(s) or functions(s) in expression ` Tj=dT'
+        dT
+
+Warning detected by hpeesofsim during Nominal Optimization `Optim1'.
+    `X1.Q1': Unable to resolve variable(s) or functions(s) in expression `idi=id.i'
+        id.i
+
+Warning detected by hpeesofsim during Nominal Optimization `Optim1'.
+    `X1.Q1': Unable to resolve variable(s) or functions(s) in expression `vdsi=vdi-Q1.vd1g'
+        Q1.vd1g
+        vdi
+
+
+SP Optim1[1].SP1[2] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=2  freq=(200 MHz->10 GHz)
+
+
+SP Optim1[1].SP1[2] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=2  freq=(200 MHz->10 GHz)
+
+
+SP Optim1[1].SP1[2] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=2  freq=(200 MHz->10 GHz)
+
+
+SP Optim1[1].SP1[2] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=2  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #2:
+  CurrentEF: 0.0750842886522875
+  Optimization variables:
+    IMN.Ci = 54.5522
+    IMN.Li1 = 4.24242
+    IMN.Li2 = 1.48485
+
+SP Optim1[1].SP1[4] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=4  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #4:
+  CurrentEF: 0.0706189503031029
+  Optimization variables:
+    IMN.Ci = 48.35631277240089
+    IMN.Li1 = 3.274244635767415
+    IMN.Li2 = 2.619312575098621
+
+SP Optim1[1].SP1[5] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=5  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #5:
+  CurrentEF: 0.0649952641894076
+  Optimization variables:
+    IMN.Ci = 31.79305629332027
+    IMN.Li1 = 3.614718894338404
+    IMN.Li2 = 3.288978161741566
+
+SP Optim1[1].SP1[6] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=6  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #6:
+  CurrentEF: 0.0536486863243473
+  Optimization variables:
+    IMN.Ci = 13.62471360670515
+    IMN.Li1 = 3.934322675529029
+    IMN.Li2 = 4.793840145441859
+
+SP Optim1[1].SP1[10] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=10  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #10:
+  CurrentEF: 0.052494118111344
+  Optimization variables:
+    IMN.Ci = 76.038054549718
+    IMN.Li1 = 2.911823450254708
+    IMN.Li2 = 6.33138196526714
+
+SP Optim1[1].SP1[16] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=16  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #16:
+  CurrentEF: 0.0459058678399724
+  Optimization variables:
+    IMN.Ci = 2.972771329314761
+    IMN.Li1 = 3.107305778970108
+    IMN.Li2 = 7.165965593479803
+
+SP Optim1[1].SP1[18] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=18  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #18:
+  CurrentEF: 0.0440661133461188
+  Optimization variables:
+    IMN.Ci = 79.21269287521241
+    IMN.Li1 = 3.844723935508779
+    IMN.Li2 = 9.675933921553435
+
+SP Optim1[1].SP1[20] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=20  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #20:
+  CurrentEF: 0.0406824348619574
+  Optimization variables:
+    IMN.Ci = 62.49714809756782
+    IMN.Li1 = 5.482759807567931
+    IMN.Li2 = 8.017441621885375
+
+SP Optim1[1].SP1[22] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=22  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #22:
+  CurrentEF: 0.0379965147038071
+  Optimization variables:
+    IMN.Ci = 69.59312177707331
+    IMN.Li1 = 4.064157717226269
+    IMN.Li2 = 9.119922535692856
+
+SP Optim1[1].SP1[23] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=23  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #23:
+  CurrentEF: 0.0373295255099892
+  Optimization variables:
+    IMN.Ci = 76.7397890652353
+    IMN.Li1 = 3.460197080099173
+    IMN.Li2 = 8.588611260090804
+
+SP Optim1[1].SP1[30] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=30  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #30:
+  CurrentEF: 0.0359026905484323
+  Optimization variables:
+    IMN.Ci = 61.46324312415846
+    IMN.Li1 = 4.707026086427586
+    IMN.Li2 = 7.72173823474707
+
+SP Optim1[1].SP1[35] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=35  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #35:
+  CurrentEF: 0.035344627820275
+  Optimization variables:
+    IMN.Ci = 71.72806014130386
+    IMN.Li1 = 4.458377281257262
+    IMN.Li2 = 8.032308638930258
+
+SP Optim1[1].SP1[39] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=39  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #39:
+  CurrentEF: 0.0352371880165258
+  Optimization variables:
+    IMN.Ci = 69.39774563808608
+    IMN.Li1 = 4.318487663903511
+    IMN.Li2 = 8.109207341979083
+
+SP Optim1[1].SP1[40] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=40  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #40:
+  CurrentEF: 0.0352157437167115
+  Optimization variables:
+    IMN.Ci = 68.2191280207131
+    IMN.Li1 = 4.203074420785298
+    IMN.Li2 = 8.345146752855182
+
+SP Optim1[1].SP1[51] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=51  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #51:
+  CurrentEF: 0.0352130990815799
+  Optimization variables:
+    IMN.Ci = 65.87187279878944
+    IMN.Li1 = 4.302600867695181
+    IMN.Li2 = 8.161166103571249
+
+SP Optim1[1].SP1[67] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=67  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #67:
+  CurrentEF: 0.03520978095688
+  Optimization variables:
+    IMN.Ci = 66.49981610387829
+    IMN.Li1 = 4.310965265056383
+    IMN.Li2 = 8.194060264710053
+
+SP Optim1[1].SP1[69] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=69  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #69:
+  CurrentEF: 0.0352030478654931
+  Optimization variables:
+    IMN.Ci = 66.3152441329625
+    IMN.Li1 = 4.292767024210677
+    IMN.Li2 = 8.208442916103458
+
+SP Optim1[1].SP1[79] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=79  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #79:
+  CurrentEF: 0.0351967947216969
+  Optimization variables:
+    IMN.Ci = 65.86765505889959
+    IMN.Li1 = 4.243095469999146
+    IMN.Li2 = 8.221255577153046
+
+SP Optim1[1].SP1[94] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=94  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #94:
+  CurrentEF: 0.035196281343773
+  Optimization variables:
+    IMN.Ci = 66.30941643093828
+    IMN.Li1 = 4.213720957235643
+    IMN.Li2 = 8.268062622164894
+
+SP Optim1[1].SP1[95] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=95  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #95:
+  CurrentEF: 0.0351961570894432
+  Optimization variables:
+    IMN.Ci = 66.75297806408844
+    IMN.Li1 = 4.238475599642049
+    IMN.Li2 = 8.227974371073072
+
+SP Optim1[1].SP1[99] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=99  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #99:
+  CurrentEF: 0.0351955950859347
+  Optimization variables:
+    IMN.Ci = 67.05336364379863
+    IMN.Li1 = 4.243241403084209
+    IMN.Li2 = 8.265052810741624
+
+SP Optim1[1].SP1[100] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=100  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #100:
+  CurrentEF: 0.0351950029434006
+  Optimization variables:
+    IMN.Ci = 66.98590629587147
+    IMN.Li1 = 4.224860215156297
+    IMN.Li2 = 8.261020095317381
+
+SP Optim1[1].SP1[115] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=115  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #115:
+  CurrentEF: 0.0351949600419547
+  Optimization variables:
+    IMN.Ci = 67.3103533083909
+    IMN.Li1 = 4.235075389178042
+    IMN.Li2 = 8.240857805127069
+
+SP Optim1[1].SP1[130] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=130  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #130:
+  CurrentEF: 0.0351948275164841
+  Optimization variables:
+    IMN.Ci = 67.11272344015008
+    IMN.Li1 = 4.236633116582038
+    IMN.Li2 = 8.241168785950176
+
+SP Optim1[1].SP1[134] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=134  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #134:
+  CurrentEF: 0.0351947264653445
+  Optimization variables:
+    IMN.Ci = 66.99263191897577
+    IMN.Li1 = 4.234860712922348
+    IMN.Li2 = 8.261493459320487
+
+SP Optim1[1].SP1[143] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=143  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #143:
+  CurrentEF: 0.0351944788788961
+  Optimization variables:
+    IMN.Ci = 67.05515748556823
+    IMN.Li1 = 4.241735949663092
+    IMN.Li2 = 8.24587236034073
+
+SP Optim1[1].SP1[145] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=145  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #145:
+  CurrentEF: 0.0351944606382249
+  Optimization variables:
+    IMN.Ci = 66.82917410271702
+    IMN.Li1 = 4.241552985019593
+    IMN.Li2 = 8.249439748625004
+
+SP Optim1[1].SP1[262] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=262  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #262:
+  CurrentEF: 0.035194449874816
+  Optimization variables:
+    IMN.Ci = 66.77378891809802
+    IMN.Li1 = 4.236262395913812
+    IMN.Li2 = 8.25184878901964
+
+SP Optim1[1].SP1[271] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=271  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #271:
+  CurrentEF: 0.0351944379649457
+  Optimization variables:
+    IMN.Ci = 66.81742396143491
+    IMN.Li1 = 4.239633041259651
+    IMN.Li2 = 8.250600676480826
+
+SP Optim1[1].SP1[286] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=286  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #286:
+  CurrentEF: 0.0351944379649457
+  Optimization variables:
+    IMN.Ci = 66.81742396143491
+    IMN.Li1 = 4.239633041259651
+    IMN.Li2 = 8.250600676480826
+
+SP Optim1[1].SP1[287] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=287  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #287:
+  CurrentEF: 0.0351944328076029
+  Optimization variables:
+    IMN.Ci = 66.81742396143491
+    IMN.Li1 = 4.239046547075957
+    IMN.Li2 = 8.250021234922981
+
+SP Optim1[1].SP1[288] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=288  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #288:
+  CurrentEF: 0.0351944326201594
+  Optimization variables:
+    IMN.Ci = 66.81742396143491
+    IMN.Li1 = 4.238658282587068
+    IMN.Li2 = 8.250108388875889
+
+SP Optim1[1].SP1[289] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=289  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #289:
+  CurrentEF: 0.0351944324564505
+  Optimization variables:
+    IMN.Ci = 66.81742396143491
+    IMN.Li1 = 4.238738595691522
+    IMN.Li2 = 8.250197945015586
+
+SP Optim1[1].SP1[290] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=290  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #290:
+  CurrentEF: 0.0351944324201419
+  Optimization variables:
+    IMN.Ci = 66.81742396143491
+    IMN.Li1 = 4.238715699482119
+    IMN.Li2 = 8.250293142102446
+
+SP Optim1[1].SP1[291] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=291  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #291:
+  CurrentEF: 0.0351944324170653
+  Optimization variables:
+    IMN.Ci = 66.81742396143491
+    IMN.Li1 = 4.238692826816077
+    IMN.Li2 = 8.25032268216183
+
+SP Optim1[1].SP1[292] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=292  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #292:
+  CurrentEF: 0.0351944324170378
+  Optimization variables:
+    IMN.Ci = 66.81742396143491
+    IMN.Li1 = 4.23868899206632
+    IMN.Li2 = 8.250324572338243
+
+SP Optim1[1].SP1[293] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=293  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #293:
+  CurrentEF: 0.0351944324170041
+  Optimization variables:
+    IMN.Ci = 66.14914972182056
+    IMN.Li1 = 4.238690340869715
+    IMN.Li2 = 8.250325370637556
+
+SP Optim1[1].SP1[294] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=294  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #294:
+  CurrentEF: 0.035194432417
+  Optimization variables:
+    IMN.Ci = 66.14914972182056
+    IMN.Li1 = 4.23869072290777
+    IMN.Li2 = 8.25032559945682
+
+SP Optim1[1].SP1[295] <TTT4201_lib:SP_NF_GainMatchK:schematic>  optIter=295  freq=(200 MHz->10 GHz)
+
+Iteration/Trial #295:
+  CurrentEF: 0.0351944324169983
+  Optimization variables:
+    IMN.Ci = 66.14914972182056
+    IMN.Li1 = 4.238691186153412
+    IMN.Li2 = 8.250325897077929
+Gradient optimizer ends after 295 trials and 120 evaluations with EF=3.519e-02
+Optim1[1] terminated due to no more improvement 
+
+Resource usage:
+    Total CPU time            =   190.62 seconds.
+    Simulation stopwatch time =   284.98 seconds.
+    Total stopwatch time      =   287.22 seconds.
+
+    Memory used:  156 MBytes
+
+    Max threads used:  33
+        (NOTE: max threads includes very-low-CPU-usage support threads,
+         as well as high-CPU-usage computational threads.)
+

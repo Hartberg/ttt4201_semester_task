@@ -1,0 +1,2131 @@
+create_constant_form("NULL","NULL",16,"NULL","NULL");
+create_constant_form("GCM0334C1ER10WA01","1:GCM0334C1ER10WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.1[pF], +/-0.05[pF], 100[MHz]-30[GHz]:1",68,"1","GCM0334C1ER10WA01");
+create_constant_form("GCM0334C1HR10WA01","2:GCM0334C1HR10WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.1[pF], +/-0.05[pF], 100[MHz]-30[GHz]:2",68,"2","GCM0334C1HR10WA01");
+create_constant_form("GCM0335C1ER10WA16","3:GCM0335C1ER10WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.1[pF], +/-0.05[pF], 100[MHz]-30[GHz]:3",68,"3","GCM0335C1ER10WA16");
+create_constant_form("GCM0335C1HR10WA16","4:GCM0335C1HR10WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.1[pF], +/-0.05[pF], 100[MHz]-30[GHz]:4",68,"4","GCM0335C1HR10WA16");
+create_constant_form("GCM0334C1ER20WA01","5:GCM0334C1ER20WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.2[pF], +/-0.05[pF], 100[MHz]-30[GHz]:5",68,"5","GCM0334C1ER20WA01");
+create_constant_form("GCM0334C1ER20BA01","6:GCM0334C1ER20BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.2[pF], +/-0.1[pF], 100[MHz]-30[GHz]:6",68,"6","GCM0334C1ER20BA01");
+create_constant_form("GCM0334C1HR20WA01","7:GCM0334C1HR20WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.2[pF], +/-0.05[pF], 100[MHz]-30[GHz]:7",68,"7","GCM0334C1HR20WA01");
+create_constant_form("GCM0334C1HR20BA01","8:GCM0334C1HR20BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.2[pF], +/-0.1[pF], 100[MHz]-30[GHz]:8",68,"8","GCM0334C1HR20BA01");
+create_constant_form("GCM0335C1ER20WA16","9:GCM0335C1ER20WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.2[pF], +/-0.05[pF], 100[MHz]-30[GHz]:9",68,"9","GCM0335C1ER20WA16");
+create_constant_form("GCM0335C1ER20BA16","10:GCM0335C1ER20BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.2[pF], +/-0.1[pF], 100[MHz]-30[GHz]:10",68,"10","GCM0335C1ER20BA16");
+create_constant_form("GCM0335C1HR20WA16","11:GCM0335C1HR20WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.2[pF], +/-0.05[pF], 100[MHz]-30[GHz]:11",68,"11","GCM0335C1HR20WA16");
+create_constant_form("GCM0335C1HR20BA16","12:GCM0335C1HR20BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.2[pF], +/-0.1[pF], 100[MHz]-30[GHz]:12",68,"12","GCM0335C1HR20BA16");
+create_constant_form("GCM0334C1ER30WA01","13:GCM0334C1ER30WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.3[pF], +/-0.05[pF], 100[MHz]-30[GHz]:13",68,"13","GCM0334C1ER30WA01");
+create_constant_form("GCM0334C1ER30BA01","14:GCM0334C1ER30BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.3[pF], +/-0.1[pF], 100[MHz]-30[GHz]:14",68,"14","GCM0334C1ER30BA01");
+create_constant_form("GCM0334C1HR30WA01","15:GCM0334C1HR30WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.3[pF], +/-0.05[pF], 100[MHz]-30[GHz]:15",68,"15","GCM0334C1HR30WA01");
+create_constant_form("GCM0334C1HR30BA01","16:GCM0334C1HR30BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.3[pF], +/-0.1[pF], 100[MHz]-30[GHz]:16",68,"16","GCM0334C1HR30BA01");
+create_constant_form("GCM0335C1ER30WA16","17:GCM0335C1ER30WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.3[pF], +/-0.05[pF], 100[MHz]-30[GHz]:17",68,"17","GCM0335C1ER30WA16");
+create_constant_form("GCM0335C1ER30BA16","18:GCM0335C1ER30BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.3[pF], +/-0.1[pF], 100[MHz]-30[GHz]:18",68,"18","GCM0335C1ER30BA16");
+create_constant_form("GCM0335C1HR30WA16","19:GCM0335C1HR30WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.3[pF], +/-0.05[pF], 100[MHz]-30[GHz]:19",68,"19","GCM0335C1HR30WA16");
+create_constant_form("GCM0335C1HR30BA16","20:GCM0335C1HR30BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.3[pF], +/-0.1[pF], 100[MHz]-30[GHz]:20",68,"20","GCM0335C1HR30BA16");
+create_constant_form("GCM0334C1ER40WA01","21:GCM0334C1ER40WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.4[pF], +/-0.05[pF], 100[MHz]-30[GHz]:21",68,"21","GCM0334C1ER40WA01");
+create_constant_form("GCM0334C1ER40BA01","22:GCM0334C1ER40BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.4[pF], +/-0.1[pF], 100[MHz]-30[GHz]:22",68,"22","GCM0334C1ER40BA01");
+create_constant_form("GCM0334C1HR40WA01","23:GCM0334C1HR40WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.4[pF], +/-0.05[pF], 100[MHz]-30[GHz]:23",68,"23","GCM0334C1HR40WA01");
+create_constant_form("GCM0334C1HR40BA01","24:GCM0334C1HR40BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.4[pF], +/-0.1[pF], 100[MHz]-30[GHz]:24",68,"24","GCM0334C1HR40BA01");
+create_constant_form("GCM0335C1ER40WA16","25:GCM0335C1ER40WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.4[pF], +/-0.05[pF], 100[MHz]-30[GHz]:25",68,"25","GCM0335C1ER40WA16");
+create_constant_form("GCM0335C1ER40BA16","26:GCM0335C1ER40BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.4[pF], +/-0.1[pF], 100[MHz]-30[GHz]:26",68,"26","GCM0335C1ER40BA16");
+create_constant_form("GCM0335C1HR40WA16","27:GCM0335C1HR40WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.4[pF], +/-0.05[pF], 100[MHz]-30[GHz]:27",68,"27","GCM0335C1HR40WA16");
+create_constant_form("GCM0335C1HR40BA16","28:GCM0335C1HR40BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.4[pF], +/-0.1[pF], 100[MHz]-30[GHz]:28",68,"28","GCM0335C1HR40BA16");
+create_constant_form("GCM0334C1ER50WA01","29:GCM0334C1ER50WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.5[pF], +/-0.05[pF], 100[MHz]-30[GHz]:29",68,"29","GCM0334C1ER50WA01");
+create_constant_form("GCM0334C1ER50BA01","30:GCM0334C1ER50BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.5[pF], +/-0.1[pF], 100[MHz]-30[GHz]:30",68,"30","GCM0334C1ER50BA01");
+create_constant_form("GCM0334C1HR50WA01","31:GCM0334C1HR50WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.5[pF], +/-0.05[pF], 100[MHz]-30[GHz]:31",68,"31","GCM0334C1HR50WA01");
+create_constant_form("GCM0334C1HR50BA01","32:GCM0334C1HR50BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.5[pF], +/-0.1[pF], 100[MHz]-30[GHz]:32",68,"32","GCM0334C1HR50BA01");
+create_constant_form("GCM0335C1ER50WA16","33:GCM0335C1ER50WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.5[pF], +/-0.05[pF], 100[MHz]-30[GHz]:33",68,"33","GCM0335C1ER50WA16");
+create_constant_form("GCM0335C1ER50BA16","34:GCM0335C1ER50BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.5[pF], +/-0.1[pF], 100[MHz]-30[GHz]:34",68,"34","GCM0335C1ER50BA16");
+create_constant_form("GCM0335C1HR50WA16","35:GCM0335C1HR50WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.5[pF], +/-0.05[pF], 100[MHz]-30[GHz]:35",68,"35","GCM0335C1HR50WA16");
+create_constant_form("GCM0335C1HR50BA16","36:GCM0335C1HR50BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.5[pF], +/-0.1[pF], 100[MHz]-30[GHz]:36",68,"36","GCM0335C1HR50BA16");
+create_constant_form("GCM0334C1ER60WA01","37:GCM0334C1ER60WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.6[pF], +/-0.05[pF], 100[MHz]-30[GHz]:37",68,"37","GCM0334C1ER60WA01");
+create_constant_form("GCM0334C1ER60BA01","38:GCM0334C1ER60BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.6[pF], +/-0.1[pF], 100[MHz]-30[GHz]:38",68,"38","GCM0334C1ER60BA01");
+create_constant_form("GCM0334C1HR60WA01","39:GCM0334C1HR60WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.6[pF], +/-0.05[pF], 100[MHz]-30[GHz]:39",68,"39","GCM0334C1HR60WA01");
+create_constant_form("GCM0334C1HR60BA01","40:GCM0334C1HR60BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.6[pF], +/-0.1[pF], 100[MHz]-30[GHz]:40",68,"40","GCM0334C1HR60BA01");
+create_constant_form("GCM0335C1ER60WA16","41:GCM0335C1ER60WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.6[pF], +/-0.05[pF], 100[MHz]-30[GHz]:41",68,"41","GCM0335C1ER60WA16");
+create_constant_form("GCM0335C1ER60BA16","42:GCM0335C1ER60BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.6[pF], +/-0.1[pF], 100[MHz]-30[GHz]:42",68,"42","GCM0335C1ER60BA16");
+create_constant_form("GCM0335C1HR60WA16","43:GCM0335C1HR60WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.6[pF], +/-0.05[pF], 100[MHz]-30[GHz]:43",68,"43","GCM0335C1HR60WA16");
+create_constant_form("GCM0335C1HR60BA16","44:GCM0335C1HR60BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.6[pF], +/-0.1[pF], 100[MHz]-30[GHz]:44",68,"44","GCM0335C1HR60BA16");
+create_constant_form("GCM0334C1ER70WA01","45:GCM0334C1ER70WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.7[pF], +/-0.05[pF], 100[MHz]-30[GHz]:45",68,"45","GCM0334C1ER70WA01");
+create_constant_form("GCM0334C1ER70BA01","46:GCM0334C1ER70BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.7[pF], +/-0.1[pF], 100[MHz]-30[GHz]:46",68,"46","GCM0334C1ER70BA01");
+create_constant_form("GCM0334C1HR70WA01","47:GCM0334C1HR70WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.7[pF], +/-0.05[pF], 100[MHz]-30[GHz]:47",68,"47","GCM0334C1HR70WA01");
+create_constant_form("GCM0334C1HR70BA01","48:GCM0334C1HR70BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.7[pF], +/-0.1[pF], 100[MHz]-30[GHz]:48",68,"48","GCM0334C1HR70BA01");
+create_constant_form("GCM0335C1ER70WA16","49:GCM0335C1ER70WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.7[pF], +/-0.05[pF], 100[MHz]-30[GHz]:49",68,"49","GCM0335C1ER70WA16");
+create_constant_form("GCM0335C1ER70BA16","50:GCM0335C1ER70BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.7[pF], +/-0.1[pF], 100[MHz]-30[GHz]:50",68,"50","GCM0335C1ER70BA16");
+create_constant_form("GCM0335C1HR70WA16","51:GCM0335C1HR70WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.7[pF], +/-0.05[pF], 100[MHz]-30[GHz]:51",68,"51","GCM0335C1HR70WA16");
+create_constant_form("GCM0335C1HR70BA16","52:GCM0335C1HR70BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.7[pF], +/-0.1[pF], 100[MHz]-30[GHz]:52",68,"52","GCM0335C1HR70BA16");
+create_constant_form("GCM0334C1ER80WA01","53:GCM0334C1ER80WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.8[pF], +/-0.05[pF], 100[MHz]-30[GHz]:53",68,"53","GCM0334C1ER80WA01");
+create_constant_form("GCM0334C1ER80BA01","54:GCM0334C1ER80BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.8[pF], +/-0.1[pF], 100[MHz]-30[GHz]:54",68,"54","GCM0334C1ER80BA01");
+create_constant_form("GCM0334C1HR80WA01","55:GCM0334C1HR80WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.8[pF], +/-0.05[pF], 100[MHz]-30[GHz]:55",68,"55","GCM0334C1HR80WA01");
+create_constant_form("GCM0334C1HR80BA01","56:GCM0334C1HR80BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.8[pF], +/-0.1[pF], 100[MHz]-30[GHz]:56",68,"56","GCM0334C1HR80BA01");
+create_constant_form("GCM0335C1ER80WA16","57:GCM0335C1ER80WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.8[pF], +/-0.05[pF], 100[MHz]-30[GHz]:57",68,"57","GCM0335C1ER80WA16");
+create_constant_form("GCM0335C1ER80BA16","58:GCM0335C1ER80BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.8[pF], +/-0.1[pF], 100[MHz]-30[GHz]:58",68,"58","GCM0335C1ER80BA16");
+create_constant_form("GCM0335C1HR80WA16","59:GCM0335C1HR80WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.8[pF], +/-0.05[pF], 100[MHz]-30[GHz]:59",68,"59","GCM0335C1HR80WA16");
+create_constant_form("GCM0335C1HR80BA16","60:GCM0335C1HR80BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.8[pF], +/-0.1[pF], 100[MHz]-30[GHz]:60",68,"60","GCM0335C1HR80BA16");
+create_constant_form("GCM0334C1ER90WA01","61:GCM0334C1ER90WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.9[pF], +/-0.05[pF], 100[MHz]-30[GHz]:61",68,"61","GCM0334C1ER90WA01");
+create_constant_form("GCM0334C1ER90BA01","62:GCM0334C1ER90BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 0.9[pF], +/-0.1[pF], 100[MHz]-30[GHz]:62",68,"62","GCM0334C1ER90BA01");
+create_constant_form("GCM0334C1HR90WA01","63:GCM0334C1HR90WA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.9[pF], +/-0.05[pF], 100[MHz]-30[GHz]:63",68,"63","GCM0334C1HR90WA01");
+create_constant_form("GCM0334C1HR90BA01","64:GCM0334C1HR90BA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 0.9[pF], +/-0.1[pF], 100[MHz]-30[GHz]:64",68,"64","GCM0334C1HR90BA01");
+create_constant_form("GCM0335C1ER90WA16","65:GCM0335C1ER90WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.9[pF], +/-0.05[pF], 100[MHz]-30[GHz]:65",68,"65","GCM0335C1ER90WA16");
+create_constant_form("GCM0335C1ER90BA16","66:GCM0335C1ER90BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 0.9[pF], +/-0.1[pF], 100[MHz]-30[GHz]:66",68,"66","GCM0335C1ER90BA16");
+create_constant_form("GCM0335C1HR90WA16","67:GCM0335C1HR90WA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.9[pF], +/-0.05[pF], 100[MHz]-30[GHz]:67",68,"67","GCM0335C1HR90WA16");
+create_constant_form("GCM0335C1HR90BA16","68:GCM0335C1HR90BA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 0.9[pF], +/-0.1[pF], 100[MHz]-30[GHz]:68",68,"68","GCM0335C1HR90BA16");
+create_constant_form("GCM0334C1E1R0CA01","69:GCM0334C1E1R0CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 1[pF], +/-0.25[pF], 100[MHz]-30[GHz]:69",68,"69","GCM0334C1E1R0CA01");
+create_constant_form("GCM0334C1H1R0CA01","70:GCM0334C1H1R0CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 1[pF], +/-0.25[pF], 100[MHz]-30[GHz]:70",68,"70","GCM0334C1H1R0CA01");
+create_constant_form("GCM0335C1E1R0CA16","71:GCM0335C1E1R0CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 1[pF], +/-0.25[pF], 100[MHz]-30[GHz]:71",68,"71","GCM0335C1E1R0CA16");
+create_constant_form("GCM0335C1H1R0CA16","72:GCM0335C1H1R0CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 1[pF], +/-0.25[pF], 100[MHz]-30[GHz]:72",68,"72","GCM0335C1H1R0CA16");
+create_constant_form("GCM0334C1E1R1CA01","73:GCM0334C1E1R1CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 1.1[pF], +/-0.25[pF], 100[MHz]-30[GHz]:73",68,"73","GCM0334C1E1R1CA01");
+create_constant_form("GCM0334C1H1R1CA01","74:GCM0334C1H1R1CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 1.1[pF], +/-0.25[pF], 100[MHz]-30[GHz]:74",68,"74","GCM0334C1H1R1CA01");
+create_constant_form("GCM0335C1E1R1CA16","75:GCM0335C1E1R1CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 1.1[pF], +/-0.25[pF], 100[MHz]-30[GHz]:75",68,"75","GCM0335C1E1R1CA16");
+create_constant_form("GCM0335C1H1R1CA16","76:GCM0335C1H1R1CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 1.1[pF], +/-0.25[pF], 100[MHz]-30[GHz]:76",68,"76","GCM0335C1H1R1CA16");
+create_constant_form("GCM0334C1E1R2CA01","77:GCM0334C1E1R2CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 1.2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:77",68,"77","GCM0334C1E1R2CA01");
+create_constant_form("GCM0334C1H1R2CA01","78:GCM0334C1H1R2CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 1.2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:78",68,"78","GCM0334C1H1R2CA01");
+create_constant_form("GCM0335C1E1R2CA16","79:GCM0335C1E1R2CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 1.2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:79",68,"79","GCM0335C1E1R2CA16");
+create_constant_form("GCM0335C1H1R2CA16","80:GCM0335C1H1R2CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 1.2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:80",68,"80","GCM0335C1H1R2CA16");
+create_constant_form("GCM0334C1E1R3CA01","81:GCM0334C1E1R3CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 1.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:81",68,"81","GCM0334C1E1R3CA01");
+create_constant_form("GCM0334C1H1R3CA01","82:GCM0334C1H1R3CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 1.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:82",68,"82","GCM0334C1H1R3CA01");
+create_constant_form("GCM0335C1E1R3CA16","83:GCM0335C1E1R3CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 1.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:83",68,"83","GCM0335C1E1R3CA16");
+create_constant_form("GCM0335C1H1R3CA16","84:GCM0335C1H1R3CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 1.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:84",68,"84","GCM0335C1H1R3CA16");
+create_constant_form("GCM0334C1E1R5CA01","85:GCM0334C1E1R5CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 1.5[pF], +/-0.25[pF], 100[MHz]-30[GHz]:85",68,"85","GCM0334C1E1R5CA01");
+create_constant_form("GCM0334C1H1R5CA01","86:GCM0334C1H1R5CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 1.5[pF], +/-0.25[pF], 100[MHz]-30[GHz]:86",68,"86","GCM0334C1H1R5CA01");
+create_constant_form("GCM0335C1E1R5CA16","87:GCM0335C1E1R5CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 1.5[pF], +/-0.25[pF], 100[MHz]-30[GHz]:87",68,"87","GCM0335C1E1R5CA16");
+create_constant_form("GCM0335C1H1R5CA16","88:GCM0335C1H1R5CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 1.5[pF], +/-0.25[pF], 100[MHz]-30[GHz]:88",68,"88","GCM0335C1H1R5CA16");
+create_constant_form("GCM0334C1E1R6CA01","89:GCM0334C1E1R6CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 1.6[pF], +/-0.25[pF], 100[MHz]-30[GHz]:89",68,"89","GCM0334C1E1R6CA01");
+create_constant_form("GCM0334C1H1R6CA01","90:GCM0334C1H1R6CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 1.6[pF], +/-0.25[pF], 100[MHz]-30[GHz]:90",68,"90","GCM0334C1H1R6CA01");
+create_constant_form("GCM0335C1E1R6CA16","91:GCM0335C1E1R6CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 1.6[pF], +/-0.25[pF], 100[MHz]-30[GHz]:91",68,"91","GCM0335C1E1R6CA16");
+create_constant_form("GCM0335C1H1R6CA16","92:GCM0335C1H1R6CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 1.6[pF], +/-0.25[pF], 100[MHz]-30[GHz]:92",68,"92","GCM0335C1H1R6CA16");
+create_constant_form("GCM0334C1E1R8CA01","93:GCM0334C1E1R8CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 1.8[pF], +/-0.25[pF], 100[MHz]-30[GHz]:93",68,"93","GCM0334C1E1R8CA01");
+create_constant_form("GCM0334C1H1R8CA01","94:GCM0334C1H1R8CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 1.8[pF], +/-0.25[pF], 100[MHz]-30[GHz]:94",68,"94","GCM0334C1H1R8CA01");
+create_constant_form("GCM0335C1E1R8CA16","95:GCM0335C1E1R8CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 1.8[pF], +/-0.25[pF], 100[MHz]-30[GHz]:95",68,"95","GCM0335C1E1R8CA16");
+create_constant_form("GCM0335C1H1R8CA16","96:GCM0335C1H1R8CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 1.8[pF], +/-0.25[pF], 100[MHz]-30[GHz]:96",68,"96","GCM0335C1H1R8CA16");
+create_constant_form("GCM0334C1E2R0CA01","97:GCM0334C1E2R0CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 25[V], 2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:97",68,"97","GCM0334C1E2R0CA01");
+create_constant_form("GCM0334C1H2R0CA01","98:GCM0334C1H2R0CA01, Powertrain/Safety for Automotive, CK(-55to125[deg]), 50[V], 2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:98",68,"98","GCM0334C1H2R0CA01");
+create_constant_form("GCM0335C1E2R0CA16","99:GCM0335C1E2R0CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:99",68,"99","GCM0335C1E2R0CA16");
+create_constant_form("GCM0335C1H2R0CA16","100:GCM0335C1H2R0CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:100",68,"100","GCM0335C1H2R0CA16");
+create_constant_form("GCM0333C1E2R2CA01","101:GCM0333C1E2R2CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 25[V], 2.2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:101",68,"101","GCM0333C1E2R2CA01");
+create_constant_form("GCM0333C1H2R2CA01","102:GCM0333C1H2R2CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 50[V], 2.2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:102",68,"102","GCM0333C1H2R2CA01");
+create_constant_form("GCM0335C1E2R2CA16","103:GCM0335C1E2R2CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 2.2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:103",68,"103","GCM0335C1E2R2CA16");
+create_constant_form("GCM0335C1H2R2CA16","104:GCM0335C1H2R2CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 2.2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:104",68,"104","GCM0335C1H2R2CA16");
+create_constant_form("GCM0333C1E2R4CA01","105:GCM0333C1E2R4CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 25[V], 2.4[pF], +/-0.25[pF], 100[MHz]-30[GHz]:105",68,"105","GCM0333C1E2R4CA01");
+create_constant_form("GCM0333C1H2R4CA01","106:GCM0333C1H2R4CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 50[V], 2.4[pF], +/-0.25[pF], 100[MHz]-30[GHz]:106",68,"106","GCM0333C1H2R4CA01");
+create_constant_form("GCM0335C1E2R4CA16","107:GCM0335C1E2R4CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 2.4[pF], +/-0.25[pF], 100[MHz]-30[GHz]:107",68,"107","GCM0335C1E2R4CA16");
+create_constant_form("GCM0335C1H2R4CA16","108:GCM0335C1H2R4CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 2.4[pF], +/-0.25[pF], 100[MHz]-30[GHz]:108",68,"108","GCM0335C1H2R4CA16");
+create_constant_form("GCM0333C1E2R7CA01","109:GCM0333C1E2R7CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 25[V], 2.7[pF], +/-0.25[pF], 100[MHz]-30[GHz]:109",68,"109","GCM0333C1E2R7CA01");
+create_constant_form("GCM0333C1H2R7CA01","110:GCM0333C1H2R7CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 50[V], 2.7[pF], +/-0.25[pF], 100[MHz]-30[GHz]:110",68,"110","GCM0333C1H2R7CA01");
+create_constant_form("GCM0335C1E2R7CA16","111:GCM0335C1E2R7CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 2.7[pF], +/-0.25[pF], 100[MHz]-30[GHz]:111",68,"111","GCM0335C1E2R7CA16");
+create_constant_form("GCM0335C1H2R7CA16","112:GCM0335C1H2R7CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 2.7[pF], +/-0.25[pF], 100[MHz]-30[GHz]:112",68,"112","GCM0335C1H2R7CA16");
+create_constant_form("GCM0333C1E3R0CA01","113:GCM0333C1E3R0CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 25[V], 3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:113",68,"113","GCM0333C1E3R0CA01");
+create_constant_form("GCM0333C1H3R0CA01","114:GCM0333C1H3R0CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 50[V], 3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:114",68,"114","GCM0333C1H3R0CA01");
+create_constant_form("GCM0335C1E3R0CA16","115:GCM0335C1E3R0CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:115",68,"115","GCM0335C1E3R0CA16");
+create_constant_form("GCM0335C1H3R0CA16","116:GCM0335C1H3R0CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:116",68,"116","GCM0335C1H3R0CA16");
+create_constant_form("GCM0333C1E3R3CA01","117:GCM0333C1E3R3CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 25[V], 3.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:117",68,"117","GCM0333C1E3R3CA01");
+create_constant_form("GCM0333C1H3R3CA01","118:GCM0333C1H3R3CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 50[V], 3.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:118",68,"118","GCM0333C1H3R3CA01");
+create_constant_form("GCM0335C1E3R3CA16","119:GCM0335C1E3R3CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 3.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:119",68,"119","GCM0335C1E3R3CA16");
+create_constant_form("GCM0335C1H3R3CA16","120:GCM0335C1H3R3CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 3.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:120",68,"120","GCM0335C1H3R3CA16");
+create_constant_form("GCM0333C1E3R6CA01","121:GCM0333C1E3R6CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 25[V], 3.6[pF], +/-0.25[pF], 100[MHz]-30[GHz]:121",68,"121","GCM0333C1E3R6CA01");
+create_constant_form("GCM0333C1H3R6CA01","122:GCM0333C1H3R6CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 50[V], 3.6[pF], +/-0.25[pF], 100[MHz]-30[GHz]:122",68,"122","GCM0333C1H3R6CA01");
+create_constant_form("GCM0335C1E3R6CA16","123:GCM0335C1E3R6CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 3.6[pF], +/-0.25[pF], 100[MHz]-30[GHz]:123",68,"123","GCM0335C1E3R6CA16");
+create_constant_form("GCM0335C1H3R6CA16","124:GCM0335C1H3R6CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 3.6[pF], +/-0.25[pF], 100[MHz]-30[GHz]:124",68,"124","GCM0335C1H3R6CA16");
+create_constant_form("GCM0333C1E3R9CA01","125:GCM0333C1E3R9CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 25[V], 3.9[pF], +/-0.25[pF], 100[MHz]-30[GHz]:125",68,"125","GCM0333C1E3R9CA01");
+create_constant_form("GCM0333C1H3R9CA01","126:GCM0333C1H3R9CA01, Powertrain/Safety for Automotive, CJ(-55to125[deg]), 50[V], 3.9[pF], +/-0.25[pF], 100[MHz]-30[GHz]:126",68,"126","GCM0333C1H3R9CA01");
+create_constant_form("GCM0335C1E3R9CA16","127:GCM0335C1E3R9CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 3.9[pF], +/-0.25[pF], 100[MHz]-30[GHz]:127",68,"127","GCM0335C1E3R9CA16");
+create_constant_form("GCM0335C1H3R9CA16","128:GCM0335C1H3R9CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 3.9[pF], +/-0.25[pF], 100[MHz]-30[GHz]:128",68,"128","GCM0335C1H3R9CA16");
+create_constant_form("GCM0332C1E4R0CA01","129:GCM0332C1E4R0CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 4[pF], +/-0.25[pF], 100[MHz]-30[GHz]:129",68,"129","GCM0332C1E4R0CA01");
+create_constant_form("GCM0332C1H4R0CA01","130:GCM0332C1H4R0CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 4[pF], +/-0.25[pF], 100[MHz]-30[GHz]:130",68,"130","GCM0332C1H4R0CA01");
+create_constant_form("GCM0335C1E4R0CA16","131:GCM0335C1E4R0CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 4[pF], +/-0.25[pF], 100[MHz]-30[GHz]:131",68,"131","GCM0335C1E4R0CA16");
+create_constant_form("GCM0335C1H4R0CA16","132:GCM0335C1H4R0CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 4[pF], +/-0.25[pF], 100[MHz]-30[GHz]:132",68,"132","GCM0335C1H4R0CA16");
+create_constant_form("GCM0332C1E4R2CA01","133:GCM0332C1E4R2CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 4.2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:133",68,"133","GCM0332C1E4R2CA01");
+create_constant_form("GCM0332C1E4R3CA01","134:GCM0332C1E4R3CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 4.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:134",68,"134","GCM0332C1E4R3CA01");
+create_constant_form("GCM0332C1H4R3CA01","135:GCM0332C1H4R3CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 4.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:135",68,"135","GCM0332C1H4R3CA01");
+create_constant_form("GCM0335C1E4R3CA16","136:GCM0335C1E4R3CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 4.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:136",68,"136","GCM0335C1E4R3CA16");
+create_constant_form("GCM0335C1H4R3CA16","137:GCM0335C1H4R3CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 4.3[pF], +/-0.25[pF], 100[MHz]-30[GHz]:137",68,"137","GCM0335C1H4R3CA16");
+create_constant_form("GCM0332C1E4R7CA01","138:GCM0332C1E4R7CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 4.7[pF], +/-0.25[pF], 100[MHz]-30[GHz]:138",68,"138","GCM0332C1E4R7CA01");
+create_constant_form("GCM0332C1H4R7CA01","139:GCM0332C1H4R7CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 4.7[pF], +/-0.25[pF], 100[MHz]-30[GHz]:139",68,"139","GCM0332C1H4R7CA01");
+create_constant_form("GCM0335C1E4R7CA16","140:GCM0335C1E4R7CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 4.7[pF], +/-0.25[pF], 100[MHz]-30[GHz]:140",68,"140","GCM0335C1E4R7CA16");
+create_constant_form("GCM0335C1H4R7CA16","141:GCM0335C1H4R7CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 4.7[pF], +/-0.25[pF], 100[MHz]-30[GHz]:141",68,"141","GCM0335C1H4R7CA16");
+create_constant_form("GCM0332C1E5R0CA01","142:GCM0332C1E5R0CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 5[pF], +/-0.25[pF], 100[MHz]-30[GHz]:142",68,"142","GCM0332C1E5R0CA01");
+create_constant_form("GCM0332C1H5R0CA01","143:GCM0332C1H5R0CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 5[pF], +/-0.25[pF], 100[MHz]-30[GHz]:143",68,"143","GCM0332C1H5R0CA01");
+create_constant_form("GCM0335C1E5R0CA16","144:GCM0335C1E5R0CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 5[pF], +/-0.25[pF], 100[MHz]-30[GHz]:144",68,"144","GCM0335C1E5R0CA16");
+create_constant_form("GCM0335C1H5R0CA16","145:GCM0335C1H5R0CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 5[pF], +/-0.25[pF], 100[MHz]-30[GHz]:145",68,"145","GCM0335C1H5R0CA16");
+create_constant_form("GCM0332C1E5R1DA01","146:GCM0332C1E5R1DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 5.1[pF], +/-0.5[pF], 100[MHz]-30[GHz]:146",68,"146","GCM0332C1E5R1DA01");
+create_constant_form("GCM0332C1H5R1DA01","147:GCM0332C1H5R1DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 5.1[pF], +/-0.5[pF], 100[MHz]-30[GHz]:147",68,"147","GCM0332C1H5R1DA01");
+create_constant_form("GCM0335C1E5R1DA16","148:GCM0335C1E5R1DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 5.1[pF], +/-0.5[pF], 100[MHz]-30[GHz]:148",68,"148","GCM0335C1E5R1DA16");
+create_constant_form("GCM0335C1H5R1DA16","149:GCM0335C1H5R1DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 5.1[pF], +/-0.5[pF], 100[MHz]-30[GHz]:149",68,"149","GCM0335C1H5R1DA16");
+create_constant_form("GCM0332C1E5R6CA01","150:GCM0332C1E5R6CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 5.6[pF], +/-0.25[pF], 100[MHz]-30[GHz]:150",68,"150","GCM0332C1E5R6CA01");
+create_constant_form("GCM0332C1E5R6DA01","151:GCM0332C1E5R6DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 5.6[pF], +/-0.5[pF], 100[MHz]-30[GHz]:151",68,"151","GCM0332C1E5R6DA01");
+create_constant_form("GCM0332C1H5R6DA01","152:GCM0332C1H5R6DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 5.6[pF], +/-0.5[pF], 100[MHz]-30[GHz]:152",68,"152","GCM0332C1H5R6DA01");
+create_constant_form("GCM0335C1E5R6CA16","153:GCM0335C1E5R6CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 5.6[pF], +/-0.25[pF], 100[MHz]-30[GHz]:153",68,"153","GCM0335C1E5R6CA16");
+create_constant_form("GCM0335C1E5R6DA16","154:GCM0335C1E5R6DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 5.6[pF], +/-0.5[pF], 100[MHz]-30[GHz]:154",68,"154","GCM0335C1E5R6DA16");
+create_constant_form("GCM0335C1H5R6DA16","155:GCM0335C1H5R6DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 5.6[pF], +/-0.5[pF], 100[MHz]-30[GHz]:155",68,"155","GCM0335C1H5R6DA16");
+create_constant_form("GCM0332C1E6R0DA01","156:GCM0332C1E6R0DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 6[pF], +/-0.5[pF], 100[MHz]-30[GHz]:156",68,"156","GCM0332C1E6R0DA01");
+create_constant_form("GCM0332C1H6R0DA01","157:GCM0332C1H6R0DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 6[pF], +/-0.5[pF], 100[MHz]-30[GHz]:157",68,"157","GCM0332C1H6R0DA01");
+create_constant_form("GCM0335C1E6R0DA16","158:GCM0335C1E6R0DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 6[pF], +/-0.5[pF], 100[MHz]-30[GHz]:158",68,"158","GCM0335C1E6R0DA16");
+create_constant_form("GCM0335C1H6R0DA16","159:GCM0335C1H6R0DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 6[pF], +/-0.5[pF], 100[MHz]-30[GHz]:159",68,"159","GCM0335C1H6R0DA16");
+create_constant_form("GCM0332C1E6R2DA01","160:GCM0332C1E6R2DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 6.2[pF], +/-0.5[pF], 100[MHz]-30[GHz]:160",68,"160","GCM0332C1E6R2DA01");
+create_constant_form("GCM0332C1H6R2DA01","161:GCM0332C1H6R2DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 6.2[pF], +/-0.5[pF], 100[MHz]-30[GHz]:161",68,"161","GCM0332C1H6R2DA01");
+create_constant_form("GCM0335C1E6R2DA16","162:GCM0335C1E6R2DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 6.2[pF], +/-0.5[pF], 100[MHz]-30[GHz]:162",68,"162","GCM0335C1E6R2DA16");
+create_constant_form("GCM0335C1H6R2DA16","163:GCM0335C1H6R2DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 6.2[pF], +/-0.5[pF], 100[MHz]-30[GHz]:163",68,"163","GCM0335C1H6R2DA16");
+create_constant_form("GCM0332C1E6R8CA01","164:GCM0332C1E6R8CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 6.8[pF], +/-0.25[pF], 100[MHz]-30[GHz]:164",68,"164","GCM0332C1E6R8CA01");
+create_constant_form("GCM0332C1E6R8DA01","165:GCM0332C1E6R8DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 6.8[pF], +/-0.5[pF], 100[MHz]-30[GHz]:165",68,"165","GCM0332C1E6R8DA01");
+create_constant_form("GCM0332C1H6R8DA01","166:GCM0332C1H6R8DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 6.8[pF], +/-0.5[pF], 100[MHz]-30[GHz]:166",68,"166","GCM0332C1H6R8DA01");
+create_constant_form("GCM0335C1E6R8CA16","167:GCM0335C1E6R8CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 6.8[pF], +/-0.25[pF], 100[MHz]-30[GHz]:167",68,"167","GCM0335C1E6R8CA16");
+create_constant_form("GCM0335C1E6R8DA16","168:GCM0335C1E6R8DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 6.8[pF], +/-0.5[pF], 100[MHz]-30[GHz]:168",68,"168","GCM0335C1E6R8DA16");
+create_constant_form("GCM0335C1H6R8DA16","169:GCM0335C1H6R8DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 6.8[pF], +/-0.5[pF], 100[MHz]-30[GHz]:169",68,"169","GCM0335C1H6R8DA16");
+create_constant_form("GCM0332C1E7R0DA01","170:GCM0332C1E7R0DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 7[pF], +/-0.5[pF], 100[MHz]-30[GHz]:170",68,"170","GCM0332C1E7R0DA01");
+create_constant_form("GCM0332C1H7R0DA01","171:GCM0332C1H7R0DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 7[pF], +/-0.5[pF], 100[MHz]-30[GHz]:171",68,"171","GCM0332C1H7R0DA01");
+create_constant_form("GCM0335C1E7R0DA16","172:GCM0335C1E7R0DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 7[pF], +/-0.5[pF], 100[MHz]-30[GHz]:172",68,"172","GCM0335C1E7R0DA16");
+create_constant_form("GCM0335C1H7R0DA16","173:GCM0335C1H7R0DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 7[pF], +/-0.5[pF], 100[MHz]-30[GHz]:173",68,"173","GCM0335C1H7R0DA16");
+create_constant_form("GCM0332C1E7R5DA01","174:GCM0332C1E7R5DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 7.5[pF], +/-0.5[pF], 100[MHz]-30[GHz]:174",68,"174","GCM0332C1E7R5DA01");
+create_constant_form("GCM0332C1H7R5DA01","175:GCM0332C1H7R5DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 7.5[pF], +/-0.5[pF], 100[MHz]-30[GHz]:175",68,"175","GCM0332C1H7R5DA01");
+create_constant_form("GCM0335C1E7R5DA16","176:GCM0335C1E7R5DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 7.5[pF], +/-0.5[pF], 100[MHz]-30[GHz]:176",68,"176","GCM0335C1E7R5DA16");
+create_constant_form("GCM0335C1H7R5DA16","177:GCM0335C1H7R5DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 7.5[pF], +/-0.5[pF], 100[MHz]-30[GHz]:177",68,"177","GCM0335C1H7R5DA16");
+create_constant_form("GCM0332C1E8R0DA01","178:GCM0332C1E8R0DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 8[pF], +/-0.5[pF], 100[MHz]-30[GHz]:178",68,"178","GCM0332C1E8R0DA01");
+create_constant_form("GCM0332C1H8R0DA01","179:GCM0332C1H8R0DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 8[pF], +/-0.5[pF], 100[MHz]-30[GHz]:179",68,"179","GCM0332C1H8R0DA01");
+create_constant_form("GCM0335C1E8R0DA16","180:GCM0335C1E8R0DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 8[pF], +/-0.5[pF], 100[MHz]-30[GHz]:180",68,"180","GCM0335C1E8R0DA16");
+create_constant_form("GCM0335C1H8R0DA16","181:GCM0335C1H8R0DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 8[pF], +/-0.5[pF], 100[MHz]-30[GHz]:181",68,"181","GCM0335C1H8R0DA16");
+create_constant_form("GCM0332C1E8R2CA01","182:GCM0332C1E8R2CA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 8.2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:182",68,"182","GCM0332C1E8R2CA01");
+create_constant_form("GCM0332C1E8R2DA01","183:GCM0332C1E8R2DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 8.2[pF], +/-0.5[pF], 100[MHz]-30[GHz]:183",68,"183","GCM0332C1E8R2DA01");
+create_constant_form("GCM0332C1H8R2DA01","184:GCM0332C1H8R2DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 8.2[pF], +/-0.5[pF], 100[MHz]-30[GHz]:184",68,"184","GCM0332C1H8R2DA01");
+create_constant_form("GCM0335C1E8R2CA16","185:GCM0335C1E8R2CA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 8.2[pF], +/-0.25[pF], 100[MHz]-30[GHz]:185",68,"185","GCM0335C1E8R2CA16");
+create_constant_form("GCM0335C1E8R2DA16","186:GCM0335C1E8R2DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 8.2[pF], +/-0.5[pF], 100[MHz]-30[GHz]:186",68,"186","GCM0335C1E8R2DA16");
+create_constant_form("GCM0335C1H8R2DA16","187:GCM0335C1H8R2DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 8.2[pF], +/-0.5[pF], 100[MHz]-30[GHz]:187",68,"187","GCM0335C1H8R2DA16");
+create_constant_form("GCM0332C1E9R0DA01","188:GCM0332C1E9R0DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 9[pF], +/-0.5[pF], 100[MHz]-30[GHz]:188",68,"188","GCM0332C1E9R0DA01");
+create_constant_form("GCM0332C1H9R0DA01","189:GCM0332C1H9R0DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 9[pF], +/-0.5[pF], 100[MHz]-30[GHz]:189",68,"189","GCM0332C1H9R0DA01");
+create_constant_form("GCM0335C1E9R0DA16","190:GCM0335C1E9R0DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 9[pF], +/-0.5[pF], 100[MHz]-30[GHz]:190",68,"190","GCM0335C1E9R0DA16");
+create_constant_form("GCM0335C1H9R0DA16","191:GCM0335C1H9R0DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 9[pF], +/-0.5[pF], 100[MHz]-30[GHz]:191",68,"191","GCM0335C1H9R0DA16");
+create_constant_form("GCM0332C1E9R1DA01","192:GCM0332C1E9R1DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 9.1[pF], +/-0.5[pF], 100[MHz]-30[GHz]:192",68,"192","GCM0332C1E9R1DA01");
+create_constant_form("GCM0332C1H9R1DA01","193:GCM0332C1H9R1DA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 9.1[pF], +/-0.5[pF], 100[MHz]-30[GHz]:193",68,"193","GCM0332C1H9R1DA01");
+create_constant_form("GCM0335C1E9R1DA16","194:GCM0335C1E9R1DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 9.1[pF], +/-0.5[pF], 100[MHz]-30[GHz]:194",68,"194","GCM0335C1E9R1DA16");
+create_constant_form("GCM0335C1H9R1DA16","195:GCM0335C1H9R1DA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 9.1[pF], +/-0.5[pF], 100[MHz]-30[GHz]:195",68,"195","GCM0335C1H9R1DA16");
+create_constant_form("GCM0332C1E100FA01","196:GCM0332C1E100FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 10[pF], +/-1[%], 100[MHz]-30[GHz]:196",68,"196","GCM0332C1E100FA01");
+create_constant_form("GCM0332C1E100GA01","197:GCM0332C1E100GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 10[pF], +/-2[%], 100[MHz]-30[GHz]:197",68,"197","GCM0332C1E100GA01");
+create_constant_form("GCM0332C1E100JA01","198:GCM0332C1E100JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 10[pF], +/-5[%], 100[MHz]-30[GHz]:198",68,"198","GCM0332C1E100JA01");
+create_constant_form("GCM0332C1H100FA01","199:GCM0332C1H100FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 10[pF], +/-1[%], 100[MHz]-30[GHz]:199",68,"199","GCM0332C1H100FA01");
+create_constant_form("GCM0332C1H100GA01","200:GCM0332C1H100GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 10[pF], +/-2[%], 100[MHz]-30[GHz]:200",68,"200","GCM0332C1H100GA01");
+create_constant_form("GCM0332C1H100JA01","201:GCM0332C1H100JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 10[pF], +/-5[%], 100[MHz]-30[GHz]:201",68,"201","GCM0332C1H100JA01");
+create_constant_form("GCM0335C1E100FA16","202:GCM0335C1E100FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 10[pF], +/-1[%], 100[MHz]-30[GHz]:202",68,"202","GCM0335C1E100FA16");
+create_constant_form("GCM0335C1E100GA16","203:GCM0335C1E100GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 10[pF], +/-2[%], 100[MHz]-30[GHz]:203",68,"203","GCM0335C1E100GA16");
+create_constant_form("GCM0335C1E100JA16","204:GCM0335C1E100JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 10[pF], +/-5[%], 100[MHz]-30[GHz]:204",68,"204","GCM0335C1E100JA16");
+create_constant_form("GCM0335C1H100FA16","205:GCM0335C1H100FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 10[pF], +/-1[%], 100[MHz]-30[GHz]:205",68,"205","GCM0335C1H100FA16");
+create_constant_form("GCM0335C1H100GA16","206:GCM0335C1H100GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 10[pF], +/-2[%], 100[MHz]-30[GHz]:206",68,"206","GCM0335C1H100GA16");
+create_constant_form("GCM0335C1H100JA16","207:GCM0335C1H100JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 10[pF], +/-5[%], 100[MHz]-30[GHz]:207",68,"207","GCM0335C1H100JA16");
+create_constant_form("GCM0332C1E110FA01","208:GCM0332C1E110FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 11[pF], +/-1[%], 100[MHz]-30[GHz]:208",68,"208","GCM0332C1E110FA01");
+create_constant_form("GCM0332C1E110GA01","209:GCM0332C1E110GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 11[pF], +/-2[%], 100[MHz]-30[GHz]:209",68,"209","GCM0332C1E110GA01");
+create_constant_form("GCM0332C1E110JA01","210:GCM0332C1E110JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 11[pF], +/-5[%], 100[MHz]-30[GHz]:210",68,"210","GCM0332C1E110JA01");
+create_constant_form("GCM0332C1H110FA01","211:GCM0332C1H110FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 11[pF], +/-1[%], 100[MHz]-30[GHz]:211",68,"211","GCM0332C1H110FA01");
+create_constant_form("GCM0332C1H110GA01","212:GCM0332C1H110GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 11[pF], +/-2[%], 100[MHz]-30[GHz]:212",68,"212","GCM0332C1H110GA01");
+create_constant_form("GCM0332C1H110JA01","213:GCM0332C1H110JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 11[pF], +/-5[%], 100[MHz]-30[GHz]:213",68,"213","GCM0332C1H110JA01");
+create_constant_form("GCM0335C1E110FA16","214:GCM0335C1E110FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 11[pF], +/-1[%], 100[MHz]-30[GHz]:214",68,"214","GCM0335C1E110FA16");
+create_constant_form("GCM0335C1E110GA16","215:GCM0335C1E110GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 11[pF], +/-2[%], 100[MHz]-30[GHz]:215",68,"215","GCM0335C1E110GA16");
+create_constant_form("GCM0335C1E110JA16","216:GCM0335C1E110JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 11[pF], +/-5[%], 100[MHz]-30[GHz]:216",68,"216","GCM0335C1E110JA16");
+create_constant_form("GCM0335C1H110FA16","217:GCM0335C1H110FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 11[pF], +/-1[%], 100[MHz]-30[GHz]:217",68,"217","GCM0335C1H110FA16");
+create_constant_form("GCM0335C1H110GA16","218:GCM0335C1H110GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 11[pF], +/-2[%], 100[MHz]-30[GHz]:218",68,"218","GCM0335C1H110GA16");
+create_constant_form("GCM0335C1H110JA16","219:GCM0335C1H110JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 11[pF], +/-5[%], 100[MHz]-30[GHz]:219",68,"219","GCM0335C1H110JA16");
+create_constant_form("GCM0332C1E120FA01","220:GCM0332C1E120FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 12[pF], +/-1[%], 100[MHz]-30[GHz]:220",68,"220","GCM0332C1E120FA01");
+create_constant_form("GCM0332C1E120GA01","221:GCM0332C1E120GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 12[pF], +/-2[%], 100[MHz]-30[GHz]:221",68,"221","GCM0332C1E120GA01");
+create_constant_form("GCM0332C1E120JA01","222:GCM0332C1E120JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 12[pF], +/-5[%], 100[MHz]-30[GHz]:222",68,"222","GCM0332C1E120JA01");
+create_constant_form("GCM0332C1H120FA01","223:GCM0332C1H120FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 12[pF], +/-1[%], 100[MHz]-30[GHz]:223",68,"223","GCM0332C1H120FA01");
+create_constant_form("GCM0332C1H120GA01","224:GCM0332C1H120GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 12[pF], +/-2[%], 100[MHz]-30[GHz]:224",68,"224","GCM0332C1H120GA01");
+create_constant_form("GCM0332C1H120JA01","225:GCM0332C1H120JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 12[pF], +/-5[%], 100[MHz]-30[GHz]:225",68,"225","GCM0332C1H120JA01");
+create_constant_form("GCM0335C1E120FA16","226:GCM0335C1E120FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 12[pF], +/-1[%], 100[MHz]-30[GHz]:226",68,"226","GCM0335C1E120FA16");
+create_constant_form("GCM0335C1E120GA16","227:GCM0335C1E120GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 12[pF], +/-2[%], 100[MHz]-30[GHz]:227",68,"227","GCM0335C1E120GA16");
+create_constant_form("GCM0335C1E120JA16","228:GCM0335C1E120JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 12[pF], +/-5[%], 100[MHz]-30[GHz]:228",68,"228","GCM0335C1E120JA16");
+create_constant_form("GCM0335C1H120FA16","229:GCM0335C1H120FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 12[pF], +/-1[%], 100[MHz]-30[GHz]:229",68,"229","GCM0335C1H120FA16");
+create_constant_form("GCM0335C1H120GA16","230:GCM0335C1H120GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 12[pF], +/-2[%], 100[MHz]-30[GHz]:230",68,"230","GCM0335C1H120GA16");
+create_constant_form("GCM0335C1H120JA16","231:GCM0335C1H120JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 12[pF], +/-5[%], 100[MHz]-30[GHz]:231",68,"231","GCM0335C1H120JA16");
+create_constant_form("GCM0332C1E130FA01","232:GCM0332C1E130FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 13[pF], +/-1[%], 100[MHz]-30[GHz]:232",68,"232","GCM0332C1E130FA01");
+create_constant_form("GCM0332C1E130GA01","233:GCM0332C1E130GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 13[pF], +/-2[%], 100[MHz]-30[GHz]:233",68,"233","GCM0332C1E130GA01");
+create_constant_form("GCM0332C1E130JA01","234:GCM0332C1E130JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 13[pF], +/-5[%], 100[MHz]-30[GHz]:234",68,"234","GCM0332C1E130JA01");
+create_constant_form("GCM0332C1H130FA01","235:GCM0332C1H130FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 13[pF], +/-1[%], 100[MHz]-30[GHz]:235",68,"235","GCM0332C1H130FA01");
+create_constant_form("GCM0332C1H130GA01","236:GCM0332C1H130GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 13[pF], +/-2[%], 100[MHz]-30[GHz]:236",68,"236","GCM0332C1H130GA01");
+create_constant_form("GCM0332C1H130JA01","237:GCM0332C1H130JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 13[pF], +/-5[%], 100[MHz]-30[GHz]:237",68,"237","GCM0332C1H130JA01");
+create_constant_form("GCM0335C1E130FA16","238:GCM0335C1E130FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 13[pF], +/-1[%], 100[MHz]-30[GHz]:238",68,"238","GCM0335C1E130FA16");
+create_constant_form("GCM0335C1E130GA16","239:GCM0335C1E130GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 13[pF], +/-2[%], 100[MHz]-30[GHz]:239",68,"239","GCM0335C1E130GA16");
+create_constant_form("GCM0335C1E130JA16","240:GCM0335C1E130JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 13[pF], +/-5[%], 100[MHz]-30[GHz]:240",68,"240","GCM0335C1E130JA16");
+create_constant_form("GCM0335C1H130FA16","241:GCM0335C1H130FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 13[pF], +/-1[%], 100[MHz]-30[GHz]:241",68,"241","GCM0335C1H130FA16");
+create_constant_form("GCM0335C1H130GA16","242:GCM0335C1H130GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 13[pF], +/-2[%], 100[MHz]-30[GHz]:242",68,"242","GCM0335C1H130GA16");
+create_constant_form("GCM0335C1H130JA16","243:GCM0335C1H130JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 13[pF], +/-5[%], 100[MHz]-30[GHz]:243",68,"243","GCM0335C1H130JA16");
+create_constant_form("GCM0332C1E150FA01","244:GCM0332C1E150FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 15[pF], +/-1[%], 100[MHz]-30[GHz]:244",68,"244","GCM0332C1E150FA01");
+create_constant_form("GCM0332C1E150GA01","245:GCM0332C1E150GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 15[pF], +/-2[%], 100[MHz]-30[GHz]:245",68,"245","GCM0332C1E150GA01");
+create_constant_form("GCM0332C1E150JA01","246:GCM0332C1E150JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 15[pF], +/-5[%], 100[MHz]-30[GHz]:246",68,"246","GCM0332C1E150JA01");
+create_constant_form("GCM0332C1H150FA01","247:GCM0332C1H150FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 15[pF], +/-1[%], 100[MHz]-30[GHz]:247",68,"247","GCM0332C1H150FA01");
+create_constant_form("GCM0332C1H150GA01","248:GCM0332C1H150GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 15[pF], +/-2[%], 100[MHz]-30[GHz]:248",68,"248","GCM0332C1H150GA01");
+create_constant_form("GCM0332C1H150JA01","249:GCM0332C1H150JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 15[pF], +/-5[%], 100[MHz]-30[GHz]:249",68,"249","GCM0332C1H150JA01");
+create_constant_form("GCM0335C1E150FA16","250:GCM0335C1E150FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 15[pF], +/-1[%], 100[MHz]-30[GHz]:250",68,"250","GCM0335C1E150FA16");
+create_constant_form("GCM0335C1E150GA16","251:GCM0335C1E150GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 15[pF], +/-2[%], 100[MHz]-30[GHz]:251",68,"251","GCM0335C1E150GA16");
+create_constant_form("GCM0335C1E150JA16","252:GCM0335C1E150JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 15[pF], +/-5[%], 100[MHz]-30[GHz]:252",68,"252","GCM0335C1E150JA16");
+create_constant_form("GCM0335C1H150FA16","253:GCM0335C1H150FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 15[pF], +/-1[%], 100[MHz]-30[GHz]:253",68,"253","GCM0335C1H150FA16");
+create_constant_form("GCM0335C1H150GA16","254:GCM0335C1H150GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 15[pF], +/-2[%], 100[MHz]-30[GHz]:254",68,"254","GCM0335C1H150GA16");
+create_constant_form("GCM0335C1H150JA16","255:GCM0335C1H150JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 15[pF], +/-5[%], 100[MHz]-30[GHz]:255",68,"255","GCM0335C1H150JA16");
+create_constant_form("GCM0332C1E160FA01","256:GCM0332C1E160FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 16[pF], +/-1[%], 100[MHz]-30[GHz]:256",68,"256","GCM0332C1E160FA01");
+create_constant_form("GCM0332C1E160GA01","257:GCM0332C1E160GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 16[pF], +/-2[%], 100[MHz]-30[GHz]:257",68,"257","GCM0332C1E160GA01");
+create_constant_form("GCM0332C1E160JA01","258:GCM0332C1E160JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 16[pF], +/-5[%], 100[MHz]-30[GHz]:258",68,"258","GCM0332C1E160JA01");
+create_constant_form("GCM0332C1H160FA01","259:GCM0332C1H160FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 16[pF], +/-1[%], 100[MHz]-30[GHz]:259",68,"259","GCM0332C1H160FA01");
+create_constant_form("GCM0332C1H160GA01","260:GCM0332C1H160GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 16[pF], +/-2[%], 100[MHz]-30[GHz]:260",68,"260","GCM0332C1H160GA01");
+create_constant_form("GCM0332C1H160JA01","261:GCM0332C1H160JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 16[pF], +/-5[%], 100[MHz]-30[GHz]:261",68,"261","GCM0332C1H160JA01");
+create_constant_form("GCM0335C1E160FA16","262:GCM0335C1E160FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 16[pF], +/-1[%], 100[MHz]-30[GHz]:262",68,"262","GCM0335C1E160FA16");
+create_constant_form("GCM0335C1E160GA16","263:GCM0335C1E160GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 16[pF], +/-2[%], 100[MHz]-30[GHz]:263",68,"263","GCM0335C1E160GA16");
+create_constant_form("GCM0335C1E160JA16","264:GCM0335C1E160JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 16[pF], +/-5[%], 100[MHz]-30[GHz]:264",68,"264","GCM0335C1E160JA16");
+create_constant_form("GCM0335C1H160FA16","265:GCM0335C1H160FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 16[pF], +/-1[%], 100[MHz]-30[GHz]:265",68,"265","GCM0335C1H160FA16");
+create_constant_form("GCM0335C1H160GA16","266:GCM0335C1H160GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 16[pF], +/-2[%], 100[MHz]-30[GHz]:266",68,"266","GCM0335C1H160GA16");
+create_constant_form("GCM0335C1H160JA16","267:GCM0335C1H160JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 16[pF], +/-5[%], 100[MHz]-30[GHz]:267",68,"267","GCM0335C1H160JA16");
+create_constant_form("GCM0332C1E180FA01","268:GCM0332C1E180FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 18[pF], +/-1[%], 100[MHz]-30[GHz]:268",68,"268","GCM0332C1E180FA01");
+create_constant_form("GCM0332C1E180GA01","269:GCM0332C1E180GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 18[pF], +/-2[%], 100[MHz]-30[GHz]:269",68,"269","GCM0332C1E180GA01");
+create_constant_form("GCM0332C1E180JA01","270:GCM0332C1E180JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 18[pF], +/-5[%], 100[MHz]-30[GHz]:270",68,"270","GCM0332C1E180JA01");
+create_constant_form("GCM0332C1H180FA01","271:GCM0332C1H180FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 18[pF], +/-1[%], 100[MHz]-30[GHz]:271",68,"271","GCM0332C1H180FA01");
+create_constant_form("GCM0332C1H180GA01","272:GCM0332C1H180GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 18[pF], +/-2[%], 100[MHz]-30[GHz]:272",68,"272","GCM0332C1H180GA01");
+create_constant_form("GCM0332C1H180JA01","273:GCM0332C1H180JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 18[pF], +/-5[%], 100[MHz]-30[GHz]:273",68,"273","GCM0332C1H180JA01");
+create_constant_form("GCM0335C1E180FA16","274:GCM0335C1E180FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 18[pF], +/-1[%], 100[MHz]-30[GHz]:274",68,"274","GCM0335C1E180FA16");
+create_constant_form("GCM0335C1E180GA16","275:GCM0335C1E180GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 18[pF], +/-2[%], 100[MHz]-30[GHz]:275",68,"275","GCM0335C1E180GA16");
+create_constant_form("GCM0335C1E180JA16","276:GCM0335C1E180JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 18[pF], +/-5[%], 100[MHz]-30[GHz]:276",68,"276","GCM0335C1E180JA16");
+create_constant_form("GCM0335C1H180FA16","277:GCM0335C1H180FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 18[pF], +/-1[%], 100[MHz]-30[GHz]:277",68,"277","GCM0335C1H180FA16");
+create_constant_form("GCM0335C1H180GA16","278:GCM0335C1H180GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 18[pF], +/-2[%], 100[MHz]-30[GHz]:278",68,"278","GCM0335C1H180GA16");
+create_constant_form("GCM0335C1H180JA16","279:GCM0335C1H180JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 18[pF], +/-5[%], 100[MHz]-30[GHz]:279",68,"279","GCM0335C1H180JA16");
+create_constant_form("GCM0332C1E200FA01","280:GCM0332C1E200FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 20[pF], +/-1[%], 100[MHz]-30[GHz]:280",68,"280","GCM0332C1E200FA01");
+create_constant_form("GCM0332C1E200GA01","281:GCM0332C1E200GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 20[pF], +/-2[%], 100[MHz]-30[GHz]:281",68,"281","GCM0332C1E200GA01");
+create_constant_form("GCM0332C1E200JA01","282:GCM0332C1E200JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 20[pF], +/-5[%], 100[MHz]-30[GHz]:282",68,"282","GCM0332C1E200JA01");
+create_constant_form("GCM0332C1H200FA01","283:GCM0332C1H200FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 20[pF], +/-1[%], 100[MHz]-30[GHz]:283",68,"283","GCM0332C1H200FA01");
+create_constant_form("GCM0332C1H200GA01","284:GCM0332C1H200GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 20[pF], +/-2[%], 100[MHz]-30[GHz]:284",68,"284","GCM0332C1H200GA01");
+create_constant_form("GCM0332C1H200JA01","285:GCM0332C1H200JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 20[pF], +/-5[%], 100[MHz]-30[GHz]:285",68,"285","GCM0332C1H200JA01");
+create_constant_form("GCM0335C1E200FA16","286:GCM0335C1E200FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 20[pF], +/-1[%], 100[MHz]-30[GHz]:286",68,"286","GCM0335C1E200FA16");
+create_constant_form("GCM0335C1E200GA16","287:GCM0335C1E200GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 20[pF], +/-2[%], 100[MHz]-30[GHz]:287",68,"287","GCM0335C1E200GA16");
+create_constant_form("GCM0335C1E200JA16","288:GCM0335C1E200JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 20[pF], +/-5[%], 100[MHz]-30[GHz]:288",68,"288","GCM0335C1E200JA16");
+create_constant_form("GCM0335C1H200FA16","289:GCM0335C1H200FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 20[pF], +/-1[%], 100[MHz]-30[GHz]:289",68,"289","GCM0335C1H200FA16");
+create_constant_form("GCM0335C1H200GA16","290:GCM0335C1H200GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 20[pF], +/-2[%], 100[MHz]-30[GHz]:290",68,"290","GCM0335C1H200GA16");
+create_constant_form("GCM0335C1H200JA16","291:GCM0335C1H200JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 20[pF], +/-5[%], 100[MHz]-30[GHz]:291",68,"291","GCM0335C1H200JA16");
+create_constant_form("GCM0332C1E220FA01","292:GCM0332C1E220FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 22[pF], +/-1[%], 100[MHz]-30[GHz]:292",68,"292","GCM0332C1E220FA01");
+create_constant_form("GCM0332C1E220GA01","293:GCM0332C1E220GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 22[pF], +/-2[%], 100[MHz]-30[GHz]:293",68,"293","GCM0332C1E220GA01");
+create_constant_form("GCM0332C1E220JA01","294:GCM0332C1E220JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 22[pF], +/-5[%], 100[MHz]-30[GHz]:294",68,"294","GCM0332C1E220JA01");
+create_constant_form("GCM0332C1H220FA01","295:GCM0332C1H220FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 22[pF], +/-1[%], 100[MHz]-30[GHz]:295",68,"295","GCM0332C1H220FA01");
+create_constant_form("GCM0332C1H220GA01","296:GCM0332C1H220GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 22[pF], +/-2[%], 100[MHz]-30[GHz]:296",68,"296","GCM0332C1H220GA01");
+create_constant_form("GCM0332C1H220JA01","297:GCM0332C1H220JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 22[pF], +/-5[%], 100[MHz]-30[GHz]:297",68,"297","GCM0332C1H220JA01");
+create_constant_form("GCM0335C1E220FA16","298:GCM0335C1E220FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 22[pF], +/-1[%], 100[MHz]-30[GHz]:298",68,"298","GCM0335C1E220FA16");
+create_constant_form("GCM0335C1E220GA16","299:GCM0335C1E220GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 22[pF], +/-2[%], 100[MHz]-30[GHz]:299",68,"299","GCM0335C1E220GA16");
+create_constant_form("GCM0335C1E220JA16","300:GCM0335C1E220JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 22[pF], +/-5[%], 100[MHz]-30[GHz]:300",68,"300","GCM0335C1E220JA16");
+create_constant_form("GCM0335C1H220FA16","301:GCM0335C1H220FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 22[pF], +/-1[%], 100[MHz]-30[GHz]:301",68,"301","GCM0335C1H220FA16");
+create_constant_form("GCM0335C1H220GA16","302:GCM0335C1H220GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 22[pF], +/-2[%], 100[MHz]-30[GHz]:302",68,"302","GCM0335C1H220GA16");
+create_constant_form("GCM0335C1H220JA16","303:GCM0335C1H220JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 22[pF], +/-5[%], 100[MHz]-30[GHz]:303",68,"303","GCM0335C1H220JA16");
+create_constant_form("GCM0332C1E240FA01","304:GCM0332C1E240FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 24[pF], +/-1[%], 100[MHz]-8.5[GHz]:304",68,"304","GCM0332C1E240FA01");
+create_constant_form("GCM0332C1E240GA01","305:GCM0332C1E240GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 24[pF], +/-2[%], 100[MHz]-8.5[GHz]:305",68,"305","GCM0332C1E240GA01");
+create_constant_form("GCM0332C1E240JA01","306:GCM0332C1E240JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 24[pF], +/-5[%], 100[MHz]-8.5[GHz]:306",68,"306","GCM0332C1E240JA01");
+create_constant_form("GCM0332C1H240FA01","307:GCM0332C1H240FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 24[pF], +/-1[%], 100[MHz]-8.5[GHz]:307",68,"307","GCM0332C1H240FA01");
+create_constant_form("GCM0332C1H240GA01","308:GCM0332C1H240GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 24[pF], +/-2[%], 100[MHz]-8.5[GHz]:308",68,"308","GCM0332C1H240GA01");
+create_constant_form("GCM0332C1H240JA01","309:GCM0332C1H240JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 24[pF], +/-5[%], 100[MHz]-8.5[GHz]:309",68,"309","GCM0332C1H240JA01");
+create_constant_form("GCM0335C1E240FA16","310:GCM0335C1E240FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 24[pF], +/-1[%], 100[MHz]-8.5[GHz]:310",68,"310","GCM0335C1E240FA16");
+create_constant_form("GCM0335C1E240GA16","311:GCM0335C1E240GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 24[pF], +/-2[%], 100[MHz]-8.5[GHz]:311",68,"311","GCM0335C1E240GA16");
+create_constant_form("GCM0335C1E240JA16","312:GCM0335C1E240JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 24[pF], +/-5[%], 100[MHz]-8.5[GHz]:312",68,"312","GCM0335C1E240JA16");
+create_constant_form("GCM0335C1H240FA16","313:GCM0335C1H240FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 24[pF], +/-1[%], 100[MHz]-8.5[GHz]:313",68,"313","GCM0335C1H240FA16");
+create_constant_form("GCM0335C1H240GA16","314:GCM0335C1H240GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 24[pF], +/-2[%], 100[MHz]-8.5[GHz]:314",68,"314","GCM0335C1H240GA16");
+create_constant_form("GCM0335C1H240JA16","315:GCM0335C1H240JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 24[pF], +/-5[%], 100[MHz]-8.5[GHz]:315",68,"315","GCM0335C1H240JA16");
+create_constant_form("GCM0332C1E270FA01","316:GCM0332C1E270FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 27[pF], +/-1[%], 100[MHz]-8.5[GHz]:316",68,"316","GCM0332C1E270FA01");
+create_constant_form("GCM0332C1E270GA01","317:GCM0332C1E270GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 27[pF], +/-2[%], 100[MHz]-8.5[GHz]:317",68,"317","GCM0332C1E270GA01");
+create_constant_form("GCM0332C1E270JA01","318:GCM0332C1E270JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 27[pF], +/-5[%], 100[MHz]-8.5[GHz]:318",68,"318","GCM0332C1E270JA01");
+create_constant_form("GCM0332C1H270FA01","319:GCM0332C1H270FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 27[pF], +/-1[%], 100[MHz]-8.5[GHz]:319",68,"319","GCM0332C1H270FA01");
+create_constant_form("GCM0332C1H270GA01","320:GCM0332C1H270GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 27[pF], +/-2[%], 100[MHz]-8.5[GHz]:320",68,"320","GCM0332C1H270GA01");
+create_constant_form("GCM0332C1H270JA01","321:GCM0332C1H270JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 27[pF], +/-5[%], 100[MHz]-8.5[GHz]:321",68,"321","GCM0332C1H270JA01");
+create_constant_form("GCM0335C1E270FA16","322:GCM0335C1E270FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 27[pF], +/-1[%], 100[MHz]-8.5[GHz]:322",68,"322","GCM0335C1E270FA16");
+create_constant_form("GCM0335C1E270GA16","323:GCM0335C1E270GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 27[pF], +/-2[%], 100[MHz]-8.5[GHz]:323",68,"323","GCM0335C1E270GA16");
+create_constant_form("GCM0335C1E270JA16","324:GCM0335C1E270JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 27[pF], +/-5[%], 100[MHz]-8.5[GHz]:324",68,"324","GCM0335C1E270JA16");
+create_constant_form("GCM0335C1H270FA16","325:GCM0335C1H270FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 27[pF], +/-1[%], 100[MHz]-8.5[GHz]:325",68,"325","GCM0335C1H270FA16");
+create_constant_form("GCM0335C1H270GA16","326:GCM0335C1H270GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 27[pF], +/-2[%], 100[MHz]-8.5[GHz]:326",68,"326","GCM0335C1H270GA16");
+create_constant_form("GCM0335C1H270JA16","327:GCM0335C1H270JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 27[pF], +/-5[%], 100[MHz]-8.5[GHz]:327",68,"327","GCM0335C1H270JA16");
+create_constant_form("GCM0332C1E300FA01","328:GCM0332C1E300FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 30[pF], +/-1[%], 100[MHz]-8.5[GHz]:328",68,"328","GCM0332C1E300FA01");
+create_constant_form("GCM0332C1E300GA01","329:GCM0332C1E300GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 30[pF], +/-2[%], 100[MHz]-8.5[GHz]:329",68,"329","GCM0332C1E300GA01");
+create_constant_form("GCM0332C1E300JA01","330:GCM0332C1E300JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 30[pF], +/-5[%], 100[MHz]-8.5[GHz]:330",68,"330","GCM0332C1E300JA01");
+create_constant_form("GCM0332C1H300FA01","331:GCM0332C1H300FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 30[pF], +/-1[%], 100[MHz]-8.5[GHz]:331",68,"331","GCM0332C1H300FA01");
+create_constant_form("GCM0332C1H300GA01","332:GCM0332C1H300GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 30[pF], +/-2[%], 100[MHz]-8.5[GHz]:332",68,"332","GCM0332C1H300GA01");
+create_constant_form("GCM0332C1H300JA01","333:GCM0332C1H300JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 30[pF], +/-5[%], 100[MHz]-8.5[GHz]:333",68,"333","GCM0332C1H300JA01");
+create_constant_form("GCM0335C1E300FA16","334:GCM0335C1E300FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 30[pF], +/-1[%], 100[MHz]-8.5[GHz]:334",68,"334","GCM0335C1E300FA16");
+create_constant_form("GCM0335C1E300GA16","335:GCM0335C1E300GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 30[pF], +/-2[%], 100[MHz]-8.5[GHz]:335",68,"335","GCM0335C1E300GA16");
+create_constant_form("GCM0335C1E300JA16","336:GCM0335C1E300JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 30[pF], +/-5[%], 100[MHz]-8.5[GHz]:336",68,"336","GCM0335C1E300JA16");
+create_constant_form("GCM0335C1H300FA16","337:GCM0335C1H300FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 30[pF], +/-1[%], 100[MHz]-8.5[GHz]:337",68,"337","GCM0335C1H300FA16");
+create_constant_form("GCM0335C1H300GA16","338:GCM0335C1H300GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 30[pF], +/-2[%], 100[MHz]-8.5[GHz]:338",68,"338","GCM0335C1H300GA16");
+create_constant_form("GCM0335C1H300JA16","339:GCM0335C1H300JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 30[pF], +/-5[%], 100[MHz]-8.5[GHz]:339",68,"339","GCM0335C1H300JA16");
+create_constant_form("GCM0332C1E330FA01","340:GCM0332C1E330FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 33[pF], +/-1[%], 100[MHz]-8.5[GHz]:340",68,"340","GCM0332C1E330FA01");
+create_constant_form("GCM0332C1E330GA01","341:GCM0332C1E330GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 33[pF], +/-2[%], 100[MHz]-8.5[GHz]:341",68,"341","GCM0332C1E330GA01");
+create_constant_form("GCM0332C1E330JA01","342:GCM0332C1E330JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 33[pF], +/-5[%], 100[MHz]-8.5[GHz]:342",68,"342","GCM0332C1E330JA01");
+create_constant_form("GCM0332C1H330FA01","343:GCM0332C1H330FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 33[pF], +/-1[%], 100[MHz]-8.5[GHz]:343",68,"343","GCM0332C1H330FA01");
+create_constant_form("GCM0332C1H330GA01","344:GCM0332C1H330GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 33[pF], +/-2[%], 100[MHz]-8.5[GHz]:344",68,"344","GCM0332C1H330GA01");
+create_constant_form("GCM0332C1H330JA01","345:GCM0332C1H330JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 33[pF], +/-5[%], 100[MHz]-8.5[GHz]:345",68,"345","GCM0332C1H330JA01");
+create_constant_form("GCM0335C1E330FA16","346:GCM0335C1E330FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 33[pF], +/-1[%], 100[MHz]-8.5[GHz]:346",68,"346","GCM0335C1E330FA16");
+create_constant_form("GCM0335C1E330GA16","347:GCM0335C1E330GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 33[pF], +/-2[%], 100[MHz]-8.5[GHz]:347",68,"347","GCM0335C1E330GA16");
+create_constant_form("GCM0335C1E330JA16","348:GCM0335C1E330JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 33[pF], +/-5[%], 100[MHz]-8.5[GHz]:348",68,"348","GCM0335C1E330JA16");
+create_constant_form("GCM0335C1H330FA16","349:GCM0335C1H330FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 33[pF], +/-1[%], 100[MHz]-8.5[GHz]:349",68,"349","GCM0335C1H330FA16");
+create_constant_form("GCM0335C1H330GA16","350:GCM0335C1H330GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 33[pF], +/-2[%], 100[MHz]-8.5[GHz]:350",68,"350","GCM0335C1H330GA16");
+create_constant_form("GCM0335C1H330JA16","351:GCM0335C1H330JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 33[pF], +/-5[%], 100[MHz]-8.5[GHz]:351",68,"351","GCM0335C1H330JA16");
+create_constant_form("GCM0332C1E360FA01","352:GCM0332C1E360FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 36[pF], +/-1[%], 100[MHz]-8.5[GHz]:352",68,"352","GCM0332C1E360FA01");
+create_constant_form("GCM0332C1E360GA01","353:GCM0332C1E360GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 36[pF], +/-2[%], 100[MHz]-8.5[GHz]:353",68,"353","GCM0332C1E360GA01");
+create_constant_form("GCM0332C1E360JA01","354:GCM0332C1E360JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 36[pF], +/-5[%], 100[MHz]-8.5[GHz]:354",68,"354","GCM0332C1E360JA01");
+create_constant_form("GCM0332C1H360FA01","355:GCM0332C1H360FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 36[pF], +/-1[%], 100[MHz]-8.5[GHz]:355",68,"355","GCM0332C1H360FA01");
+create_constant_form("GCM0332C1H360GA01","356:GCM0332C1H360GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 36[pF], +/-2[%], 100[MHz]-8.5[GHz]:356",68,"356","GCM0332C1H360GA01");
+create_constant_form("GCM0332C1H360JA01","357:GCM0332C1H360JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 36[pF], +/-5[%], 100[MHz]-8.5[GHz]:357",68,"357","GCM0332C1H360JA01");
+create_constant_form("GCM0335C1E360FA16","358:GCM0335C1E360FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 36[pF], +/-1[%], 100[MHz]-8.5[GHz]:358",68,"358","GCM0335C1E360FA16");
+create_constant_form("GCM0335C1E360GA16","359:GCM0335C1E360GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 36[pF], +/-2[%], 100[MHz]-8.5[GHz]:359",68,"359","GCM0335C1E360GA16");
+create_constant_form("GCM0335C1E360JA16","360:GCM0335C1E360JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 36[pF], +/-5[%], 100[MHz]-8.5[GHz]:360",68,"360","GCM0335C1E360JA16");
+create_constant_form("GCM0335C1H360FA16","361:GCM0335C1H360FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 36[pF], +/-1[%], 100[MHz]-8.5[GHz]:361",68,"361","GCM0335C1H360FA16");
+create_constant_form("GCM0335C1H360GA16","362:GCM0335C1H360GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 36[pF], +/-2[%], 100[MHz]-8.5[GHz]:362",68,"362","GCM0335C1H360GA16");
+create_constant_form("GCM0335C1H360JA16","363:GCM0335C1H360JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 36[pF], +/-5[%], 100[MHz]-8.5[GHz]:363",68,"363","GCM0335C1H360JA16");
+create_constant_form("GCM0332C1E390FA01","364:GCM0332C1E390FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 39[pF], +/-1[%], 100[MHz]-8.5[GHz]:364",68,"364","GCM0332C1E390FA01");
+create_constant_form("GCM0332C1E390GA01","365:GCM0332C1E390GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 39[pF], +/-2[%], 100[MHz]-8.5[GHz]:365",68,"365","GCM0332C1E390GA01");
+create_constant_form("GCM0332C1E390JA01","366:GCM0332C1E390JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 39[pF], +/-5[%], 100[MHz]-8.5[GHz]:366",68,"366","GCM0332C1E390JA01");
+create_constant_form("GCM0332C1H390FA01","367:GCM0332C1H390FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 39[pF], +/-1[%], 100[MHz]-8.5[GHz]:367",68,"367","GCM0332C1H390FA01");
+create_constant_form("GCM0332C1H390GA01","368:GCM0332C1H390GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 39[pF], +/-2[%], 100[MHz]-8.5[GHz]:368",68,"368","GCM0332C1H390GA01");
+create_constant_form("GCM0332C1H390JA01","369:GCM0332C1H390JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 39[pF], +/-5[%], 100[MHz]-8.5[GHz]:369",68,"369","GCM0332C1H390JA01");
+create_constant_form("GCM0335C1E390FA16","370:GCM0335C1E390FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 39[pF], +/-1[%], 100[MHz]-8.5[GHz]:370",68,"370","GCM0335C1E390FA16");
+create_constant_form("GCM0335C1E390GA16","371:GCM0335C1E390GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 39[pF], +/-2[%], 100[MHz]-8.5[GHz]:371",68,"371","GCM0335C1E390GA16");
+create_constant_form("GCM0335C1E390JA16","372:GCM0335C1E390JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 39[pF], +/-5[%], 100[MHz]-8.5[GHz]:372",68,"372","GCM0335C1E390JA16");
+create_constant_form("GCM0335C1H390FA16","373:GCM0335C1H390FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 39[pF], +/-1[%], 100[MHz]-8.5[GHz]:373",68,"373","GCM0335C1H390FA16");
+create_constant_form("GCM0335C1H390GA16","374:GCM0335C1H390GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 39[pF], +/-2[%], 100[MHz]-8.5[GHz]:374",68,"374","GCM0335C1H390GA16");
+create_constant_form("GCM0335C1H390JA16","375:GCM0335C1H390JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 39[pF], +/-5[%], 100[MHz]-8.5[GHz]:375",68,"375","GCM0335C1H390JA16");
+create_constant_form("GCM0332C1E430FA01","376:GCM0332C1E430FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 43[pF], +/-1[%], 100[MHz]-8.5[GHz]:376",68,"376","GCM0332C1E430FA01");
+create_constant_form("GCM0332C1E430GA01","377:GCM0332C1E430GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 43[pF], +/-2[%], 100[MHz]-8.5[GHz]:377",68,"377","GCM0332C1E430GA01");
+create_constant_form("GCM0332C1E430JA01","378:GCM0332C1E430JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 43[pF], +/-5[%], 100[MHz]-8.5[GHz]:378",68,"378","GCM0332C1E430JA01");
+create_constant_form("GCM0332C1H430FA01","379:GCM0332C1H430FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 43[pF], +/-1[%], 100[MHz]-8.5[GHz]:379",68,"379","GCM0332C1H430FA01");
+create_constant_form("GCM0332C1H430GA01","380:GCM0332C1H430GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 43[pF], +/-2[%], 100[MHz]-8.5[GHz]:380",68,"380","GCM0332C1H430GA01");
+create_constant_form("GCM0332C1H430JA01","381:GCM0332C1H430JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 43[pF], +/-5[%], 100[MHz]-8.5[GHz]:381",68,"381","GCM0332C1H430JA01");
+create_constant_form("GCM0335C1E430FA16","382:GCM0335C1E430FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 43[pF], +/-1[%], 100[MHz]-8.5[GHz]:382",68,"382","GCM0335C1E430FA16");
+create_constant_form("GCM0335C1E430GA16","383:GCM0335C1E430GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 43[pF], +/-2[%], 100[MHz]-8.5[GHz]:383",68,"383","GCM0335C1E430GA16");
+create_constant_form("GCM0335C1E430JA16","384:GCM0335C1E430JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 43[pF], +/-5[%], 100[MHz]-8.5[GHz]:384",68,"384","GCM0335C1E430JA16");
+create_constant_form("GCM0335C1H430FA16","385:GCM0335C1H430FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 43[pF], +/-1[%], 100[MHz]-8.5[GHz]:385",68,"385","GCM0335C1H430FA16");
+create_constant_form("GCM0335C1H430GA16","386:GCM0335C1H430GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 43[pF], +/-2[%], 100[MHz]-8.5[GHz]:386",68,"386","GCM0335C1H430GA16");
+create_constant_form("GCM0335C1H430JA16","387:GCM0335C1H430JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 43[pF], +/-5[%], 100[MHz]-8.5[GHz]:387",68,"387","GCM0335C1H430JA16");
+create_constant_form("GCM0332C1E470FA01","388:GCM0332C1E470FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 47[pF], +/-1[%], 100[MHz]-8.5[GHz]:388",68,"388","GCM0332C1E470FA01");
+create_constant_form("GCM0332C1E470GA01","389:GCM0332C1E470GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 47[pF], +/-2[%], 100[MHz]-8.5[GHz]:389",68,"389","GCM0332C1E470GA01");
+create_constant_form("GCM0332C1E470JA01","390:GCM0332C1E470JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 47[pF], +/-5[%], 100[MHz]-8.5[GHz]:390",68,"390","GCM0332C1E470JA01");
+create_constant_form("GCM0332C1H470FA01","391:GCM0332C1H470FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 47[pF], +/-1[%], 100[MHz]-8.5[GHz]:391",68,"391","GCM0332C1H470FA01");
+create_constant_form("GCM0332C1H470GA01","392:GCM0332C1H470GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 47[pF], +/-2[%], 100[MHz]-8.5[GHz]:392",68,"392","GCM0332C1H470GA01");
+create_constant_form("GCM0332C1H470JA01","393:GCM0332C1H470JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 47[pF], +/-5[%], 100[MHz]-8.5[GHz]:393",68,"393","GCM0332C1H470JA01");
+create_constant_form("GCM0335C1E470FA16","394:GCM0335C1E470FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 47[pF], +/-1[%], 100[MHz]-8.5[GHz]:394",68,"394","GCM0335C1E470FA16");
+create_constant_form("GCM0335C1E470GA16","395:GCM0335C1E470GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 47[pF], +/-2[%], 100[MHz]-8.5[GHz]:395",68,"395","GCM0335C1E470GA16");
+create_constant_form("GCM0335C1E470JA16","396:GCM0335C1E470JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 47[pF], +/-5[%], 100[MHz]-8.5[GHz]:396",68,"396","GCM0335C1E470JA16");
+create_constant_form("GCM0335C1H470FA16","397:GCM0335C1H470FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 47[pF], +/-1[%], 100[MHz]-8.5[GHz]:397",68,"397","GCM0335C1H470FA16");
+create_constant_form("GCM0335C1H470GA16","398:GCM0335C1H470GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 47[pF], +/-2[%], 100[MHz]-8.5[GHz]:398",68,"398","GCM0335C1H470GA16");
+create_constant_form("GCM0335C1H470JA16","399:GCM0335C1H470JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 47[pF], +/-5[%], 100[MHz]-8.5[GHz]:399",68,"399","GCM0335C1H470JA16");
+create_constant_form("GCM0332C1E510FA01","400:GCM0332C1E510FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 51[pF], +/-1[%], 100[MHz]-8.5[GHz]:400",68,"400","GCM0332C1E510FA01");
+create_constant_form("GCM0332C1E510GA01","401:GCM0332C1E510GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 51[pF], +/-2[%], 100[MHz]-8.5[GHz]:401",68,"401","GCM0332C1E510GA01");
+create_constant_form("GCM0332C1E510JA01","402:GCM0332C1E510JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 51[pF], +/-5[%], 100[MHz]-8.5[GHz]:402",68,"402","GCM0332C1E510JA01");
+create_constant_form("GCM0332C1H510FA01","403:GCM0332C1H510FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 51[pF], +/-1[%], 100[MHz]-8.5[GHz]:403",68,"403","GCM0332C1H510FA01");
+create_constant_form("GCM0332C1H510GA01","404:GCM0332C1H510GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 51[pF], +/-2[%], 100[MHz]-8.5[GHz]:404",68,"404","GCM0332C1H510GA01");
+create_constant_form("GCM0332C1H510JA01","405:GCM0332C1H510JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 51[pF], +/-5[%], 100[MHz]-8.5[GHz]:405",68,"405","GCM0332C1H510JA01");
+create_constant_form("GCM0335C1E510FA16","406:GCM0335C1E510FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 51[pF], +/-1[%], 100[MHz]-8.5[GHz]:406",68,"406","GCM0335C1E510FA16");
+create_constant_form("GCM0335C1E510GA16","407:GCM0335C1E510GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 51[pF], +/-2[%], 100[MHz]-8.5[GHz]:407",68,"407","GCM0335C1E510GA16");
+create_constant_form("GCM0335C1E510JA16","408:GCM0335C1E510JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 51[pF], +/-5[%], 100[MHz]-8.5[GHz]:408",68,"408","GCM0335C1E510JA16");
+create_constant_form("GCM0335C1H510FA16","409:GCM0335C1H510FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 51[pF], +/-1[%], 100[MHz]-8.5[GHz]:409",68,"409","GCM0335C1H510FA16");
+create_constant_form("GCM0335C1H510GA16","410:GCM0335C1H510GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 51[pF], +/-2[%], 100[MHz]-8.5[GHz]:410",68,"410","GCM0335C1H510GA16");
+create_constant_form("GCM0335C1H510JA16","411:GCM0335C1H510JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 51[pF], +/-5[%], 100[MHz]-8.5[GHz]:411",68,"411","GCM0335C1H510JA16");
+create_constant_form("GCM0332C1E560FA01","412:GCM0332C1E560FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 56[pF], +/-1[%], 100[MHz]-8.5[GHz]:412",68,"412","GCM0332C1E560FA01");
+create_constant_form("GCM0332C1E560GA01","413:GCM0332C1E560GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 56[pF], +/-2[%], 100[MHz]-8.5[GHz]:413",68,"413","GCM0332C1E560GA01");
+create_constant_form("GCM0332C1E560JA01","414:GCM0332C1E560JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 56[pF], +/-5[%], 100[MHz]-8.5[GHz]:414",68,"414","GCM0332C1E560JA01");
+create_constant_form("GCM0332C1H560FA01","415:GCM0332C1H560FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 56[pF], +/-1[%], 100[MHz]-8.5[GHz]:415",68,"415","GCM0332C1H560FA01");
+create_constant_form("GCM0332C1H560GA01","416:GCM0332C1H560GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 56[pF], +/-2[%], 100[MHz]-8.5[GHz]:416",68,"416","GCM0332C1H560GA01");
+create_constant_form("GCM0332C1H560JA01","417:GCM0332C1H560JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 56[pF], +/-5[%], 100[MHz]-8.5[GHz]:417",68,"417","GCM0332C1H560JA01");
+create_constant_form("GCM0335C1E560FA16","418:GCM0335C1E560FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 56[pF], +/-1[%], 100[MHz]-8.5[GHz]:418",68,"418","GCM0335C1E560FA16");
+create_constant_form("GCM0335C1E560GA16","419:GCM0335C1E560GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 56[pF], +/-2[%], 100[MHz]-8.5[GHz]:419",68,"419","GCM0335C1E560GA16");
+create_constant_form("GCM0335C1E560JA16","420:GCM0335C1E560JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 56[pF], +/-5[%], 100[MHz]-8.5[GHz]:420",68,"420","GCM0335C1E560JA16");
+create_constant_form("GCM0335C1H560FA16","421:GCM0335C1H560FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 56[pF], +/-1[%], 100[MHz]-8.5[GHz]:421",68,"421","GCM0335C1H560FA16");
+create_constant_form("GCM0335C1H560GA16","422:GCM0335C1H560GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 56[pF], +/-2[%], 100[MHz]-8.5[GHz]:422",68,"422","GCM0335C1H560GA16");
+create_constant_form("GCM0335C1H560JA16","423:GCM0335C1H560JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 56[pF], +/-5[%], 100[MHz]-8.5[GHz]:423",68,"423","GCM0335C1H560JA16");
+create_constant_form("GCM0332C1E620FA01","424:GCM0332C1E620FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 62[pF], +/-1[%], 100[MHz]-8.5[GHz]:424",68,"424","GCM0332C1E620FA01");
+create_constant_form("GCM0332C1E620GA01","425:GCM0332C1E620GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 62[pF], +/-2[%], 100[MHz]-8.5[GHz]:425",68,"425","GCM0332C1E620GA01");
+create_constant_form("GCM0332C1E620JA01","426:GCM0332C1E620JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 62[pF], +/-5[%], 100[MHz]-8.5[GHz]:426",68,"426","GCM0332C1E620JA01");
+create_constant_form("GCM0332C1H620FA01","427:GCM0332C1H620FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 62[pF], +/-1[%], 100[MHz]-8.5[GHz]:427",68,"427","GCM0332C1H620FA01");
+create_constant_form("GCM0332C1H620GA01","428:GCM0332C1H620GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 62[pF], +/-2[%], 100[MHz]-8.5[GHz]:428",68,"428","GCM0332C1H620GA01");
+create_constant_form("GCM0332C1H620JA01","429:GCM0332C1H620JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 62[pF], +/-5[%], 100[MHz]-8.5[GHz]:429",68,"429","GCM0332C1H620JA01");
+create_constant_form("GCM0335C1E620FA16","430:GCM0335C1E620FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 62[pF], +/-1[%], 100[MHz]-8.5[GHz]:430",68,"430","GCM0335C1E620FA16");
+create_constant_form("GCM0335C1E620GA16","431:GCM0335C1E620GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 62[pF], +/-2[%], 100[MHz]-8.5[GHz]:431",68,"431","GCM0335C1E620GA16");
+create_constant_form("GCM0335C1E620JA16","432:GCM0335C1E620JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 62[pF], +/-5[%], 100[MHz]-8.5[GHz]:432",68,"432","GCM0335C1E620JA16");
+create_constant_form("GCM0335C1H620FA16","433:GCM0335C1H620FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 62[pF], +/-1[%], 100[MHz]-8.5[GHz]:433",68,"433","GCM0335C1H620FA16");
+create_constant_form("GCM0335C1H620GA16","434:GCM0335C1H620GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 62[pF], +/-2[%], 100[MHz]-8.5[GHz]:434",68,"434","GCM0335C1H620GA16");
+create_constant_form("GCM0335C1H620JA16","435:GCM0335C1H620JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 62[pF], +/-5[%], 100[MHz]-8.5[GHz]:435",68,"435","GCM0335C1H620JA16");
+create_constant_form("GCM0332C1E680FA01","436:GCM0332C1E680FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 68[pF], +/-1[%], 100[MHz]-8.5[GHz]:436",68,"436","GCM0332C1E680FA01");
+create_constant_form("GCM0332C1E680GA01","437:GCM0332C1E680GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 68[pF], +/-2[%], 100[MHz]-8.5[GHz]:437",68,"437","GCM0332C1E680GA01");
+create_constant_form("GCM0332C1E680JA01","438:GCM0332C1E680JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 68[pF], +/-5[%], 100[MHz]-8.5[GHz]:438",68,"438","GCM0332C1E680JA01");
+create_constant_form("GCM0332C1H680FA01","439:GCM0332C1H680FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 68[pF], +/-1[%], 100[MHz]-8.5[GHz]:439",68,"439","GCM0332C1H680FA01");
+create_constant_form("GCM0332C1H680GA01","440:GCM0332C1H680GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 68[pF], +/-2[%], 100[MHz]-8.5[GHz]:440",68,"440","GCM0332C1H680GA01");
+create_constant_form("GCM0332C1H680JA01","441:GCM0332C1H680JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 68[pF], +/-5[%], 100[MHz]-8.5[GHz]:441",68,"441","GCM0332C1H680JA01");
+create_constant_form("GCM0335C1E680FA16","442:GCM0335C1E680FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 68[pF], +/-1[%], 100[MHz]-8.5[GHz]:442",68,"442","GCM0335C1E680FA16");
+create_constant_form("GCM0335C1E680GA16","443:GCM0335C1E680GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 68[pF], +/-2[%], 100[MHz]-8.5[GHz]:443",68,"443","GCM0335C1E680GA16");
+create_constant_form("GCM0335C1E680JA16","444:GCM0335C1E680JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 68[pF], +/-5[%], 100[MHz]-8.5[GHz]:444",68,"444","GCM0335C1E680JA16");
+create_constant_form("GCM0335C1H680FA16","445:GCM0335C1H680FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 68[pF], +/-1[%], 100[MHz]-8.5[GHz]:445",68,"445","GCM0335C1H680FA16");
+create_constant_form("GCM0335C1H680GA16","446:GCM0335C1H680GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 68[pF], +/-2[%], 100[MHz]-8.5[GHz]:446",68,"446","GCM0335C1H680GA16");
+create_constant_form("GCM0335C1H680JA16","447:GCM0335C1H680JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 68[pF], +/-5[%], 100[MHz]-8.5[GHz]:447",68,"447","GCM0335C1H680JA16");
+create_constant_form("GCM0332C1E750FA01","448:GCM0332C1E750FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 75[pF], +/-1[%], 100[MHz]-8.5[GHz]:448",68,"448","GCM0332C1E750FA01");
+create_constant_form("GCM0332C1E750GA01","449:GCM0332C1E750GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 75[pF], +/-2[%], 100[MHz]-8.5[GHz]:449",68,"449","GCM0332C1E750GA01");
+create_constant_form("GCM0332C1E750JA01","450:GCM0332C1E750JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 75[pF], +/-5[%], 100[MHz]-8.5[GHz]:450",68,"450","GCM0332C1E750JA01");
+create_constant_form("GCM0332C1H750FA01","451:GCM0332C1H750FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 75[pF], +/-1[%], 100[MHz]-8.5[GHz]:451",68,"451","GCM0332C1H750FA01");
+create_constant_form("GCM0332C1H750GA01","452:GCM0332C1H750GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 75[pF], +/-2[%], 100[MHz]-8.5[GHz]:452",68,"452","GCM0332C1H750GA01");
+create_constant_form("GCM0332C1H750JA01","453:GCM0332C1H750JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 75[pF], +/-5[%], 100[MHz]-8.5[GHz]:453",68,"453","GCM0332C1H750JA01");
+create_constant_form("GCM0335C1E750FA16","454:GCM0335C1E750FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 75[pF], +/-1[%], 100[MHz]-8.5[GHz]:454",68,"454","GCM0335C1E750FA16");
+create_constant_form("GCM0335C1E750GA16","455:GCM0335C1E750GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 75[pF], +/-2[%], 100[MHz]-8.5[GHz]:455",68,"455","GCM0335C1E750GA16");
+create_constant_form("GCM0335C1E750JA16","456:GCM0335C1E750JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 75[pF], +/-5[%], 100[MHz]-8.5[GHz]:456",68,"456","GCM0335C1E750JA16");
+create_constant_form("GCM0335C1H750FA16","457:GCM0335C1H750FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 75[pF], +/-1[%], 100[MHz]-8.5[GHz]:457",68,"457","GCM0335C1H750FA16");
+create_constant_form("GCM0335C1H750GA16","458:GCM0335C1H750GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 75[pF], +/-2[%], 100[MHz]-8.5[GHz]:458",68,"458","GCM0335C1H750GA16");
+create_constant_form("GCM0335C1H750JA16","459:GCM0335C1H750JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 75[pF], +/-5[%], 100[MHz]-8.5[GHz]:459",68,"459","GCM0335C1H750JA16");
+create_constant_form("GCM0332C1E820FA01","460:GCM0332C1E820FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 82[pF], +/-1[%], 100[MHz]-8.5[GHz]:460",68,"460","GCM0332C1E820FA01");
+create_constant_form("GCM0332C1E820GA01","461:GCM0332C1E820GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 82[pF], +/-2[%], 100[MHz]-8.5[GHz]:461",68,"461","GCM0332C1E820GA01");
+create_constant_form("GCM0332C1E820JA01","462:GCM0332C1E820JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 82[pF], +/-5[%], 100[MHz]-8.5[GHz]:462",68,"462","GCM0332C1E820JA01");
+create_constant_form("GCM0332C1H820FA01","463:GCM0332C1H820FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 82[pF], +/-1[%], 100[MHz]-8.5[GHz]:463",68,"463","GCM0332C1H820FA01");
+create_constant_form("GCM0332C1H820GA01","464:GCM0332C1H820GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 82[pF], +/-2[%], 100[MHz]-8.5[GHz]:464",68,"464","GCM0332C1H820GA01");
+create_constant_form("GCM0332C1H820JA01","465:GCM0332C1H820JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 82[pF], +/-5[%], 100[MHz]-8.5[GHz]:465",68,"465","GCM0332C1H820JA01");
+create_constant_form("GCM0335C1E820FA16","466:GCM0335C1E820FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 82[pF], +/-1[%], 100[MHz]-8.5[GHz]:466",68,"466","GCM0335C1E820FA16");
+create_constant_form("GCM0335C1E820GA16","467:GCM0335C1E820GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 82[pF], +/-2[%], 100[MHz]-8.5[GHz]:467",68,"467","GCM0335C1E820GA16");
+create_constant_form("GCM0335C1E820JA16","468:GCM0335C1E820JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 82[pF], +/-5[%], 100[MHz]-8.5[GHz]:468",68,"468","GCM0335C1E820JA16");
+create_constant_form("GCM0335C1H820FA16","469:GCM0335C1H820FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 82[pF], +/-1[%], 100[MHz]-8.5[GHz]:469",68,"469","GCM0335C1H820FA16");
+create_constant_form("GCM0335C1H820GA16","470:GCM0335C1H820GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 82[pF], +/-2[%], 100[MHz]-8.5[GHz]:470",68,"470","GCM0335C1H820GA16");
+create_constant_form("GCM0335C1H820JA16","471:GCM0335C1H820JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 82[pF], +/-5[%], 100[MHz]-8.5[GHz]:471",68,"471","GCM0335C1H820JA16");
+create_constant_form("GCM0332C1E910FA01","472:GCM0332C1E910FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 91[pF], +/-1[%], 100[MHz]-8.5[GHz]:472",68,"472","GCM0332C1E910FA01");
+create_constant_form("GCM0332C1E910GA01","473:GCM0332C1E910GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 91[pF], +/-2[%], 100[MHz]-8.5[GHz]:473",68,"473","GCM0332C1E910GA01");
+create_constant_form("GCM0332C1E910JA01","474:GCM0332C1E910JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 91[pF], +/-5[%], 100[MHz]-8.5[GHz]:474",68,"474","GCM0332C1E910JA01");
+create_constant_form("GCM0332C1H910FA01","475:GCM0332C1H910FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 91[pF], +/-1[%], 100[MHz]-8.5[GHz]:475",68,"475","GCM0332C1H910FA01");
+create_constant_form("GCM0332C1H910GA01","476:GCM0332C1H910GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 91[pF], +/-2[%], 100[MHz]-8.5[GHz]:476",68,"476","GCM0332C1H910GA01");
+create_constant_form("GCM0332C1H910JA01","477:GCM0332C1H910JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 91[pF], +/-5[%], 100[MHz]-8.5[GHz]:477",68,"477","GCM0332C1H910JA01");
+create_constant_form("GCM0335C1E910FA16","478:GCM0335C1E910FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 91[pF], +/-1[%], 100[MHz]-8.5[GHz]:478",68,"478","GCM0335C1E910FA16");
+create_constant_form("GCM0335C1E910GA16","479:GCM0335C1E910GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 91[pF], +/-2[%], 100[MHz]-8.5[GHz]:479",68,"479","GCM0335C1E910GA16");
+create_constant_form("GCM0335C1E910JA16","480:GCM0335C1E910JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 91[pF], +/-5[%], 100[MHz]-8.5[GHz]:480",68,"480","GCM0335C1E910JA16");
+create_constant_form("GCM0335C1H910FA16","481:GCM0335C1H910FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 91[pF], +/-1[%], 100[MHz]-8.5[GHz]:481",68,"481","GCM0335C1H910FA16");
+create_constant_form("GCM0335C1H910GA16","482:GCM0335C1H910GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 91[pF], +/-2[%], 100[MHz]-8.5[GHz]:482",68,"482","GCM0335C1H910GA16");
+create_constant_form("GCM0335C1H910JA16","483:GCM0335C1H910JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 91[pF], +/-5[%], 100[MHz]-8.5[GHz]:483",68,"483","GCM0335C1H910JA16");
+create_constant_form("GCM0332C1E101FA01","484:GCM0332C1E101FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 100[pF], +/-1[%], 100[MHz]-8.5[GHz]:484",68,"484","GCM0332C1E101FA01");
+create_constant_form("GCM0332C1E101GA01","485:GCM0332C1E101GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 100[pF], +/-2[%], 100[MHz]-8.5[GHz]:485",68,"485","GCM0332C1E101GA01");
+create_constant_form("GCM0332C1E101JA01","486:GCM0332C1E101JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 25[V], 100[pF], +/-5[%], 100[MHz]-8.5[GHz]:486",68,"486","GCM0332C1E101JA01");
+create_constant_form("GCM0332C1H101FA01","487:GCM0332C1H101FA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 100[pF], +/-1[%], 100[MHz]-8.5[GHz]:487",68,"487","GCM0332C1H101FA01");
+create_constant_form("GCM0332C1H101GA01","488:GCM0332C1H101GA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 100[pF], +/-2[%], 100[MHz]-8.5[GHz]:488",68,"488","GCM0332C1H101GA01");
+create_constant_form("GCM0332C1H101JA01","489:GCM0332C1H101JA01, Powertrain/Safety for Automotive, CH(-55to125[deg]), 50[V], 100[pF], +/-5[%], 100[MHz]-8.5[GHz]:489",68,"489","GCM0332C1H101JA01");
+create_constant_form("GCM0335C1E101FA16","490:GCM0335C1E101FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 100[pF], +/-1[%], 100[MHz]-8.5[GHz]:490",68,"490","GCM0335C1E101FA16");
+create_constant_form("GCM0335C1E101GA16","491:GCM0335C1E101GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 100[pF], +/-2[%], 100[MHz]-8.5[GHz]:491",68,"491","GCM0335C1E101GA16");
+create_constant_form("GCM0335C1E101JA16","492:GCM0335C1E101JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 25[V], 100[pF], +/-5[%], 100[MHz]-8.5[GHz]:492",68,"492","GCM0335C1E101JA16");
+create_constant_form("GCM0335C1H101FA16","493:GCM0335C1H101FA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 100[pF], +/-1[%], 100[MHz]-8.5[GHz]:493",68,"493","GCM0335C1H101FA16");
+create_constant_form("GCM0335C1H101GA16","494:GCM0335C1H101GA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 100[pF], +/-2[%], 100[MHz]-8.5[GHz]:494",68,"494","GCM0335C1H101GA16");
+create_constant_form("GCM0335C1H101JA16","495:GCM0335C1H101JA16, Powertrain/Safety for Automotive [AEC-Q200], C0G(-55to125[deg]), 50[V], 100[pF], +/-5[%], 100[MHz]-8.5[GHz]:495",68,"495","GCM0335C1H101JA16");
+create_constant_form("GCM033R11E101KA01","496:GCM033R11E101KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 100[pF], +/-10[%], 100[Hz]-6[GHz]:496",68,"496","GCM033R11E101KA01");
+create_constant_form("GCM033R11E101MA01","497:GCM033R11E101MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 100[pF], +/-20[%], 100[Hz]-6[GHz]:497",68,"497","GCM033R11E101MA01");
+create_constant_form("GCM033R71E101KA01","498:GCM033R71E101KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 100[pF], +/-10[%], 100[Hz]-6[GHz]:498",68,"498","GCM033R71E101KA01");
+create_constant_form("GCM033R71E101KA03","499:GCM033R71E101KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 100[pF], +/-10[%], 100[Hz]-6[GHz]:499",68,"499","GCM033R71E101KA03");
+create_constant_form("GCM033R71E101MA01","500:GCM033R71E101MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 100[pF], +/-20[%], 100[Hz]-6[GHz]:500",68,"500","GCM033R71E101MA01");
+create_constant_form("GCM033R71E101MA03","501:GCM033R71E101MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 100[pF], +/-20[%], 100[Hz]-6[GHz]:501",68,"501","GCM033R71E101MA03");
+create_constant_form("GCM033R11E121KA01","502:GCM033R11E121KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 120[pF], +/-10[%], 100[Hz]-6[GHz]:502",68,"502","GCM033R11E121KA01");
+create_constant_form("GCM033R11E121MA01","503:GCM033R11E121MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 120[pF], +/-20[%], 100[Hz]-6[GHz]:503",68,"503","GCM033R11E121MA01");
+create_constant_form("GCM033R71E121KA01","504:GCM033R71E121KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 120[pF], +/-10[%], 100[Hz]-6[GHz]:504",68,"504","GCM033R71E121KA01");
+create_constant_form("GCM033R71E121KA03","505:GCM033R71E121KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 120[pF], +/-10[%], 100[Hz]-6[GHz]:505",68,"505","GCM033R71E121KA03");
+create_constant_form("GCM033R71E121MA01","506:GCM033R71E121MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 120[pF], +/-20[%], 100[Hz]-6[GHz]:506",68,"506","GCM033R71E121MA01");
+create_constant_form("GCM033R71E121MA03","507:GCM033R71E121MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 120[pF], +/-20[%], 100[Hz]-6[GHz]:507",68,"507","GCM033R71E121MA03");
+create_constant_form("GCM033R11E151KA01","508:GCM033R11E151KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 150[pF], +/-10[%], 100[Hz]-6[GHz]:508",68,"508","GCM033R11E151KA01");
+create_constant_form("GCM033R11E151MA01","509:GCM033R11E151MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 150[pF], +/-20[%], 100[Hz]-6[GHz]:509",68,"509","GCM033R11E151MA01");
+create_constant_form("GCM033R71E151KA01","510:GCM033R71E151KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 150[pF], +/-10[%], 100[Hz]-6[GHz]:510",68,"510","GCM033R71E151KA01");
+create_constant_form("GCM033R71E151KA03","511:GCM033R71E151KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 150[pF], +/-10[%], 100[Hz]-6[GHz]:511",68,"511","GCM033R71E151KA03");
+create_constant_form("GCM033R71E151MA01","512:GCM033R71E151MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 150[pF], +/-20[%], 100[Hz]-6[GHz]:512",68,"512","GCM033R71E151MA01");
+create_constant_form("GCM033R71E151MA03","513:GCM033R71E151MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 150[pF], +/-20[%], 100[Hz]-6[GHz]:513",68,"513","GCM033R71E151MA03");
+create_constant_form("GCM033R11E181KA01","514:GCM033R11E181KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 180[pF], +/-10[%], 100[Hz]-6[GHz]:514",68,"514","GCM033R11E181KA01");
+create_constant_form("GCM033R11E181MA01","515:GCM033R11E181MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 180[pF], +/-20[%], 100[Hz]-6[GHz]:515",68,"515","GCM033R11E181MA01");
+create_constant_form("GCM033R71E181KA01","516:GCM033R71E181KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 180[pF], +/-10[%], 100[Hz]-6[GHz]:516",68,"516","GCM033R71E181KA01");
+create_constant_form("GCM033R71E181KA03","517:GCM033R71E181KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 180[pF], +/-10[%], 100[Hz]-6[GHz]:517",68,"517","GCM033R71E181KA03");
+create_constant_form("GCM033R71E181MA01","518:GCM033R71E181MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 180[pF], +/-20[%], 100[Hz]-6[GHz]:518",68,"518","GCM033R71E181MA01");
+create_constant_form("GCM033R71E181MA03","519:GCM033R71E181MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 180[pF], +/-20[%], 100[Hz]-6[GHz]:519",68,"519","GCM033R71E181MA03");
+create_constant_form("GCM033R11E221KA01","520:GCM033R11E221KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 220[pF], +/-10[%], 100[Hz]-6[GHz]:520",68,"520","GCM033R11E221KA01");
+create_constant_form("GCM033R11E221MA01","521:GCM033R11E221MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 220[pF], +/-20[%], 100[Hz]-6[GHz]:521",68,"521","GCM033R11E221MA01");
+create_constant_form("GCM033R71E221KA01","522:GCM033R71E221KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 220[pF], +/-10[%], 100[Hz]-6[GHz]:522",68,"522","GCM033R71E221KA01");
+create_constant_form("GCM033R71E221KA03","523:GCM033R71E221KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 220[pF], +/-10[%], 100[Hz]-6[GHz]:523",68,"523","GCM033R71E221KA03");
+create_constant_form("GCM033R71E221MA01","524:GCM033R71E221MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 220[pF], +/-20[%], 100[Hz]-6[GHz]:524",68,"524","GCM033R71E221MA01");
+create_constant_form("GCM033R71E221MA03","525:GCM033R71E221MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 220[pF], +/-20[%], 100[Hz]-6[GHz]:525",68,"525","GCM033R71E221MA03");
+create_constant_form("GCM033R11E271KA01","526:GCM033R11E271KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 270[pF], +/-10[%], 100[Hz]-6[GHz]:526",68,"526","GCM033R11E271KA01");
+create_constant_form("GCM033R11E271MA01","527:GCM033R11E271MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 270[pF], +/-20[%], 100[Hz]-6[GHz]:527",68,"527","GCM033R11E271MA01");
+create_constant_form("GCM033R71E271KA01","528:GCM033R71E271KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 270[pF], +/-10[%], 100[Hz]-6[GHz]:528",68,"528","GCM033R71E271KA01");
+create_constant_form("GCM033R71E271KA03","529:GCM033R71E271KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 270[pF], +/-10[%], 100[Hz]-6[GHz]:529",68,"529","GCM033R71E271KA03");
+create_constant_form("GCM033R71E271MA01","530:GCM033R71E271MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 270[pF], +/-20[%], 100[Hz]-6[GHz]:530",68,"530","GCM033R71E271MA01");
+create_constant_form("GCM033R71E271MA03","531:GCM033R71E271MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 270[pF], +/-20[%], 100[Hz]-6[GHz]:531",68,"531","GCM033R71E271MA03");
+create_constant_form("GCM033R11E331KA01","532:GCM033R11E331KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 330[pF], +/-10[%], 100[Hz]-6[GHz]:532",68,"532","GCM033R11E331KA01");
+create_constant_form("GCM033R11E331MA01","533:GCM033R11E331MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 330[pF], +/-20[%], 100[Hz]-6[GHz]:533",68,"533","GCM033R11E331MA01");
+create_constant_form("GCM033R71C331KA03","534:GCM033R71C331KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 16[V], 330[pF], +/-10[%], 100[Hz]-6[GHz]:534",68,"534","GCM033R71C331KA03");
+create_constant_form("GCM033R71E331KA01","535:GCM033R71E331KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 330[pF], +/-10[%], 100[Hz]-6[GHz]:535",68,"535","GCM033R71E331KA01");
+create_constant_form("GCM033R71E331KA03","536:GCM033R71E331KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 330[pF], +/-10[%], 100[Hz]-6[GHz]:536",68,"536","GCM033R71E331KA03");
+create_constant_form("GCM033R71E331MA01","537:GCM033R71E331MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 330[pF], +/-20[%], 100[Hz]-6[GHz]:537",68,"537","GCM033R71E331MA01");
+create_constant_form("GCM033R71E331MA03","538:GCM033R71E331MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 330[pF], +/-20[%], 100[Hz]-6[GHz]:538",68,"538","GCM033R71E331MA03");
+create_constant_form("GCM033R11E391KA01","539:GCM033R11E391KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 390[pF], +/-10[%], 100[Hz]-6[GHz]:539",68,"539","GCM033R11E391KA01");
+create_constant_form("GCM033R11E391MA01","540:GCM033R11E391MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 390[pF], +/-20[%], 100[Hz]-6[GHz]:540",68,"540","GCM033R11E391MA01");
+create_constant_form("GCM033R71E391KA01","541:GCM033R71E391KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 390[pF], +/-10[%], 100[Hz]-6[GHz]:541",68,"541","GCM033R71E391KA01");
+create_constant_form("GCM033R71E391KA03","542:GCM033R71E391KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 390[pF], +/-10[%], 100[Hz]-6[GHz]:542",68,"542","GCM033R71E391KA03");
+create_constant_form("GCM033R71E391MA01","543:GCM033R71E391MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 390[pF], +/-20[%], 100[Hz]-6[GHz]:543",68,"543","GCM033R71E391MA01");
+create_constant_form("GCM033R71E391MA03","544:GCM033R71E391MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 390[pF], +/-20[%], 100[Hz]-6[GHz]:544",68,"544","GCM033R71E391MA03");
+create_constant_form("GCM033R11E471KA01","545:GCM033R11E471KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 470[pF], +/-10[%], 100[Hz]-6[GHz]:545",68,"545","GCM033R11E471KA01");
+create_constant_form("GCM033R11E471MA01","546:GCM033R11E471MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 470[pF], +/-20[%], 100[Hz]-6[GHz]:546",68,"546","GCM033R11E471MA01");
+create_constant_form("GCM033R71E471KA01","547:GCM033R71E471KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 470[pF], +/-10[%], 100[Hz]-6[GHz]:547",68,"547","GCM033R71E471KA01");
+create_constant_form("GCM033R71E471KA03","548:GCM033R71E471KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 470[pF], +/-10[%], 100[Hz]-6[GHz]:548",68,"548","GCM033R71E471KA03");
+create_constant_form("GCM033R71E471MA01","549:GCM033R71E471MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 470[pF], +/-20[%], 100[Hz]-6[GHz]:549",68,"549","GCM033R71E471MA01");
+create_constant_form("GCM033R71E471MA03","550:GCM033R71E471MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 470[pF], +/-20[%], 100[Hz]-6[GHz]:550",68,"550","GCM033R71E471MA03");
+create_constant_form("GCM033R11E561KA01","551:GCM033R11E561KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 560[pF], +/-10[%], 100[Hz]-6[GHz]:551",68,"551","GCM033R11E561KA01");
+create_constant_form("GCM033R11E561MA01","552:GCM033R11E561MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 560[pF], +/-20[%], 100[Hz]-6[GHz]:552",68,"552","GCM033R11E561MA01");
+create_constant_form("GCM033R71E561KA01","553:GCM033R71E561KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 560[pF], +/-10[%], 100[Hz]-6[GHz]:553",68,"553","GCM033R71E561KA01");
+create_constant_form("GCM033R71E561KA03","554:GCM033R71E561KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 560[pF], +/-10[%], 100[Hz]-6[GHz]:554",68,"554","GCM033R71E561KA03");
+create_constant_form("GCM033R71E561MA01","555:GCM033R71E561MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 560[pF], +/-20[%], 100[Hz]-6[GHz]:555",68,"555","GCM033R71E561MA01");
+create_constant_form("GCM033R71E561MA03","556:GCM033R71E561MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 560[pF], +/-20[%], 100[Hz]-6[GHz]:556",68,"556","GCM033R71E561MA03");
+create_constant_form("GCM033R11E681KA01","557:GCM033R11E681KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 680[pF], +/-10[%], 100[Hz]-6[GHz]:557",68,"557","GCM033R11E681KA01");
+create_constant_form("GCM033R11E681MA01","558:GCM033R11E681MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 680[pF], +/-20[%], 100[Hz]-6[GHz]:558",68,"558","GCM033R11E681MA01");
+create_constant_form("GCM033R71C681KA03","559:GCM033R71C681KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 16[V], 680[pF], +/-10[%], 100[Hz]-6[GHz]:559",68,"559","GCM033R71C681KA03");
+create_constant_form("GCM033R71E681KA01","560:GCM033R71E681KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 680[pF], +/-10[%], 100[Hz]-6[GHz]:560",68,"560","GCM033R71E681KA01");
+create_constant_form("GCM033R71E681KA03","561:GCM033R71E681KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 680[pF], +/-10[%], 100[Hz]-6[GHz]:561",68,"561","GCM033R71E681KA03");
+create_constant_form("GCM033R71E681MA01","562:GCM033R71E681MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 680[pF], +/-20[%], 100[Hz]-6[GHz]:562",68,"562","GCM033R71E681MA01");
+create_constant_form("GCM033R71E681MA03","563:GCM033R71E681MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 680[pF], +/-20[%], 100[Hz]-6[GHz]:563",68,"563","GCM033R71E681MA03");
+create_constant_form("GCM033R11E821KA01","564:GCM033R11E821KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 820[pF], +/-10[%], 100[Hz]-6[GHz]:564",68,"564","GCM033R11E821KA01");
+create_constant_form("GCM033R11E821MA01","565:GCM033R11E821MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 820[pF], +/-20[%], 100[Hz]-6[GHz]:565",68,"565","GCM033R11E821MA01");
+create_constant_form("GCM033R71E821KA01","566:GCM033R71E821KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 820[pF], +/-10[%], 100[Hz]-6[GHz]:566",68,"566","GCM033R71E821KA01");
+create_constant_form("GCM033R71E821KA03","567:GCM033R71E821KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 820[pF], +/-10[%], 100[Hz]-6[GHz]:567",68,"567","GCM033R71E821KA03");
+create_constant_form("GCM033R71E821MA01","568:GCM033R71E821MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 820[pF], +/-20[%], 100[Hz]-6[GHz]:568",68,"568","GCM033R71E821MA01");
+create_constant_form("GCM033R71E821MA03","569:GCM033R71E821MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 820[pF], +/-20[%], 100[Hz]-6[GHz]:569",68,"569","GCM033R71E821MA03");
+create_constant_form("GCM033R11E102KA01","570:GCM033R11E102KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 1000[pF], +/-10[%], 100[Hz]-6[GHz]:570",68,"570","GCM033R11E102KA01");
+create_constant_form("GCM033R11E102MA01","571:GCM033R11E102MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 1000[pF], +/-20[%], 100[Hz]-6[GHz]:571",68,"571","GCM033R11E102MA01");
+create_constant_form("GCM033R71E102KA01","572:GCM033R71E102KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 1000[pF], +/-10[%], 100[Hz]-6[GHz]:572",68,"572","GCM033R71E102KA01");
+create_constant_form("GCM033R71E102KA03","573:GCM033R71E102KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 1000[pF], +/-10[%], 100[Hz]-6[GHz]:573",68,"573","GCM033R71E102KA03");
+create_constant_form("GCM033R71E102MA01","574:GCM033R71E102MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 1000[pF], +/-20[%], 100[Hz]-6[GHz]:574",68,"574","GCM033R71E102MA01");
+create_constant_form("GCM033R71E102MA03","575:GCM033R71E102MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 1000[pF], +/-20[%], 100[Hz]-6[GHz]:575",68,"575","GCM033R71E102MA03");
+create_constant_form("GCM033R11A122KA01","576:GCM033R11A122KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 1200[pF], +/-10[%], 100[Hz]-6[GHz]:576",68,"576","GCM033R11A122KA01");
+create_constant_form("GCM033R11A122MA01","577:GCM033R11A122MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 1200[pF], +/-20[%], 100[Hz]-6[GHz]:577",68,"577","GCM033R11A122MA01");
+create_constant_form("GCM033R11E122KA01","578:GCM033R11E122KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 1200[pF], +/-10[%], 100[Hz]-6[GHz]:578",68,"578","GCM033R11E122KA01");
+create_constant_form("GCM033R11E122MA01","579:GCM033R11E122MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 1200[pF], +/-20[%], 100[Hz]-6[GHz]:579",68,"579","GCM033R11E122MA01");
+create_constant_form("GCM033R71A122KA01","580:GCM033R71A122KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 1200[pF], +/-10[%], 100[Hz]-6[GHz]:580",68,"580","GCM033R71A122KA01");
+create_constant_form("GCM033R71A122KA03","581:GCM033R71A122KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 1200[pF], +/-10[%], 100[Hz]-6[GHz]:581",68,"581","GCM033R71A122KA03");
+create_constant_form("GCM033R71A122MA01","582:GCM033R71A122MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 1200[pF], +/-20[%], 100[Hz]-6[GHz]:582",68,"582","GCM033R71A122MA01");
+create_constant_form("GCM033R71A122MA03","583:GCM033R71A122MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 1200[pF], +/-20[%], 100[Hz]-6[GHz]:583",68,"583","GCM033R71A122MA03");
+create_constant_form("GCM033R71E122KA01","584:GCM033R71E122KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 1200[pF], +/-10[%], 100[Hz]-6[GHz]:584",68,"584","GCM033R71E122KA01");
+create_constant_form("GCM033R71E122KA03","585:GCM033R71E122KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 1200[pF], +/-10[%], 100[Hz]-6[GHz]:585",68,"585","GCM033R71E122KA03");
+create_constant_form("GCM033R71E122MA01","586:GCM033R71E122MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 1200[pF], +/-20[%], 100[Hz]-6[GHz]:586",68,"586","GCM033R71E122MA01");
+create_constant_form("GCM033R71E122MA03","587:GCM033R71E122MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 1200[pF], +/-20[%], 100[Hz]-6[GHz]:587",68,"587","GCM033R71E122MA03");
+create_constant_form("GCM033R11A152KA01","588:GCM033R11A152KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 1500[pF], +/-10[%], 100[Hz]-6[GHz]:588",68,"588","GCM033R11A152KA01");
+create_constant_form("GCM033R11A152MA01","589:GCM033R11A152MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 1500[pF], +/-20[%], 100[Hz]-6[GHz]:589",68,"589","GCM033R11A152MA01");
+create_constant_form("GCM033R11E152KA01","590:GCM033R11E152KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 1500[pF], +/-10[%], 100[Hz]-6[GHz]:590",68,"590","GCM033R11E152KA01");
+create_constant_form("GCM033R11E152MA01","591:GCM033R11E152MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 25[V], 1500[pF], +/-20[%], 100[Hz]-6[GHz]:591",68,"591","GCM033R11E152MA01");
+create_constant_form("GCM033R71A152KA01","592:GCM033R71A152KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 1500[pF], +/-10[%], 100[Hz]-6[GHz]:592",68,"592","GCM033R71A152KA01");
+create_constant_form("GCM033R71A152KA03","593:GCM033R71A152KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 1500[pF], +/-10[%], 100[Hz]-6[GHz]:593",68,"593","GCM033R71A152KA03");
+create_constant_form("GCM033R71A152MA01","594:GCM033R71A152MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 1500[pF], +/-20[%], 100[Hz]-6[GHz]:594",68,"594","GCM033R71A152MA01");
+create_constant_form("GCM033R71A152MA03","595:GCM033R71A152MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 1500[pF], +/-20[%], 100[Hz]-6[GHz]:595",68,"595","GCM033R71A152MA03");
+create_constant_form("GCM033R71E152KA01","596:GCM033R71E152KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 1500[pF], +/-10[%], 100[Hz]-6[GHz]:596",68,"596","GCM033R71E152KA01");
+create_constant_form("GCM033R71E152KA03","597:GCM033R71E152KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 1500[pF], +/-10[%], 100[Hz]-6[GHz]:597",68,"597","GCM033R71E152KA03");
+create_constant_form("GCM033R71E152MA01","598:GCM033R71E152MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 1500[pF], +/-20[%], 100[Hz]-6[GHz]:598",68,"598","GCM033R71E152MA01");
+create_constant_form("GCM033R71E152MA03","599:GCM033R71E152MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 1500[pF], +/-20[%], 100[Hz]-6[GHz]:599",68,"599","GCM033R71E152MA03");
+create_constant_form("GCM033R11A182KA01","600:GCM033R11A182KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 1800[pF], +/-10[%], 100[Hz]-6[GHz]:600",68,"600","GCM033R11A182KA01");
+create_constant_form("GCM033R11A182MA01","601:GCM033R11A182MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 1800[pF], +/-20[%], 100[Hz]-6[GHz]:601",68,"601","GCM033R11A182MA01");
+create_constant_form("GCM033R11C182KA40","602:GCM033R11C182KA40, Powertrain/Safety for Automotive, R(-55to125[deg]), 16[V], 1800[pF], +/-10[%], 100[Hz]-6[GHz]:602",68,"602","GCM033R11C182KA40");
+create_constant_form("GCM033R11C182MA40","603:GCM033R11C182MA40, Powertrain/Safety for Automotive, R(-55to125[deg]), 16[V], 1800[pF], +/-20[%], 100[Hz]-6[GHz]:603",68,"603","GCM033R11C182MA40");
+create_constant_form("GCM033R71A182KA01","604:GCM033R71A182KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 1800[pF], +/-10[%], 100[Hz]-6[GHz]:604",68,"604","GCM033R71A182KA01");
+create_constant_form("GCM033R71A182KA03","605:GCM033R71A182KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 1800[pF], +/-10[%], 100[Hz]-6[GHz]:605",68,"605","GCM033R71A182KA03");
+create_constant_form("GCM033R71A182MA01","606:GCM033R71A182MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 1800[pF], +/-20[%], 100[Hz]-6[GHz]:606",68,"606","GCM033R71A182MA01");
+create_constant_form("GCM033R71A182MA03","607:GCM033R71A182MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 1800[pF], +/-20[%], 100[Hz]-6[GHz]:607",68,"607","GCM033R71A182MA03");
+create_constant_form("GCM033R71C182KA40","608:GCM033R71C182KA40, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 16[V], 1800[pF], +/-10[%], 100[Hz]-6[GHz]:608",68,"608","GCM033R71C182KA40");
+create_constant_form("GCM033R71C182KA55","609:GCM033R71C182KA55, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 16[V], 1800[pF], +/-10[%], 100[Hz]-6[GHz]:609",68,"609","GCM033R71C182KA55");
+create_constant_form("GCM033R71C182MA40","610:GCM033R71C182MA40, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 16[V], 1800[pF], +/-20[%], 100[Hz]-6[GHz]:610",68,"610","GCM033R71C182MA40");
+create_constant_form("GCM033R71C182MA55","611:GCM033R71C182MA55, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 16[V], 1800[pF], +/-20[%], 100[Hz]-6[GHz]:611",68,"611","GCM033R71C182MA55");
+create_constant_form("GCM033R71E182KE01","612:GCM033R71E182KE01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 1800[pF], +/-10[%], 100[Hz]-6[GHz]:612",68,"612","GCM033R71E182KE01");
+create_constant_form("GCM033R71E182KE02","613:GCM033R71E182KE02, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 1800[pF], +/-10[%], 100[Hz]-6[GHz]:613",68,"613","GCM033R71E182KE02");
+create_constant_form("GCM033R11A222KA01","614:GCM033R11A222KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 2200[pF], +/-10[%], 100[Hz]-6[GHz]:614",68,"614","GCM033R11A222KA01");
+create_constant_form("GCM033R11A222MA01","615:GCM033R11A222MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 2200[pF], +/-20[%], 100[Hz]-6[GHz]:615",68,"615","GCM033R11A222MA01");
+create_constant_form("GCM033R11C222KA40","616:GCM033R11C222KA40, Powertrain/Safety for Automotive, R(-55to125[deg]), 16[V], 2200[pF], +/-10[%], 100[Hz]-6[GHz]:616",68,"616","GCM033R11C222KA40");
+create_constant_form("GCM033R11C222MA40","617:GCM033R11C222MA40, Powertrain/Safety for Automotive, R(-55to125[deg]), 16[V], 2200[pF], +/-20[%], 100[Hz]-6[GHz]:617",68,"617","GCM033R11C222MA40");
+create_constant_form("GCM033R71A222KA01","618:GCM033R71A222KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 2200[pF], +/-10[%], 100[Hz]-6[GHz]:618",68,"618","GCM033R71A222KA01");
+create_constant_form("GCM033R71A222KA03","619:GCM033R71A222KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 2200[pF], +/-10[%], 100[Hz]-6[GHz]:619",68,"619","GCM033R71A222KA03");
+create_constant_form("GCM033R71A222MA01","620:GCM033R71A222MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 2200[pF], +/-20[%], 100[Hz]-6[GHz]:620",68,"620","GCM033R71A222MA01");
+create_constant_form("GCM033R71A222MA03","621:GCM033R71A222MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 2200[pF], +/-20[%], 100[Hz]-6[GHz]:621",68,"621","GCM033R71A222MA03");
+create_constant_form("GCM033R71C222KA40","622:GCM033R71C222KA40, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 16[V], 2200[pF], +/-10[%], 100[Hz]-6[GHz]:622",68,"622","GCM033R71C222KA40");
+create_constant_form("GCM033R71C222KA55","623:GCM033R71C222KA55, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 16[V], 2200[pF], +/-10[%], 100[Hz]-6[GHz]:623",68,"623","GCM033R71C222KA55");
+create_constant_form("GCM033R71C222MA40","624:GCM033R71C222MA40, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 16[V], 2200[pF], +/-20[%], 100[Hz]-6[GHz]:624",68,"624","GCM033R71C222MA40");
+create_constant_form("GCM033R71C222MA55","625:GCM033R71C222MA55, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 16[V], 2200[pF], +/-20[%], 100[Hz]-6[GHz]:625",68,"625","GCM033R71C222MA55");
+create_constant_form("GCM033R71E222KE01","626:GCM033R71E222KE01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 2200[pF], +/-10[%], 100[Hz]-6[GHz]:626",68,"626","GCM033R71E222KE01");
+create_constant_form("GCM033R71E222KE02","627:GCM033R71E222KE02, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 2200[pF], +/-10[%], 100[Hz]-6[GHz]:627",68,"627","GCM033R71E222KE02");
+create_constant_form("GCM033R11A272KA01","628:GCM033R11A272KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 2700[pF], +/-10[%], 100[Hz]-6[GHz]:628",68,"628","GCM033R11A272KA01");
+create_constant_form("GCM033R11A272MA01","629:GCM033R11A272MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 2700[pF], +/-20[%], 100[Hz]-6[GHz]:629",68,"629","GCM033R11A272MA01");
+create_constant_form("GCM033R11C272KA40","630:GCM033R11C272KA40, Powertrain/Safety for Automotive, R(-55to125[deg]), 16[V], 2700[pF], +/-10[%], 100[Hz]-6[GHz]:630",68,"630","GCM033R11C272KA40");
+create_constant_form("GCM033R11C272MA40","631:GCM033R11C272MA40, Powertrain/Safety for Automotive, R(-55to125[deg]), 16[V], 2700[pF], +/-20[%], 100[Hz]-6[GHz]:631",68,"631","GCM033R11C272MA40");
+create_constant_form("GCM033R71A272KA01","632:GCM033R71A272KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 2700[pF], +/-10[%], 100[Hz]-6[GHz]:632",68,"632","GCM033R71A272KA01");
+create_constant_form("GCM033R71A272KA03","633:GCM033R71A272KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 2700[pF], +/-10[%], 100[Hz]-6[GHz]:633",68,"633","GCM033R71A272KA03");
+create_constant_form("GCM033R71A272MA01","634:GCM033R71A272MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 2700[pF], +/-20[%], 100[Hz]-6[GHz]:634",68,"634","GCM033R71A272MA01");
+create_constant_form("GCM033R71A272MA03","635:GCM033R71A272MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 2700[pF], +/-20[%], 100[Hz]-6[GHz]:635",68,"635","GCM033R71A272MA03");
+create_constant_form("GCM033R71C272KA40","636:GCM033R71C272KA40, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 16[V], 2700[pF], +/-10[%], 100[Hz]-6[GHz]:636",68,"636","GCM033R71C272KA40");
+create_constant_form("GCM033R71C272KA55","637:GCM033R71C272KA55, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 16[V], 2700[pF], +/-10[%], 100[Hz]-6[GHz]:637",68,"637","GCM033R71C272KA55");
+create_constant_form("GCM033R71C272MA40","638:GCM033R71C272MA40, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 16[V], 2700[pF], +/-20[%], 100[Hz]-6[GHz]:638",68,"638","GCM033R71C272MA40");
+create_constant_form("GCM033R71C272MA55","639:GCM033R71C272MA55, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 16[V], 2700[pF], +/-20[%], 100[Hz]-6[GHz]:639",68,"639","GCM033R71C272MA55");
+create_constant_form("GCM033R71E272KE01","640:GCM033R71E272KE01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 2700[pF], +/-10[%], 100[Hz]-6[GHz]:640",68,"640","GCM033R71E272KE01");
+create_constant_form("GCM033R71E272KE02","641:GCM033R71E272KE02, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 2700[pF], +/-10[%], 100[Hz]-6[GHz]:641",68,"641","GCM033R71E272KE02");
+create_constant_form("GCM033R11A332KA01","642:GCM033R11A332KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 3300[pF], +/-10[%], 100[Hz]-6[GHz]:642",68,"642","GCM033R11A332KA01");
+create_constant_form("GCM033R11A332MA01","643:GCM033R11A332MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 3300[pF], +/-20[%], 100[Hz]-6[GHz]:643",68,"643","GCM033R11A332MA01");
+create_constant_form("GCM033R11C332KA40","644:GCM033R11C332KA40, Powertrain/Safety for Automotive, R(-55to125[deg]), 16[V], 3300[pF], +/-10[%], 100[Hz]-6[GHz]:644",68,"644","GCM033R11C332KA40");
+create_constant_form("GCM033R11C332MA40","645:GCM033R11C332MA40, Powertrain/Safety for Automotive, R(-55to125[deg]), 16[V], 3300[pF], +/-20[%], 100[Hz]-6[GHz]:645",68,"645","GCM033R11C332MA40");
+create_constant_form("GCM033R71A332KA01","646:GCM033R71A332KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 3300[pF], +/-10[%], 100[Hz]-6[GHz]:646",68,"646","GCM033R71A332KA01");
+create_constant_form("GCM033R71A332KA03","647:GCM033R71A332KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 3300[pF], +/-10[%], 100[Hz]-6[GHz]:647",68,"647","GCM033R71A332KA03");
+create_constant_form("GCM033R71A332MA01","648:GCM033R71A332MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 3300[pF], +/-20[%], 100[Hz]-6[GHz]:648",68,"648","GCM033R71A332MA01");
+create_constant_form("GCM033R71A332MA03","649:GCM033R71A332MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 3300[pF], +/-20[%], 100[Hz]-6[GHz]:649",68,"649","GCM033R71A332MA03");
+create_constant_form("GCM033R71C332KA40","650:GCM033R71C332KA40, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 16[V], 3300[pF], +/-10[%], 100[Hz]-6[GHz]:650",68,"650","GCM033R71C332KA40");
+create_constant_form("GCM033R71C332KA55","651:GCM033R71C332KA55, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 16[V], 3300[pF], +/-10[%], 100[Hz]-6[GHz]:651",68,"651","GCM033R71C332KA55");
+create_constant_form("GCM033R71C332MA40","652:GCM033R71C332MA40, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 16[V], 3300[pF], +/-20[%], 100[Hz]-6[GHz]:652",68,"652","GCM033R71C332MA40");
+create_constant_form("GCM033R71C332MA55","653:GCM033R71C332MA55, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 16[V], 3300[pF], +/-20[%], 100[Hz]-6[GHz]:653",68,"653","GCM033R71C332MA55");
+create_constant_form("GCM033R71E332KE01","654:GCM033R71E332KE01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 25[V], 3300[pF], +/-10[%], 100[Hz]-6[GHz]:654",68,"654","GCM033R71E332KE01");
+create_constant_form("GCM033R71E332KE02","655:GCM033R71E332KE02, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 25[V], 3300[pF], +/-10[%], 100[Hz]-6[GHz]:655",68,"655","GCM033R71E332KE02");
+create_constant_form("GCM033R11A392KA01","656:GCM033R11A392KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 3900[pF], +/-10[%], 100[Hz]-6[GHz]:656",68,"656","GCM033R11A392KA01");
+create_constant_form("GCM033R11A392MA01","657:GCM033R11A392MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 3900[pF], +/-20[%], 100[Hz]-6[GHz]:657",68,"657","GCM033R11A392MA01");
+create_constant_form("GCM033R71A392KA01","658:GCM033R71A392KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 3900[pF], +/-10[%], 100[Hz]-6[GHz]:658",68,"658","GCM033R71A392KA01");
+create_constant_form("GCM033R71A392KA03","659:GCM033R71A392KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 3900[pF], +/-10[%], 100[Hz]-6[GHz]:659",68,"659","GCM033R71A392KA03");
+create_constant_form("GCM033R71A392MA01","660:GCM033R71A392MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 3900[pF], +/-20[%], 100[Hz]-6[GHz]:660",68,"660","GCM033R71A392MA01");
+create_constant_form("GCM033R71A392MA03","661:GCM033R71A392MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 3900[pF], +/-20[%], 100[Hz]-6[GHz]:661",68,"661","GCM033R71A392MA03");
+create_constant_form("GCM033R11A472KA01","662:GCM033R11A472KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 4700[pF], +/-10[%], 100[Hz]-6[GHz]:662",68,"662","GCM033R11A472KA01");
+create_constant_form("GCM033R11A472MA01","663:GCM033R11A472MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 4700[pF], +/-20[%], 100[Hz]-6[GHz]:663",68,"663","GCM033R11A472MA01");
+create_constant_form("GCM033R71A472KA01","664:GCM033R71A472KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 4700[pF], +/-10[%], 100[Hz]-6[GHz]:664",68,"664","GCM033R71A472KA01");
+create_constant_form("GCM033R71A472KA03","665:GCM033R71A472KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 4700[pF], +/-10[%], 100[Hz]-6[GHz]:665",68,"665","GCM033R71A472KA03");
+create_constant_form("GCM033R71A472MA01","666:GCM033R71A472MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 4700[pF], +/-20[%], 100[Hz]-6[GHz]:666",68,"666","GCM033R71A472MA01");
+create_constant_form("GCM033R71A472MA03","667:GCM033R71A472MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 4700[pF], +/-20[%], 100[Hz]-6[GHz]:667",68,"667","GCM033R71A472MA03");
+create_constant_form("GCM033R11A682KA01","668:GCM033R11A682KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 6800[pF], +/-10[%], 100[Hz]-6[GHz]:668",68,"668","GCM033R11A682KA01");
+create_constant_form("GCM033R11A682MA01","669:GCM033R11A682MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 6800[pF], +/-20[%], 100[Hz]-6[GHz]:669",68,"669","GCM033R11A682MA01");
+create_constant_form("GCM033R71A682KA01","670:GCM033R71A682KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 6800[pF], +/-10[%], 100[Hz]-6[GHz]:670",68,"670","GCM033R71A682KA01");
+create_constant_form("GCM033R71A682KA03","671:GCM033R71A682KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 6800[pF], +/-10[%], 100[Hz]-6[GHz]:671",68,"671","GCM033R71A682KA03");
+create_constant_form("GCM033R71A682MA01","672:GCM033R71A682MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 6800[pF], +/-20[%], 100[Hz]-6[GHz]:672",68,"672","GCM033R71A682MA01");
+create_constant_form("GCM033R71A682MA03","673:GCM033R71A682MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 6800[pF], +/-20[%], 100[Hz]-6[GHz]:673",68,"673","GCM033R71A682MA03");
+create_constant_form("GCM033R71A822KA01","674:GCM033R71A822KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 8200[pF], +/-10[%], 100[Hz]-6[GHz]:674",68,"674","GCM033R71A822KA01");
+create_constant_form("GCM033R71A822KA03","675:GCM033R71A822KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 8200[pF], +/-10[%], 100[Hz]-6[GHz]:675",68,"675","GCM033R71A822KA03");
+create_constant_form("GCM033R71A822MA01","676:GCM033R71A822MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 8200[pF], +/-20[%], 100[Hz]-6[GHz]:676",68,"676","GCM033R71A822MA01");
+create_constant_form("GCM033R71A822MA03","677:GCM033R71A822MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 8200[pF], +/-20[%], 100[Hz]-6[GHz]:677",68,"677","GCM033R71A822MA03");
+create_constant_form("GCM033R11A103KA01","678:GCM033R11A103KA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 10000[pF], +/-10[%], 100[Hz]-6[GHz]:678",68,"678","GCM033R11A103KA01");
+create_constant_form("GCM033R11A103MA01","679:GCM033R11A103MA01, Powertrain/Safety for Automotive, R(-55to125[deg]), 10[V], 10000[pF], +/-20[%], 100[Hz]-6[GHz]:679",68,"679","GCM033R11A103MA01");
+create_constant_form("GCM033R71A103KA01","680:GCM033R71A103KA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 10000[pF], +/-10[%], 100[Hz]-6[GHz]:680",68,"680","GCM033R71A103KA01");
+create_constant_form("GCM033R71A103KA03","681:GCM033R71A103KA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 10000[pF], +/-10[%], 100[Hz]-6[GHz]:681",68,"681","GCM033R71A103KA03");
+create_constant_form("GCM033R71A103MA01","682:GCM033R71A103MA01, Powertrain/Safety for Automotive, X7R(-55to125[deg]), 10[V], 10000[pF], +/-20[%], 100[Hz]-6[GHz]:682",68,"682","GCM033R71A103MA01");
+create_constant_form("GCM033R71A103MA03","683:GCM033R71A103MA03, Powertrain/Safety for Automotive [AEC-Q200], X7R(-55to125[deg]), 10[V], 10000[pF], +/-20[%], 100[Hz]-6[GHz]:683",68,"683","GCM033R71A103MA03");
+create_constant_form("GCM033C71E223ME01","684:GCM033C71E223ME01, Powertrain/Safety for Automotive, X7S(-55to125[deg]), 25[V], 22000[pF], +/-20[%], 100[Hz]-6[GHz]:684",68,"684","GCM033C71E223ME01");
+create_constant_form("GCM033C70G104KE02","685:GCM033C70G104KE02, Powertrain/Safety for Automotive [AEC-Q200], X7S(-55to125[deg]), 4[V], 100000[pF], +/-10[%], 100[Hz]-6[GHz]:685",68,"685","GCM033C70G104KE02");
+create_constant_form("GCM033C70J104KE01","686:GCM033C70J104KE01, Powertrain/Safety for Automotive, X7S(-55to125[deg]), 6.3[V], 100000[pF], +/-10[%], 100[Hz]-6[GHz]:686",68,"686","GCM033C70J104KE01");
+create_constant_form("GCM033C70J104KE02","687:GCM033C70J104KE02, Powertrain/Safety for Automotive [AEC-Q200], X7S(-55to125[deg]), 6.3[V], 100000[pF], +/-10[%], 100[Hz]-6[GHz]:687",68,"687","GCM033C70J104KE02");
+create_constant_form("GCM033C71A104KE01","688:GCM033C71A104KE01, Powertrain/Safety for Automotive, X7S(-55to125[deg]), 10[V], 100000[pF], +/-10[%], 100[Hz]-6[GHz]:688",68,"688","GCM033C71A104KE01");
+create_constant_form("GCM033C71A104KE02","689:GCM033C71A104KE02, Powertrain/Safety for Automotive [AEC-Q200], X7S(-55to125[deg]), 10[V], 100000[pF], +/-10[%], 100[Hz]-6[GHz]:689",68,"689","GCM033C71A104KE02");
+create_constant_form("GCM033M8ED104KE07","690:GCM033M8ED104KE07, Powertrain/Safety for Automotive [AEC-Q200], X8M(-55to150[deg]), 10[V]_derating, 100000[pF], +/-10[%], 100[Hz]-6[GHz]:690",68,"690","GCM033M8ED104KE07");
+create_constant_form("GCM033D70G224KE01","691:GCM033D70G224KE01, Powertrain/Safety for Automotive, X7T(-55to125[deg]), 4[V], 220000[pF], +/-10[%], 100[Hz]-6[GHz]:691",68,"691","GCM033D70G224KE01");
+create_constant_form("GCM033D70G224KE02","692:GCM033D70G224KE02, Powertrain/Safety for Automotive [AEC-Q200], X7T(-55to125[deg]), 4[V], 220000[pF], +/-10[%], 100[Hz]-6[GHz]:692",68,"692","GCM033D70G224KE02");
+create_constant_form("GCM033D70J224KE01","693:GCM033D70J224KE01, Powertrain/Safety for Automotive, X7T(-55to125[deg]), 6.3[V], 220000[pF], +/-10[%], 100[Hz]-6[GHz]:693",68,"693","GCM033D70J224KE01");
+create_constant_form("GCM033D70J224KE02","694:GCM033D70J224KE02, Powertrain/Safety for Automotive [AEC-Q200], X7T(-55to125[deg]), 6.3[V], 220000[pF], +/-10[%], 100[Hz]-6[GHz]:694",68,"694","GCM033D70J224KE02");
+create_constant_form("GCM033M8EB224KE07","695:GCM033M8EB224KE07, Powertrain/Safety for Automotive [AEC-Q200], X8M(-55to150[deg]), 4[V]_derating, 220000[pF], +/-10[%], 100[Hz]-6[GHz]:695",68,"695","GCM033M8EB224KE07");
+create_constant_form("GCM033M8EC224KE07","696:GCM033M8EC224KE07, Powertrain/Safety for Automotive [AEC-Q200], X8M(-55to150[deg]), 6.3[V]_derating, 220000[pF], +/-10[%], 100[Hz]-6[GHz]:696",68,"696","GCM033M8EC224KE07");
+create_constant_form("GCM033D70E105ME35","697:GCM033D70E105ME35, Powertrain/Safety for Automotive, X7T(-55to125[deg]), 2.5[V], 1000000[pF], +/-20[%], 100[Hz]-6[GHz]:697",68,"697","GCM033D70E105ME35");
+create_constant_form("GCM033D70E105ME36","698:GCM033D70E105ME36, Powertrain/Safety for Automotive [AEC-Q200], X7T(-55to125[deg]), 2.5[V], 1000000[pF], +/-20[%], 100[Hz]-6[GHz]:698",68,"698","GCM033D70E105ME36");
+create_constant_form("GCM033D70G105ME35","699:GCM033D70G105ME35, Powertrain/Safety for Automotive, X7T(-55to125[deg]), 4[V], 1000000[pF], +/-20[%], 100[Hz]-6[GHz]:699",68,"699","GCM033D70G105ME35");
+create_constant_form("GCM033D70G105ME36","700:GCM033D70G105ME36, Powertrain/Safety for Automotive [AEC-Q200], X7T(-55to125[deg]), 4[V], 1000000[pF], +/-20[%], 100[Hz]-6[GHz]:700",68,"700","GCM033D70G105ME36");
+create_constant_form("GCM033M8EA105ME08","701:GCM033M8EA105ME08, Powertrain/Safety for Automotive [AEC-Q200], X8M(-55to150[deg]), 2.5[V]_derating, 1000000[pF], +/-20[%], 100[Hz]-6[GHz]:701",68,"701","GCM033M8EA105ME08");
+create_constant_form("GCM033M8EB105ME08","702:GCM033M8EB105ME08, Powertrain/Safety for Automotive [AEC-Q200], X8M(-55to150[deg]), 4[V]_derating, 1000000[pF], +/-20[%], 100[Hz]-6[GHz]:702",68,"702","GCM033M8EB105ME08");
+create_constant_form("GCM035D70E225ME01","703:GCM035D70E225ME01, Powertrain/Safety for Automotive, X7T(-55to125[deg]), 2.5[V], 2200000[pF], +/-20[%], 100[Hz]-6[GHz]:703",68,"703","GCM035D70E225ME01");
+create_constant_form("GCM035D70E225ME02","704:GCM035D70E225ME02, Powertrain/Safety for Automotive [AEC-Q200], X7T(-55to125[deg]), 2.5[V], 2200000[pF], +/-20[%], 100[Hz]-6[GHz]:704",68,"704","GCM035D70E225ME02");
+create_constant_form("GCM035D70G225MEC2","705:GCM035D70G225MEC2, Powertrain/Safety for Automotive [AEC-Q200], X7T(-55to125[deg]), 4[V], 2200000[pF], +/-20[%], 100[Hz]-6[GHz]:705",68,"705","GCM035D70G225MEC2");
+
+create_form_set("GCM03_list" 
+,"GCM0334C1ER10WA01"
+,"GCM0334C1HR10WA01"
+,"GCM0335C1ER10WA16"
+,"GCM0335C1HR10WA16"
+,"GCM0334C1ER20WA01"
+,"GCM0334C1ER20BA01"
+,"GCM0334C1HR20WA01"
+,"GCM0334C1HR20BA01"
+,"GCM0335C1ER20WA16"
+,"GCM0335C1ER20BA16"
+,"GCM0335C1HR20WA16"
+,"GCM0335C1HR20BA16"
+,"GCM0334C1ER30WA01"
+,"GCM0334C1ER30BA01"
+,"GCM0334C1HR30WA01"
+,"GCM0334C1HR30BA01"
+,"GCM0335C1ER30WA16"
+,"GCM0335C1ER30BA16"
+,"GCM0335C1HR30WA16"
+,"GCM0335C1HR30BA16"
+,"GCM0334C1ER40WA01"
+,"GCM0334C1ER40BA01"
+,"GCM0334C1HR40WA01"
+,"GCM0334C1HR40BA01"
+,"GCM0335C1ER40WA16"
+,"GCM0335C1ER40BA16"
+,"GCM0335C1HR40WA16"
+,"GCM0335C1HR40BA16"
+,"GCM0334C1ER50WA01"
+,"GCM0334C1ER50BA01"
+,"GCM0334C1HR50WA01"
+,"GCM0334C1HR50BA01"
+,"GCM0335C1ER50WA16"
+,"GCM0335C1ER50BA16"
+,"GCM0335C1HR50WA16"
+,"GCM0335C1HR50BA16"
+,"GCM0334C1ER60WA01"
+,"GCM0334C1ER60BA01"
+,"GCM0334C1HR60WA01"
+,"GCM0334C1HR60BA01"
+,"GCM0335C1ER60WA16"
+,"GCM0335C1ER60BA16"
+,"GCM0335C1HR60WA16"
+,"GCM0335C1HR60BA16"
+,"GCM0334C1ER70WA01"
+,"GCM0334C1ER70BA01"
+,"GCM0334C1HR70WA01"
+,"GCM0334C1HR70BA01"
+,"GCM0335C1ER70WA16"
+,"GCM0335C1ER70BA16"
+,"GCM0335C1HR70WA16"
+,"GCM0335C1HR70BA16"
+,"GCM0334C1ER80WA01"
+,"GCM0334C1ER80BA01"
+,"GCM0334C1HR80WA01"
+,"GCM0334C1HR80BA01"
+,"GCM0335C1ER80WA16"
+,"GCM0335C1ER80BA16"
+,"GCM0335C1HR80WA16"
+,"GCM0335C1HR80BA16"
+,"GCM0334C1ER90WA01"
+,"GCM0334C1ER90BA01"
+,"GCM0334C1HR90WA01"
+,"GCM0334C1HR90BA01"
+,"GCM0335C1ER90WA16"
+,"GCM0335C1ER90BA16"
+,"GCM0335C1HR90WA16"
+,"GCM0335C1HR90BA16"
+,"GCM0334C1E1R0CA01"
+,"GCM0334C1H1R0CA01"
+,"GCM0335C1E1R0CA16"
+,"GCM0335C1H1R0CA16"
+,"GCM0334C1E1R1CA01"
+,"GCM0334C1H1R1CA01"
+,"GCM0335C1E1R1CA16"
+,"GCM0335C1H1R1CA16"
+,"GCM0334C1E1R2CA01"
+,"GCM0334C1H1R2CA01"
+,"GCM0335C1E1R2CA16"
+,"GCM0335C1H1R2CA16"
+,"GCM0334C1E1R3CA01"
+,"GCM0334C1H1R3CA01"
+,"GCM0335C1E1R3CA16"
+,"GCM0335C1H1R3CA16"
+,"GCM0334C1E1R5CA01"
+,"GCM0334C1H1R5CA01"
+,"GCM0335C1E1R5CA16"
+,"GCM0335C1H1R5CA16"
+,"GCM0334C1E1R6CA01"
+,"GCM0334C1H1R6CA01"
+,"GCM0335C1E1R6CA16"
+,"GCM0335C1H1R6CA16"
+,"GCM0334C1E1R8CA01"
+,"GCM0334C1H1R8CA01"
+,"GCM0335C1E1R8CA16"
+,"GCM0335C1H1R8CA16"
+,"GCM0334C1E2R0CA01"
+,"GCM0334C1H2R0CA01"
+,"GCM0335C1E2R0CA16"
+,"GCM0335C1H2R0CA16"
+,"GCM0333C1E2R2CA01"
+,"GCM0333C1H2R2CA01"
+,"GCM0335C1E2R2CA16"
+,"GCM0335C1H2R2CA16"
+,"GCM0333C1E2R4CA01"
+,"GCM0333C1H2R4CA01"
+,"GCM0335C1E2R4CA16"
+,"GCM0335C1H2R4CA16"
+,"GCM0333C1E2R7CA01"
+,"GCM0333C1H2R7CA01"
+,"GCM0335C1E2R7CA16"
+,"GCM0335C1H2R7CA16"
+,"GCM0333C1E3R0CA01"
+,"GCM0333C1H3R0CA01"
+,"GCM0335C1E3R0CA16"
+,"GCM0335C1H3R0CA16"
+,"GCM0333C1E3R3CA01"
+,"GCM0333C1H3R3CA01"
+,"GCM0335C1E3R3CA16"
+,"GCM0335C1H3R3CA16"
+,"GCM0333C1E3R6CA01"
+,"GCM0333C1H3R6CA01"
+,"GCM0335C1E3R6CA16"
+,"GCM0335C1H3R6CA16"
+,"GCM0333C1E3R9CA01"
+,"GCM0333C1H3R9CA01"
+,"GCM0335C1E3R9CA16"
+,"GCM0335C1H3R9CA16"
+,"GCM0332C1E4R0CA01"
+,"GCM0332C1H4R0CA01"
+,"GCM0335C1E4R0CA16"
+,"GCM0335C1H4R0CA16"
+,"GCM0332C1E4R2CA01"
+,"GCM0332C1E4R3CA01"
+,"GCM0332C1H4R3CA01"
+,"GCM0335C1E4R3CA16"
+,"GCM0335C1H4R3CA16"
+,"GCM0332C1E4R7CA01"
+,"GCM0332C1H4R7CA01"
+,"GCM0335C1E4R7CA16"
+,"GCM0335C1H4R7CA16"
+,"GCM0332C1E5R0CA01"
+,"GCM0332C1H5R0CA01"
+,"GCM0335C1E5R0CA16"
+,"GCM0335C1H5R0CA16"
+,"GCM0332C1E5R1DA01"
+,"GCM0332C1H5R1DA01"
+,"GCM0335C1E5R1DA16"
+,"GCM0335C1H5R1DA16"
+,"GCM0332C1E5R6CA01"
+,"GCM0332C1E5R6DA01"
+,"GCM0332C1H5R6DA01"
+,"GCM0335C1E5R6CA16"
+,"GCM0335C1E5R6DA16"
+,"GCM0335C1H5R6DA16"
+,"GCM0332C1E6R0DA01"
+,"GCM0332C1H6R0DA01"
+,"GCM0335C1E6R0DA16"
+,"GCM0335C1H6R0DA16"
+,"GCM0332C1E6R2DA01"
+,"GCM0332C1H6R2DA01"
+,"GCM0335C1E6R2DA16"
+,"GCM0335C1H6R2DA16"
+,"GCM0332C1E6R8CA01"
+,"GCM0332C1E6R8DA01"
+,"GCM0332C1H6R8DA01"
+,"GCM0335C1E6R8CA16"
+,"GCM0335C1E6R8DA16"
+,"GCM0335C1H6R8DA16"
+,"GCM0332C1E7R0DA01"
+,"GCM0332C1H7R0DA01"
+,"GCM0335C1E7R0DA16"
+,"GCM0335C1H7R0DA16"
+,"GCM0332C1E7R5DA01"
+,"GCM0332C1H7R5DA01"
+,"GCM0335C1E7R5DA16"
+,"GCM0335C1H7R5DA16"
+,"GCM0332C1E8R0DA01"
+,"GCM0332C1H8R0DA01"
+,"GCM0335C1E8R0DA16"
+,"GCM0335C1H8R0DA16"
+,"GCM0332C1E8R2CA01"
+,"GCM0332C1E8R2DA01"
+,"GCM0332C1H8R2DA01"
+,"GCM0335C1E8R2CA16"
+,"GCM0335C1E8R2DA16"
+,"GCM0335C1H8R2DA16"
+,"GCM0332C1E9R0DA01"
+,"GCM0332C1H9R0DA01"
+,"GCM0335C1E9R0DA16"
+,"GCM0335C1H9R0DA16"
+,"GCM0332C1E9R1DA01"
+,"GCM0332C1H9R1DA01"
+,"GCM0335C1E9R1DA16"
+,"GCM0335C1H9R1DA16"
+,"GCM0332C1E100FA01"
+,"GCM0332C1E100GA01"
+,"GCM0332C1E100JA01"
+,"GCM0332C1H100FA01"
+,"GCM0332C1H100GA01"
+,"GCM0332C1H100JA01"
+,"GCM0335C1E100FA16"
+,"GCM0335C1E100GA16"
+,"GCM0335C1E100JA16"
+,"GCM0335C1H100FA16"
+,"GCM0335C1H100GA16"
+,"GCM0335C1H100JA16"
+,"GCM0332C1E110FA01"
+,"GCM0332C1E110GA01"
+,"GCM0332C1E110JA01"
+,"GCM0332C1H110FA01"
+,"GCM0332C1H110GA01"
+,"GCM0332C1H110JA01"
+,"GCM0335C1E110FA16"
+,"GCM0335C1E110GA16"
+,"GCM0335C1E110JA16"
+,"GCM0335C1H110FA16"
+,"GCM0335C1H110GA16"
+,"GCM0335C1H110JA16"
+,"GCM0332C1E120FA01"
+,"GCM0332C1E120GA01"
+,"GCM0332C1E120JA01"
+,"GCM0332C1H120FA01"
+,"GCM0332C1H120GA01"
+,"GCM0332C1H120JA01"
+,"GCM0335C1E120FA16"
+,"GCM0335C1E120GA16"
+,"GCM0335C1E120JA16"
+,"GCM0335C1H120FA16"
+,"GCM0335C1H120GA16"
+,"GCM0335C1H120JA16"
+,"GCM0332C1E130FA01"
+,"GCM0332C1E130GA01"
+,"GCM0332C1E130JA01"
+,"GCM0332C1H130FA01"
+,"GCM0332C1H130GA01"
+,"GCM0332C1H130JA01"
+,"GCM0335C1E130FA16"
+,"GCM0335C1E130GA16"
+,"GCM0335C1E130JA16"
+,"GCM0335C1H130FA16"
+,"GCM0335C1H130GA16"
+,"GCM0335C1H130JA16"
+,"GCM0332C1E150FA01"
+,"GCM0332C1E150GA01"
+,"GCM0332C1E150JA01"
+,"GCM0332C1H150FA01"
+,"GCM0332C1H150GA01"
+,"GCM0332C1H150JA01"
+,"GCM0335C1E150FA16"
+,"GCM0335C1E150GA16"
+,"GCM0335C1E150JA16"
+,"GCM0335C1H150FA16"
+,"GCM0335C1H150GA16"
+,"GCM0335C1H150JA16"
+,"GCM0332C1E160FA01"
+,"GCM0332C1E160GA01"
+,"GCM0332C1E160JA01"
+,"GCM0332C1H160FA01"
+,"GCM0332C1H160GA01"
+,"GCM0332C1H160JA01"
+,"GCM0335C1E160FA16"
+,"GCM0335C1E160GA16"
+,"GCM0335C1E160JA16"
+,"GCM0335C1H160FA16"
+,"GCM0335C1H160GA16"
+,"GCM0335C1H160JA16"
+,"GCM0332C1E180FA01"
+,"GCM0332C1E180GA01"
+,"GCM0332C1E180JA01"
+,"GCM0332C1H180FA01"
+,"GCM0332C1H180GA01"
+,"GCM0332C1H180JA01"
+,"GCM0335C1E180FA16"
+,"GCM0335C1E180GA16"
+,"GCM0335C1E180JA16"
+,"GCM0335C1H180FA16"
+,"GCM0335C1H180GA16"
+,"GCM0335C1H180JA16"
+,"GCM0332C1E200FA01"
+,"GCM0332C1E200GA01"
+,"GCM0332C1E200JA01"
+,"GCM0332C1H200FA01"
+,"GCM0332C1H200GA01"
+,"GCM0332C1H200JA01"
+,"GCM0335C1E200FA16"
+,"GCM0335C1E200GA16"
+,"GCM0335C1E200JA16"
+,"GCM0335C1H200FA16"
+,"GCM0335C1H200GA16"
+,"GCM0335C1H200JA16"
+,"GCM0332C1E220FA01"
+,"GCM0332C1E220GA01"
+,"GCM0332C1E220JA01"
+,"GCM0332C1H220FA01"
+,"GCM0332C1H220GA01"
+,"GCM0332C1H220JA01"
+,"GCM0335C1E220FA16"
+,"GCM0335C1E220GA16"
+,"GCM0335C1E220JA16"
+,"GCM0335C1H220FA16"
+,"GCM0335C1H220GA16"
+,"GCM0335C1H220JA16"
+,"GCM0332C1E240FA01"
+,"GCM0332C1E240GA01"
+,"GCM0332C1E240JA01"
+,"GCM0332C1H240FA01"
+,"GCM0332C1H240GA01"
+,"GCM0332C1H240JA01"
+,"GCM0335C1E240FA16"
+,"GCM0335C1E240GA16"
+,"GCM0335C1E240JA16"
+,"GCM0335C1H240FA16"
+,"GCM0335C1H240GA16"
+,"GCM0335C1H240JA16"
+,"GCM0332C1E270FA01"
+,"GCM0332C1E270GA01"
+,"GCM0332C1E270JA01"
+,"GCM0332C1H270FA01"
+,"GCM0332C1H270GA01"
+,"GCM0332C1H270JA01"
+,"GCM0335C1E270FA16"
+,"GCM0335C1E270GA16"
+,"GCM0335C1E270JA16"
+,"GCM0335C1H270FA16"
+,"GCM0335C1H270GA16"
+,"GCM0335C1H270JA16"
+,"GCM0332C1E300FA01"
+,"GCM0332C1E300GA01"
+,"GCM0332C1E300JA01"
+,"GCM0332C1H300FA01"
+,"GCM0332C1H300GA01"
+,"GCM0332C1H300JA01"
+,"GCM0335C1E300FA16"
+,"GCM0335C1E300GA16"
+,"GCM0335C1E300JA16"
+,"GCM0335C1H300FA16"
+,"GCM0335C1H300GA16"
+,"GCM0335C1H300JA16"
+,"GCM0332C1E330FA01"
+,"GCM0332C1E330GA01"
+,"GCM0332C1E330JA01"
+,"GCM0332C1H330FA01"
+,"GCM0332C1H330GA01"
+,"GCM0332C1H330JA01"
+,"GCM0335C1E330FA16"
+,"GCM0335C1E330GA16"
+,"GCM0335C1E330JA16"
+,"GCM0335C1H330FA16"
+,"GCM0335C1H330GA16"
+,"GCM0335C1H330JA16"
+,"GCM0332C1E360FA01"
+,"GCM0332C1E360GA01"
+,"GCM0332C1E360JA01"
+,"GCM0332C1H360FA01"
+,"GCM0332C1H360GA01"
+,"GCM0332C1H360JA01"
+,"GCM0335C1E360FA16"
+,"GCM0335C1E360GA16"
+,"GCM0335C1E360JA16"
+,"GCM0335C1H360FA16"
+,"GCM0335C1H360GA16"
+,"GCM0335C1H360JA16"
+,"GCM0332C1E390FA01"
+,"GCM0332C1E390GA01"
+,"GCM0332C1E390JA01"
+,"GCM0332C1H390FA01"
+,"GCM0332C1H390GA01"
+,"GCM0332C1H390JA01"
+,"GCM0335C1E390FA16"
+,"GCM0335C1E390GA16"
+,"GCM0335C1E390JA16"
+,"GCM0335C1H390FA16"
+,"GCM0335C1H390GA16"
+,"GCM0335C1H390JA16"
+,"GCM0332C1E430FA01"
+,"GCM0332C1E430GA01"
+,"GCM0332C1E430JA01"
+,"GCM0332C1H430FA01"
+,"GCM0332C1H430GA01"
+,"GCM0332C1H430JA01"
+,"GCM0335C1E430FA16"
+,"GCM0335C1E430GA16"
+,"GCM0335C1E430JA16"
+,"GCM0335C1H430FA16"
+,"GCM0335C1H430GA16"
+,"GCM0335C1H430JA16"
+,"GCM0332C1E470FA01"
+,"GCM0332C1E470GA01"
+,"GCM0332C1E470JA01"
+,"GCM0332C1H470FA01"
+,"GCM0332C1H470GA01"
+,"GCM0332C1H470JA01"
+,"GCM0335C1E470FA16"
+,"GCM0335C1E470GA16"
+,"GCM0335C1E470JA16"
+,"GCM0335C1H470FA16"
+,"GCM0335C1H470GA16"
+,"GCM0335C1H470JA16"
+,"GCM0332C1E510FA01"
+,"GCM0332C1E510GA01"
+,"GCM0332C1E510JA01"
+,"GCM0332C1H510FA01"
+,"GCM0332C1H510GA01"
+,"GCM0332C1H510JA01"
+,"GCM0335C1E510FA16"
+,"GCM0335C1E510GA16"
+,"GCM0335C1E510JA16"
+,"GCM0335C1H510FA16"
+,"GCM0335C1H510GA16"
+,"GCM0335C1H510JA16"
+,"GCM0332C1E560FA01"
+,"GCM0332C1E560GA01"
+,"GCM0332C1E560JA01"
+,"GCM0332C1H560FA01"
+,"GCM0332C1H560GA01"
+,"GCM0332C1H560JA01"
+,"GCM0335C1E560FA16"
+,"GCM0335C1E560GA16"
+,"GCM0335C1E560JA16"
+,"GCM0335C1H560FA16"
+,"GCM0335C1H560GA16"
+,"GCM0335C1H560JA16"
+,"GCM0332C1E620FA01"
+,"GCM0332C1E620GA01"
+,"GCM0332C1E620JA01"
+,"GCM0332C1H620FA01"
+,"GCM0332C1H620GA01"
+,"GCM0332C1H620JA01"
+,"GCM0335C1E620FA16"
+,"GCM0335C1E620GA16"
+,"GCM0335C1E620JA16"
+,"GCM0335C1H620FA16"
+,"GCM0335C1H620GA16"
+,"GCM0335C1H620JA16"
+,"GCM0332C1E680FA01"
+,"GCM0332C1E680GA01"
+,"GCM0332C1E680JA01"
+,"GCM0332C1H680FA01"
+,"GCM0332C1H680GA01"
+,"GCM0332C1H680JA01"
+,"GCM0335C1E680FA16"
+,"GCM0335C1E680GA16"
+,"GCM0335C1E680JA16"
+,"GCM0335C1H680FA16"
+,"GCM0335C1H680GA16"
+,"GCM0335C1H680JA16"
+,"GCM0332C1E750FA01"
+,"GCM0332C1E750GA01"
+,"GCM0332C1E750JA01"
+,"GCM0332C1H750FA01"
+,"GCM0332C1H750GA01"
+,"GCM0332C1H750JA01"
+,"GCM0335C1E750FA16"
+,"GCM0335C1E750GA16"
+,"GCM0335C1E750JA16"
+,"GCM0335C1H750FA16"
+,"GCM0335C1H750GA16"
+,"GCM0335C1H750JA16"
+,"GCM0332C1E820FA01"
+,"GCM0332C1E820GA01"
+,"GCM0332C1E820JA01"
+,"GCM0332C1H820FA01"
+,"GCM0332C1H820GA01"
+,"GCM0332C1H820JA01"
+,"GCM0335C1E820FA16"
+,"GCM0335C1E820GA16"
+,"GCM0335C1E820JA16"
+,"GCM0335C1H820FA16"
+,"GCM0335C1H820GA16"
+,"GCM0335C1H820JA16"
+,"GCM0332C1E910FA01"
+,"GCM0332C1E910GA01"
+,"GCM0332C1E910JA01"
+,"GCM0332C1H910FA01"
+,"GCM0332C1H910GA01"
+,"GCM0332C1H910JA01"
+,"GCM0335C1E910FA16"
+,"GCM0335C1E910GA16"
+,"GCM0335C1E910JA16"
+,"GCM0335C1H910FA16"
+,"GCM0335C1H910GA16"
+,"GCM0335C1H910JA16"
+,"GCM0332C1E101FA01"
+,"GCM0332C1E101GA01"
+,"GCM0332C1E101JA01"
+,"GCM0332C1H101FA01"
+,"GCM0332C1H101GA01"
+,"GCM0332C1H101JA01"
+,"GCM0335C1E101FA16"
+,"GCM0335C1E101GA16"
+,"GCM0335C1E101JA16"
+,"GCM0335C1H101FA16"
+,"GCM0335C1H101GA16"
+,"GCM0335C1H101JA16"
+,"GCM033R11E101KA01"
+,"GCM033R11E101MA01"
+,"GCM033R71E101KA01"
+,"GCM033R71E101KA03"
+,"GCM033R71E101MA01"
+,"GCM033R71E101MA03"
+,"GCM033R11E121KA01"
+,"GCM033R11E121MA01"
+,"GCM033R71E121KA01"
+,"GCM033R71E121KA03"
+,"GCM033R71E121MA01"
+,"GCM033R71E121MA03"
+,"GCM033R11E151KA01"
+,"GCM033R11E151MA01"
+,"GCM033R71E151KA01"
+,"GCM033R71E151KA03"
+,"GCM033R71E151MA01"
+,"GCM033R71E151MA03"
+,"GCM033R11E181KA01"
+,"GCM033R11E181MA01"
+,"GCM033R71E181KA01"
+,"GCM033R71E181KA03"
+,"GCM033R71E181MA01"
+,"GCM033R71E181MA03"
+,"GCM033R11E221KA01"
+,"GCM033R11E221MA01"
+,"GCM033R71E221KA01"
+,"GCM033R71E221KA03"
+,"GCM033R71E221MA01"
+,"GCM033R71E221MA03"
+,"GCM033R11E271KA01"
+,"GCM033R11E271MA01"
+,"GCM033R71E271KA01"
+,"GCM033R71E271KA03"
+,"GCM033R71E271MA01"
+,"GCM033R71E271MA03"
+,"GCM033R11E331KA01"
+,"GCM033R11E331MA01"
+,"GCM033R71C331KA03"
+,"GCM033R71E331KA01"
+,"GCM033R71E331KA03"
+,"GCM033R71E331MA01"
+,"GCM033R71E331MA03"
+,"GCM033R11E391KA01"
+,"GCM033R11E391MA01"
+,"GCM033R71E391KA01"
+,"GCM033R71E391KA03"
+,"GCM033R71E391MA01"
+,"GCM033R71E391MA03"
+,"GCM033R11E471KA01"
+,"GCM033R11E471MA01"
+,"GCM033R71E471KA01"
+,"GCM033R71E471KA03"
+,"GCM033R71E471MA01"
+,"GCM033R71E471MA03"
+,"GCM033R11E561KA01"
+,"GCM033R11E561MA01"
+,"GCM033R71E561KA01"
+,"GCM033R71E561KA03"
+,"GCM033R71E561MA01"
+,"GCM033R71E561MA03"
+,"GCM033R11E681KA01"
+,"GCM033R11E681MA01"
+,"GCM033R71C681KA03"
+,"GCM033R71E681KA01"
+,"GCM033R71E681KA03"
+,"GCM033R71E681MA01"
+,"GCM033R71E681MA03"
+,"GCM033R11E821KA01"
+,"GCM033R11E821MA01"
+,"GCM033R71E821KA01"
+,"GCM033R71E821KA03"
+,"GCM033R71E821MA01"
+,"GCM033R71E821MA03"
+,"GCM033R11E102KA01"
+,"GCM033R11E102MA01"
+,"GCM033R71E102KA01"
+,"GCM033R71E102KA03"
+,"GCM033R71E102MA01"
+,"GCM033R71E102MA03"
+,"GCM033R11A122KA01"
+,"GCM033R11A122MA01"
+,"GCM033R11E122KA01"
+,"GCM033R11E122MA01"
+,"GCM033R71A122KA01"
+,"GCM033R71A122KA03"
+,"GCM033R71A122MA01"
+,"GCM033R71A122MA03"
+,"GCM033R71E122KA01"
+,"GCM033R71E122KA03"
+,"GCM033R71E122MA01"
+,"GCM033R71E122MA03"
+,"GCM033R11A152KA01"
+,"GCM033R11A152MA01"
+,"GCM033R11E152KA01"
+,"GCM033R11E152MA01"
+,"GCM033R71A152KA01"
+,"GCM033R71A152KA03"
+,"GCM033R71A152MA01"
+,"GCM033R71A152MA03"
+,"GCM033R71E152KA01"
+,"GCM033R71E152KA03"
+,"GCM033R71E152MA01"
+,"GCM033R71E152MA03"
+,"GCM033R11A182KA01"
+,"GCM033R11A182MA01"
+,"GCM033R11C182KA40"
+,"GCM033R11C182MA40"
+,"GCM033R71A182KA01"
+,"GCM033R71A182KA03"
+,"GCM033R71A182MA01"
+,"GCM033R71A182MA03"
+,"GCM033R71C182KA40"
+,"GCM033R71C182KA55"
+,"GCM033R71C182MA40"
+,"GCM033R71C182MA55"
+,"GCM033R71E182KE01"
+,"GCM033R71E182KE02"
+,"GCM033R11A222KA01"
+,"GCM033R11A222MA01"
+,"GCM033R11C222KA40"
+,"GCM033R11C222MA40"
+,"GCM033R71A222KA01"
+,"GCM033R71A222KA03"
+,"GCM033R71A222MA01"
+,"GCM033R71A222MA03"
+,"GCM033R71C222KA40"
+,"GCM033R71C222KA55"
+,"GCM033R71C222MA40"
+,"GCM033R71C222MA55"
+,"GCM033R71E222KE01"
+,"GCM033R71E222KE02"
+,"GCM033R11A272KA01"
+,"GCM033R11A272MA01"
+,"GCM033R11C272KA40"
+,"GCM033R11C272MA40"
+,"GCM033R71A272KA01"
+,"GCM033R71A272KA03"
+,"GCM033R71A272MA01"
+,"GCM033R71A272MA03"
+,"GCM033R71C272KA40"
+,"GCM033R71C272KA55"
+,"GCM033R71C272MA40"
+,"GCM033R71C272MA55"
+,"GCM033R71E272KE01"
+,"GCM033R71E272KE02"
+,"GCM033R11A332KA01"
+,"GCM033R11A332MA01"
+,"GCM033R11C332KA40"
+,"GCM033R11C332MA40"
+,"GCM033R71A332KA01"
+,"GCM033R71A332KA03"
+,"GCM033R71A332MA01"
+,"GCM033R71A332MA03"
+,"GCM033R71C332KA40"
+,"GCM033R71C332KA55"
+,"GCM033R71C332MA40"
+,"GCM033R71C332MA55"
+,"GCM033R71E332KE01"
+,"GCM033R71E332KE02"
+,"GCM033R11A392KA01"
+,"GCM033R11A392MA01"
+,"GCM033R71A392KA01"
+,"GCM033R71A392KA03"
+,"GCM033R71A392MA01"
+,"GCM033R71A392MA03"
+,"GCM033R11A472KA01"
+,"GCM033R11A472MA01"
+,"GCM033R71A472KA01"
+,"GCM033R71A472KA03"
+,"GCM033R71A472MA01"
+,"GCM033R71A472MA03"
+,"GCM033R11A682KA01"
+,"GCM033R11A682MA01"
+,"GCM033R71A682KA01"
+,"GCM033R71A682KA03"
+,"GCM033R71A682MA01"
+,"GCM033R71A682MA03"
+,"GCM033R71A822KA01"
+,"GCM033R71A822KA03"
+,"GCM033R71A822MA01"
+,"GCM033R71A822MA03"
+,"GCM033R11A103KA01"
+,"GCM033R11A103MA01"
+,"GCM033R71A103KA01"
+,"GCM033R71A103KA03"
+,"GCM033R71A103MA01"
+,"GCM033R71A103MA03"
+,"GCM033C71E223ME01"
+,"GCM033C70G104KE02"
+,"GCM033C70J104KE01"
+,"GCM033C70J104KE02"
+,"GCM033C71A104KE01"
+,"GCM033C71A104KE02"
+,"GCM033M8ED104KE07"
+,"GCM033D70G224KE01"
+,"GCM033D70G224KE02"
+,"GCM033D70J224KE01"
+,"GCM033D70J224KE02"
+,"GCM033M8EB224KE07"
+,"GCM033M8EC224KE07"
+,"GCM033D70E105ME35"
+,"GCM033D70E105ME36"
+,"GCM033D70G105ME35"
+,"GCM033D70G105ME36"
+,"GCM033M8EA105ME08"
+,"GCM033M8EB105ME08"
+,"GCM035D70E225ME01"
+,"GCM035D70E225ME02"
+,"GCM035D70G225MEC2"
+);
+
+create_compound_form("GCM03_compound","Discrete Optimize setting","DistLibForm",68,"%p opt{ discrete %1p to %2p by 1 }","%s, %1s to %2s",
+create_parm("NOM","Nominal",32,"GCM03_list",-1,prm("GCM0334C1ER10WA01")),
+create_parm("MIN","Minimum",32,"GCM03_list",-1,prm("GCM0334C1ER10WA01")),
+create_parm("MAX","Maximum",32,"GCM03_list",-1,prm("GCM035D70G225MEC2")));
+
+create_form_set("GCM03_list_opt","NULL" 
+,"GCM0334C1ER10WA01"
+,"GCM0334C1HR10WA01"
+,"GCM0335C1ER10WA16"
+,"GCM0335C1HR10WA16"
+,"GCM0334C1ER20WA01"
+,"GCM0334C1ER20BA01"
+,"GCM0334C1HR20WA01"
+,"GCM0334C1HR20BA01"
+,"GCM0335C1ER20WA16"
+,"GCM0335C1ER20BA16"
+,"GCM0335C1HR20WA16"
+,"GCM0335C1HR20BA16"
+,"GCM0334C1ER30WA01"
+,"GCM0334C1ER30BA01"
+,"GCM0334C1HR30WA01"
+,"GCM0334C1HR30BA01"
+,"GCM0335C1ER30WA16"
+,"GCM0335C1ER30BA16"
+,"GCM0335C1HR30WA16"
+,"GCM0335C1HR30BA16"
+,"GCM0334C1ER40WA01"
+,"GCM0334C1ER40BA01"
+,"GCM0334C1HR40WA01"
+,"GCM0334C1HR40BA01"
+,"GCM0335C1ER40WA16"
+,"GCM0335C1ER40BA16"
+,"GCM0335C1HR40WA16"
+,"GCM0335C1HR40BA16"
+,"GCM0334C1ER50WA01"
+,"GCM0334C1ER50BA01"
+,"GCM0334C1HR50WA01"
+,"GCM0334C1HR50BA01"
+,"GCM0335C1ER50WA16"
+,"GCM0335C1ER50BA16"
+,"GCM0335C1HR50WA16"
+,"GCM0335C1HR50BA16"
+,"GCM0334C1ER60WA01"
+,"GCM0334C1ER60BA01"
+,"GCM0334C1HR60WA01"
+,"GCM0334C1HR60BA01"
+,"GCM0335C1ER60WA16"
+,"GCM0335C1ER60BA16"
+,"GCM0335C1HR60WA16"
+,"GCM0335C1HR60BA16"
+,"GCM0334C1ER70WA01"
+,"GCM0334C1ER70BA01"
+,"GCM0334C1HR70WA01"
+,"GCM0334C1HR70BA01"
+,"GCM0335C1ER70WA16"
+,"GCM0335C1ER70BA16"
+,"GCM0335C1HR70WA16"
+,"GCM0335C1HR70BA16"
+,"GCM0334C1ER80WA01"
+,"GCM0334C1ER80BA01"
+,"GCM0334C1HR80WA01"
+,"GCM0334C1HR80BA01"
+,"GCM0335C1ER80WA16"
+,"GCM0335C1ER80BA16"
+,"GCM0335C1HR80WA16"
+,"GCM0335C1HR80BA16"
+,"GCM0334C1ER90WA01"
+,"GCM0334C1ER90BA01"
+,"GCM0334C1HR90WA01"
+,"GCM0334C1HR90BA01"
+,"GCM0335C1ER90WA16"
+,"GCM0335C1ER90BA16"
+,"GCM0335C1HR90WA16"
+,"GCM0335C1HR90BA16"
+,"GCM0334C1E1R0CA01"
+,"GCM0334C1H1R0CA01"
+,"GCM0335C1E1R0CA16"
+,"GCM0335C1H1R0CA16"
+,"GCM0334C1E1R1CA01"
+,"GCM0334C1H1R1CA01"
+,"GCM0335C1E1R1CA16"
+,"GCM0335C1H1R1CA16"
+,"GCM0334C1E1R2CA01"
+,"GCM0334C1H1R2CA01"
+,"GCM0335C1E1R2CA16"
+,"GCM0335C1H1R2CA16"
+,"GCM0334C1E1R3CA01"
+,"GCM0334C1H1R3CA01"
+,"GCM0335C1E1R3CA16"
+,"GCM0335C1H1R3CA16"
+,"GCM0334C1E1R5CA01"
+,"GCM0334C1H1R5CA01"
+,"GCM0335C1E1R5CA16"
+,"GCM0335C1H1R5CA16"
+,"GCM0334C1E1R6CA01"
+,"GCM0334C1H1R6CA01"
+,"GCM0335C1E1R6CA16"
+,"GCM0335C1H1R6CA16"
+,"GCM0334C1E1R8CA01"
+,"GCM0334C1H1R8CA01"
+,"GCM0335C1E1R8CA16"
+,"GCM0335C1H1R8CA16"
+,"GCM0334C1E2R0CA01"
+,"GCM0334C1H2R0CA01"
+,"GCM0335C1E2R0CA16"
+,"GCM0335C1H2R0CA16"
+,"GCM0333C1E2R2CA01"
+,"GCM0333C1H2R2CA01"
+,"GCM0335C1E2R2CA16"
+,"GCM0335C1H2R2CA16"
+,"GCM0333C1E2R4CA01"
+,"GCM0333C1H2R4CA01"
+,"GCM0335C1E2R4CA16"
+,"GCM0335C1H2R4CA16"
+,"GCM0333C1E2R7CA01"
+,"GCM0333C1H2R7CA01"
+,"GCM0335C1E2R7CA16"
+,"GCM0335C1H2R7CA16"
+,"GCM0333C1E3R0CA01"
+,"GCM0333C1H3R0CA01"
+,"GCM0335C1E3R0CA16"
+,"GCM0335C1H3R0CA16"
+,"GCM0333C1E3R3CA01"
+,"GCM0333C1H3R3CA01"
+,"GCM0335C1E3R3CA16"
+,"GCM0335C1H3R3CA16"
+,"GCM0333C1E3R6CA01"
+,"GCM0333C1H3R6CA01"
+,"GCM0335C1E3R6CA16"
+,"GCM0335C1H3R6CA16"
+,"GCM0333C1E3R9CA01"
+,"GCM0333C1H3R9CA01"
+,"GCM0335C1E3R9CA16"
+,"GCM0335C1H3R9CA16"
+,"GCM0332C1E4R0CA01"
+,"GCM0332C1H4R0CA01"
+,"GCM0335C1E4R0CA16"
+,"GCM0335C1H4R0CA16"
+,"GCM0332C1E4R2CA01"
+,"GCM0332C1E4R3CA01"
+,"GCM0332C1H4R3CA01"
+,"GCM0335C1E4R3CA16"
+,"GCM0335C1H4R3CA16"
+,"GCM0332C1E4R7CA01"
+,"GCM0332C1H4R7CA01"
+,"GCM0335C1E4R7CA16"
+,"GCM0335C1H4R7CA16"
+,"GCM0332C1E5R0CA01"
+,"GCM0332C1H5R0CA01"
+,"GCM0335C1E5R0CA16"
+,"GCM0335C1H5R0CA16"
+,"GCM0332C1E5R1DA01"
+,"GCM0332C1H5R1DA01"
+,"GCM0335C1E5R1DA16"
+,"GCM0335C1H5R1DA16"
+,"GCM0332C1E5R6CA01"
+,"GCM0332C1E5R6DA01"
+,"GCM0332C1H5R6DA01"
+,"GCM0335C1E5R6CA16"
+,"GCM0335C1E5R6DA16"
+,"GCM0335C1H5R6DA16"
+,"GCM0332C1E6R0DA01"
+,"GCM0332C1H6R0DA01"
+,"GCM0335C1E6R0DA16"
+,"GCM0335C1H6R0DA16"
+,"GCM0332C1E6R2DA01"
+,"GCM0332C1H6R2DA01"
+,"GCM0335C1E6R2DA16"
+,"GCM0335C1H6R2DA16"
+,"GCM0332C1E6R8CA01"
+,"GCM0332C1E6R8DA01"
+,"GCM0332C1H6R8DA01"
+,"GCM0335C1E6R8CA16"
+,"GCM0335C1E6R8DA16"
+,"GCM0335C1H6R8DA16"
+,"GCM0332C1E7R0DA01"
+,"GCM0332C1H7R0DA01"
+,"GCM0335C1E7R0DA16"
+,"GCM0335C1H7R0DA16"
+,"GCM0332C1E7R5DA01"
+,"GCM0332C1H7R5DA01"
+,"GCM0335C1E7R5DA16"
+,"GCM0335C1H7R5DA16"
+,"GCM0332C1E8R0DA01"
+,"GCM0332C1H8R0DA01"
+,"GCM0335C1E8R0DA16"
+,"GCM0335C1H8R0DA16"
+,"GCM0332C1E8R2CA01"
+,"GCM0332C1E8R2DA01"
+,"GCM0332C1H8R2DA01"
+,"GCM0335C1E8R2CA16"
+,"GCM0335C1E8R2DA16"
+,"GCM0335C1H8R2DA16"
+,"GCM0332C1E9R0DA01"
+,"GCM0332C1H9R0DA01"
+,"GCM0335C1E9R0DA16"
+,"GCM0335C1H9R0DA16"
+,"GCM0332C1E9R1DA01"
+,"GCM0332C1H9R1DA01"
+,"GCM0335C1E9R1DA16"
+,"GCM0335C1H9R1DA16"
+,"GCM0332C1E100FA01"
+,"GCM0332C1E100GA01"
+,"GCM0332C1E100JA01"
+,"GCM0332C1H100FA01"
+,"GCM0332C1H100GA01"
+,"GCM0332C1H100JA01"
+,"GCM0335C1E100FA16"
+,"GCM0335C1E100GA16"
+,"GCM0335C1E100JA16"
+,"GCM0335C1H100FA16"
+,"GCM0335C1H100GA16"
+,"GCM0335C1H100JA16"
+,"GCM0332C1E110FA01"
+,"GCM0332C1E110GA01"
+,"GCM0332C1E110JA01"
+,"GCM0332C1H110FA01"
+,"GCM0332C1H110GA01"
+,"GCM0332C1H110JA01"
+,"GCM0335C1E110FA16"
+,"GCM0335C1E110GA16"
+,"GCM0335C1E110JA16"
+,"GCM0335C1H110FA16"
+,"GCM0335C1H110GA16"
+,"GCM0335C1H110JA16"
+,"GCM0332C1E120FA01"
+,"GCM0332C1E120GA01"
+,"GCM0332C1E120JA01"
+,"GCM0332C1H120FA01"
+,"GCM0332C1H120GA01"
+,"GCM0332C1H120JA01"
+,"GCM0335C1E120FA16"
+,"GCM0335C1E120GA16"
+,"GCM0335C1E120JA16"
+,"GCM0335C1H120FA16"
+,"GCM0335C1H120GA16"
+,"GCM0335C1H120JA16"
+,"GCM0332C1E130FA01"
+,"GCM0332C1E130GA01"
+,"GCM0332C1E130JA01"
+,"GCM0332C1H130FA01"
+,"GCM0332C1H130GA01"
+,"GCM0332C1H130JA01"
+,"GCM0335C1E130FA16"
+,"GCM0335C1E130GA16"
+,"GCM0335C1E130JA16"
+,"GCM0335C1H130FA16"
+,"GCM0335C1H130GA16"
+,"GCM0335C1H130JA16"
+,"GCM0332C1E150FA01"
+,"GCM0332C1E150GA01"
+,"GCM0332C1E150JA01"
+,"GCM0332C1H150FA01"
+,"GCM0332C1H150GA01"
+,"GCM0332C1H150JA01"
+,"GCM0335C1E150FA16"
+,"GCM0335C1E150GA16"
+,"GCM0335C1E150JA16"
+,"GCM0335C1H150FA16"
+,"GCM0335C1H150GA16"
+,"GCM0335C1H150JA16"
+,"GCM0332C1E160FA01"
+,"GCM0332C1E160GA01"
+,"GCM0332C1E160JA01"
+,"GCM0332C1H160FA01"
+,"GCM0332C1H160GA01"
+,"GCM0332C1H160JA01"
+,"GCM0335C1E160FA16"
+,"GCM0335C1E160GA16"
+,"GCM0335C1E160JA16"
+,"GCM0335C1H160FA16"
+,"GCM0335C1H160GA16"
+,"GCM0335C1H160JA16"
+,"GCM0332C1E180FA01"
+,"GCM0332C1E180GA01"
+,"GCM0332C1E180JA01"
+,"GCM0332C1H180FA01"
+,"GCM0332C1H180GA01"
+,"GCM0332C1H180JA01"
+,"GCM0335C1E180FA16"
+,"GCM0335C1E180GA16"
+,"GCM0335C1E180JA16"
+,"GCM0335C1H180FA16"
+,"GCM0335C1H180GA16"
+,"GCM0335C1H180JA16"
+,"GCM0332C1E200FA01"
+,"GCM0332C1E200GA01"
+,"GCM0332C1E200JA01"
+,"GCM0332C1H200FA01"
+,"GCM0332C1H200GA01"
+,"GCM0332C1H200JA01"
+,"GCM0335C1E200FA16"
+,"GCM0335C1E200GA16"
+,"GCM0335C1E200JA16"
+,"GCM0335C1H200FA16"
+,"GCM0335C1H200GA16"
+,"GCM0335C1H200JA16"
+,"GCM0332C1E220FA01"
+,"GCM0332C1E220GA01"
+,"GCM0332C1E220JA01"
+,"GCM0332C1H220FA01"
+,"GCM0332C1H220GA01"
+,"GCM0332C1H220JA01"
+,"GCM0335C1E220FA16"
+,"GCM0335C1E220GA16"
+,"GCM0335C1E220JA16"
+,"GCM0335C1H220FA16"
+,"GCM0335C1H220GA16"
+,"GCM0335C1H220JA16"
+,"GCM0332C1E240FA01"
+,"GCM0332C1E240GA01"
+,"GCM0332C1E240JA01"
+,"GCM0332C1H240FA01"
+,"GCM0332C1H240GA01"
+,"GCM0332C1H240JA01"
+,"GCM0335C1E240FA16"
+,"GCM0335C1E240GA16"
+,"GCM0335C1E240JA16"
+,"GCM0335C1H240FA16"
+,"GCM0335C1H240GA16"
+,"GCM0335C1H240JA16"
+,"GCM0332C1E270FA01"
+,"GCM0332C1E270GA01"
+,"GCM0332C1E270JA01"
+,"GCM0332C1H270FA01"
+,"GCM0332C1H270GA01"
+,"GCM0332C1H270JA01"
+,"GCM0335C1E270FA16"
+,"GCM0335C1E270GA16"
+,"GCM0335C1E270JA16"
+,"GCM0335C1H270FA16"
+,"GCM0335C1H270GA16"
+,"GCM0335C1H270JA16"
+,"GCM0332C1E300FA01"
+,"GCM0332C1E300GA01"
+,"GCM0332C1E300JA01"
+,"GCM0332C1H300FA01"
+,"GCM0332C1H300GA01"
+,"GCM0332C1H300JA01"
+,"GCM0335C1E300FA16"
+,"GCM0335C1E300GA16"
+,"GCM0335C1E300JA16"
+,"GCM0335C1H300FA16"
+,"GCM0335C1H300GA16"
+,"GCM0335C1H300JA16"
+,"GCM0332C1E330FA01"
+,"GCM0332C1E330GA01"
+,"GCM0332C1E330JA01"
+,"GCM0332C1H330FA01"
+,"GCM0332C1H330GA01"
+,"GCM0332C1H330JA01"
+,"GCM0335C1E330FA16"
+,"GCM0335C1E330GA16"
+,"GCM0335C1E330JA16"
+,"GCM0335C1H330FA16"
+,"GCM0335C1H330GA16"
+,"GCM0335C1H330JA16"
+,"GCM0332C1E360FA01"
+,"GCM0332C1E360GA01"
+,"GCM0332C1E360JA01"
+,"GCM0332C1H360FA01"
+,"GCM0332C1H360GA01"
+,"GCM0332C1H360JA01"
+,"GCM0335C1E360FA16"
+,"GCM0335C1E360GA16"
+,"GCM0335C1E360JA16"
+,"GCM0335C1H360FA16"
+,"GCM0335C1H360GA16"
+,"GCM0335C1H360JA16"
+,"GCM0332C1E390FA01"
+,"GCM0332C1E390GA01"
+,"GCM0332C1E390JA01"
+,"GCM0332C1H390FA01"
+,"GCM0332C1H390GA01"
+,"GCM0332C1H390JA01"
+,"GCM0335C1E390FA16"
+,"GCM0335C1E390GA16"
+,"GCM0335C1E390JA16"
+,"GCM0335C1H390FA16"
+,"GCM0335C1H390GA16"
+,"GCM0335C1H390JA16"
+,"GCM0332C1E430FA01"
+,"GCM0332C1E430GA01"
+,"GCM0332C1E430JA01"
+,"GCM0332C1H430FA01"
+,"GCM0332C1H430GA01"
+,"GCM0332C1H430JA01"
+,"GCM0335C1E430FA16"
+,"GCM0335C1E430GA16"
+,"GCM0335C1E430JA16"
+,"GCM0335C1H430FA16"
+,"GCM0335C1H430GA16"
+,"GCM0335C1H430JA16"
+,"GCM0332C1E470FA01"
+,"GCM0332C1E470GA01"
+,"GCM0332C1E470JA01"
+,"GCM0332C1H470FA01"
+,"GCM0332C1H470GA01"
+,"GCM0332C1H470JA01"
+,"GCM0335C1E470FA16"
+,"GCM0335C1E470GA16"
+,"GCM0335C1E470JA16"
+,"GCM0335C1H470FA16"
+,"GCM0335C1H470GA16"
+,"GCM0335C1H470JA16"
+,"GCM0332C1E510FA01"
+,"GCM0332C1E510GA01"
+,"GCM0332C1E510JA01"
+,"GCM0332C1H510FA01"
+,"GCM0332C1H510GA01"
+,"GCM0332C1H510JA01"
+,"GCM0335C1E510FA16"
+,"GCM0335C1E510GA16"
+,"GCM0335C1E510JA16"
+,"GCM0335C1H510FA16"
+,"GCM0335C1H510GA16"
+,"GCM0335C1H510JA16"
+,"GCM0332C1E560FA01"
+,"GCM0332C1E560GA01"
+,"GCM0332C1E560JA01"
+,"GCM0332C1H560FA01"
+,"GCM0332C1H560GA01"
+,"GCM0332C1H560JA01"
+,"GCM0335C1E560FA16"
+,"GCM0335C1E560GA16"
+,"GCM0335C1E560JA16"
+,"GCM0335C1H560FA16"
+,"GCM0335C1H560GA16"
+,"GCM0335C1H560JA16"
+,"GCM0332C1E620FA01"
+,"GCM0332C1E620GA01"
+,"GCM0332C1E620JA01"
+,"GCM0332C1H620FA01"
+,"GCM0332C1H620GA01"
+,"GCM0332C1H620JA01"
+,"GCM0335C1E620FA16"
+,"GCM0335C1E620GA16"
+,"GCM0335C1E620JA16"
+,"GCM0335C1H620FA16"
+,"GCM0335C1H620GA16"
+,"GCM0335C1H620JA16"
+,"GCM0332C1E680FA01"
+,"GCM0332C1E680GA01"
+,"GCM0332C1E680JA01"
+,"GCM0332C1H680FA01"
+,"GCM0332C1H680GA01"
+,"GCM0332C1H680JA01"
+,"GCM0335C1E680FA16"
+,"GCM0335C1E680GA16"
+,"GCM0335C1E680JA16"
+,"GCM0335C1H680FA16"
+,"GCM0335C1H680GA16"
+,"GCM0335C1H680JA16"
+,"GCM0332C1E750FA01"
+,"GCM0332C1E750GA01"
+,"GCM0332C1E750JA01"
+,"GCM0332C1H750FA01"
+,"GCM0332C1H750GA01"
+,"GCM0332C1H750JA01"
+,"GCM0335C1E750FA16"
+,"GCM0335C1E750GA16"
+,"GCM0335C1E750JA16"
+,"GCM0335C1H750FA16"
+,"GCM0335C1H750GA16"
+,"GCM0335C1H750JA16"
+,"GCM0332C1E820FA01"
+,"GCM0332C1E820GA01"
+,"GCM0332C1E820JA01"
+,"GCM0332C1H820FA01"
+,"GCM0332C1H820GA01"
+,"GCM0332C1H820JA01"
+,"GCM0335C1E820FA16"
+,"GCM0335C1E820GA16"
+,"GCM0335C1E820JA16"
+,"GCM0335C1H820FA16"
+,"GCM0335C1H820GA16"
+,"GCM0335C1H820JA16"
+,"GCM0332C1E910FA01"
+,"GCM0332C1E910GA01"
+,"GCM0332C1E910JA01"
+,"GCM0332C1H910FA01"
+,"GCM0332C1H910GA01"
+,"GCM0332C1H910JA01"
+,"GCM0335C1E910FA16"
+,"GCM0335C1E910GA16"
+,"GCM0335C1E910JA16"
+,"GCM0335C1H910FA16"
+,"GCM0335C1H910GA16"
+,"GCM0335C1H910JA16"
+,"GCM0332C1E101FA01"
+,"GCM0332C1E101GA01"
+,"GCM0332C1E101JA01"
+,"GCM0332C1H101FA01"
+,"GCM0332C1H101GA01"
+,"GCM0332C1H101JA01"
+,"GCM0335C1E101FA16"
+,"GCM0335C1E101GA16"
+,"GCM0335C1E101JA16"
+,"GCM0335C1H101FA16"
+,"GCM0335C1H101GA16"
+,"GCM0335C1H101JA16"
+,"GCM033R11E101KA01"
+,"GCM033R11E101MA01"
+,"GCM033R71E101KA01"
+,"GCM033R71E101KA03"
+,"GCM033R71E101MA01"
+,"GCM033R71E101MA03"
+,"GCM033R11E121KA01"
+,"GCM033R11E121MA01"
+,"GCM033R71E121KA01"
+,"GCM033R71E121KA03"
+,"GCM033R71E121MA01"
+,"GCM033R71E121MA03"
+,"GCM033R11E151KA01"
+,"GCM033R11E151MA01"
+,"GCM033R71E151KA01"
+,"GCM033R71E151KA03"
+,"GCM033R71E151MA01"
+,"GCM033R71E151MA03"
+,"GCM033R11E181KA01"
+,"GCM033R11E181MA01"
+,"GCM033R71E181KA01"
+,"GCM033R71E181KA03"
+,"GCM033R71E181MA01"
+,"GCM033R71E181MA03"
+,"GCM033R11E221KA01"
+,"GCM033R11E221MA01"
+,"GCM033R71E221KA01"
+,"GCM033R71E221KA03"
+,"GCM033R71E221MA01"
+,"GCM033R71E221MA03"
+,"GCM033R11E271KA01"
+,"GCM033R11E271MA01"
+,"GCM033R71E271KA01"
+,"GCM033R71E271KA03"
+,"GCM033R71E271MA01"
+,"GCM033R71E271MA03"
+,"GCM033R11E331KA01"
+,"GCM033R11E331MA01"
+,"GCM033R71C331KA03"
+,"GCM033R71E331KA01"
+,"GCM033R71E331KA03"
+,"GCM033R71E331MA01"
+,"GCM033R71E331MA03"
+,"GCM033R11E391KA01"
+,"GCM033R11E391MA01"
+,"GCM033R71E391KA01"
+,"GCM033R71E391KA03"
+,"GCM033R71E391MA01"
+,"GCM033R71E391MA03"
+,"GCM033R11E471KA01"
+,"GCM033R11E471MA01"
+,"GCM033R71E471KA01"
+,"GCM033R71E471KA03"
+,"GCM033R71E471MA01"
+,"GCM033R71E471MA03"
+,"GCM033R11E561KA01"
+,"GCM033R11E561MA01"
+,"GCM033R71E561KA01"
+,"GCM033R71E561KA03"
+,"GCM033R71E561MA01"
+,"GCM033R71E561MA03"
+,"GCM033R11E681KA01"
+,"GCM033R11E681MA01"
+,"GCM033R71C681KA03"
+,"GCM033R71E681KA01"
+,"GCM033R71E681KA03"
+,"GCM033R71E681MA01"
+,"GCM033R71E681MA03"
+,"GCM033R11E821KA01"
+,"GCM033R11E821MA01"
+,"GCM033R71E821KA01"
+,"GCM033R71E821KA03"
+,"GCM033R71E821MA01"
+,"GCM033R71E821MA03"
+,"GCM033R11E102KA01"
+,"GCM033R11E102MA01"
+,"GCM033R71E102KA01"
+,"GCM033R71E102KA03"
+,"GCM033R71E102MA01"
+,"GCM033R71E102MA03"
+,"GCM033R11A122KA01"
+,"GCM033R11A122MA01"
+,"GCM033R11E122KA01"
+,"GCM033R11E122MA01"
+,"GCM033R71A122KA01"
+,"GCM033R71A122KA03"
+,"GCM033R71A122MA01"
+,"GCM033R71A122MA03"
+,"GCM033R71E122KA01"
+,"GCM033R71E122KA03"
+,"GCM033R71E122MA01"
+,"GCM033R71E122MA03"
+,"GCM033R11A152KA01"
+,"GCM033R11A152MA01"
+,"GCM033R11E152KA01"
+,"GCM033R11E152MA01"
+,"GCM033R71A152KA01"
+,"GCM033R71A152KA03"
+,"GCM033R71A152MA01"
+,"GCM033R71A152MA03"
+,"GCM033R71E152KA01"
+,"GCM033R71E152KA03"
+,"GCM033R71E152MA01"
+,"GCM033R71E152MA03"
+,"GCM033R11A182KA01"
+,"GCM033R11A182MA01"
+,"GCM033R11C182KA40"
+,"GCM033R11C182MA40"
+,"GCM033R71A182KA01"
+,"GCM033R71A182KA03"
+,"GCM033R71A182MA01"
+,"GCM033R71A182MA03"
+,"GCM033R71C182KA40"
+,"GCM033R71C182KA55"
+,"GCM033R71C182MA40"
+,"GCM033R71C182MA55"
+,"GCM033R71E182KE01"
+,"GCM033R71E182KE02"
+,"GCM033R11A222KA01"
+,"GCM033R11A222MA01"
+,"GCM033R11C222KA40"
+,"GCM033R11C222MA40"
+,"GCM033R71A222KA01"
+,"GCM033R71A222KA03"
+,"GCM033R71A222MA01"
+,"GCM033R71A222MA03"
+,"GCM033R71C222KA40"
+,"GCM033R71C222KA55"
+,"GCM033R71C222MA40"
+,"GCM033R71C222MA55"
+,"GCM033R71E222KE01"
+,"GCM033R71E222KE02"
+,"GCM033R11A272KA01"
+,"GCM033R11A272MA01"
+,"GCM033R11C272KA40"
+,"GCM033R11C272MA40"
+,"GCM033R71A272KA01"
+,"GCM033R71A272KA03"
+,"GCM033R71A272MA01"
+,"GCM033R71A272MA03"
+,"GCM033R71C272KA40"
+,"GCM033R71C272KA55"
+,"GCM033R71C272MA40"
+,"GCM033R71C272MA55"
+,"GCM033R71E272KE01"
+,"GCM033R71E272KE02"
+,"GCM033R11A332KA01"
+,"GCM033R11A332MA01"
+,"GCM033R11C332KA40"
+,"GCM033R11C332MA40"
+,"GCM033R71A332KA01"
+,"GCM033R71A332KA03"
+,"GCM033R71A332MA01"
+,"GCM033R71A332MA03"
+,"GCM033R71C332KA40"
+,"GCM033R71C332KA55"
+,"GCM033R71C332MA40"
+,"GCM033R71C332MA55"
+,"GCM033R71E332KE01"
+,"GCM033R71E332KE02"
+,"GCM033R11A392KA01"
+,"GCM033R11A392MA01"
+,"GCM033R71A392KA01"
+,"GCM033R71A392KA03"
+,"GCM033R71A392MA01"
+,"GCM033R71A392MA03"
+,"GCM033R11A472KA01"
+,"GCM033R11A472MA01"
+,"GCM033R71A472KA01"
+,"GCM033R71A472KA03"
+,"GCM033R71A472MA01"
+,"GCM033R71A472MA03"
+,"GCM033R11A682KA01"
+,"GCM033R11A682MA01"
+,"GCM033R71A682KA01"
+,"GCM033R71A682KA03"
+,"GCM033R71A682MA01"
+,"GCM033R71A682MA03"
+,"GCM033R71A822KA01"
+,"GCM033R71A822KA03"
+,"GCM033R71A822MA01"
+,"GCM033R71A822MA03"
+,"GCM033R11A103KA01"
+,"GCM033R11A103MA01"
+,"GCM033R71A103KA01"
+,"GCM033R71A103KA03"
+,"GCM033R71A103MA01"
+,"GCM033R71A103MA03"
+,"GCM033C71E223ME01"
+,"GCM033C70G104KE02"
+,"GCM033C70J104KE01"
+,"GCM033C70J104KE02"
+,"GCM033C71A104KE01"
+,"GCM033C71A104KE02"
+,"GCM033M8ED104KE07"
+,"GCM033D70G224KE01"
+,"GCM033D70G224KE02"
+,"GCM033D70J224KE01"
+,"GCM033D70J224KE02"
+,"GCM033M8EB224KE07"
+,"GCM033M8EC224KE07"
+,"GCM033D70E105ME35"
+,"GCM033D70E105ME36"
+,"GCM033D70G105ME35"
+,"GCM033D70G105ME36"
+,"GCM033M8EA105ME08"
+,"GCM033M8EB105ME08"
+,"GCM035D70E225ME01"
+,"GCM035D70E225ME02"
+,"GCM035D70G225MEC2"
+,"GCM03_compound"
+);
+
+
+

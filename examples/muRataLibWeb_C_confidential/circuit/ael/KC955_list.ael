@@ -1,0 +1,22 @@
+create_constant_form("NULL","NULL",16,"NULL","NULL");
+create_constant_form("KC955WD7LG274MH01","1:KC955WD7LG274MH01, Metal terminal/ Automotive [AEC-Q200], X7T(-55to125[deg]), 1250[V], 270000[pF], +/-20[%], 100[kHz]-3[GHz]:1",68,"1","KC955WD7LG274MH01");
+create_constant_form("KC955WD7LF474MH01","2:KC955WD7LF474MH01, Metal terminal/ Automotive [AEC-Q200], X7T(-55to125[deg]), 1000[V], 470000[pF], +/-20[%], 100[kHz]-3[GHz]:2",68,"2","KC955WD7LF474MH01");
+
+create_form_set("KC955_list" 
+,"KC955WD7LG274MH01"
+,"KC955WD7LF474MH01"
+);
+
+create_compound_form("KC955_compound","Discrete Optimize setting","DistLibForm",68,"%p opt{ discrete %1p to %2p by 1 }","%s, %1s to %2s",
+create_parm("NOM","Nominal",32,"KC955_list",-1,prm("KC955WD7LG274MH01")),
+create_parm("MIN","Minimum",32,"KC955_list",-1,prm("KC955WD7LG274MH01")),
+create_parm("MAX","Maximum",32,"KC955_list",-1,prm("KC955WD7LF474MH01")));
+
+create_form_set("KC955_list_opt","NULL" 
+,"KC955WD7LG274MH01"
+,"KC955WD7LF474MH01"
+,"KC955_compound"
+);
+
+
+

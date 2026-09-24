@@ -1,0 +1,22 @@
+create_constant_form("NULL","NULL",16,"NULL","NULL");
+create_constant_form("KR955WD7LG274MH01","1:KR955WD7LG274MH01, Metal Terminal General, X7T(-55to125[deg]), 1250[V], 270000[pF], +/-20[%], 100[kHz]-3[GHz]:1",68,"1","KR955WD7LG274MH01");
+create_constant_form("KR955WD7LF474MH01","2:KR955WD7LF474MH01, Metal Terminal General, X7T(-55to125[deg]), 1000[V], 470000[pF], +/-20[%], 100[kHz]-3[GHz]:2",68,"2","KR955WD7LF474MH01");
+
+create_form_set("KR955_list" 
+,"KR955WD7LG274MH01"
+,"KR955WD7LF474MH01"
+);
+
+create_compound_form("KR955_compound","Discrete Optimize setting","DistLibForm",68,"%p opt{ discrete %1p to %2p by 1 }","%s, %1s to %2s",
+create_parm("NOM","Nominal",32,"KR955_list",-1,prm("KR955WD7LG274MH01")),
+create_parm("MIN","Minimum",32,"KR955_list",-1,prm("KR955WD7LG274MH01")),
+create_parm("MAX","Maximum",32,"KR955_list",-1,prm("KR955WD7LF474MH01")));
+
+create_form_set("KR955_list_opt","NULL" 
+,"KR955WD7LG274MH01"
+,"KR955WD7LF474MH01"
+,"KR955_compound"
+);
+
+
+

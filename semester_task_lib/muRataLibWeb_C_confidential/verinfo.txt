@@ -1,0 +1,5 @@
+Library Ver:	Version 2026.02j
+Created:	Apr 10 2026
+Author:	Murata Manufacturing Co., Ltd.
+Support ADS:	ADS2011 and later
+Description:	Murata Component Library for Keysight ADS

@@ -1,0 +1,132 @@
+; Top Design: "TTT4201_lib:SP_NF_GainMatchK:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="TTT4201_lib:SP_NF_GainMatchK:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: Johanson_lib
+; Cell Name: CapJT
+; View Name: schematic
+define CapJT ( P1  P2 ) 
+parameters  C=1.0 pF 
+C:C7  N__1 P2 C=0.937*C 
+L:L1  P1 N__1 L=(0.647*(C/(1pF))^-0.0414) nH R=3.74*(C/(1pF))^-0.195 Ohm Noise=yes  
+C:C10  P2 0 C=0.0317 pF 
+C:C9  P1 0 C=0.0317 pF 
+end CapJT
+
+; Library Name: TTT4201_lib
+; Cell Name: Bias_Drain
+; View Name: schematic
+define Bias_Drain ( DC  RF ) 
+;parameters 
+model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.7E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+
+#ifndef muRataLibWeb_C
+#define muRataLibWeb_C
+; models
+#include "c:/Users/olavsbra/OneDrive/ADS_NTNU31699/2027/Kits/muRataLibWeb_C_confidential/circuit/models/encode.net"
+#endif
+
+
+MTEE_ADS:Tee1  N__4 N__3 N__0 Subst="MSub1" W1=1 mm W2=1 mm W3=1 mm 
+MLIN2:TL2  N__4 RF Subst="MSub1" W=1 mm L=14 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL8  N__13 N__11 Subst="MSub1" W=1 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL7  N__19 N__10 Subst="MSub1" W=0.7 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL6  N__12 N__9 Subst="MSub1" W=0.7 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL5  N__2 DC Subst="MSub1" W=1 mm L=10 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL4  N__16 N__15 Subst="MSub1" W=1 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+Short:TL9  N__0 N__7 Mode=0 SaveCurrent=no
+MTEE_ADS:Tee3  N__15 N__2 N__18 Subst="MSub1" W1=1 mm W2=1 mm W3=2 mm 
+GRM18:C5  N__19 N__14 PartNumber=1789 
+GRM18:C6  N__18 N__13 PartNumber=1789 
+GRM18:C4  N__5 N__12 PartNumber=1789 
+VIA:V3  N__11 0 D1=0.375 mm D2=0.375 mm H=0.625 mm T=0.00375 mm 
+VIA:V2  N__10 0 D1=0.375 mm D2=0.375 mm H=0.625 mm T=0.00375 mm 
+VIA:V1  N__9 0 D1=0.375 mm D2=0.375 mm H=0.625 mm T=0.00375 mm 
+MCROS:Cros1  N__7 N__14 N__16 N__5 Subst="MSub1" W1=1 mm W2=0.7 mm W3=1 mm W4=0.7 mm 
+end Bias_Drain
+
+; Library Name: TTT4201_lib
+; Cell Name: IMN
+; View Name: schematic
+define IMN ( DCgate  RFgate  RFin ) 
+;parameters 
+MLIN2:TL1  N__1 N__0 Subst="MSub1" W=W50 mm L=Li1 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLEF2:TL2  N__2 Subst="MSub1" W=W50 mm L=Li2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MTEE_ADS:Tee1  N__5 N__7 DCgate Subst="MSub1" W1=2 mm W2=1 mm W3=1 mm 
+MTEE_ADS:Tee2  N__4 N__1 N__2 Subst="MSub1" W1=W50 mm W2=W50 mm W3=W50 mm 
+CapJT:Kap1  N__0 N__7 C=1.0 pF 
+MLIN2:TL4  RFin N__4 Subst="MSub1" W=W50 mm L=2.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL5  N__5 RFgate Subst="MSub1" W=2 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+
+Li1=1.0 opt{ 0.5 to 20 }
+Li2=1.0 opt{ 0.5 to 20 }
+Ci=1.0 opt{ 1 to 82 }
+W50=2.8
+MGAP:Gap1  N__0 N__7 Subst="MSub1" W=1 mm S=0.5 mm 
+end IMN
+
+; Library Name: TTT4201_lib
+; Cell Name: PA
+; View Name: schematic
+define PA ( RFin  RFout  Vd  Vg ) 
+;parameters 
+#uselib "MA_RFP_ADS_v2p7" , "CGH40006P_v2"
+"CGH40006P_v2":Q1  N__7 N__13 0 Rth=9.5 Tbase=25 x1=1 x2=1 
+Bias_Drain:X2  Vg N__14 
+Bias_Drain:X1  Vd N__5 
+Short:DC_Block2  N__5 RFout Mode=1 
+model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.7E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+
+#ifndef muRataLibWeb_C
+#define muRataLibWeb_C
+; models
+#include "c:/Users/olavsbra/OneDrive/ADS_NTNU31699/2027/Kits/muRataLibWeb_C_confidential/circuit/models/encode.net"
+#endif
+
+
+MLIN2:TL1  N__8 N__7 Subst="MSub1" W=2 mm L=3 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL2  N__13 N__5 Subst="MSub1" W=2 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+R:R1  N__10 N__8 R=15 Ohm tune{ 4 Ohm to 50 Ohm by 2 Ohm } Noise=yes 
+C:C1  N__10 N__8 C=12 pF tune{ 1 pF to 15 pF by 1 pF } 
+R:R2  N__14 N__12 R=10 Ohm tune{ 1 Ohm to 50 Ohm by 2 Ohm } Noise=yes 
+IMN:X3  N__12 N__10 RFin 
+end PA
+
+S_Param:SP1 CalcS=yes CalcGroupDelay=yes GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=0.2 GHz Stop=10 GHz Step=0.2 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      EquationName[1]="Z0" \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+
+Z0=50
+Port:Term1  N__6 0 Num=1 Z=Z0 Noise=yes 
+Port:Term2  N__3 0 Num=2 Z=Z0 Noise=yes 
+V_Source:SRC1  N__0 0 Type="V_DC" Vdc=-2.7 V SaveCurrent=1 
+
+Options:Options1 Temp=16.85 Tnom=25 TopologyCheck=yes ForceS_Params=yes V_RelTol=1e-6  \
+I_RelTol=1e-6 GiveAllWarnings=yes MaxWarnings=10 ForceM_Params=yes DC_ReadInitialGuess=no  \
+DC_WriteFinalSolution=no TopologyCheckMessages=no GPU=no doDeltaAC=no ReduceSPort=no  \
+ReduceSPortRatio=0.5 WarnSOA=yes MaxWarnSOA=5 Census=no MinNodalR=1e-2 Ohm  \
+LargeCapThreshold=1e-3 F EnableAssertChecks=no EnableSpareRemoval=yes 
+
+aele mu_load=mu(S);mu_source=mu_prime(S);match_input=sm_gamma1(S);Source_stabcir=s_stab_circle(S,51);Load_stabcir=l_stab_circle(S,51);
+V_Source:SRC2  N__4 0 Type="V_DC" Vdc=28 V SaveCurrent=1 
+PA:X1  N__6 N__3 N__4 N__0 
+
+Optim:"Optim1" OptimType="random" ErrorForm="L2" SAProgressReport=0 MaxIters=2500 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 CoranaSkip=0.0 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+
+OptimGoal:OptimGoal1 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=1.0 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal1_limit1" 
+SpecLimitLine:"OptimGoal1_limit1" Type="GreaterThan" Min=18 Weight=1.0 \
+IndepVar[1]="freq" IndepMin[1]=2.9e9 IndepMax[1]=3.1e9 

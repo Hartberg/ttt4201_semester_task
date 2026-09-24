@@ -1,0 +1,5 @@
+# Library Defs for MA_RFP_ADS_v2p7 design kit
+DEFINE MA_RFP_ADS_v2p7_tech ./MA_RFP_ADS_v2p7_tech
+ASSIGN MA_RFP_ADS_v2p7_tech libMode readOnly
+DEFINE MA_RFP_ADS_v2p7 ./MA_RFP_ADS_v2p7
+ASSIGN MA_RFP_ADS_v2p7 libMode readOnly

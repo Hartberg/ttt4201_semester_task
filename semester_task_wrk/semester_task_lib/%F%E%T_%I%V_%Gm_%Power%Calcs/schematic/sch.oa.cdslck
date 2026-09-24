@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      nathr
+HostName                       LAPTOP-VDFVMML2
+ProcessIdentifier              21580
+ProcessCreationTime_UTC        1790058026
+ProcessCreationTime_Readable   Tue Sep 22 08:20:26 2026 W. Europe Summer Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\nathr\Documents\BIELSYS\sem7\semester_task_wrk\semester_task_lib\%F%E%T_%I%V_%Gm_%Power%Calcs\schematic\sch.oa.cdslck
+TimeEditLocked                 Tue Sep 22 08:30:36 2026 W. Europe Summer Time
