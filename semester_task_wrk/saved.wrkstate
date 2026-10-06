@@ -1,7 +1,7 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
     <Windows>
-        <DDS name="big_schem.dds"/>
+        <Layout cell="dc_feed_vgs" geom="1,0,1,58,72,1536,821,1920,1080" height="821" lib="semester_task_lib" view="layout" width="1536" x1="58" y1="34"/>
     </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

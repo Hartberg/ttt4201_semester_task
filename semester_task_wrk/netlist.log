@@ -1,7 +1,7 @@
-; Top Design: "semester_task_lib:big_schem:schematic"
+; Top Design: "semester_task_lib:dc_feed_vgs:schematic"
 ; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="semester_task_lib:big_schem:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="semester_task_lib:dc_feed_vgs:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 ; Library Name: Johanson_lib
 ; Cell Name: CapJT
 ; View Name: schematic
@@ -13,73 +13,14 @@ C:C10  P2 0 C=0.0317 pF
 C:C9  P1 0 C=0.0317 pF 
 end CapJT
 
-; Library Name: semester_task_lib
-; Cell Name: dc_block_in
-; View Name: schematic
-define dc_block_in ( P1  P2 ) 
-;parameters 
-CapJT:Kap1  P1 P2 C=1.0 pF 
-MGAP:Gap1  P1 P2 Subst="MSub1" W=0.625 mm S=0.25 mm 
-end dc_block_in
-
-; Library Name: semester_task_lib
-; Cell Name: dc_block_out
-; View Name: schematic
-define dc_block_out ( P2  P2__P2 ) 
-;parameters 
-Short:PinShort__P2  P2__P2 P2 Mode=0 SaveCurrent=no
-end dc_block_out
-
-; Library Name: semester_task_lib
-; Cell Name: dc_feed_vds
-; View Name: schematic
-define dc_feed_vds ( P2  P2__P2 ) 
-;parameters 
-Short:PinShort__P2  P2__P2 P2 Mode=0 SaveCurrent=no
-end dc_feed_vds
-
-; Library Name: semester_task_lib
-; Cell Name: dc_feed_vgs
-; View Name: schematic
-define dc_feed_vgs ( P1  P2 ) 
-;parameters 
-MLIN2:TL1  N__2 P2 Subst="MSub1" W=0.625 mm L=2.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MLEF2:TL2  N__6 Subst="MSub1" W=0.625 mm L=2.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MTEE_ADS:Tee1  N__2 N__6 P1 Subst="MSub1" W1=0.625 mm W2=0.625 mm W3=1.25 mm 
-Short:Stub1  N__5 Mode=0 SaveCurrent=no
-end dc_feed_vgs
-
-; Library Name: semester_task_lib
-; Cell Name: cell_1
-; View Name: schematic
-define cell_1 ( P1  P2  P3  P4 ) 
-;parameters 
-#uselib "MA_RFP_ADS_v2p7" , "CG2H40010F_v2"
-"CG2H40010F_v2":X1  N__15 N__6 0 Rth=7.83 Tbase=25 VDN=28 x1=1 x2=1 
-dc_feed_vds:X3  P4 N__8 
-dc_block_in:X2  P1 N__1 
-dc_block_out:X4  N__12 P3 
-dc_feed_vgs:X5  P2 N__0 
-model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
-MLIN2:TL1  N__6 N__13 Subst="MSub1" W=2 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MLIN2:TL2  N__10 N__15 Subst="MSub1" W=2 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MTEE_ADS:Tee1  N__12 N__13 N__8 Subst="MSub1" W1=2 mm W2=1 mm W3=1 mm 
-MTEE_ADS:Tee2  N__10 N__1 N__0 Subst="MSub1" W1=2 mm W2=1 mm W3=1 mm 
-MGAP:Gap1  N__15 N__6 Subst="MSub1" W=0.625 mm S=0.25 mm 
-end cell_1
-
-cell_1:X1  N__3 N__2 N__0 N__10 
-Port:Term1  N__3 0 Num=1 Z=50 Ohm Noise=yes 
-Port:Term2  N__0 0 Num=2 Z=50 Ohm Noise=yes 
-V_Source:SRC1  N__2 0 Type="V_DC" Vdc=Vg SaveCurrent=1 
-V_Source:SRC2  N__10 0 Type="V_DC" Vdc=Vd V SaveCurrent=1 
-
-Vd=28
-Vg=-3
+MLIN2:TL1  N__23 P2 Subst="MSub1" W=2.8 mm L=16.8 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL10  N__4 N__12 Subst="MSub1" W=2.8 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MCROS:Cros3  N__23 N__14 N__27 N__24 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
+MLIN2:TL3  N__24 N__3 Subst="MSub1" W=2.8 mm L=1 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
-SweepPlan: SP1_stim Start=10 MHz Stop=10.0 GHz Step=10 MHz 
+SweepPlan: SP1_stim Start=1 MHz Stop=10.0 GHz Step=0.01 GHz 
 
 OutputPlan:SP1_Output \
       Type="Output" \
@@ -90,3 +31,32 @@ OutputPlan:SP1_Output \
 
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+Port:Term1  P2 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  P1 0 Num=2 Z=50 Ohm Noise=yes 
+model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MLIN2:TL9  N__17 N__22 Subst="MSub1" W=2.8 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+CapJT:Kap1  N__28 N__2 C=C3 F 
+MCROS:Cros1  N__28 N__3 N__31 N__11 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
+MLIN2:TL4  N__2 N__8 Subst="MSub1" W=2.8 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+VIA:V1  N__8 0 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
+MLIN2:TL6  N__11 N__15 Subst="MSub1" W=2.8 mm L=3mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MCROS:Cros2  N__13 N__15 N__29 N__18 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
+MLIN2:TL7  N__6 N__30 Subst="MSub1" W=2.8 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+CapJT:Kap3  N__30 N__29 C=C4 F 
+VIA:V3  0 N__6 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
+MLIN2:TL8  N__18 P1 Subst="MSub1" W=2.8 mm L=4 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+CapJT:Kap4  N__22 N__13 C=C2 F 
+VIA:V4  0 N__17 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
+
+L=0.01 tune{ 0.008 to 0.02 logScale }
+C1=2.1e-12 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 100e-6 }
+C3=1e-12 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 100e-6 }
+C4=0.0001 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 100e-6 }
+C2=1.3e-11 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 100e-6 }
+MRSTUB:Stub1  N__27 Subst="MSub1" Wi=2.8 mm L=L Angle=70 
+CapJT:Kap5  N__12 N__14 C=C1 F 
+VIA:V5  0 N__4 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
+MGAP:Gap1  N__28 N__2 Subst="MSub1" W=0.625 mm S=0.25 mm 
+MGAP:Gap2  N__30 N__29 Subst="MSub1" W=0.625 mm S=0.25 mm 
+MGAP:Gap4  N__14 N__12 Subst="MSub1" W=0.625 mm S=0.25 mm 
+MGAP:Gap5  N__13 N__22 Subst="MSub1" W=0.625 mm S=0.25 mm 

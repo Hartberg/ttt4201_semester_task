@@ -1,0 +1,43 @@
+
+hpeesofsim (*) 650.shp Jul 29 2026, MINT version 5
+    (64-bit windows built: Wed Jul 29, 2026 11:10:28 +0000)
+
+***** Simulation started at Thu Oct  1 15:47:31 2026
+      Running on host: "LAPTOP-VDFVMML2"
+      In Directory: "C:\Users\nathr\Documents\BIELSYS\sem7\ttt4201\ttt4201_semester_task\semester_task_wrk\data"
+      Process ID: 18516
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 4
+
+
+SP SP1[1] <semester_task_lib:dc_feed_vgs:schematic>   freq=(1 MHz->10 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000250) < MinRecommendValue(0.000304) for 'S' in `Gap5'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000250) < MinRecommendValue(0.000304) for 'S' in `Gap4'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000250) < MinRecommendValue(0.000304) for 'S' in `Gap2'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000250) < MinRecommendValue(0.000304) for 'S' in `Gap1'
+
+
+
+
+Resource usage:
+    Total CPU time            =     2.62 seconds.
+    Simulation stopwatch time =     0.38 seconds.
+    Total stopwatch time      =     2.19 seconds.
+
+    Memory used:  125 MBytes
+
+    Max threads used:  30
+        (NOTE: max threads includes very-low-CPU-usage support threads,
+         as well as high-CPU-usage computational threads.)
+
