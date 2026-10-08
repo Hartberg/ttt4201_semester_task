@@ -2,17 +2,18 @@
 hpeesofsim (*) 650.shp Jul 29 2026, MINT version 5
     (64-bit windows built: Wed Jul 29, 2026 11:10:28 +0000)
 
-***** Simulation started at Tue Oct  6 16:48:15 2026
+***** Simulation started at Thu Oct  8 14:22:52 2026
       Running on host: "LAPTOP-VDFVMML2"
       In Directory: "C:\Users\nathr\Documents\BIELSYS\sem7\ttt4201\ttt4201_semester_task\semester_task_wrk\data"
-      Process ID: 15296
+      Process ID: 24144
 
 Warning detected by hpeesofsim in topology check during circuit set up.
     Number of nodes with only one device attached (topology corrected): 8
+    Topology correction added to 2 branches
 
 Pt DC convergence is used.
 
-SP SP2[1] <semester_task_lib:big_schem:schematic>   freq=(2.2 GHz->2.5 GHz)
+SP SP2[1] <semester_task_lib:big_schem:schematic>   freq=(100 MHz->10 GHz)
 Warning detected by hpeesofsim during SP analysis 'SP2'.
     UserValue(0.000250) < MinRecommendValue(0.000304) for 'S' in `X1.Gap1'
 
@@ -33,11 +34,11 @@ Warning detected by hpeesofsim during circuit set up.
 
 
 Resource usage:
-    Total CPU time            =    21.11 seconds.
-    Simulation stopwatch time =     0.32 seconds.
-    Total stopwatch time      =     1.59 seconds.
+    Total CPU time            =   148.55 seconds.
+    Simulation stopwatch time =     0.37 seconds.
+    Total stopwatch time      =    12.93 seconds.
 
-    Memory used:  117 MBytes
+    Memory used:  114 MBytes
 
     Max threads used:  36
         (NOTE: max threads includes very-low-CPU-usage support threads,

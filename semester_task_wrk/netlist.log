@@ -5,25 +5,25 @@ Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="semes
 ; Library Name: Johanson_lib
 ; Cell Name: CapJT
 ; View Name: schematic
-define CapJT ( P1  P2 ) 
+define Johanson_lib_CapJT_schematic ( P1  P2 ) 
 parameters  C=1.0 pF 
 C:C7  N__1 P2 C=0.937*C 
 L:L1  P1 N__1 L=(0.647*(C/(1pF))^-0.0414) nH R=3.74*(C/(1pF))^-0.195 Ohm Noise=yes  
 C:C10  P2 0 C=0.0317 pF 
 C:C9  P1 0 C=0.0317 pF 
-end CapJT
+end Johanson_lib_CapJT_schematic
 
 ; Library Name: semester_task_lib
 ; Cell Name: dc_block_in
 ; View Name: schematic
 define dc_block_in ( P1  P2 ) 
 ;parameters 
-MTAPER:Taper1  N__5 N__9 Subst="MSub1" W1=2.8 mm W2=1 mm L=1 mm 
-CapJT:Kap1  N__9 N__2 C=1.0 pF 
-MLIN2:TL2  P1 N__5 Subst="MSub1" W=2.8 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+Short:Taper1  N__5 N__9 Mode=0 SaveCurrent=no
+Short:Kap1  N__9 N__2 Mode=0 SaveCurrent=no
+Short:TL2  P1 N__5 Mode=0 SaveCurrent=no
 MLIN2:TL3  N__8 P2 Subst="MSub1" W=2.8 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MTAPER:Taper2  N__8 N__2 Subst="MSub1" W1=2.8 mm W2=1 mm L=1 mm 
-MGAP:Gap4  N__2 N__9 Subst="MSub1" W=1 mm S=0.5 mm 
+Short:Taper2  N__8 N__2 Mode=0 SaveCurrent=no
+Short:Gap4  N__2 N__9 Mode=0 SaveCurrent=no
 end dc_block_in
 
 ; Library Name: semester_task_lib
@@ -58,10 +58,10 @@ C3=8.27246e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
 C4=8.28742e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
 C2=9.58532e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
 model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
-CapJT:Kap5  N__8 N__4 C=C1 F 
-CapJT:Kap4  N__21 N__20 C=C2 F 
-CapJT:Kap3  N__26 N__24 C=C4 F 
-CapJT:Kap1  N__15 N__10 C=C3 F 
+Johanson_lib_CapJT_schematic:Kap5  N__8 N__4 C=C1 F 
+Johanson_lib_CapJT_schematic:Kap4  N__21 N__20 C=C2 F 
+Johanson_lib_CapJT_schematic:Kap3  N__26 N__24 C=C4 F 
+Johanson_lib_CapJT_schematic:Kap1  N__15 N__10 C=C3 F 
 MCROS:Cros2  N__20 N__11 N__24 N__25 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
 MCROS:Cros1  N__15 N__14 N__18 N__12 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
 MCROS:Cros3  N__9 N__27 N__5 N__4 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
@@ -83,17 +83,17 @@ MCROS:Cros3  N__23 N__27 N__24 N__14 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm
 MLIN2:TL3  N__24 N__3 Subst="MSub1" W=2.8 mm L=1 mm notune{ 0.5 mm to 1.5 mm by 0.1 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
 MLIN2:TL9  N__17 N__22 Subst="MSub1" W=2.8 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-CapJT:Kap1  N__28 N__2 C=C3 F 
+Johanson_lib_CapJT_schematic:Kap1  N__28 N__2 C=C3 F 
 MCROS:Cros1  N__28 N__3 N__31 N__11 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
 MLIN2:TL4  N__2 N__8 Subst="MSub1" W=1 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 VIA:V1  N__8 0 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
 MLIN2:TL6  N__11 N__15 Subst="MSub1" W=2.8 mm tune{ 1.4 mm to 4.199999999999999 mm by 0.27999999999999997 mm } L=3 mm notune{ 1.5 mm to 4.5 mm by 0.30000000000000004 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MCROS:Cros2  N__13 N__15 N__29 N__18 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
 MLIN2:TL7  N__6 N__30 Subst="MSub1" W=2.8 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-CapJT:Kap3  N__30 N__29 C=C4 F 
+Johanson_lib_CapJT_schematic:Kap3  N__30 N__29 C=C4 F 
 VIA:V3  0 N__6 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
 MLIN2:TL8  N__18 P1 Subst="MSub1" W=2.8 mm L=20 mm notune{ 2 mm to 6 mm by 0.4 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-CapJT:Kap4  N__22 N__13 C=C2 F 
+Johanson_lib_CapJT_schematic:Kap4  N__22 N__13 C=C2 F 
 VIA:V4  0 N__17 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
 
 L=0.0114363276764 tune{ 0.008 to 0.02 logScale }
@@ -102,7 +102,7 @@ C3=8.27246e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
 C4=8.28742e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
 C2=9.58532e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
 MRSTUB:Stub1  N__27 Subst="MSub1" Wi=2.8 mm L=L Angle=70 
-CapJT:Kap5  N__12 N__14 C=C1 F 
+Johanson_lib_CapJT_schematic:Kap5  N__12 N__14 C=C1 F 
 VIA:V5  0 N__4 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
 MGAP:Gap1  N__28 N__2 Subst="MSub1" W=1 mm S=0.5 mm 
 MGAP:Gap2  N__30 N__29 Subst="MSub1" W=1 mm S=0.5 mm 
@@ -129,9 +129,9 @@ MTEE_ADS:Tee2  N__14 N__1 N__0 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm
 MGAP:Gap1  N__15 N__6 Subst="MSub1" W=0.625 mm S=0.25 mm 
 MTAPER:Taper1  N__14 N__21 Subst="MSub1" W1=0.625 mm W2=0.5 mm L=2.5 mm 
 MTAPER:Taper2  N__10 N__20 Subst="MSub1" W1=0.625 mm W2=0.5 mm L=2.5 mm 
-CapJT:Kap1  N__21 N__20 C=10.0 pF 
-R:R1  N__21 N__20 R=50 Ohm Noise=yes 
 MGAP:Gap2  N__20 N__21 Subst="MSub1" W=1 mm S=0.5 mm 
+Johanson_lib_CapJT_schematic:Kap1  N__21 N__20 C=10.0 pF 
+R:R1  N__21 N__20 R=50 Ohm Noise=yes 
 end cell_1
 
 cell_1:X1  N__3 N__2 N__0 N__10 
@@ -145,7 +145,7 @@ Vg=-3
 S_Param:SP2 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
 SweepVar="freq" SweepPlan="SP2_stim" OutputPlan="SP2_Output" 
 
-SweepPlan: SP2_stim Start=2.2 GHz Stop=2.5 GHz Step=0.01 GHz 
+SweepPlan: SP2_stim Start=100 MHz Stop=10 GHz Step=0.01 GHz 
 
 OutputPlan:SP2_Output \
       Type="Output" \
@@ -156,3 +156,4 @@ OutputPlan:SP2_Output \
 
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+aele MaxGain1=max_gain(S);
