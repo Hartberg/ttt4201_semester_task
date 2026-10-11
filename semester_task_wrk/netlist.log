@@ -14,6 +14,29 @@ C:C9  P1 0 C=0.0317 pF
 end CapJT
 
 ; Library Name: semester_task_lib
+; Cell Name: dc_block_in
+; View Name: schematic
+define dc_block_in ( P1  P2 ) 
+;parameters 
+MTAPER:Taper1  N__5 N__9 Subst="MSub1" W1=2.8 mm W2=1 mm L=1 mm 
+CapJT:Kap1  N__9 N__2 C=C_blk pF 
+MLIN2:TL2  P1 N__5 Subst="MSub1" W=2.8 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL3  N__8 P2 Subst="MSub1" W=2.8 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MTAPER:Taper2  N__8 N__2 Subst="MSub1" W1=1 mm W2=2.8 mm L=1 mm 
+MGAP:Gap4  N__2 N__9 Subst="MSub1" W=1 mm S=0.5 mm 
+
+C_blk=22 tune{ 10 to 33 by 1 }
+end dc_block_in
+
+; Library Name: semester_task_lib
+; Cell Name: dc_block_out
+; View Name: schematic
+define dc_block_out ( P1  P2 ) 
+;parameters 
+Short:DC_Block1  P1 P2 Mode=1 
+end dc_block_out
+
+; Library Name: semester_task_lib
 ; Cell Name: dc_feed_vds
 ; View Name: schematic
 define dc_feed_vds ( P1  P2 ) 
@@ -107,14 +130,12 @@ define cell_1 ( P1  P2  P3  P4 )
 ;parameters 
 #uselib "MA_RFP_ADS_v2p7" , "CG2H40010F_v2"
 "CG2H40010F_v2":X1  N__15 N__6 0 Rth=7.83 Tbase=25 VDN=28 x1=1 x2=1 
-Short:DC_Block1  P1 N__1 Mode=1 
-Short:DC_Block2  N__12 P3 Mode=1 
 dc_feed_vgs:X5  P2 N__0 
 model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
 MLIN2:TL1  N__6 N__13 Subst="MSub1" W=2.8 mm L=3 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MLIN2:TL2  N__10 N__15 Subst="MSub1" W=2.8 mm L=3 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MTEE_ADS:Tee1  N__12 N__13 N__17 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
-MTEE_ADS:Tee2  N__14 N__1 N__0 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
+MTEE_ADS:Tee2  N__14 N__19 N__0 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
 MGAP:Gap1  N__15 N__6 Subst="MSub1" W=1 mm S=0.5 mm 
 MTAPER:Taper1  N__14 N__21 Subst="MSub1" W1=2.8 mm W2=1 mm L=1 mm 
 MTAPER:Taper2  N__10 N__20 Subst="MSub1" W1=1 mm W2=2.8 mm L=2.5 mm 
@@ -125,6 +146,8 @@ R:R1  N__21 N__20 R=R_stab Ohm Noise=yes
 C_stab=3.3 tune{ 1 to 85 by 0.1 }
 R_stab=47 tune{ 10 to 100 by 0.2 }
 dc_feed_vds:X6  P4 N__17 
+dc_block_in:X7  P1 N__19 
+dc_block_out:X8  N__12 P3 
 end cell_1
 
 cell_1:X1  N__3 N__2 N__0 N__10 

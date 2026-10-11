@@ -1,5 +1,11 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Schematic cell="cell_1" geom="1,0,0,1,23,574,577,960,600" height="577" lib="semester_task_lib" view="schematic" width="574" x1="1" y1="0"/>
+        <DDS name="big_schem.dds"/>
+        <DDS name="dc_feed_vgs.dds"/>
+        <DDS name="cell_1.dds"/>
+        <DDS name="tb_feed.dds"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
