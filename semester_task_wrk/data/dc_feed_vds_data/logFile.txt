@@ -1,0 +1,27 @@
+
+hpeesofsim (*) 650.shp Jul 29 2026, MINT version 5
+    (64-bit windows built: Wed Jul 29, 2026 11:10:28 +0000)
+
+***** Simulation started at Sat Oct 10 17:52:19 2026
+      Running on host: "MasterMachine"
+      In Directory: "C:\Users\Aaseb\RadiosystemdesignADS\SemesterJonas\ttt4201_semester_task\semester_task_wrk\data"
+      Process ID: 26268
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 3
+
+
+SP SP1[1] <semester_task_lib:dc_feed_vds:schematic>   freq=(0 Hz->10 GHz)
+
+
+Resource usage:
+    Total CPU time            =     2.45 seconds.
+    Simulation stopwatch time =     0.18 seconds.
+    Total stopwatch time      =     0.97 seconds.
+
+    Memory used:  127 MBytes
+
+    Max threads used:  33
+        (NOTE: max threads includes very-low-CPU-usage support threads,
+         as well as high-CPU-usage computational threads.)
+
