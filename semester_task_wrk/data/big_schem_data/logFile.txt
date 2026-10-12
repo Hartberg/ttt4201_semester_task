@@ -2,13 +2,13 @@
 hpeesofsim (*) 650.shp Jul 29 2026, MINT version 5
     (64-bit windows built: Wed Jul 29, 2026 11:10:28 +0000)
 
-***** Simulation started at Mon Oct 12 13:59:30 2026
+***** Simulation started at Mon Oct 12 20:00:58 2026
       Running on host: "LAPTOP-VDFVMML2"
       In Directory: "C:\Users\nathr\Documents\BIELSYS\sem7\ttt4201\ttt4201_semester_task\semester_task_wrk\data"
-      Process ID: 13604
+      Process ID: 30752
 
 Warning detected by hpeesofsim in topology check during circuit set up.
-    Number of nodes with only one device attached (topology corrected): 10
+    Number of nodes with only one device attached (topology corrected): 8
 
 Pt DC convergence is used.
 
@@ -33,9 +33,9 @@ Warning detected by hpeesofsim during circuit set up.
 
 
 Resource usage:
-    Total CPU time            =    38.14 seconds.
-    Simulation stopwatch time =     0.44 seconds.
-    Total stopwatch time      =     2.60 seconds.
+    Total CPU time            =     1.31 seconds.
+    Simulation stopwatch time =     0.18 seconds.
+    Total stopwatch time      =     1.05 seconds.
 
     Memory used:  131 MBytes
 
