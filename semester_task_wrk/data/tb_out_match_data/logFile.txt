@@ -1,0 +1,1835 @@
+
+hpeesofsim (*) 650.shp Jul 29 2026, MINT version 5
+    (64-bit windows built: Wed Jul 29, 2026 11:10:28 +0000)
+
+***** Simulation started at Wed Oct 14 09:23:45 2026
+      Running on host: "MasterMachine"
+      In Directory: "C:\Users\Aaseb\RadiosystemdesignADS\SemesterJonas\ttt4201_semester_task\semester_task_wrk\data"
+      Process ID: 33808
+
+
+OPTIM Optim1[1] <semester_task_lib:tb_out_match:schematic>  optIter=(0->200)
+Optim1: Seed = 154191673
+
+SP Optim1[1].SP1[0] <semester_task_lib:tb_out_match:schematic>  optIter=0  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 1.16721495295218
+  Optimization variables:
+    In_match.Lq_matchIn = 21
+    In_match.Ls_matchIn = 6.5
+    In_match.Wq_matchIn = 700e-03
+
+SP Optim1[1].SP1[1] <semester_task_lib:tb_out_match:schematic>  optIter=1  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #1:
+  CurrentEF: 0.555385807666756
+  Optimization variables:
+    In_match.Lq_matchIn = 20.65217924738075
+    In_match.Ls_matchIn = 6.049397239807057
+    In_match.Wq_matchIn = 695.3874825339051e-03
+
+SP Optim1[1].SP1[2] <semester_task_lib:tb_out_match:schematic>  optIter=2  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #2:
+  CurrentEF: 0.0020082461788173
+  Optimization variables:
+    In_match.Lq_matchIn = 17.0261811104404
+    In_match.Ls_matchIn = 6.935702158462213
+    In_match.Wq_matchIn = 615.8183455384887e-03
+
+SP Optim1[1].SP1[3] <semester_task_lib:tb_out_match:schematic>  optIter=3  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #3:
+  CurrentEF: 0.000894921302531348
+  Optimization variables:
+    In_match.Lq_matchIn = 17.0840049141176
+    In_match.Ls_matchIn = 6.884404287711533
+    In_match.Wq_matchIn = 613.9783441553903e-03
+
+SP Optim1[1].SP1[4] <semester_task_lib:tb_out_match:schematic>  optIter=4  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #4:
+  CurrentEF: 0.000258014129154422
+  Optimization variables:
+    In_match.Lq_matchIn = 17.20990268614491
+    In_match.Ls_matchIn = 6.877004293734467
+    In_match.Wq_matchIn = 602.3340243939658e-03
+
+SP Optim1[1].SP1[5] <semester_task_lib:tb_out_match:schematic>  optIter=5  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #5:
+  CurrentEF: 0.000139928086715252
+  Optimization variables:
+    In_match.Lq_matchIn = 17.24226082625391
+    In_match.Ls_matchIn = 6.856655762610091
+    In_match.Wq_matchIn = 601.1832706615213e-03
+
+SP Optim1[1].SP1[6] <semester_task_lib:tb_out_match:schematic>  optIter=6  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #6:
+  CurrentEF: 0.000110589785798371
+  Optimization variables:
+    In_match.Lq_matchIn = 17.27716694645902
+    In_match.Ls_matchIn = 6.852554302430596
+    In_match.Wq_matchIn = 600.0654635903632e-03
+
+SP Optim1[1].SP1[7] <semester_task_lib:tb_out_match:schematic>  optIter=7  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #7:
+  CurrentEF: 0.000107209885003402
+  Optimization variables:
+    In_match.Lq_matchIn = 17.27116011322818
+    In_match.Ls_matchIn = 6.851603714727518
+    In_match.Wq_matchIn = 600.0172487510366e-03
+
+SP Optim1[1].SP1[8] <semester_task_lib:tb_out_match:schematic>  optIter=8  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #8:
+  CurrentEF: 6.33801320110406e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.97917496377633
+    In_match.Ls_matchIn = 6.916795348300637
+    In_match.Wq_matchIn = 600.2286515737497e-03
+
+SP Optim1[1].SP1[9] <semester_task_lib:tb_out_match:schematic>  optIter=9  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #9:
+  CurrentEF: 5.19645970400341e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.74391635448627
+    In_match.Ls_matchIn = 6.964792318628272
+    In_match.Wq_matchIn = 600.7289352237891e-03
+
+SP Optim1[1].SP1[10] <semester_task_lib:tb_out_match:schematic>  optIter=10  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #10:
+  CurrentEF: 5.1840075639806e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.719536350132
+    In_match.Ls_matchIn = 6.969674657218503
+    In_match.Wq_matchIn = 600.7967571369131e-03
+
+SP Optim1[1].SP1[11] <semester_task_lib:tb_out_match:schematic>  optIter=11  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #11:
+  CurrentEF: 5.1839842508398e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72122781725596
+    In_match.Ls_matchIn = 6.969335233467391
+    In_match.Wq_matchIn = 600.7919489506407e-03
+
+SP Optim1[1].SP1[12] <semester_task_lib:tb_out_match:schematic>  optIter=12  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #12:
+  CurrentEF: 5.18395907827273e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72045193346315
+    In_match.Ls_matchIn = 6.96949078710069
+    In_match.Wq_matchIn = 600.7941526607706e-03
+
+SP Optim1[1].SP1[13] <semester_task_lib:tb_out_match:schematic>  optIter=13  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #13:
+  CurrentEF: 5.18395856019391e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72030710107071
+    In_match.Ls_matchIn = 6.96951983189444
+    In_match.Wq_matchIn = 600.7945645050559e-03
+
+SP Optim1[1].SP1[14] <semester_task_lib:tb_out_match:schematic>  optIter=14  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #14:
+  CurrentEF: 5.18395851379116e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72025882577691
+    In_match.Ls_matchIn = 6.969529512219991
+    In_match.Wq_matchIn = 600.794701836841e-03
+
+SP Optim1[1].SP1[15] <semester_task_lib:tb_out_match:schematic>  optIter=15  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #15:
+  CurrentEF: 5.1839584397332e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72029504808732
+    In_match.Ls_matchIn = 6.969522248542969
+    In_match.Wq_matchIn = 600.794598763931e-03
+
+SP Optim1[1].SP1[16] <semester_task_lib:tb_out_match:schematic>  optIter=16  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #16:
+  CurrentEF: 5.1839584397332e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72029504808732
+    In_match.Ls_matchIn = 6.969522852886268
+    In_match.Wq_matchIn = 600.794598763931e-03
+
+SP Optim1[1].SP1[17] <semester_task_lib:tb_out_match:schematic>  optIter=17  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #17:
+  CurrentEF: 5.18395599047931e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.71986230723951
+    In_match.Ls_matchIn = 6.969608976100399
+    In_match.Wq_matchIn = 600.7958310503653e-03
+
+SP Optim1[1].SP1[18] <semester_task_lib:tb_out_match:schematic>  optIter=18  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #18:
+  CurrentEF: 5.18394679465865e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72044094213867
+    In_match.Ls_matchIn = 6.969492928185994
+    In_match.Wq_matchIn = 600.7941827808969e-03
+
+SP Optim1[1].SP1[19] <semester_task_lib:tb_out_match:schematic>  optIter=19  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #19:
+  CurrentEF: 5.18394679444894e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72043792069418
+    In_match.Ls_matchIn = 6.969493534037408
+    In_match.Wq_matchIn = 600.7941913849235e-03
+
+SP Optim1[1].SP1[20] <semester_task_lib:tb_out_match:schematic>  optIter=20  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #20:
+  CurrentEF: 5.18393986598704e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.71967946140132
+    In_match.Ls_matchIn = 6.969645496925946
+    In_match.Wq_matchIn = 600.7963528264123e-03
+
+SP Optim1[1].SP1[21] <semester_task_lib:tb_out_match:schematic>  optIter=21  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #21:
+  CurrentEF: 5.18392188330095e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72025779429808
+    In_match.Ls_matchIn = 6.969529499202422
+    In_match.Wq_matchIn = 600.7947035275311e-03
+
+SP Optim1[1].SP1[22] <semester_task_lib:tb_out_match:schematic>  optIter=22  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #22:
+  CurrentEF: 5.18392035852372e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72045108916691
+    In_match.Ls_matchIn = 6.96949074087112
+    In_match.Wq_matchIn = 600.7941525730413e-03
+
+SP Optim1[1].SP1[23] <semester_task_lib:tb_out_match:schematic>  optIter=23  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #23:
+  CurrentEF: 5.18391958689603e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72064441723213
+    In_match.Ls_matchIn = 6.969451973303544
+    In_match.Wq_matchIn = 600.7936015650235e-03
+
+SP Optim1[1].SP1[24] <semester_task_lib:tb_out_match:schematic>  optIter=24  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #24:
+  CurrentEF: 5.18391956963897e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72068068806471
+    In_match.Ls_matchIn = 6.969444700135929
+    In_match.Wq_matchIn = 600.7934981841281e-03
+
+SP Optim1[1].SP1[25] <semester_task_lib:tb_out_match:schematic>  optIter=25  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #25:
+  CurrentEF: 5.18391935658339e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72087460580158
+    In_match.Ls_matchIn = 6.969405810728345
+    In_match.Wq_matchIn = 600.7929454274332e-03
+
+SP Optim1[1].SP1[26] <semester_task_lib:tb_out_match:schematic>  optIter=26  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #26:
+  CurrentEF: 5.18391901534341e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72072939540855
+    In_match.Ls_matchIn = 6.969434928430067
+    In_match.Wq_matchIn = 600.79335942029e-03
+
+SP Optim1[1].SP1[27] <semester_task_lib:tb_out_match:schematic>  optIter=27  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #27:
+  CurrentEF: 5.18391886784498e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72083824730445
+    In_match.Ls_matchIn = 6.96941310044485
+    In_match.Wq_matchIn = 600.7930489910374e-03
+
+SP Optim1[1].SP1[28] <semester_task_lib:tb_out_match:schematic>  optIter=28  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #28:
+  CurrentEF: 5.18391886784498e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72083824730445
+    In_match.Ls_matchIn = 6.969413707106032
+    In_match.Wq_matchIn = 600.7930489910374e-03
+
+SP Optim1[1].SP1[29] <semester_task_lib:tb_out_match:schematic>  optIter=29  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #29:
+  CurrentEF: 5.18391880792081e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72078692013262
+    In_match.Ls_matchIn = 6.969423391629974
+    In_match.Wq_matchIn = 600.7931954283989e-03
+
+SP Optim1[1].SP1[30] <semester_task_lib:tb_out_match:schematic>  optIter=30  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #30:
+  CurrentEF: 5.18391799090102e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72098073053889
+    In_match.Ls_matchIn = 6.969384524553329
+    In_match.Wq_matchIn = 600.7926423762736e-03
+
+SP Optim1[1].SP1[31] <semester_task_lib:tb_out_match:schematic>  optIter=31  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #31:
+  CurrentEF: 5.18391797286886e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72093229564839
+    In_match.Ls_matchIn = 6.969394236788151
+    In_match.Wq_matchIn = 600.7927806024729e-03
+
+SP Optim1[1].SP1[32] <semester_task_lib:tb_out_match:schematic>  optIter=32  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #32:
+  CurrentEF: 5.18391782472413e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72104128350805
+    In_match.Ls_matchIn = 6.969372381493625
+    In_match.Wq_matchIn = 600.7924695005598e-03
+
+SP Optim1[1].SP1[33] <semester_task_lib:tb_out_match:schematic>  optIter=33  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #33:
+  CurrentEF: 5.18391782472413e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72104128350805
+    In_match.Ls_matchIn = 6.96937298871503
+    In_match.Wq_matchIn = 600.7924695005598e-03
+
+SP Optim1[1].SP1[34] <semester_task_lib:tb_out_match:schematic>  optIter=34  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #34:
+  CurrentEF: 5.18391465618672e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72027357582627
+    In_match.Ls_matchIn = 6.969526226166982
+    In_match.Wq_matchIn = 600.7946629878501e-03
+
+SP Optim1[1].SP1[35] <semester_task_lib:tb_out_match:schematic>  optIter=35  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #35:
+  CurrentEF: 5.18389837407348e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72085315358538
+    In_match.Ls_matchIn = 6.969409986050469
+    In_match.Wq_matchIn = 600.7930059666732e-03
+
+SP Optim1[1].SP1[36] <semester_task_lib:tb_out_match:schematic>  optIter=36  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #36:
+  CurrentEF: 5.18389706208565e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72104688693997
+    In_match.Ls_matchIn = 6.969371139891886
+    In_match.Wq_matchIn = 600.7924523611513e-03
+
+SP Optim1[1].SP1[37] <semester_task_lib:tb_out_match:schematic>  optIter=37  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #37:
+  CurrentEF: 5.18389648074935e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72124073650805
+    In_match.Ls_matchIn = 6.969332267640331
+    In_match.Wq_matchIn = 600.7918984676445e-03
+
+SP Optim1[1].SP1[38] <semester_task_lib:tb_out_match:schematic>  optIter=38  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #38:
+  CurrentEF: 5.1838964788528e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7212377075685
+    In_match.Ls_matchIn = 6.969332875001678
+    In_match.Wq_matchIn = 600.791907122968e-03
+
+SP Optim1[1].SP1[39] <semester_task_lib:tb_out_match:schematic>  optIter=39  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #39:
+  CurrentEF: 5.18389616923214e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72109294200803
+    In_match.Ls_matchIn = 6.969361897846761
+    In_match.Wq_matchIn = 600.792320941736e-03
+
+SP Optim1[1].SP1[40] <semester_task_lib:tb_out_match:schematic>  optIter=40  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #40:
+  CurrentEF: 5.18389479298066e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72128674385407
+    In_match.Ls_matchIn = 6.969323033858551
+    In_match.Wq_matchIn = 600.7917667973622e-03
+
+SP Optim1[1].SP1[41] <semester_task_lib:tb_out_match:schematic>  optIter=41  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #41:
+  CurrentEF: 5.18389472824509e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72132311251274
+    In_match.Ls_matchIn = 6.969315741205698
+    In_match.Wq_matchIn = 600.7916628042625e-03
+
+SP Optim1[1].SP1[42] <semester_task_lib:tb_out_match:schematic>  optIter=42  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #42:
+  CurrentEF: 5.18389465190288e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72151725898988
+    In_match.Ls_matchIn = 6.969276808977353
+    In_match.Wq_matchIn = 600.7911076276132e-03
+
+SP Optim1[1].SP1[43] <semester_task_lib:tb_out_match:schematic>  optIter=43  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #43:
+  CurrentEF: 5.18389453733561e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72146872834265
+    In_match.Ls_matchIn = 6.969286540403623
+    In_match.Wq_matchIn = 600.7912464202042e-03
+
+SP Optim1[1].SP1[44] <semester_task_lib:tb_out_match:schematic>  optIter=44  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #44:
+  CurrentEF: 5.18389452021155e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72150512735903
+    In_match.Ls_matchIn = 6.969279241404154
+    In_match.Wq_matchIn = 600.7911422942855e-03
+
+SP Optim1[1].SP1[45] <semester_task_lib:tb_out_match:schematic>  optIter=45  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #45:
+  CurrentEF: 5.18389448571327e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72154155521723
+    In_match.Ls_matchIn = 6.969271936546196
+    In_match.Wq_matchIn = 600.7910380659689e-03
+
+SP Optim1[1].SP1[46] <semester_task_lib:tb_out_match:schematic>  optIter=46  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #46:
+  CurrentEF: 5.18389447738017e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72155369179753
+    In_match.Ls_matchIn = 6.969269502869329
+    In_match.Wq_matchIn = 600.7910033333755e-03
+
+SP Optim1[1].SP1[47] <semester_task_lib:tb_out_match:schematic>  optIter=47  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #47:
+  CurrentEF: 5.18389437906534e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72150532542245
+    In_match.Ls_matchIn = 6.969279199986472
+    In_match.Wq_matchIn = 600.7911417839819e-03
+
+SP Optim1[1].SP1[48] <semester_task_lib:tb_out_match:schematic>  optIter=48  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #48:
+  CurrentEF: 5.18389395810579e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72169937191324
+    In_match.Ls_matchIn = 6.969240288459542
+    In_match.Wq_matchIn = 600.7905862289367e-03
+
+SP Optim1[1].SP1[49] <semester_task_lib:tb_out_match:schematic>  optIter=49  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #49:
+  CurrentEF: 5.18389394545187e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72165080839731
+    In_match.Ls_matchIn = 6.969250026410867
+    In_match.Wq_matchIn = 600.7907252820331e-03
+
+SP Optim1[1].SP1[50] <semester_task_lib:tb_out_match:schematic>  optIter=50  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #50:
+  CurrentEF: 5.18389386208046e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72168722734724
+    In_match.Ls_matchIn = 6.969242723527349
+    In_match.Wq_matchIn = 600.7906209744703e-03
+
+SP Optim1[1].SP1[51] <semester_task_lib:tb_out_match:schematic>  optIter=51  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #51:
+  CurrentEF: 5.18389381009221e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72172363775761
+    In_match.Ls_matchIn = 6.969235422579015
+    In_match.Wq_matchIn = 600.7905166725027e-03
+
+SP Optim1[1].SP1[52] <semester_task_lib:tb_out_match:schematic>  optIter=52  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #52:
+  CurrentEF: 5.18389368288734e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72183294908208
+    In_match.Ls_matchIn = 6.969213502966111
+    In_match.Wq_matchIn = 600.7902034970505e-03
+
+SP Optim1[1].SP1[53] <semester_task_lib:tb_out_match:schematic>  optIter=53  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #53:
+  CurrentEF: 5.18389368257464e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72182991226981
+    In_match.Ls_matchIn = 6.969214111907355
+    In_match.Wq_matchIn = 600.7902121987926e-03
+
+SP Optim1[1].SP1[54] <semester_task_lib:tb_out_match:schematic>  optIter=54  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #54:
+  CurrentEF: 5.18389123410064e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72139736376406
+    In_match.Ls_matchIn = 6.969300804287327
+    In_match.Wq_matchIn = 600.7914523101962e-03
+
+SP Optim1[1].SP1[55] <semester_task_lib:tb_out_match:schematic>  optIter=55  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #55:
+  CurrentEF: 5.18388360178827e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72197956218125
+    In_match.Ls_matchIn = 6.969184046477313
+    In_match.Wq_matchIn = 600.7897827273824e-03
+
+SP Optim1[1].SP1[56] <semester_task_lib:tb_out_match:schematic>  optIter=56  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #56:
+  CurrentEF: 5.18388353207394e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72193092479898
+    In_match.Ls_matchIn = 6.969193798889556
+    In_match.Wq_matchIn = 600.7899221674826e-03
+
+SP Optim1[1].SP1[57] <semester_task_lib:tb_out_match:schematic>  optIter=57  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #57:
+  CurrentEF: 5.1838835048758e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72196734778161
+    In_match.Ls_matchIn = 6.969186495542264
+    In_match.Wq_matchIn = 600.789817717249e-03
+
+SP Optim1[1].SP1[58] <semester_task_lib:tb_out_match:schematic>  optIter=58  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #58:
+  CurrentEF: 5.18388347562417e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72200378297393
+    In_match.Ls_matchIn = 6.969179189765333
+    In_match.Wq_matchIn = 600.7897132125052e-03
+
+SP Optim1[1].SP1[59] <semester_task_lib:tb_out_match:schematic>  optIter=59  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #59:
+  CurrentEF: 5.18388324166083e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72219859761271
+    In_match.Ls_matchIn = 6.969140122528245
+    In_match.Wq_matchIn = 600.7891544031667e-03
+
+SP Optim1[1].SP1[60] <semester_task_lib:tb_out_match:schematic>  optIter=60  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #60:
+  CurrentEF: 5.18388301562507e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72205265090519
+    In_match.Ls_matchIn = 6.969169386996196
+    In_match.Wq_matchIn = 600.7895731167429e-03
+
+SP Optim1[1].SP1[61] <semester_task_lib:tb_out_match:schematic>  optIter=61  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #61:
+  CurrentEF: 5.18388282078859e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72216204521489
+    In_match.Ls_matchIn = 6.969147451139582
+    In_match.Wq_matchIn = 600.7892591779096e-03
+
+SP Optim1[1].SP1[62] <semester_task_lib:tb_out_match:schematic>  optIter=62  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #62:
+  CurrentEF: 5.18388281918823e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72217420415805
+    In_match.Ls_matchIn = 6.969145013077154
+    In_match.Wq_matchIn = 600.7892242795487e-03
+
+SP Optim1[1].SP1[63] <semester_task_lib:tb_out_match:schematic>  optIter=63  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #63:
+  CurrentEF: 5.18388266767284e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72228378475756
+    In_match.Ls_matchIn = 6.969123038991532
+    In_match.Wq_matchIn = 600.7889097150577e-03
+
+SP Optim1[1].SP1[64] <semester_task_lib:tb_out_match:schematic>  optIter=64  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #64:
+  CurrentEF: 5.18388264782812e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72223511653788
+    In_match.Ls_matchIn = 6.969132797733458
+    In_match.Wq_matchIn = 600.7890494486038e-03
+
+SP Optim1[1].SP1[65] <semester_task_lib:tb_out_match:schematic>  optIter=65  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #65:
+  CurrentEF: 5.18388258083986e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72227160294642
+    In_match.Ls_matchIn = 6.969125481540946
+    In_match.Wq_matchIn = 600.7889446628637e-03
+
+SP Optim1[1].SP1[66] <semester_task_lib:tb_out_match:schematic>  optIter=66  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #66:
+  CurrentEF: 5.18388239278772e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72238120057145
+    In_match.Ls_matchIn = 6.969103504391818
+    In_match.Wq_matchIn = 600.7886298686741e-03
+
+SP Optim1[1].SP1[67] <semester_task_lib:tb_out_match:schematic>  optIter=67  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #67:
+  CurrentEF: 5.18388239222877e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72237815722915
+    In_match.Ls_matchIn = 6.969104114633504
+    In_match.Wq_matchIn = 600.788638611245e-03
+
+SP Optim1[1].SP1[68] <semester_task_lib:tb_out_match:schematic>  optIter=68  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #68:
+  CurrentEF: 5.18387736042417e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72296980467506
+    In_match.Ls_matchIn = 6.968985410170491
+    In_match.Wq_matchIn = 600.7869392985542e-03
+
+SP Optim1[1].SP1[69] <semester_task_lib:tb_out_match:schematic>  optIter=69  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #69:
+  CurrentEF: 5.18387023422059e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72218896562697
+    In_match.Ls_matchIn = 6.969141962233254
+    In_match.Wq_matchIn = 600.7891826327574e-03
+
+SP Optim1[1].SP1[70] <semester_task_lib:tb_out_match:schematic>  optIter=70  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #70:
+  CurrentEF: 5.18386824032815e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72238350033347
+    In_match.Ls_matchIn = 6.969102952316724
+    In_match.Wq_matchIn = 600.7886232728078e-03
+
+SP Optim1[1].SP1[71] <semester_task_lib:tb_out_match:schematic>  optIter=71  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #71:
+  CurrentEF: 5.18386784759189e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72257836920483
+    In_match.Ls_matchIn = 6.969063877813976
+    In_match.Wq_matchIn = 600.7880630200794e-03
+
+SP Optim1[1].SP1[72] <semester_task_lib:tb_out_match:schematic>  optIter=72  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #72:
+  CurrentEF: 5.18386784759189e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72257836920483
+    In_match.Ls_matchIn = 6.96906448870665
+    In_match.Wq_matchIn = 600.7880630200794e-03
+
+SP Optim1[1].SP1[73] <semester_task_lib:tb_out_match:schematic>  optIter=73  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #73:
+  CurrentEF: 5.18386709033628e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72277095465565
+    In_match.Ls_matchIn = 6.969025253486281
+    In_match.Wq_matchIn = 600.7875092274212e-03
+
+SP Optim1[1].SP1[74] <semester_task_lib:tb_out_match:schematic>  optIter=74  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #74:
+  CurrentEF: 5.18386660828332e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72262465977254
+    In_match.Ls_matchIn = 6.969054586847322
+    In_match.Wq_matchIn = 600.7879299741139e-03
+
+SP Optim1[1].SP1[75] <semester_task_lib:tb_out_match:schematic>  optIter=75  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #75:
+  CurrentEF: 5.18386651028804e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72273430134837
+    In_match.Ls_matchIn = 6.969032601516925
+    In_match.Wq_matchIn = 600.7876145494416e-03
+
+SP Optim1[1].SP1[76] <semester_task_lib:tb_out_match:schematic>  optIter=76  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #76:
+  CurrentEF: 5.18386650789964e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72273125511899
+    In_match.Ls_matchIn = 6.969033212326706
+    In_match.Wq_matchIn = 600.7876233143278e-03
+
+SP Optim1[1].SP1[77] <semester_task_lib:tb_out_match:schematic>  optIter=77  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #77:
+  CurrentEF: 5.18386644746173e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72276778692258
+    In_match.Ls_matchIn = 6.969025886879549
+    In_match.Wq_matchIn = 600.7875181773457e-03
+
+SP Optim1[1].SP1[78] <semester_task_lib:tb_out_match:schematic>  optIter=78  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #78:
+  CurrentEF: 5.18386642255746e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72280436097033
+    In_match.Ls_matchIn = 6.969018553204311
+    In_match.Wq_matchIn = 600.7874129002286e-03
+
+SP Optim1[1].SP1[79] <semester_task_lib:tb_out_match:schematic>  optIter=79  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #79:
+  CurrentEF: 5.18386641477114e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72281654948212
+    In_match.Ls_matchIn = 6.969016109263164
+    In_match.Wq_matchIn = 600.7873778089409e-03
+
+SP Optim1[1].SP1[80] <semester_task_lib:tb_out_match:schematic>  optIter=80  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #80:
+  CurrentEF: 5.18386641477114e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72281654948212
+    In_match.Ls_matchIn = 6.969016718781361
+    In_match.Wq_matchIn = 600.7873778089409e-03
+
+SP Optim1[1].SP1[81] <semester_task_lib:tb_out_match:schematic>  optIter=81  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #81:
+  CurrentEF: 5.18385416239225e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72205462300531
+    In_match.Ls_matchIn = 6.96916871964938
+    In_match.Wq_matchIn = 600.7895736300733e-03
+
+SP Optim1[1].SP1[82] <semester_task_lib:tb_out_match:schematic>  optIter=82  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #82:
+  CurrentEF: 5.18383407986116e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72263848179373
+    In_match.Ls_matchIn = 6.969051612180342
+    In_match.Wq_matchIn = 600.7878898428909e-03
+
+SP Optim1[1].SP1[83] <semester_task_lib:tb_out_match:schematic>  optIter=83  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #83:
+  CurrentEF: 5.18383241154687e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72283360712138
+    In_match.Ls_matchIn = 6.969012489157513
+    In_match.Wq_matchIn = 600.7873274270191e-03
+
+SP Optim1[1].SP1[84] <semester_task_lib:tb_out_match:schematic>  optIter=84  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #84:
+  CurrentEF: 5.18383135986906e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72302882092995
+    In_match.Ls_matchIn = 6.968973344658426
+    In_match.Wq_matchIn = 600.7867648099042e-03
+
+SP Optim1[1].SP1[85] <semester_task_lib:tb_out_match:schematic>  optIter=85  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #85:
+  CurrentEF: 5.18383133126646e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72306542473879
+    In_match.Ls_matchIn = 6.968966005165727
+    In_match.Wq_matchIn = 600.7866593130042e-03
+
+SP Optim1[1].SP1[86] <semester_task_lib:tb_out_match:schematic>  optIter=86  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #86:
+  CurrentEF: 5.18383117524178e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72326106589895
+    In_match.Ls_matchIn = 6.968926773053214
+    In_match.Wq_matchIn = 600.7860954219737e-03
+
+SP Optim1[1].SP1[87] <semester_task_lib:tb_out_match:schematic>  optIter=87  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #87:
+  CurrentEF: 5.18383092668472e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72311449429225
+    In_match.Ls_matchIn = 6.968956162418329
+    In_match.Wq_matchIn = 600.7865179599724e-03
+
+SP Optim1[1].SP1[88] <semester_task_lib:tb_out_match:schematic>  optIter=88  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #88:
+  CurrentEF: 5.1838307770294e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72322434419636
+    In_match.Ls_matchIn = 6.96893413568628
+    In_match.Wq_matchIn = 600.7862011924994e-03
+
+SP Optim1[1].SP1[89] <semester_task_lib:tb_out_match:schematic>  optIter=89  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #89:
+  CurrentEF: 5.18383077257652e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72323655871017
+    In_match.Ls_matchIn = 6.968931686483392
+    In_match.Wq_matchIn = 600.7861659655142e-03
+
+SP Optim1[1].SP1[90] <semester_task_lib:tb_out_match:schematic>  optIter=90  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #90:
+  CurrentEF: 5.1838306051778e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72334667221817
+    In_match.Ls_matchIn = 6.968909605575929
+    In_match.Wq_matchIn = 600.7858483491733e-03
+
+SP Optim1[1].SP1[91] <semester_task_lib:tb_out_match:schematic>  optIter=91  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #91:
+  CurrentEF: 5.18383059165097e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72329778049964
+    In_match.Ls_matchIn = 6.968919409119404
+    In_match.Wq_matchIn = 600.7859894000095e-03
+
+SP Optim1[1].SP1[92] <semester_task_lib:tb_out_match:schematic>  optIter=92  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #92:
+  CurrentEF: 5.18383044568477e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72340782500875
+    In_match.Ls_matchIn = 6.968897342636419
+    In_match.Wq_matchIn = 600.7856718627544e-03
+
+SP Optim1[1].SP1[93] <semester_task_lib:tb_out_match:schematic>  optIter=93  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #93:
+  CurrentEF: 5.1838304311222e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72335894524198
+    In_match.Ls_matchIn = 6.968907143575976
+    In_match.Wq_matchIn = 600.7858129325193e-03
+
+SP Optim1[1].SP1[94] <semester_task_lib:tb_out_match:schematic>  optIter=94  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #94:
+  CurrentEF: 5.18383039369263e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72339556879821
+    In_match.Ls_matchIn = 6.968899800254743
+    In_match.Wq_matchIn = 600.7857072076521e-03
+
+SP Optim1[1].SP1[95] <semester_task_lib:tb_out_match:schematic>  optIter=95  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #95:
+  CurrentEF: 5.18383038276166e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72343217607965
+    In_match.Ls_matchIn = 6.968892460382054
+    In_match.Wq_matchIn = 600.7856015111649e-03
+
+SP Optim1[1].SP1[96] <semester_task_lib:tb_out_match:schematic>  optIter=96  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #96:
+  CurrentEF: 5.1838298119218e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72362823483676
+    In_match.Ls_matchIn = 6.968853143057199
+    In_match.Wq_matchIn = 600.785035395509e-03
+
+SP Optim1[1].SP1[97] <semester_task_lib:tb_out_match:schematic>  optIter=97  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #97:
+  CurrentEF: 5.18382963077287e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72348142785673
+    In_match.Ls_matchIn = 6.968882579231522
+    In_match.Wq_matchIn = 600.7854593727812e-03
+
+SP Optim1[1].SP1[98] <semester_task_lib:tb_out_match:schematic>  optIter=98  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #98:
+  CurrentEF: 5.18382950513246e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72367705849958
+    In_match.Ls_matchIn = 6.968843351893277
+    In_match.Wq_matchIn = 600.7848942752311e-03
+
+SP Optim1[1].SP1[99] <semester_task_lib:tb_out_match:schematic>  optIter=99  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #99:
+  CurrentEF: 5.18382942437902e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72362812093524
+    In_match.Ls_matchIn = 6.968853164450183
+    In_match.Wq_matchIn = 600.7850356509133e-03
+
+SP Optim1[1].SP1[100] <semester_task_lib:tb_out_match:schematic>  optIter=100  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #100:
+  CurrentEF: 5.18382935027655e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7236648529544
+    In_match.Ls_matchIn = 6.968845798824317
+    In_match.Wq_matchIn = 600.7849295074249e-03
+
+SP Optim1[1].SP1[101] <semester_task_lib:tb_out_match:schematic>  optIter=101  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #101:
+  CurrentEF: 5.18382925084312e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72377515014307
+    In_match.Ls_matchIn = 6.968823681471129
+    In_match.Wq_matchIn = 600.7846107495168e-03
+
+SP Optim1[1].SP1[102] <semester_task_lib:tb_out_match:schematic>  optIter=102  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #102:
+  CurrentEF: 5.18382917714136e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72372620622371
+    In_match.Ls_matchIn = 6.968833495129196
+    In_match.Wq_matchIn = 600.7847522218935e-03
+
+SP Optim1[1].SP1[103] <semester_task_lib:tb_out_match:schematic>  optIter=103  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #103:
+  CurrentEF: 5.18382911084608e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72376292502311
+    In_match.Ls_matchIn = 6.968826132366213
+    In_match.Wq_matchIn = 600.7846460580122e-03
+
+SP Optim1[1].SP1[104] <semester_task_lib:tb_out_match:schematic>  optIter=104  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #104:
+  CurrentEF: 5.18382904221616e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72379966377801
+    In_match.Ls_matchIn = 6.968818765604419
+    In_match.Wq_matchIn = 600.7845398175471e-03
+
+SP Optim1[1].SP1[105] <semester_task_lib:tb_out_match:schematic>  optIter=105  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #105:
+  CurrentEF: 5.18382898395485e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72383639615919
+    In_match.Ls_matchIn = 6.968811400202068
+    In_match.Wq_matchIn = 600.7844335768325e-03
+
+SP Optim1[1].SP1[106] <semester_task_lib:tb_out_match:schematic>  optIter=106  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #106:
+  CurrentEF: 5.18382889418737e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72394669114504
+    In_match.Ls_matchIn = 6.968789283946341
+    In_match.Wq_matchIn = 600.7841145360884e-03
+
+SP Optim1[1].SP1[107] <semester_task_lib:tb_out_match:schematic>  optIter=107  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #107:
+  CurrentEF: 5.18382887425231e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72389770792978
+    In_match.Ls_matchIn = 6.968799105553446
+    In_match.Wq_matchIn = 600.7842562512692e-03
+
+SP Optim1[1].SP1[108] <semester_task_lib:tb_out_match:schematic>  optIter=108  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #108:
+  CurrentEF: 5.18382887110403e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72390993248329
+    In_match.Ls_matchIn = 6.968796654535385
+    In_match.Wq_matchIn = 600.7842208742765e-03
+
+SP Optim1[1].SP1[109] <semester_task_lib:tb_out_match:schematic>  optIter=109  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #109:
+  CurrentEF: 5.18382828252688e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72376412826944
+    In_match.Ls_matchIn = 6.968825880495573
+    In_match.Wq_matchIn = 600.7846429625003e-03
+
+SP Optim1[1].SP1[110] <semester_task_lib:tb_out_match:schematic>  optIter=110  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #110:
+  CurrentEF: 5.1838263925443e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72395997288544
+    In_match.Ls_matchIn = 6.96878660820864
+    In_match.Wq_matchIn = 600.7840758645114e-03
+
+SP Optim1[1].SP1[111] <semester_task_lib:tb_out_match:schematic>  optIter=111  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #111:
+  CurrentEF: 5.18382623000624e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7240702108873
+    In_match.Ls_matchIn = 6.968764504850664
+    In_match.Wq_matchIn = 600.7837566721302e-03
+
+SP Optim1[1].SP1[112] <semester_task_lib:tb_out_match:schematic>  optIter=112  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #112:
+  CurrentEF: 5.18382617671762e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72410698375562
+    In_match.Ls_matchIn = 6.96875713136307
+    In_match.Wq_matchIn = 600.7836501847584e-03
+
+SP Optim1[1].SP1[113] <semester_task_lib:tb_out_match:schematic>  optIter=113  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #113:
+  CurrentEF: 5.18382615973477e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72414373673206
+    In_match.Ls_matchIn = 6.968749762102997
+    In_match.Wq_matchIn = 600.7835437367154e-03
+
+SP Optim1[1].SP1[114] <semester_task_lib:tb_out_match:schematic>  optIter=114  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #114:
+  CurrentEF: 5.18382598389279e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72425419845682
+    In_match.Ls_matchIn = 6.968727611920677
+    In_match.Wq_matchIn = 600.7832237675588e-03
+
+SP Optim1[1].SP1[115] <semester_task_lib:tb_out_match:schematic>  optIter=115  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #115:
+  CurrentEF: 5.18382594616119e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72420515290828
+    In_match.Ls_matchIn = 6.968737445901134
+    In_match.Wq_matchIn = 600.7833658603536e-03
+
+SP Optim1[1].SP1[116] <semester_task_lib:tb_out_match:schematic>  optIter=116  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #116:
+  CurrentEF: 5.18382588428813e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72424192824696
+    In_match.Ls_matchIn = 6.968730072035539
+    In_match.Wq_matchIn = 600.7832592886632e-03
+
+SP Optim1[1].SP1[117] <semester_task_lib:tb_out_match:schematic>  optIter=117  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #117:
+  CurrentEF: 5.18382579916067e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72427873173802
+    In_match.Ls_matchIn = 6.968722692397477
+    In_match.Wq_matchIn = 600.7831526163928e-03
+
+SP Optim1[1].SP1[118] <semester_task_lib:tb_out_match:schematic>  optIter=118  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #118:
+  CurrentEF: 5.18382578028003e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72431549311372
+    In_match.Ls_matchIn = 6.968715321627416
+    In_match.Wq_matchIn = 600.7830460483219e-03
+
+SP Optim1[1].SP1[119] <semester_task_lib:tb_out_match:schematic>  optIter=119  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #119:
+  CurrentEF: 5.18382564682404e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7245120541997
+    In_match.Ls_matchIn = 6.96867590647159
+    In_match.Wq_matchIn = 600.78247621268e-03
+
+SP Optim1[1].SP1[120] <semester_task_lib:tb_out_match:schematic>  optIter=120  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #120:
+  CurrentEF: 5.18382541830428e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72436476228094
+    In_match.Ls_matchIn = 6.968705439458505
+    In_match.Wq_matchIn = 600.7829032951586e-03
+
+SP Optim1[1].SP1[121] <semester_task_lib:tb_out_match:schematic>  optIter=121  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #121:
+  CurrentEF: 5.18382526088288e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72447515239538
+    In_match.Ls_matchIn = 6.968683305055491
+    In_match.Wq_matchIn = 600.7825831215715e-03
+
+SP Optim1[1].SP1[122] <semester_task_lib:tb_out_match:schematic>  optIter=122  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #122:
+  CurrentEF: 5.1838252573562e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72448742659396
+    In_match.Ls_matchIn = 6.96868084396196
+    In_match.Wq_matchIn = 600.7825475171584e-03
+
+SP Optim1[1].SP1[123] <semester_task_lib:tb_out_match:schematic>  optIter=123  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #123:
+  CurrentEF: 5.1838251729274e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72452428700788
+    In_match.Ls_matchIn = 6.96867345277132
+    In_match.Wq_matchIn = 600.7824405723994e-03
+
+SP Optim1[1].SP1[124] <semester_task_lib:tb_out_match:schematic>  optIter=124  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #124:
+  CurrentEF: 5.18382514968841e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72447527969369
+    In_match.Ls_matchIn = 6.968683278259029
+    In_match.Wq_matchIn = 600.7825827931631e-03
+
+SP Optim1[1].SP1[125] <semester_task_lib:tb_out_match:schematic>  optIter=125  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #125:
+  CurrentEF: 5.18382502151075e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72458555531462
+    In_match.Ls_matchIn = 6.968661168166183
+    In_match.Wq_matchIn = 600.7822627084515e-03
+
+SP Optim1[1].SP1[126] <semester_task_lib:tb_out_match:schematic>  optIter=126  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #126:
+  CurrentEF: 5.18382498475285e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72462237339226
+    In_match.Ls_matchIn = 6.968653785909933
+    In_match.Wq_matchIn = 600.782155828968e-03
+
+SP Optim1[1].SP1[127] <semester_task_lib:tb_out_match:schematic>  optIter=127  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #127:
+  CurrentEF: 5.18382490532906e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7248191648737
+    In_match.Ls_matchIn = 6.968614324831165
+    In_match.Wq_matchIn = 600.7815845430114e-03
+
+SP Optim1[1].SP1[128] <semester_task_lib:tb_out_match:schematic>  optIter=128  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #128:
+  CurrentEF: 5.1838245911185e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72467172303769
+    In_match.Ls_matchIn = 6.96864388739999
+    In_match.Wq_matchIn = 600.7820126457999e-03
+
+SP Optim1[1].SP1[129] <semester_task_lib:tb_out_match:schematic>  optIter=129  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #129:
+  CurrentEF: 5.1838244162106e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72478227517367
+    In_match.Ls_matchIn = 6.968621720361476
+    In_match.Wq_matchIn = 600.7816915625217e-03
+
+SP Optim1[1].SP1[130] <semester_task_lib:tb_out_match:schematic>  optIter=130  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #130:
+  CurrentEF: 5.18382440745753e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72479457159814
+    In_match.Ls_matchIn = 6.968619254775389
+    In_match.Wq_matchIn = 600.7816558447423e-03
+
+SP Optim1[1].SP1[131] <semester_task_lib:tb_out_match:schematic>  optIter=131  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #131:
+  CurrentEF: 5.18382434407088e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72483146010449
+    In_match.Ls_matchIn = 6.968611858061761
+    In_match.Wq_matchIn = 600.7815486724166e-03
+
+SP Optim1[1].SP1[132] <semester_task_lib:tb_out_match:schematic>  optIter=132  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #132:
+  CurrentEF: 5.18382432738113e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72486833362007
+    In_match.Ls_matchIn = 6.968604464653266
+    In_match.Wq_matchIn = 600.7814415256557e-03
+
+SP Optim1[1].SP1[133] <semester_task_lib:tb_out_match:schematic>  optIter=133  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #133:
+  CurrentEF: 5.18382432689797e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72486526423406
+    In_match.Ls_matchIn = 6.968605080059938
+    In_match.Wq_matchIn = 600.7814504464828e-03
+
+SP Optim1[1].SP1[134] <semester_task_lib:tb_out_match:schematic>  optIter=134  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #134:
+  CurrentEF: 5.1838240673437e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72471876918777
+    In_match.Ls_matchIn = 6.968634446455496
+    In_match.Wq_matchIn = 600.7818763713809e-03
+
+SP Optim1[1].SP1[135] <semester_task_lib:tb_out_match:schematic>  optIter=135  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #135:
+  CurrentEF: 5.18382246290066e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72491531485349
+    In_match.Ls_matchIn = 6.968595035475031
+    In_match.Wq_matchIn = 600.7813047958402e-03
+
+SP Optim1[1].SP1[136] <semester_task_lib:tb_out_match:schematic>  optIter=136  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #136:
+  CurrentEF: 5.1838223373706e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7250259807312
+    In_match.Ls_matchIn = 6.968572846560741
+    In_match.Wq_matchIn = 600.7809829862802e-03
+
+SP Optim1[1].SP1[137] <semester_task_lib:tb_out_match:schematic>  optIter=137  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #137:
+  CurrentEF: 5.18382231874655e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7250628856902
+    In_match.Ls_matchIn = 6.968565446794244
+    In_match.Wq_matchIn = 600.7808756576496e-03
+
+SP Optim1[1].SP1[138] <semester_task_lib:tb_out_match:schematic>  optIter=138  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #138:
+  CurrentEF: 5.18382231027394e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72507518790052
+    In_match.Ls_matchIn = 6.968562980120327
+    In_match.Wq_matchIn = 600.7808398728823e-03
+
+SP Optim1[1].SP1[139] <semester_task_lib:tb_out_match:schematic>  optIter=139  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #139:
+  CurrentEF: 5.18382224482396e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72502614135384
+    In_match.Ls_matchIn = 6.968572812966286
+    In_match.Wq_matchIn = 600.7809825772712e-03
+
+SP Optim1[1].SP1[140] <semester_task_lib:tb_out_match:schematic>  optIter=140  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #140:
+  CurrentEF: 5.18382151339002e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72522309093828
+    In_match.Ls_matchIn = 6.968533320600362
+    In_match.Wq_matchIn = 600.7804094676104e-03
+
+SP Optim1[1].SP1[141] <semester_task_lib:tb_out_match:schematic>  optIter=141  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #141:
+  CurrentEF: 5.1838215114123e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72522001180375
+    In_match.Ls_matchIn = 6.968533937989791
+    In_match.Wq_matchIn = 600.7804184281252e-03
+
+SP Optim1[1].SP1[142] <semester_task_lib:tb_out_match:schematic>  optIter=142  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #142:
+  CurrentEF: 5.18379915795263e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72583147522878
+    In_match.Ls_matchIn = 6.968411153213166
+    In_match.Wq_matchIn = 600.7786393557744e-03
+
+SP Optim1[1].SP1[143] <semester_task_lib:tb_out_match:schematic>  optIter=143  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #143:
+  CurrentEF: 5.18378518674758e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72504207698696
+    In_match.Ls_matchIn = 6.968569377986537
+    In_match.Wq_matchIn = 600.7809366088894e-03
+
+SP Optim1[1].SP1[144] <semester_task_lib:tb_out_match:schematic>  optIter=144  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #144:
+  CurrentEF: 5.18378312308181e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72523879846801
+    In_match.Ls_matchIn = 6.968529929899798
+    In_match.Wq_matchIn = 600.7803636341983e-03
+
+SP Optim1[1].SP1[145] <semester_task_lib:tb_out_match:schematic>  optIter=145  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #145:
+  CurrentEF: 5.18378292324464e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72534963096025
+    In_match.Ls_matchIn = 6.968507707659082
+    In_match.Wq_matchIn = 600.7800408423352e-03
+
+SP Optim1[1].SP1[146] <semester_task_lib:tb_out_match:schematic>  optIter=146  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #146:
+  CurrentEF: 5.18378290428932e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72538656456141
+    In_match.Ls_matchIn = 6.968500302323582
+    In_match.Wq_matchIn = 600.7799332649549e-03
+
+SP Optim1[1].SP1[147] <semester_task_lib:tb_out_match:schematic>  optIter=147  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #147:
+  CurrentEF: 5.18378284855261e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7254235274462
+    In_match.Ls_matchIn = 6.96849289089689
+    In_match.Wq_matchIn = 600.779825583582e-03
+
+SP Optim1[1].SP1[148] <semester_task_lib:tb_out_match:schematic>  optIter=148  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #148:
+  CurrentEF: 5.18378280001855e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7254604957714
+    In_match.Ls_matchIn = 6.968485478429545
+    In_match.Wq_matchIn = 600.7797178681833e-03
+
+SP Optim1[1].SP1[149] <semester_task_lib:tb_out_match:schematic>  optIter=149  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #149:
+  CurrentEF: 5.18378271795238e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72549748987404
+    In_match.Ls_matchIn = 6.968478060591584
+    In_match.Wq_matchIn = 600.7796100590751e-03
+
+SP Optim1[1].SP1[150] <semester_task_lib:tb_out_match:schematic>  optIter=150  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #150:
+  CurrentEF: 5.18378270193408e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72553445281117
+    In_match.Ls_matchIn = 6.968470649418137
+    In_match.Wq_matchIn = 600.7795023230985e-03
+
+SP Optim1[1].SP1[151] <semester_task_lib:tb_out_match:schematic>  optIter=151  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #151:
+  CurrentEF: 5.18378263572581e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72557144012333
+    In_match.Ls_matchIn = 6.9684632330525
+    In_match.Wq_matchIn = 600.7793944973723e-03
+
+SP Optim1[1].SP1[152] <semester_task_lib:tb_out_match:schematic>  optIter=152  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #152:
+  CurrentEF: 5.18378262913039e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72558375915881
+    In_match.Ls_matchIn = 6.96846076308508
+    In_match.Wq_matchIn = 600.7793585780853e-03
+
+SP Optim1[1].SP1[153] <semester_task_lib:tb_out_match:schematic>  optIter=153  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #153:
+  CurrentEF: 5.18378257859497e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72553462270388
+    In_match.Ls_matchIn = 6.968470613776654
+    In_match.Wq_matchIn = 600.7795018858486e-03
+
+SP Optim1[1].SP1[154] <semester_task_lib:tb_out_match:schematic>  optIter=154  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #154:
+  CurrentEF: 5.18378228088636e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72573154881378
+    In_match.Ls_matchIn = 6.968431129874448
+    In_match.Wq_matchIn = 600.7789274818154e-03
+
+SP Optim1[1].SP1[155] <semester_task_lib:tb_out_match:schematic>  optIter=155  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #155:
+  CurrentEF: 5.18378228078597e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72572846480388
+    In_match.Ls_matchIn = 6.968431748238679
+    In_match.Wq_matchIn = 600.7789364779251e-03
+
+SP Optim1[1].SP1[156] <semester_task_lib:tb_out_match:schematic>  optIter=156  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #156:
+  CurrentEF: 5.18377340687619e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72633086617059
+    In_match.Ls_matchIn = 6.968310868125052
+    In_match.Wq_matchIn = 600.7771797318192e-03
+
+SP Optim1[1].SP1[157] <semester_task_lib:tb_out_match:schematic>  optIter=157  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #157:
+  CurrentEF: 5.18376435013169e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72553984024068
+    In_match.Ls_matchIn = 6.968469443820664
+    In_match.Wq_matchIn = 600.7794873077951e-03
+
+SP Optim1[1].SP1[158] <semester_task_lib:tb_out_match:schematic>  optIter=158  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #158:
+  CurrentEF: 5.18376233506771e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72573694119237
+    In_match.Ls_matchIn = 6.968429921465806
+    In_match.Wq_matchIn = 600.7789118488672e-03
+
+SP Optim1[1].SP1[159] <semester_task_lib:tb_out_match:schematic>  optIter=159  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #159:
+  CurrentEF: 5.18376220322848e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72593429260269
+    In_match.Ls_matchIn = 6.968390352636664
+    In_match.Wq_matchIn = 600.778335743003e-03
+
+SP Optim1[1].SP1[160] <semester_task_lib:tb_out_match:schematic>  optIter=160  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #160:
+  CurrentEF: 5.18376220322848e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72593429260269
+    In_match.Ls_matchIn = 6.968390971816028
+    In_match.Wq_matchIn = 600.778335743003e-03
+
+SP Optim1[1].SP1[161] <semester_task_lib:tb_out_match:schematic>  optIter=161  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #161:
+  CurrentEF: 5.18376212632237e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7259683416043
+    In_match.Ls_matchIn = 6.968383525169457
+    In_match.Wq_matchIn = 600.7782363194994e-03
+
+SP Optim1[1].SP1[162] <semester_task_lib:tb_out_match:schematic>  optIter=162  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #162:
+  CurrentEF: 5.18376211273502e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72591901528661
+    In_match.Ls_matchIn = 6.968393414731338
+    In_match.Wq_matchIn = 600.7783803847957e-03
+
+SP Optim1[1].SP1[163] <semester_task_lib:tb_out_match:schematic>  optIter=163  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #163:
+  CurrentEF: 5.18376187675917e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72611659161492
+    In_match.Ls_matchIn = 6.968353798515064
+    In_match.Wq_matchIn = 600.7778032715987e-03
+
+SP Optim1[1].SP1[164] <semester_task_lib:tb_out_match:schematic>  optIter=164  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #164:
+  CurrentEF: 5.18376180505374e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72606717046259
+    In_match.Ls_matchIn = 6.968363707644529
+    In_match.Wq_matchIn = 600.7779476424334e-03
+
+SP Optim1[1].SP1[165] <semester_task_lib:tb_out_match:schematic>  optIter=165  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #165:
+  CurrentEF: 5.18376175602947e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72610423958056
+    In_match.Ls_matchIn = 6.968356274915287
+    In_match.Wq_matchIn = 600.7778393274564e-03
+
+SP Optim1[1].SP1[166] <semester_task_lib:tb_out_match:schematic>  optIter=166  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #166:
+  CurrentEF: 5.18376167974267e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72614134242068
+    In_match.Ls_matchIn = 6.968348835255998
+    In_match.Wq_matchIn = 600.7777308956869e-03
+
+SP Optim1[1].SP1[167] <semester_task_lib:tb_out_match:schematic>  optIter=167  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #167:
+  CurrentEF: 5.1837616342427e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72617843666482
+    In_match.Ls_matchIn = 6.968341397512072
+    In_match.Wq_matchIn = 600.7776224712211e-03
+
+SP Optim1[1].SP1[168] <semester_task_lib:tb_out_match:schematic>  optIter=168  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #168:
+  CurrentEF: 5.18376163389558e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72619078611924
+    In_match.Ls_matchIn = 6.968338921462302
+    In_match.Wq_matchIn = 600.7775863677109e-03
+
+SP Optim1[1].SP1[169] <semester_task_lib:tb_out_match:schematic>  optIter=169  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #169:
+  CurrentEF: 5.18376148495104e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72638887723213
+    In_match.Ls_matchIn = 6.968299200132245
+    In_match.Wq_matchIn = 600.7770072259394e-03
+
+SP Optim1[1].SP1[170] <semester_task_lib:tb_out_match:schematic>  optIter=170  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #170:
+  CurrentEF: 5.18376106804073e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72624055904019
+    In_match.Ls_matchIn = 6.968328937233715
+    In_match.Wq_matchIn = 600.7774409289856e-03
+
+SP Optim1[1].SP1[171] <semester_task_lib:tb_out_match:schematic>  optIter=171  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #171:
+  CurrentEF: 5.18376097352866e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72635174965241
+    In_match.Ls_matchIn = 6.968306643080918
+    In_match.Wq_matchIn = 600.777115702304e-03
+
+SP Optim1[1].SP1[172] <semester_task_lib:tb_out_match:schematic>  optIter=172  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #172:
+  CurrentEF: 5.18376097291072e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7263486590134
+    In_match.Ls_matchIn = 6.968307262759052
+    In_match.Wq_matchIn = 600.7771247434598e-03
+
+SP Optim1[1].SP1[173] <semester_task_lib:tb_out_match:schematic>  optIter=173  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #173:
+  CurrentEF: 5.18375968735312e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72654746996459
+    In_match.Ls_matchIn = 6.968267389573548
+    In_match.Wq_matchIn = 600.7765431144066e-03
+
+SP Optim1[1].SP1[174] <semester_task_lib:tb_out_match:schematic>  optIter=174  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #174:
+  CurrentEF: 5.18375908918185e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72639899423338
+    In_match.Ls_matchIn = 6.968297157504264
+    In_match.Wq_matchIn = 600.7769775568426e-03
+
+SP Optim1[1].SP1[175] <semester_task_lib:tb_out_match:schematic>  optIter=175  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #175:
+  CurrentEF: 5.18375896096034e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72651030438986
+    In_match.Ls_matchIn = 6.968274838897928
+    In_match.Wq_matchIn = 600.7766517707094e-03
+
+SP Optim1[1].SP1[176] <semester_task_lib:tb_out_match:schematic>  optIter=176  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #176:
+  CurrentEF: 5.18375896096034e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72651030438986
+    In_match.Ls_matchIn = 6.968275459360422
+    In_match.Wq_matchIn = 600.7766517707094e-03
+
+SP Optim1[1].SP1[177] <semester_task_lib:tb_out_match:schematic>  optIter=177  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #177:
+  CurrentEF: 5.18375759073064e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72670641202592
+    In_match.Ls_matchIn = 6.968235506639533
+    In_match.Wq_matchIn = 600.7760776856019e-03
+
+SP Optim1[1].SP1[178] <semester_task_lib:tb_out_match:schematic>  optIter=178  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #178:
+  CurrentEF: 5.18375686228949e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72655785630688
+    In_match.Ls_matchIn = 6.968265290235204
+    In_match.Wq_matchIn = 600.7765126371174e-03
+
+SP Optim1[1].SP1[179] <semester_task_lib:tb_out_match:schematic>  optIter=179  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #179:
+  CurrentEF: 5.18375679852722e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7265949655418
+    In_match.Ls_matchIn = 6.968257849636982
+    In_match.Wq_matchIn = 600.776403948213e-03
+
+SP Optim1[1].SP1[180] <semester_task_lib:tb_out_match:schematic>  optIter=180  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #180:
+  CurrentEF: 5.18375679681696e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72659187730849
+    In_match.Ls_matchIn = 6.968258468784378
+    In_match.Wq_matchIn = 600.7764129950985e-03
+
+SP Optim1[1].SP1[181] <semester_task_lib:tb_out_match:schematic>  optIter=181  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #181:
+  CurrentEF: 5.18374061980176e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72582204708878
+    In_match.Ls_matchIn = 6.968412627986103
+    In_match.Wq_matchIn = 600.7786702378615e-03
+
+SP Optim1[1].SP1[182] <semester_task_lib:tb_out_match:schematic>  optIter=182  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #182:
+  CurrentEF: 5.18372003058425e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72641457897805
+    In_match.Ls_matchIn = 6.968293786732419
+    In_match.Wq_matchIn = 600.7769319768057e-03
+
+SP Optim1[1].SP1[183] <semester_task_lib:tb_out_match:schematic>  optIter=183  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #183:
+  CurrentEF: 5.18371855657969e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72661260086049
+    In_match.Ls_matchIn = 6.968254086080673
+    In_match.Wq_matchIn = 600.7763513758295e-03
+
+SP Optim1[1].SP1[184] <semester_task_lib:tb_out_match:schematic>  optIter=184  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #184:
+  CurrentEF: 5.18371780949704e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72681066337559
+    In_match.Ls_matchIn = 6.96821437370809
+    In_match.Wq_matchIn = 600.7757707373252e-03
+
+SP Optim1[1].SP1[185] <semester_task_lib:tb_out_match:schematic>  optIter=185  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #185:
+  CurrentEF: 5.1837178040707e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72682305068538
+    In_match.Ls_matchIn = 6.968211890041153
+    In_match.Wq_matchIn = 600.7757344216447e-03
+
+SP Optim1[1].SP1[186] <semester_task_lib:tb_out_match:schematic>  optIter=186  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #186:
+  CurrentEF: 5.18371745809188e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72702183935769
+    In_match.Ls_matchIn = 6.968172027676824
+    In_match.Wq_matchIn = 600.7751516133423e-03
+
+SP Optim1[1].SP1[187] <semester_task_lib:tb_out_match:schematic>  optIter=187  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #187:
+  CurrentEF: 5.18371699513579e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72687314235692
+    In_match.Ls_matchIn = 6.968201840416581
+    In_match.Wq_matchIn = 600.7755876402561e-03
+
+SP Optim1[1].SP1[188] <semester_task_lib:tb_out_match:schematic>  optIter=188  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #188:
+  CurrentEF: 5.18371691571363e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72691029136595
+    In_match.Ls_matchIn = 6.968194391954914
+    In_match.Wq_matchIn = 600.7754786699286e-03
+
+SP Optim1[1].SP1[189] <semester_task_lib:tb_out_match:schematic>  optIter=189  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #189:
+  CurrentEF: 5.1837169088484e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.7269226653935
+    In_match.Ls_matchIn = 6.968191911092651
+    In_match.Wq_matchIn = 600.7754423661453e-03
+
+SP Optim1[1].SP1[190] <semester_task_lib:tb_out_match:schematic>  optIter=190  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #190:
+  CurrentEF: 5.18371618242923e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72712144034912
+    In_match.Ls_matchIn = 6.968152051511717
+    In_match.Wq_matchIn = 600.7748591634728e-03
+
+SP Optim1[1].SP1[191] <semester_task_lib:tb_out_match:schematic>  optIter=191  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #191:
+  CurrentEF: 5.18371606085935e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72707182010064
+    In_match.Ls_matchIn = 6.968162000266613
+    In_match.Wq_matchIn = 600.7750047605722e-03
+
+SP Optim1[1].SP1[192] <semester_task_lib:tb_out_match:schematic>  optIter=192  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #192:
+  CurrentEF: 5.18371593111728e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72718361784709
+    In_match.Ls_matchIn = 6.968139582707071
+    In_match.Wq_matchIn = 600.774676661852e-03
+
+SP Optim1[1].SP1[193] <semester_task_lib:tb_out_match:schematic>  optIter=193  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #193:
+  CurrentEF: 5.18371581237241e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72713401012809
+    In_match.Ls_matchIn = 6.968149528826636
+    In_match.Wq_matchIn = 600.7748222727373e-03
+
+SP Optim1[1].SP1[194] <semester_task_lib:tb_out_match:schematic>  optIter=194  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #194:
+  CurrentEF: 5.18371580856329e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72708449630414
+    In_match.Ls_matchIn = 6.968159455747207
+    In_match.Wq_matchIn = 600.7749676558122e-03
+
+SP Optim1[1].SP1[195] <semester_task_lib:tb_out_match:schematic>  optIter=195  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #195:
+  CurrentEF: 5.18371544430652e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72728303991581
+    In_match.Ls_matchIn = 6.968119645903939
+    In_match.Wq_matchIn = 600.7743846343321e-03
+
+SP Optim1[1].SP1[196] <semester_task_lib:tb_out_match:schematic>  optIter=196  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #196:
+  CurrentEF: 5.18371534739687e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72723341475762
+    In_match.Ls_matchIn = 6.968129595519925
+    In_match.Wq_matchIn = 600.7745303707556e-03
+
+SP Optim1[1].SP1[197] <semester_task_lib:tb_out_match:schematic>  optIter=197  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #197:
+  CurrentEF: 5.18371534739687e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72723341475762
+    In_match.Ls_matchIn = 6.968130216712608
+    In_match.Wq_matchIn = 600.7745303707556e-03
+
+SP Optim1[1].SP1[198] <semester_task_lib:tb_out_match:schematic>  optIter=198  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #198:
+  CurrentEF: 5.18371335820956e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72743031353905
+    In_match.Ls_matchIn = 6.968090103457659
+    In_match.Wq_matchIn = 600.773951932932e-03
+
+SP Optim1[1].SP1[199] <semester_task_lib:tb_out_match:schematic>  optIter=199  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #199:
+  CurrentEF: 5.18371281494925e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72728136846743
+    In_match.Ls_matchIn = 6.968119964249889
+    In_match.Wq_matchIn = 600.7743895669969e-03
+
+SP Optim1[1].SP1[200] <semester_task_lib:tb_out_match:schematic>  optIter=200  freq=(2.3 GHz->2.5 GHz)
+
+Iteration/Trial #200:
+  CurrentEF: 5.18371262426411e-05
+  Optimization variables:
+    In_match.Lq_matchIn = 16.72739298948958
+    In_match.Ls_matchIn = 6.968097584110064
+    In_match.Wq_matchIn = 600.7740615096248e-03
+Gradient optimizer ends after 200 trials and 3691 evaluations with EF=5.184e-05
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+    Total CPU time            =    28.92 seconds.
+    Simulation stopwatch time =   309.81 seconds.
+    Total stopwatch time      =   310.88 seconds.
+
+    Memory used:  134 MBytes
+
+    Max threads used:  38
+        (NOTE: max threads includes very-low-CPU-usage support threads,
+         as well as high-CPU-usage computational threads.)
+

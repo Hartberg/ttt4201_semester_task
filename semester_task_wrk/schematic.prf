@@ -26,7 +26,7 @@ scaleX 1.000000
 scaleY 1.000000
 toArcRadius 0.300000
 miterVertexLength 1.000000
-portOrientation 0.000000
+portOrientation 10000.000000
 plottingDepth 10
 bboxColor 0
 selectColor 0
@@ -158,7 +158,7 @@ instTextDeactiveColor 7
 moveVertexKeepRect 1
 useCrosshairCursor 0
 dragMoveHandle 0
-originDisplayOn 1
+originDisplayOn 0
 originColor 105
 physicalConnHighlightColor 4
 logicalConnHighlightColor 35

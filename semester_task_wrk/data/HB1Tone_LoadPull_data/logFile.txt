@@ -1,0 +1,266 @@
+
+hpeesofsim (*) 650.shp Jul 29 2026, MINT version 5
+    (64-bit windows built: Wed Jul 29, 2026 11:10:28 +0000)
+
+***** Simulation started at Wed Oct 14 13:40:04 2026
+      Running on host: "MasterMachine"
+      In Directory: "C:\Users\Aaseb\RadiosystemdesignADS\SemesterJonas\ttt4201_semester_task\semester_task_wrk\data"
+      Process ID: 24104
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 6
+
+
+HB HB1[1] <semester_task_lib:HB1Tone_LoadPull:schematic>   theta=(0->350)
+Pt DC convergence is used.
+    Number of tones:   1.
+    Number of frequencies:   8.
+    Number of time samples:  32.
+    Number of HB equations (problem size): 1650.
+    Auto mode: off.
+    Convergence mode: Robust.
+    Linear solver: Krylov (GS_GMRES) iters=150 loose=50.
+    Preconditioner: DCP.
+    The general solver is used for HB Krylov preconditioning.
+    theta=0              0.00% 1/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	550.837 mA  	100.0             
+1 	907.72 mA   	  6.2	29.3623 V   	  3	5.548e-03   
+2 	1.32604 A   	  6.2	61.9642 V   	  3	2.096e-02   
+3 	1.40334 A   	 12.5	95.6942 V   	  4	1.053e-02   
+4 	2.28348 A   	 25.0	81.2869 V   	  5	3.212e-03   
+5 	4.09299 A   	 50.0	45.8972 V   	  6	1.323e-03   
+6 	4.57596 A   	100.0	10.8697 V   	  6	1.209e-03   
+7 	3.76904 A   	 50.0	11.1204 V   	 11	1.049e-03   
+8 	131.797 mA  	100.0	2.64914 V   	 10	7.120e-04   
+9 	5.70644 mA  	100.0	327.899 mV  	 10	7.223e-04   
+10 	65.2427 uA  	100.0	13.3864 mV  	  9	5.477e-04   
+11 	384.928 nA  	100.0	62.4847 uV  	  8	9.466e-04   
+12 	749.8 pA    	100.0	220.366 nV  	 11	5.426e-04   
+    theta=15             4.29% 2/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	749.8 pA    	100.0             
+1 	999.431 pA  	100.0	3.3316 nV   	  3	3.531e-02   
+
+    theta=30             8.57% 3/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	999.431 pA  	100.0             
+1 	990.954 pA  	100.0	5.50778 nV  	  3	2.223e-02   
+
+    theta=45            12.86% 4/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	990.954 pA  	100.0             
+1 	755.15 pA   	100.0	4.43165 nV  	  3	2.155e-02   
+
+    theta=60            17.14% 5/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	755.15 pA   	100.0             
+1 	521.41 pA   	100.0	1.48391 nV  	  3	1.664e-02   
+
+    theta=75            21.43% 6/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	521.41 pA   	100.0             
+1 	1.39278 nA  	100.0	5.85054 nV  	  3	3.497e-02   
+
+    theta=90            25.71% 7/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	1.39278 nA  	100.0             
+1 	1.84211 nA  	100.0	11.6134 nV  	  3	2.444e-02   
+
+    theta=105           30.00% 8/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	1.84211 nA  	100.0             
+1 	767.079 pA  	100.0	6.04787 nV  	  3	1.314e-02   
+
+    theta=120           34.29% 9/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	767.079 pA  	100.0             
+1 	1.16767 nA  	100.0	5.51964 nV  	  3	3.270e-02   
+
+    theta=135           38.57% 10/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	1.16767 nA  	100.0             
+1 	605.669 pA  	100.0	3.47095 nV  	  3	1.586e-02   
+
+    theta=150           42.86% 11/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	605.669 pA  	100.0             
+1 	788.705 pA  	100.0	370.798 pV  	  3	4.609e-02   
+
+    theta=165           47.14% 12/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	788.705 pA  	100.0             
+1 	854.287 pA  	100.0	483.877 pV  	  3	7.404e-02   
+
+    theta=180           51.43% 13/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	854.287 pA  	100.0             
+1 	811.725 pA  	100.0	1.79906 nV  	  3	4.004e-02   
+
+    theta=195           55.71% 14/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	811.725 pA  	100.0             
+1 	1.26263 nA  	100.0	4.35397 nV  	  3	4.042e-02   
+
+    theta=210           60.00% 15/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	1.26263 nA  	100.0             
+1 	924.326 pA  	100.0	5.89676 nV  	  3	1.593e-02   
+
+    theta=225           64.29% 16/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	924.326 pA  	100.0             
+1 	841.445 pA  	100.0	714.663 pV  	  3	9.644e-02   
+
+    theta=240           68.57% 17/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	841.445 pA  	100.0             
+1 	568.707 pA  	100.0	1.99581 nV  	  3	1.569e-02   
+
+    theta=255           72.86% 18/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	568.707 pA  	100.0             
+1 	489.869 pA  	100.0	1.54568 nV  	  3	3.532e-02   
+
+    theta=270           77.14% 19/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	489.869 pA  	100.0             
+1 	972.289 pA  	100.0	2.92927 nV  	  3	4.217e-02   
+
+    theta=285           81.43% 20/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	972.289 pA  	100.0             
+1 	583.498 pA  	100.0	2.31741 nV  	  3	1.951e-02   
+
+    theta=300           85.71% 21/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	583.498 pA  	100.0             
+1 	737.96 pA   	100.0	302.998 pV  	  3	6.742e-02   
+
+    theta=315           90.00% 22/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	737.96 pA   	100.0             
+1 	635.592 pA  	100.0	1.47496 nV  	  3	4.173e-02   
+
+    theta=330           94.29% 23/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	635.592 pA  	100.0             
+1 	457.495 pA  	100.0	649.28 pV   	  3	3.275e-02   
+
+    theta=345           98.57% 24/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	457.495 pA  	100.0             
+1 	1.2294 nA   	100.0	4.46623 nV  	  3	3.498e-02   
+
+    theta=350          100.00% 25/25
+------------------------------------------------------------------------------
+Newton solver:					Linear solver:
+Iter	KCL residual	Damp %	Sol update	Iters	Residual
+------------------------------------------------------------------------------
+0 	1.2294 nA   	100.0             
+1 	523.524 pA  	100.0	1.58528 nV  	  5	8.574e-02   
+
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+X1.X1.N__17             6.358e-03       >       1.424e-05
+X1.X1.X1.N__5           6.192e-03       >       1.423e-05
+X1.X1.X1.vdi            6.192e-03       >       1.423e-05
+X1.X1.X1.Q1.dRF         6.192e-03       >       1.423e-05
+X1.X1.X1.Q1.nTj         6.011e-03       >       7.328e-06
+
+o Number of waveforms violating the HB truncation error check:
+        20 out of 21 waveforms.
+o Estimated max HB truncation error: 6.358e-03 @ waveform X1.X1.N__17 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.424e-05 for this waveform.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+Resource usage:
+    Total CPU time            =     6.06 seconds.
+    Simulation stopwatch time =     0.23 seconds.
+    Total stopwatch time      =     0.85 seconds.
+
+    Memory used:  121 MBytes
+
+    Max threads used:  35
+        (NOTE: max threads includes very-low-CPU-usage support threads,
+         as well as high-CPU-usage computational threads.)
+

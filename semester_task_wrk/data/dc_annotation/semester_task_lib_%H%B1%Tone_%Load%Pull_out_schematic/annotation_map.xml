@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation_files Simulator="hpeesofsim" Time="Thu Oct 15 13:33:20 2026" Version="1.0">
+ <File name="annotation_1.xml">
+  <Controller name="HB1_(DC)">
+   <P>imag_indexs11: -5.6818181818181812e-01</P>
+   <P>real_indexs11: -4.3580922665768584e-01</P>
+   <P>freq: 0.0000000000000000e+00</P>
+  </Controller>
+ </File>
+ <File name="annotation_2.xml">
+  <Controller name="HB1_(HB)">
+   <P>imag_indexs11: -5.6818181818181812e-01</P>
+   <P>real_indexs11: -4.3580922665768584e-01</P>
+   <P>freq: 0.0000000000000000e+00</P>
+  </Controller>
+ </File>
+</annotation_files>
