@@ -1,7 +1,7 @@
-; Top Design: "semester_task_lib:HB1Tone_LoadPull_out:schematic"
+; Top Design: "semester_task_lib:big_schem:schematic"
 ; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="semester_task_lib:HB1Tone_LoadPull_out:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="semester_task_lib:big_schem:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 ; Library Name: Johanson_lib
 ; Cell Name: CapJT
 ; View Name: schematic
@@ -12,6 +12,54 @@ L:L1  P1 N__1 L=(0.647*(C/(1pF))^-0.0414) nH R=3.74*(C/(1pF))^-0.195 Ohm Noise=y
 C:C10  P2 0 C=0.0317 pF 
 C:C9  P1 0 C=0.0317 pF 
 end CapJT
+
+; Library Name: semester_task_lib
+; Cell Name: dc_block_in
+; View Name: schematic
+define dc_block_in ( P1  P2 ) 
+;parameters 
+MTAPER:Taper1  N__5 N__9 Subst="MSub1" W1=2.8 mm W2=1 mm L=1 mm 
+CapJT:Kap1  N__9 N__2 C=C_blk pF 
+MLIN2:TL2  P1 N__5 Subst="MSub1" W=2.8 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL3  N__8 P2 Subst="MSub1" W=2.8 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MTAPER:Taper2  N__8 N__2 Subst="MSub1" W1=1 mm W2=2.8 mm L=1 mm 
+MGAP:Gap4  N__2 N__9 Subst="MSub1" W=1 mm S=0.5 mm 
+
+C_blk=22 notune{ 10 to 82 by 1 } noopt{ 1 to 82 }
+model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+end dc_block_in
+
+; Library Name: semester_task_lib
+; Cell Name: dc_block_out
+; View Name: schematic
+define dc_block_out ( P1  P2 ) 
+;parameters 
+MTAPER:Taper2  N__7 N__5 Subst="MSub1" W1=1 mm W2=2.8 mm L=1 mm 
+MTAPER:Taper1  N__6 N__4 Subst="MSub1" W1=2.8 mm W2=1 mm L=1 mm 
+CapJT:Kap1  N__4 N__5 C=C_blk pF 
+MLIN2:TL3  N__7 P2 Subst="MSub1" W=2.8 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL2  P1 N__6 Subst="MSub1" W=2.8 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MGAP:Gap4  N__5 N__4 Subst="MSub1" W=1 mm S=0.5 mm 
+model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+end dc_block_out
+
+; Library Name: semester_task_lib
+; Cell Name: In_match
+; View Name: schematic
+define In_match ( Dev  RF_in ) 
+;parameters 
+MLIN2:TL1  RF_in N__0 Subst="MSub1" W=2.8 mm L=2.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+
+Wq_matchIn=0.500125 tune{ 0.5 to 1.5 logScale } opt{ 0.5 to 1.2 }
+Lq_matchIn=17.2163 tune{ 14 to 28 by 1.75 } opt{ 12 to 25 }
+Ls_matchIn=5.72865 tune{ 3 to 12 by 1.75 } opt{ 4 to 14 }
+dc_block_in:X1  N__0 N__3 
+MLIN2:TL3  N__1 N__5 Subst="MSub1" W=Wq_matchIn mm L=Lq_matchIn mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MTEE_ADS:Tee1  N__5 Dev N__9 Subst="MSub1" W1=Wq_matchIn mm W2=2.8 mm W3=2.8 mm 
+model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MTAPER:Taper2  N__3 N__1 Subst="MSub1" W1=2.8 mm W2=Wq_matchIn mm L=1 mm 
+MLEF2:TL4  N__9 Subst="MSub1" W=2.8 mm L=Ls_matchIn mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+end In_match
 
 ; Library Name: semester_task_lib
 ; Cell Name: dc_feed_vds
@@ -101,113 +149,88 @@ MGAP:Gap5  N__13 N__22 Subst="MSub1" W=1 mm S=0.5 mm
 end dc_feed_vgs
 
 ; Library Name: semester_task_lib
-; Cell Name: PA_core
+; Cell Name: out_match
 ; View Name: schematic
-define PA_core ( P1  P2  P3  P4 ) 
+define out_match ( Dev  RF_out ) 
+;parameters 
+dc_block_out:X1  N__0 N__1 
+MLIN2:TL1  N__1 RF_out Subst="MSub1" W=2.8 mm L=10 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MTEE_ADS:Tee1  Dev N__0 N__6 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
+MLOC2:TL2  N__6 Subst="MSub1" W=2.8 mm L=L_stub_out mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+
+L_stub_out=10.7 tune{ 1 to 16 logScale } noopt{ 1 to 16 }
+C_blk=22 tune{ 1 to 82 logScale } noopt{ 1 to 82 }
+model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+end out_match
+
+; Library Name: semester_task_lib
+; Cell Name: cell_1
+; View Name: schematic
+define cell_1 ( P1  P2  P3  P4 ) 
 ;parameters 
 #uselib "MA_RFP_ADS_v2p7" , "CG2H40010F_v2"
-"CG2H40010F_v2":X1  N__9 N__12 0 Rth=7.83 Tbase=25 VDN=28 x1=1 x2=1 
-
-C_stab=3.3 tune{ 1 to 85 by 0.1 }
-R_stab=47 tune{ 10 to 100 by 0.2 }
-dc_feed_vds:X6  P4 N__13 
-dc_feed_vgs:X5  P2 N__15 
+"CG2H40010F_v2":X1  N__15 N__6 0 Rth=7.83 Tbase=25 VDN=28 x1=1 x2=1 
+out_match:X10  N__12 P3 
+dc_feed_vds:X6  P4 N__17 
+dc_feed_vgs:X5  P2 N__0 
 model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
-MLIN2:TL2  N__10 N__9 Subst="MSub1" W=2.8 mm L=3 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MLIN2:TL1  N__12 N__14 Subst="MSub1" W=2.8 mm L=3 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MTEE_ADS:Tee2  N__6 P1 N__15 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
-MTEE_ADS:Tee1  P3 N__14 N__13 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
-MGAP:Gap2  N__7 N__5 Subst="MSub1" W=1 mm S=0.5 mm 
-MGAP:Gap1  N__9 N__12 Subst="MSub1" W=1 mm S=0.5 mm 
-MTAPER:Taper2  N__10 N__7 Subst="MSub1" W1=1 mm W2=2.8 mm L=2.5 mm 
-MTAPER:Taper1  N__6 N__5 Subst="MSub1" W1=2.8 mm W2=1 mm L=1 mm 
-CapJT:Kap1  N__5 N__7 C=C_stab pF 
-R:R1  N__5 N__7 R=R_stab Ohm Noise=yes 
-end PA_core
+MLIN2:TL1  N__6 N__13 Subst="MSub1" W=2.8 mm L=3 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL2  N__10 N__15 Subst="MSub1" W=2.8 mm L=3 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MTEE_ADS:Tee1  N__12 N__13 N__17 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
+MTEE_ADS:Tee2  N__14 N__19 N__0 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
+MGAP:Gap1  N__15 N__6 Subst="MSub1" W=1 mm S=0.5 mm 
+MTAPER:Taper1  N__14 N__21 Subst="MSub1" W1=2.8 mm W2=1 mm L=1 mm 
+MTAPER:Taper2  N__10 N__20 Subst="MSub1" W1=1 mm W2=2.8 mm L=2.5 mm 
+MGAP:Gap2  N__20 N__21 Subst="MSub1" W=1 mm S=0.5 mm 
+CapJT:Kap1  N__21 N__20 C=C_stab pF 
+R:R1  N__21 N__20 R=R_stab Ohm Noise=yes 
 
-HB:HB1 MaxOrder=4 Freq[1]=RFfreq Order[1]=5 StatusLevel=3 FundOversample=1 \
-Restart=no UseAllSS_Freqs=yes UseOutFile=no \
-HBSS_WSP=0 UseInFile=no SweepVar="real_indexs11" SweepPlan="HB1_stim" OutputPlan="HB1_Output" 
+C_stab=3.9 tune{ 1 to 85 by 0.1 }
+R_stab=47 tune{ 10 to 100 by 0.2 }
+In_match:X9  N__19 P1 
+end cell_1
 
-SweepPlan: HB1_stim Start=real(s11_center)-c_limit Stop=real(s11_center)+c_limit Lin=pts_per_line 
+cell_1:X1  N__3 N__2 Vload N__10 
+Port:Term1  N__3 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  Vload 0 Num=2 Z=50 Ohm Noise=yes 
+V_Source:SRC1  N__2 0 Type="V_DC" Vdc=Vg SaveCurrent=1 
+V_Source:SRC2  N__10 0 Type="V_DC" Vdc=Vd V SaveCurrent=1 
 
-OutputPlan:HB1_Output \
+Vd=28
+Vg=-2.7
+aele MaxGain1=max_gain(S);
+OptimGoal:OptimGoal1 Expr="dB(S(1,1))" SimInstanceName="SP2" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal1_limit1" 
+SpecLimitLine:"OptimGoal1_limit1" Type="LessThan" Max=-12 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=2.35e+09 IndepMax[1]=2.45e+09 
+S_Param:SP2 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+SweepVar="freq" SweepPlan="SP2_stim" OutputPlan="SP2_Output" 
+
+SweepPlan: SP2_stim Start=10 MHz Stop=10 GHz Step=0.01 GHz 
+
+OutputPlan:SP2_Output \
       Type="Output" \
-      UseNodeNestLevel=yes \
-      NodeNestLevel=2 \
       UseEquationNestLevel=yes \
       EquationNestLevel=2 \
-      EquationName[1]="Pavs" \
-      EquationName[2]="Z0" \
       UseSavedEquationNestLevel=yes \
-      SavedEquationNestLevel=2 \
-      UseDeviceCurrentNestLevel=no \
-      DeviceCurrentNestLevel=0 \
-      DeviceCurrentDeviceType="All" \
-      DeviceCurrentSymSyntax=yes \
-      UseCurrentNestLevel=yes \
-      CurrentNestLevel=999 \
-      UseDeviceVoltageNestLevel=no \
-      DeviceVoltageNestLevel=0 \
-      DeviceVoltageDeviceType="All"
+      SavedEquationNestLevel=2
 
-Tran:HB1_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
-Freq[1]=RFfreq Order[1]=5 
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+aele Mu1=mu(S);
+aele MuPrime1=mu_prime(S);
 
-Component:tahb_HB1 Module="ATAHB" Type="ModelExtractor" \ 
- Tran_Analysis="HB1_tran" HB_Analysis="HB1" 
-
-Short:I_In  N__3 V_In Mode=0 SaveCurrent=yes 
-Port:PORT1  N__3 0 Num=1 Z=Z_s P[1]=dbmtow(Pavs) Freq[1]=RFfreq    Noise=yes Pac=dbmtow(0) 
-#uselib "ckt" , "P_Probe"
-P_Probe:P_Load  N__6 N__5 
-ParamSweep:Sweep1 SimInstanceName[1]="HB1" StatusLevel=2 SweepVar="imag_indexs11" SweepPlan="Sweep1_stim" 
-
-SweepPlan: Sweep1_stim Start=imag(s11_center)-(max_rho-max_rho/(lines+1)) Stop=imag(s11_center)+(max_rho-max_rho/(lines+1)) Lin=lines 
+#ifndef muRataLibWeb_C
+#define muRataLibWeb_C
+; models
+#include "C:/Users/Aaseb/RadiosystemdesignADS/SemesterJonas/ttt4201_semester_task/examples/muRataLibWeb_C_confidential/circuit/models/encode.net"
+#endif
 
 
-;Tuner reflection coefficient=
-LoadTuner = LoadArray[iload]
-LoadArray = list(0,indexs11, fg(Z_l_2), fg(Z_l_3), fg(Z_l_4), fg(Z_l_5))
-iload = int(min(abs(freq)/RFfreq+1.5,length(LoadArray)))
-fg(x) =(x-conj(Z0))/(x+Z0)
-;Source impedances=
-Z_s = SrcArray[isrc]
-SrcArray = list(Z0, Z_s_fund, Z_s_2,Z_s_3,Z_s_4,Z_s_5)
-isrc = min(iload,length(SrcArray))
-
-Z_l_2=1*Z0 + j*0
-Z_l_3=1*Z0 + j*0
-Z_l_4=1* Z0 + j*0
-Z_l_5=1* Z0 + j*0
-Z_s_fund=15.99- j*51.17
-Z_s_2=1* Z0 + j*0
-Z_s_3=1* Z0 + j*0
-Z_s_4=1* Z0 + j*0
-Z_s_5=1* Z0 + j*0
-V_Source:SRC1  Vs_high 0 Type="V_DC" Vdc=Vhigh SaveCurrent=1 
-V_Source:SRC2  Vs_low 0 Type="V_DC" Vdc=Vlow SaveCurrent=1 
-Short:Is_low  Vs_low N__8 Mode=0 SaveCurrent=yes 
-Short:Is_high  Vs_high N__10 Mode=0 SaveCurrent=yes 
-C:C1  V_In N__17 C=1.0 uF 
-S_Port:S1  N__5 0 S[1,1]=LoadTuner Z[1]=Z0 
-
-real_indexs11=0
-imag_indexs11=0
-indexs11=real_indexs11+j*imag_indexs11
-argument =max_rho^2-(imag(s11_center)-imag_indexs11)^2
-c_limit=sqrt(if ((argument) <0) then 0 else argument endif)
-s11_rho=0.35
-s11_center=-0.29 - j*0.25
-max_rho = min(1.0 - mag(s11_center), mag(s11_rho))
-pts=100
-lines=max(int(sqrt(pts)),1)
-pts_per_line=int(pts/lines)
-Z0=50
-C:C2  N__16 N__6 C=1.0 uF 
-
-Pavs=27 _dBm
-RFfreq=2.4 GHz
-Vhigh=28
-Vlow=-2.7
-PA_core:X1  N__17 N__8 N__16 N__10 
+model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+OptimGoal:OptimGoal2 Expr="dB(S(2,1))" SimInstanceName="SP2" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal2_limit1" 
+SpecLimitLine:"OptimGoal2_limit1" Type="GreaterThan" Min=17 Weight=5 \
+IndepVar[1]="freq" IndepMin[1]=2.35e+09 IndepMax[1]=2.45e+09 
