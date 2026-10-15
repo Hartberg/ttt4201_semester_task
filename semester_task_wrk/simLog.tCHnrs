@@ -1,0 +1,3103 @@
+
+hpeesofsim (*) 650.shp Jul 29 2026, MINT version 5
+    (64-bit windows built: Wed Jul 29, 2026 11:10:28 +0000)
+
+***** Simulation started at Mon Oct 12 20:23:58 2026
+      Running on host: "LAPTOP-VDFVMML2"
+      In Directory: "C:\Users\nathr\Documents\BIELSYS\sem7\ttt4201\ttt4201_semester_task\semester_task_wrk\data"
+      Process ID: 26540
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+
+OPTIM Optim_all_params[1] <semester_task_lib:big_schem:schematic>  optIter=(0->250000)
+Optim_all_params: Seed = 1190095006
+Pt DC convergence is used.
+
+SP Optim_all_params[1].SP2[0] <semester_task_lib:big_schem:schematic>  optIter=0  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 140.432981315724
+  Optimization variables:
+    cell_1.C_stab = 9.120108393559999e-12
+    cell_1.R_stab = 34.756016575
+    dc_block_in.C_dc_block = 1.25892541179e-06
+    dc_block_in.MLIN1_L = 3.46117e-03
+    dc_block_in.MLIN1_W = 3.64779e-03
+    dc_block_in.MLIN2_L = 14.325e-03
+    dc_block_in.MLIN2_W = 1.00061e-03
+    dc_block_in.MLSC_L = 3.87745368597e-03
+    dc_block_in.MLSC_W = 650.954e-06
+    dc_block_out.C_dc_block = 112.20184543e-09
+    dc_block_out.MLIN1_L = 15e-03
+    dc_block_out.MLIN2_L = 11.355e-03
+    dc_block_out.MLIN2_W = 1.003e-03
+    dc_block_out.MLSC_L = 24.8529e-03
+    dc_block_out.MLSC_W = 2.8e-03
+
+SP Optim_all_params[1].SP2[55] <semester_task_lib:big_schem:schematic>  optIter=55  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #55:
+  CurrentEF: 14.9835222494249
+  Optimization variables:
+    cell_1.C_stab = 9.120108393559999e-12
+    cell_1.R_stab = 34.756016575
+    dc_block_in.C_dc_block = 1.25892541179e-06
+    dc_block_in.MLIN1_L = 3.46117e-03
+    dc_block_in.MLIN1_W = 3.64779e-03
+    dc_block_in.MLIN2_L = 14.325e-03
+    dc_block_in.MLIN2_W = 1.00061e-03
+    dc_block_in.MLSC_L = 3.87745368597e-03
+    dc_block_in.MLSC_W = 650.954e-06
+    dc_block_out.C_dc_block = 112.20184543e-09
+    dc_block_out.MLIN1_L = 15e-03
+    dc_block_out.MLIN2_L = 11.355e-03
+    dc_block_out.MLIN2_W = 1.003e-03
+    dc_block_out.MLSC_L = 24.8529e-03
+    dc_block_out.MLSC_W = 2.8e-03
+
+SP Optim_all_params[1].SP2[56] <semester_task_lib:big_schem:schematic>  optIter=56  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #56:
+  CurrentEF: 86.0599570748618
+  Optimization variables:
+    cell_1.C_stab = 9.120108393559999e-12
+    cell_1.R_stab = 34.756016575
+    dc_block_in.C_dc_block = 1.25892541179e-06
+    dc_block_in.MLIN1_L = 3.46117e-03
+    dc_block_in.MLIN1_W = 3.64779e-03
+    dc_block_in.MLIN2_L = 14.325e-03
+    dc_block_in.MLIN2_W = 1.00061e-03
+    dc_block_in.MLSC_L = 3.87745368597e-03
+    dc_block_in.MLSC_W = 650.954e-06
+    dc_block_out.C_dc_block = 112.20184543e-09
+    dc_block_out.MLIN1_L = 15e-03
+    dc_block_out.MLIN2_L = 11.355e-03
+    dc_block_out.MLIN2_W = 1.003e-03
+    dc_block_out.MLSC_L = 24.8529e-03
+    dc_block_out.MLSC_W = 2.8e-03
+
+SP Optim_all_params[1].SP2[290] <semester_task_lib:big_schem:schematic>  optIter=290  freq=(0 Hz->10 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(0.000000) < MinRecommendValue(0.000015) OR UserValue > MaxRecommendValue(0.152000) for 'W' in `X1.X4.TL8'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(0.000000) < MinRecommendValue(0.000152) OR UserValue > MaxRecommendValue(0.015200) for 'W3' in `X1.X4.Tee1'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(1212240.577313) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `X1.X4.Tee1'
+
+
+
+Iteration/Trial #290:
+  CurrentEF: 82.2177486160535
+  Optimization variables:
+    cell_1.C_stab = 9.462272269807452e-12
+    cell_1.R_stab = 34.75601730456128
+    dc_block_in.C_dc_block = 1.258924112053109e-06
+    dc_block_in.MLIN1_L = 3.461172647439625e-03
+    dc_block_in.MLIN1_W = 3.647790655197331e-03
+    dc_block_in.MLIN2_L = 14.32499942793458e-03
+    dc_block_in.MLIN2_W = 1.000609934384285e-03
+    dc_block_in.MLSC_L = 3.877452351687046e-03
+    dc_block_in.MLSC_W = 650.950033400936e-06
+    dc_block_out.C_dc_block = 112.2222741862321e-09
+    dc_block_out.MLIN1_L = 14.99999884017789e-03
+    dc_block_out.MLIN2_L = 11.35499653415405e-03
+    dc_block_out.MLIN2_W = 1.003000494753046e-03
+    dc_block_out.MLSC_L = 24.85289564932676e-03
+    dc_block_out.MLSC_W = 2.30977254218486e-09
+
+SP Optim_all_params[1].SP2[295] <semester_task_lib:big_schem:schematic>  optIter=295  freq=(0 Hz->10 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(1171473.754639) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `X1.X4.Tee1'
+
+
+
+Iteration/Trial #295:
+  CurrentEF: 80.3305401237418
+  Optimization variables:
+    cell_1.C_stab = 9.302120702546757e-12
+    cell_1.R_stab = 34.75602039287622
+    dc_block_in.C_dc_block = 1.258922096392942e-06
+    dc_block_in.MLIN1_L = 3.461172355552068e-03
+    dc_block_in.MLIN1_W = 3.647790532982802e-03
+    dc_block_in.MLIN2_L = 14.32499977656444e-03
+    dc_block_in.MLIN2_W = 1.000609882034179e-03
+    dc_block_in.MLSC_L = 3.877452352214391e-03
+    dc_block_in.MLSC_W = 650.9499300660244e-06
+    dc_block_out.C_dc_block = 112.2225039924383e-09
+    dc_block_out.MLIN1_L = 14.99999882081484e-03
+    dc_block_out.MLIN2_L = 11.35499669511833e-03
+    dc_block_out.MLIN2_W = 1.003000487373341e-03
+    dc_block_out.MLSC_L = 24.85289481879741e-03
+    dc_block_out.MLSC_W = 2.390151711818133e-09
+
+SP Optim_all_params[1].SP2[298] <semester_task_lib:big_schem:schematic>  optIter=298  freq=(0 Hz->10 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(1212046.969317) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `X1.X4.Tee1'
+
+
+
+Iteration/Trial #298:
+  CurrentEF: 74.3713383131198
+  Optimization variables:
+    cell_1.C_stab = 7.685053611276805e-12
+    cell_1.R_stab = 34.75601829417273
+    dc_block_in.C_dc_block = 1.258922524795206e-06
+    dc_block_in.MLIN1_L = 3.461172029154317e-03
+    dc_block_in.MLIN1_W = 3.647790897792175e-03
+    dc_block_in.MLIN2_L = 14.32499977656444e-03
+    dc_block_in.MLIN2_W = 1.000609894198269e-03
+    dc_block_in.MLSC_L = 3.877452349077088e-03
+    dc_block_in.MLSC_W = 650.9495058335507e-06
+    dc_block_out.C_dc_block = 112.2207230642786e-09
+    dc_block_out.MLIN1_L = 14.99999882081484e-03
+    dc_block_out.MLIN2_L = 11.35499669511833e-03
+    dc_block_out.MLIN2_W = 1.003000487373341e-03
+    dc_block_out.MLSC_L = 24.85289595604422e-03
+    dc_block_out.MLSC_W = 2.310141496890909e-09
+
+SP Optim_all_params[1].SP2[739] <semester_task_lib:big_schem:schematic>  optIter=739  freq=(0 Hz->10 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(1207651.673990) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `X1.X4.Tee1'
+
+
+
+Iteration/Trial #739:
+  CurrentEF: 73.0552992311651
+  Optimization variables:
+    cell_1.C_stab = 8.056991849708106e-12
+    cell_1.R_stab = 34.75602448276847
+    dc_block_in.C_dc_block = 1.258921266187948e-06
+    dc_block_in.MLIN1_L = 3.461173625881758e-03
+    dc_block_in.MLIN1_W = 3.647790593252659e-03
+    dc_block_in.MLIN2_L = 14.32500023309863e-03
+    dc_block_in.MLIN2_W = 1.000610077232294e-03
+    dc_block_in.MLSC_L = 3.877453160254941e-03
+    dc_block_in.MLSC_W = 650.9506816544165e-06
+    dc_block_out.C_dc_block = 112.2300374695501e-09
+    dc_block_out.MLIN1_L = 14.99999823699287e-03
+    dc_block_out.MLIN2_L = 11.35499637416679e-03
+    dc_block_out.MLIN2_W = 1.003000955562913e-03
+    dc_block_out.MLSC_L = 24.85289396742523e-03
+    dc_block_out.MLSC_W = 2.318549346890373e-09
+
+SP Optim_all_params[1].SP2[1217] <semester_task_lib:big_schem:schematic>  optIter=1217  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #1217:
+  CurrentEF: 6.60442773956782
+  Optimization variables:
+    cell_1.C_stab = 8.056991849708106e-12
+    cell_1.R_stab = 34.75602448276847
+    dc_block_in.C_dc_block = 1.258921266187948e-06
+    dc_block_in.MLIN1_L = 3.461173625881758e-03
+    dc_block_in.MLIN1_W = 3.647790851093882e-03
+    dc_block_in.MLIN2_L = 14.32500023309863e-03
+    dc_block_in.MLIN2_W = 1.000610077232294e-03
+    dc_block_in.MLSC_L = 3.877453160254941e-03
+    dc_block_in.MLSC_W = 650.9506816544165e-06
+    dc_block_out.C_dc_block = 112.2300374695501e-09
+    dc_block_out.MLIN1_L = 14.99999823699287e-03
+    dc_block_out.MLIN2_L = 11.35499649067671e-03
+    dc_block_out.MLIN2_W = 1.003000955562913e-03
+    dc_block_out.MLSC_L = 24.85289396742523e-03
+    dc_block_out.MLSC_W = 2.318549346890373e-09
+
+SP Optim_all_params[1].SP2[1492] <semester_task_lib:big_schem:schematic>  optIter=1492  freq=(0 Hz->10 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(1239684.932078) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `X1.X4.Tee1'
+
+
+
+Iteration/Trial #1492:
+  CurrentEF: 6.55925338446678
+  Optimization variables:
+    cell_1.C_stab = 7.788464102207474e-12
+    cell_1.R_stab = 34.75602479369787
+    dc_block_in.C_dc_block = 1.258921923228756e-06
+    dc_block_in.MLIN1_L = 3.461173695665684e-03
+    dc_block_in.MLIN1_W = 3.647790602511376e-03
+    dc_block_in.MLIN2_L = 14.32499980819783e-03
+    dc_block_in.MLIN2_W = 1.000610153975817e-03
+    dc_block_in.MLSC_L = 3.877453681122137e-03
+    dc_block_in.MLSC_W = 650.9515331949246e-06
+    dc_block_out.C_dc_block = 112.2321828205424e-09
+    dc_block_out.MLIN1_L = 14.99999951478553e-03
+    dc_block_out.MLIN2_L = 11.3549974604324e-03
+    dc_block_out.MLIN2_W = 1.003000954954863e-03
+    dc_block_out.MLSC_L = 24.85289133696071e-03
+    dc_block_out.MLSC_W = 2.25863840686191e-09
+
+SP Optim_all_params[1].SP2[1644] <semester_task_lib:big_schem:schematic>  optIter=1644  freq=(0 Hz->10 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(1257037.662707) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `X1.X4.Tee1'
+
+
+
+Iteration/Trial #1644:
+  CurrentEF: 6.53480877789683
+  Optimization variables:
+    cell_1.C_stab = 7.646577496075274e-12
+    cell_1.R_stab = 34.75602461977921
+    dc_block_in.C_dc_block = 1.258926876012911e-06
+    dc_block_in.MLIN1_L = 3.46117227396338e-03
+    dc_block_in.MLIN1_W = 3.64779046010098e-03
+    dc_block_in.MLIN2_L = 14.3249994839826e-03
+    dc_block_in.MLIN2_W = 1.000610675246349e-03
+    dc_block_in.MLSC_L = 3.877456718606604e-03
+    dc_block_in.MLSC_W = 650.9499681637463e-06
+    dc_block_out.C_dc_block = 112.2433037180345e-09
+    dc_block_out.MLIN1_L = 14.99999830698569e-03
+    dc_block_out.MLIN2_L = 11.35499762864924e-03
+    dc_block_out.MLIN2_W = 1.003000796173847e-03
+    dc_block_out.MLSC_L = 24.85288550732552e-03
+    dc_block_out.MLSC_W = 2.227459115242607e-09
+
+SP Optim_all_params[1].SP2[3590] <semester_task_lib:big_schem:schematic>  optIter=3590  freq=(0 Hz->10 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(975361.318914) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `X1.X4.Tee1'
+
+
+
+Iteration/Trial #3590:
+  CurrentEF: 6.53413712484733
+  Optimization variables:
+    cell_1.C_stab = 7.580587690090806e-12
+    cell_1.R_stab = 34.75602402322134
+    dc_block_in.C_dc_block = 1.258935966851526e-06
+    dc_block_in.MLIN1_L = 3.461167736652973e-03
+    dc_block_in.MLIN1_W = 3.647790819128227e-03
+    dc_block_in.MLIN2_L = 14.32499973414279e-03
+    dc_block_in.MLIN2_W = 1.000610463464619e-03
+    dc_block_in.MLSC_L = 3.877460155940861e-03
+    dc_block_in.MLSC_W = 650.9493336506202e-06
+    dc_block_out.C_dc_block = 112.2456128077469e-09
+    dc_block_out.MLIN1_L = 14.99999839991324e-03
+    dc_block_out.MLIN2_L = 11.35499704265173e-03
+    dc_block_out.MLIN2_W = 1.003000460692588e-03
+    dc_block_out.MLSC_L = 24.85288653752384e-03
+    dc_block_out.MLSC_W = 2.870731026238979e-09
+
+SP Optim_all_params[1].SP2[7480] <semester_task_lib:big_schem:schematic>  optIter=7480  freq=(0 Hz->10 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(1365679.509901) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `X1.X4.Tee1'
+
+
+
+Iteration/Trial #7480:
+  CurrentEF: 6.53149292585287
+  Optimization variables:
+    cell_1.C_stab = 7.620726218082562e-12
+    cell_1.R_stab = 34.75603516178062
+    dc_block_in.C_dc_block = 1.258931983421585e-06
+    dc_block_in.MLIN1_L = 3.461175573910511e-03
+    dc_block_in.MLIN1_W = 3.647793335239847e-03
+    dc_block_in.MLIN2_L = 14.32498926677812e-03
+    dc_block_in.MLIN2_W = 1.000609010298329e-03
+    dc_block_in.MLSC_L = 3.877461025877947e-03
+    dc_block_in.MLSC_W = 650.9489577015634e-06
+    dc_block_out.C_dc_block = 112.2753020756814e-09
+    dc_block_out.MLIN1_L = 14.99999898785247e-03
+    dc_block_out.MLIN2_L = 11.35500249561627e-03
+    dc_block_out.MLIN2_W = 1.002999303549743e-03
+    dc_block_out.MLSC_L = 24.85287433965985e-03
+    dc_block_out.MLSC_W = 2.050261411773543e-09
+
+SP Optim_all_params[1].SP2[8541] <semester_task_lib:big_schem:schematic>  optIter=8541  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #8541:
+  CurrentEF: 6.53113131245936
+  Optimization variables:
+    cell_1.C_stab = 7.608260977226367e-12
+    cell_1.R_stab = 34.75603511611897
+    dc_block_in.C_dc_block = 1.258946257387163e-06
+    dc_block_in.MLIN1_L = 3.461174949880057e-03
+    dc_block_in.MLIN1_W = 3.647793107446287e-03
+    dc_block_in.MLIN2_L = 14.32498913457545e-03
+    dc_block_in.MLIN2_W = 1.000609196410173e-03
+    dc_block_in.MLSC_L = 3.877460770859662e-03
+    dc_block_in.MLSC_W = 650.9469491762306e-06
+    dc_block_out.C_dc_block = 112.2764427517226e-09
+    dc_block_out.MLIN1_L = 14.99999670073877e-03
+    dc_block_out.MLIN2_L = 11.35500239196851e-03
+    dc_block_out.MLIN2_W = 1.00299915431279e-03
+    dc_block_out.MLSC_L = 24.85287292478488e-03
+    dc_block_out.MLSC_W = 1.95645630956532e-09
+
+SP Optim_all_params[1].SP2[15136] <semester_task_lib:big_schem:schematic>  optIter=15136  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #15136:
+  CurrentEF: 6.52967272136803
+  Optimization variables:
+    cell_1.C_stab = 7.693611333853409e-12
+    cell_1.R_stab = 34.75607838292085
+    dc_block_in.C_dc_block = 1.258856877024265e-06
+    dc_block_in.MLIN1_L = 3.4611702779849e-03
+    dc_block_in.MLIN1_W = 3.647795546379464e-03
+    dc_block_in.MLIN2_L = 14.32498234379149e-03
+    dc_block_in.MLIN2_W = 1.000608533238119e-03
+    dc_block_in.MLSC_L = 3.877462692765231e-03
+    dc_block_in.MLSC_W = 650.9530978019737e-06
+    dc_block_out.C_dc_block = 112.2253494312768e-09
+    dc_block_out.MLIN1_L = 14.99999834113487e-03
+    dc_block_out.MLIN2_L = 11.35499135377536e-03
+    dc_block_out.MLIN2_W = 1.003000980088939e-03
+    dc_block_out.MLSC_L = 24.85285084089139e-03
+    dc_block_out.MLSC_W = 4.668283772007095e-09
+
+SP Optim_all_params[1].SP2[15594] <semester_task_lib:big_schem:schematic>  optIter=15594  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #15594:
+  CurrentEF: 6.52785565072805
+  Optimization variables:
+    cell_1.C_stab = 7.685466402888028e-12
+    cell_1.R_stab = 34.75607689054491
+    dc_block_in.C_dc_block = 1.258871790415984e-06
+    dc_block_in.MLIN1_L = 3.461169720587241e-03
+    dc_block_in.MLIN1_W = 3.647795785796745e-03
+    dc_block_in.MLIN2_L = 14.32498324865887e-03
+    dc_block_in.MLIN2_W = 1.000608564085559e-03
+    dc_block_in.MLSC_L = 3.877460933638218e-03
+    dc_block_in.MLSC_W = 650.9531755072628e-06
+    dc_block_out.C_dc_block = 112.2213207966621e-09
+    dc_block_out.MLIN1_L = 14.99999823685968e-03
+    dc_block_out.MLIN2_L = 11.35499161130056e-03
+    dc_block_out.MLIN2_W = 1.003001123887443e-03
+    dc_block_out.MLSC_L = 24.85285313299784e-03
+    dc_block_out.MLSC_W = 4.755566321540877e-09
+
+SP Optim_all_params[1].SP2[16949] <semester_task_lib:big_schem:schematic>  optIter=16949  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #16949:
+  CurrentEF: 6.52285112218456
+  Optimization variables:
+    cell_1.C_stab = 7.658289492076061e-12
+    cell_1.R_stab = 34.75607772584763
+    dc_block_in.C_dc_block = 1.2588744267361e-06
+    dc_block_in.MLIN1_L = 3.461169812834891e-03
+    dc_block_in.MLIN1_W = 3.647795502161878e-03
+    dc_block_in.MLIN2_L = 14.32498379707731e-03
+    dc_block_in.MLIN2_W = 1.000608653679789e-03
+    dc_block_in.MLSC_L = 3.877461318849543e-03
+    dc_block_in.MLSC_W = 650.9530852522008e-06
+    dc_block_out.C_dc_block = 112.2271371566208e-09
+    dc_block_out.MLIN1_L = 14.9999994381041e-03
+    dc_block_out.MLIN2_L = 11.35499218984794e-03
+    dc_block_out.MLIN2_W = 1.003001095695369e-03
+    dc_block_out.MLSC_L = 24.8528518452808e-03
+    dc_block_out.MLSC_W = 4.817180936486973e-09
+
+SP Optim_all_params[1].SP2[18844] <semester_task_lib:big_schem:schematic>  optIter=18844  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18844:
+  CurrentEF: 6.52285113032987
+  Optimization variables:
+    cell_1.C_stab = 7.658289492076061e-12
+    cell_1.R_stab = 34.75607772584763
+    dc_block_in.C_dc_block = 1.2588744267361e-06
+    dc_block_in.MLIN1_L = 3.461169812834891e-03
+    dc_block_in.MLIN1_W = 3.64779577146199e-03
+    dc_block_in.MLIN2_L = 14.32498334647745e-03
+    dc_block_in.MLIN2_W = 1.000608653679789e-03
+    dc_block_in.MLSC_L = 3.877461318849543e-03
+    dc_block_in.MLSC_W = 650.9530852522008e-06
+    dc_block_out.C_dc_block = 112.2271371566208e-09
+    dc_block_out.MLIN1_L = 14.9999994381041e-03
+    dc_block_out.MLIN2_L = 11.35499179302244e-03
+    dc_block_out.MLIN2_W = 1.003001095695369e-03
+    dc_block_out.MLSC_L = 24.8528518452808e-03
+    dc_block_out.MLSC_W = 4.817180936486973e-09
+
+SP Optim_all_params[1].SP2[18845] <semester_task_lib:big_schem:schematic>  optIter=18845  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18845:
+  CurrentEF: 6.51734244366164
+  Optimization variables:
+    cell_1.C_stab = 7.624329529702663e-12
+    cell_1.R_stab = 34.75607772480409
+    dc_block_in.C_dc_block = 1.258874426476963e-06
+    dc_block_in.MLIN1_L = 3.461169813091726e-03
+    dc_block_in.MLIN1_W = 3.647795771461989e-03
+    dc_block_in.MLIN2_L = 14.32498334649882e-03
+    dc_block_in.MLIN2_W = 1.00060865368004e-03
+    dc_block_in.MLSC_L = 3.877461324773548e-03
+    dc_block_in.MLSC_W = 650.9530826310055e-06
+    dc_block_out.C_dc_block = 112.2271370795643e-09
+    dc_block_out.MLIN1_L = 14.9999994381041e-03
+    dc_block_out.MLIN2_L = 11.35499179303498e-03
+    dc_block_out.MLIN2_W = 1.003001095695311e-03
+    dc_block_out.MLSC_L = 24.85285184527993e-03
+    dc_block_out.MLSC_W = 4.81719539873302e-09
+
+SP Optim_all_params[1].SP2[18846] <semester_task_lib:big_schem:schematic>  optIter=18846  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18846:
+  CurrentEF: 6.48043506896794
+  Optimization variables:
+    cell_1.C_stab = 7.622926332056523e-12
+    cell_1.R_stab = 34.40969182380636
+    dc_block_in.C_dc_block = 1.246347394473815e-06
+    dc_block_in.MLIN1_L = 3.495932918253038e-03
+    dc_block_in.MLIN1_W = 3.647795770318655e-03
+    dc_block_in.MLIN2_L = 14.45523864919947e-03
+    dc_block_in.MLIN2_W = 1.010714740373005e-03
+    dc_block_in.MLSC_L = 3.916247345460051e-03
+    dc_block_in.MLSC_W = 644.4698641057343e-06
+    dc_block_out.C_dc_block = 111.109874139489e-09
+    dc_block_out.MLIN1_L = 14.84984944372316e-03
+    dc_block_out.MLIN2_L = 11.46758509389291e-03
+    dc_block_out.MLIN2_W = 1.000025928507654e-03
+    dc_block_out.MLSC_L = 24.60432238285763e-03
+    dc_block_out.MLSC_W = 4.85513227339834e-09
+
+SP Optim_all_params[1].SP2[18847] <semester_task_lib:big_schem:schematic>  optIter=18847  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18847:
+  CurrentEF: 6.38434024510855
+  Optimization variables:
+    cell_1.C_stab = 7.094687595963478e-12
+    cell_1.R_stab = 34.40969180816245
+    dc_block_in.C_dc_block = 1.246347390319221e-06
+    dc_block_in.MLIN1_L = 3.495932922415821e-03
+    dc_block_in.MLIN1_W = 3.647795770318609e-03
+    dc_block_in.MLIN2_L = 14.45523864950218e-03
+    dc_block_in.MLIN2_W = 1.010714740444023e-03
+    dc_block_in.MLSC_L = 3.916247440346796e-03
+    dc_block_in.MLSC_W = 644.4698223507174e-06
+    dc_block_out.C_dc_block = 111.1098729118458e-09
+    dc_block_out.MLIN1_L = 14.84984944365984e-03
+    dc_block_out.MLIN2_L = 11.46758509409748e-03
+    dc_block_out.MLIN2_W = 1.000025928507654e-03
+    dc_block_out.MLSC_L = 24.60432238283403e-03
+    dc_block_out.MLSC_W = 4.855368858901785e-09
+
+SP Optim_all_params[1].SP2[18848] <semester_task_lib:big_schem:schematic>  optIter=18848  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18848:
+  CurrentEF: 6.34970619152815
+  Optimization variables:
+    cell_1.C_stab = 6.912299506366253e-12
+    cell_1.R_stab = 34.40969180474014
+    dc_block_in.C_dc_block = 1.246347388599541e-06
+    dc_block_in.MLIN1_L = 3.495932923894489e-03
+    dc_block_in.MLIN1_W = 3.647795770318045e-03
+    dc_block_in.MLIN2_L = 14.45523864957764e-03
+    dc_block_in.MLIN2_W = 1.010714740471007e-03
+    dc_block_in.MLSC_L = 3.916247473979591e-03
+    dc_block_in.MLSC_W = 644.4698058481378e-06
+    dc_block_out.C_dc_block = 111.1098624193037e-09
+    dc_block_out.MLIN1_L = 14.84984944365189e-03
+    dc_block_out.MLIN2_L = 11.46758509447423e-03
+    dc_block_out.MLIN2_W = 1.000025928507654e-03
+    dc_block_out.MLSC_L = 24.60432238389046e-03
+    dc_block_out.MLSC_W = 4.85522035160102e-09
+
+SP Optim_all_params[1].SP2[18849] <semester_task_lib:big_schem:schematic>  optIter=18849  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18849:
+  CurrentEF: 6.34591918577896
+  Optimization variables:
+    cell_1.C_stab = 6.88873265683651e-12
+    cell_1.R_stab = 34.40969180439232
+    dc_block_in.C_dc_block = 1.246347388390532e-06
+    dc_block_in.MLIN1_L = 3.495932924087993e-03
+    dc_block_in.MLIN1_W = 3.647795770317946e-03
+    dc_block_in.MLIN2_L = 14.4552386495861e-03
+    dc_block_in.MLIN2_W = 1.010714740474592e-03
+    dc_block_in.MLSC_L = 3.916247478792596e-03
+    dc_block_in.MLSC_W = 644.4698040697844e-06
+    dc_block_out.C_dc_block = 111.1098642393408e-09
+    dc_block_out.MLIN1_L = 14.84984944364654e-03
+    dc_block_out.MLIN2_L = 11.46758509442366e-03
+    dc_block_out.MLIN2_W = 1.000025928507654e-03
+    dc_block_out.MLSC_L = 24.60432238369254e-03
+    dc_block_out.MLSC_W = 4.855272613465787e-09
+Gradient optimizer ends after 18849 trials and 207 evaluations with EF=6.346e+00
+
+SP Optim_all_params[1].SP2[18850] <semester_task_lib:big_schem:schematic>  optIter=18850  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18850:
+  CurrentEF: 6.3459189445767
+  Optimization variables:
+    cell_1.C_stab = 6.88873265683651e-12
+    cell_1.R_stab = 34.40969097760815
+    dc_block_in.C_dc_block = 1.246347363858862e-06
+    dc_block_in.MLIN1_L = 3.495932767468735e-03
+    dc_block_in.MLIN1_W = 3.647795636768693e-03
+    dc_block_in.MLIN2_L = 14.45523827493145e-03
+    dc_block_in.MLIN2_W = 1.010714770974071e-03
+    dc_block_in.MLSC_L = 3.916247233646758e-03
+    dc_block_in.MLSC_W = 644.469762238684e-06
+    dc_block_out.C_dc_block = 111.1098642393408e-09
+    dc_block_out.MLIN1_L = 14.84984835291038e-03
+    dc_block_out.MLIN2_L = 11.46758464018597e-03
+    dc_block_out.MLIN2_W = 1.000025928507654e-03
+    dc_block_out.MLSC_L = 24.60432309315771e-03
+    dc_block_out.MLSC_W = 4.855272613465787e-09
+
+SP Optim_all_params[1].SP2[18851] <semester_task_lib:big_schem:schematic>  optIter=18851  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18851:
+  CurrentEF: 6.34591661807474
+  Optimization variables:
+    cell_1.C_stab = 6.88790986686945e-12
+    cell_1.R_stab = 34.40969180411194
+    dc_block_in.C_dc_block = 1.24634738825167e-06
+    dc_block_in.MLIN1_L = 3.495932927309647e-03
+    dc_block_in.MLIN1_W = 3.64779577031309e-03
+    dc_block_in.MLIN2_L = 14.45523865010739e-03
+    dc_block_in.MLIN2_W = 1.010714740483326e-03
+    dc_block_in.MLSC_L = 3.916247483320263e-03
+    dc_block_in.MLSC_W = 644.4698032833103e-06
+    dc_block_out.C_dc_block = 111.1098693830572e-09
+    dc_block_out.MLIN1_L = 14.84984944365656e-03
+    dc_block_out.MLIN2_L = 11.46758509435879e-03
+    dc_block_out.MLIN2_W = 1.000025928507659e-03
+    dc_block_out.MLSC_L = 24.60432238303972e-03
+    dc_block_out.MLSC_W = 4.855417864397169e-09
+
+SP Optim_all_params[1].SP2[18852] <semester_task_lib:big_schem:schematic>  optIter=18852  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18852:
+  CurrentEF: 6.34591588095823
+  Optimization variables:
+    cell_1.C_stab = 6.888559833168983e-12
+    cell_1.R_stab = 34.40969180323913
+    dc_block_in.C_dc_block = 1.246347387870315e-06
+    dc_block_in.MLIN1_L = 3.495932937692823e-03
+    dc_block_in.MLIN1_W = 3.647795770310127e-03
+    dc_block_in.MLIN2_L = 14.45523865190275e-03
+    dc_block_in.MLIN2_W = 1.010714740508762e-03
+    dc_block_in.MLSC_L = 3.916247496075219e-03
+    dc_block_in.MLSC_W = 644.4697992462096e-06
+    dc_block_out.C_dc_block = 111.1098726587952e-09
+    dc_block_out.MLIN1_L = 14.84984944371239e-03
+    dc_block_out.MLIN2_L = 11.467585094653e-03
+    dc_block_out.MLIN2_W = 1.000025928507662e-03
+    dc_block_out.MLSC_L = 24.60432238259342e-03
+    dc_block_out.MLSC_W = 4.855530544882641e-09
+
+SP Optim_all_params[1].SP2[18853] <semester_task_lib:big_schem:schematic>  optIter=18853  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18853:
+  CurrentEF: 6.25485580827181
+  Optimization variables:
+    cell_1.C_stab = 6.38495896756649e-12
+    cell_1.R_stab = 34.40449169241609
+    dc_block_in.C_dc_block = 1.244186104106317e-06
+    dc_block_in.MLIN1_L = 3.55742140115045e-03
+    dc_block_in.MLIN1_W = 3.647799843968149e-03
+    dc_block_in.MLIN2_L = 14.46595915104499e-03
+    dc_block_in.MLIN2_W = 1.010860632174334e-03
+    dc_block_in.MLSC_L = 3.989798781867884e-03
+    dc_block_in.MLSC_W = 617.5788445674684e-06
+    dc_block_out.C_dc_block = 106.6852756432854e-09
+    dc_block_out.MLIN1_L = 14.85021969486685e-03
+    dc_block_out.MLIN2_L = 11.47025800355128e-03
+    dc_block_out.MLIN2_W = 1.000025925175295e-03
+    dc_block_out.MLSC_L = 24.60480584819262e-03
+    dc_block_out.MLSC_W = 5.077860969584436e-09
+
+SP Optim_all_params[1].SP2[18854] <semester_task_lib:big_schem:schematic>  optIter=18854  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18854:
+  CurrentEF: 6.11511583139176
+  Optimization variables:
+    cell_1.C_stab = 5.938335455954075e-12
+    cell_1.R_stab = 34.39807466410874
+    dc_block_in.C_dc_block = 1.242053025814756e-06
+    dc_block_in.MLIN1_L = 3.628146200861385e-03
+    dc_block_in.MLIN1_W = 3.647773858382225e-03
+    dc_block_in.MLIN2_L = 14.47787800319571e-03
+    dc_block_in.MLIN2_W = 1.011024045818585e-03
+    dc_block_in.MLSC_L = 4.074458941452501e-03
+    dc_block_in.MLSC_W = 588.8948819096541e-06
+    dc_block_out.C_dc_block = 117.9202090557592e-09
+    dc_block_out.MLIN1_L = 14.85062956712023e-03
+    dc_block_out.MLIN2_L = 11.47327557021421e-03
+    dc_block_out.MLIN2_W = 1.000025920661085e-03
+    dc_block_out.MLSC_L = 24.60537504379173e-03
+    dc_block_out.MLSC_W = 4.736767953960226e-09
+
+SP Optim_all_params[1].SP2[18855] <semester_task_lib:big_schem:schematic>  optIter=18855  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18855:
+  CurrentEF: 5.68161065499784
+  Optimization variables:
+    cell_1.C_stab = 5.702565811574459e-12
+    cell_1.R_stab = 34.31568240353398
+    dc_block_in.C_dc_block = 1.233481142521742e-06
+    dc_block_in.MLIN1_L = 3.620895246701354e-03
+    dc_block_in.MLIN1_W = 3.647704879389775e-03
+    dc_block_in.MLIN2_L = 14.4643648113529e-03
+    dc_block_in.MLIN2_W = 1.011333347669963e-03
+    dc_block_in.MLSC_L = 4.337576235860882e-03
+    dc_block_in.MLSC_W = 482.8307112932265e-06
+    dc_block_out.C_dc_block = 145.0655433628563e-09
+    dc_block_out.MLIN1_L = 14.85031100014601e-03
+    dc_block_out.MLIN2_L = 11.47491904954709e-03
+    dc_block_out.MLIN2_W = 1.000025825186191e-03
+    dc_block_out.MLSC_L = 24.60784395224735e-03
+    dc_block_out.MLSC_W = 4.290288821328432e-09
+
+SP Optim_all_params[1].SP2[18856] <semester_task_lib:big_schem:schematic>  optIter=18856  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18856:
+  CurrentEF: 5.66850485014976
+  Optimization variables:
+    cell_1.C_stab = 5.68134743720293e-12
+    cell_1.R_stab = 34.23859348419505
+    dc_block_in.C_dc_block = 1.243932006187271e-06
+    dc_block_in.MLIN1_L = 3.628552754102176e-03
+    dc_block_in.MLIN1_W = 3.647684881103471e-03
+    dc_block_in.MLIN2_L = 14.46231976742215e-03
+    dc_block_in.MLIN2_W = 1.011481479882526e-03
+    dc_block_in.MLSC_L = 4.30642134896589e-03
+    dc_block_in.MLSC_W = 462.9833456329323e-06
+    dc_block_out.C_dc_block = 149.1255171145386e-09
+    dc_block_out.MLIN1_L = 14.85035462245851e-03
+    dc_block_out.MLIN2_L = 11.47200359333423e-03
+    dc_block_out.MLIN2_W = 1.000025955100634e-03
+    dc_block_out.MLSC_L = 24.60925182059681e-03
+    dc_block_out.MLSC_W = 4.338277477771044e-09
+
+SP Optim_all_params[1].SP2[18857] <semester_task_lib:big_schem:schematic>  optIter=18857  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18857:
+  CurrentEF: 5.37090639965681
+  Optimization variables:
+    cell_1.C_stab = 5.280595250427723e-12
+    cell_1.R_stab = 32.79041816909578
+    dc_block_in.C_dc_block = 1.212227141424541e-06
+    dc_block_in.MLIN1_L = 3.887316618489456e-03
+    dc_block_in.MLIN1_W = 3.647377559324132e-03
+    dc_block_in.MLIN2_L = 14.247353290721e-03
+    dc_block_in.MLIN2_W = 1.011298992455443e-03
+    dc_block_in.MLSC_L = 3.821729811132184e-03
+    dc_block_in.MLSC_W = 249.1711129529875e-06
+    dc_block_out.C_dc_block = 207.9126600181335e-09
+    dc_block_out.MLIN1_L = 14.8493632274253e-03
+    dc_block_out.MLIN2_L = 11.40619948367611e-03
+    dc_block_out.MLIN2_W = 1.000028487959741e-03
+    dc_block_out.MLSC_L = 24.63608146732526e-03
+    dc_block_out.MLSC_W = 4.998953266069293e-09
+
+SP Optim_all_params[1].SP2[18858] <semester_task_lib:big_schem:schematic>  optIter=18858  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18858:
+  CurrentEF: 5.26261197393606
+  Optimization variables:
+    cell_1.C_stab = 5.049216963350773e-12
+    cell_1.R_stab = 31.82485195459454
+    dc_block_in.C_dc_block = 1.148896113404255e-06
+    dc_block_in.MLIN1_L = 4.039270969175346e-03
+    dc_block_in.MLIN1_W = 3.647182759163814e-03
+    dc_block_in.MLIN2_L = 14.1306971876784e-03
+    dc_block_in.MLIN2_W = 1.010147136856149e-03
+    dc_block_in.MLSC_L = 3.507451908631523e-03
+    dc_block_in.MLSC_W = 158.9668712455378e-06
+    dc_block_out.C_dc_block = 252.2783613352876e-09
+    dc_block_out.MLIN1_L = 14.84771793297603e-03
+    dc_block_out.MLIN2_L = 11.35620754485362e-03
+    dc_block_out.MLIN2_W = 1.000030241975584e-03
+    dc_block_out.MLSC_L = 24.65339099641081e-03
+    dc_block_out.MLSC_W = 5.487513174070046e-09
+
+SP Optim_all_params[1].SP2[18859] <semester_task_lib:big_schem:schematic>  optIter=18859  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18859:
+  CurrentEF: 4.95292796267492
+  Optimization variables:
+    cell_1.C_stab = 4.700793586671353e-12
+    cell_1.R_stab = 26.41491889506851
+    dc_block_in.C_dc_block = 2.771248128200234e-06
+    dc_block_in.MLIN1_L = 4.201490567180494e-03
+    dc_block_in.MLIN1_W = 3.646076907315258e-03
+    dc_block_in.MLIN2_L = 14.0467570702676e-03
+    dc_block_in.MLIN2_W = 1.003491691617106e-03
+    dc_block_in.MLSC_L = 3.404063393695936e-03
+    dc_block_in.MLSC_W = 126.2958214344053e-06
+    dc_block_out.C_dc_block = 287.4795248186129e-09
+    dc_block_out.MLIN1_L = 14.84587868189963e-03
+    dc_block_out.MLIN2_L = 11.1607874340269e-03
+    dc_block_out.MLIN2_W = 1.000038763646822e-03
+    dc_block_out.MLSC_L = 24.75105133338851e-03
+    dc_block_out.MLSC_W = 5.43111923383549e-09
+
+SP Optim_all_params[1].SP2[18860] <semester_task_lib:big_schem:schematic>  optIter=18860  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18860:
+  CurrentEF: 4.84071049077857
+  Optimization variables:
+    cell_1.C_stab = 4.023987531661987e-12
+    cell_1.R_stab = 20.34239043784757
+    dc_block_in.C_dc_block = 7.827761108601533e-06
+    dc_block_in.MLIN1_L = 4.570547323264434e-03
+    dc_block_in.MLIN1_W = 3.643865550334049e-03
+    dc_block_in.MLIN2_L = 13.83501053063782e-03
+    dc_block_in.MLIN2_W = 1.005070979660802e-03
+    dc_block_in.MLSC_L = 3.218257048431094e-03
+    dc_block_in.MLSC_W = 100.0137002151931e-06
+    dc_block_out.C_dc_block = 364.9422202248825e-09
+    dc_block_out.MLIN1_L = 14.84118334464381e-03
+    dc_block_out.MLIN2_L = 10.76077998237489e-03
+    dc_block_out.MLIN2_W = 1.000059124943956e-03
+    dc_block_out.MLSC_L = 24.95876895935338e-03
+    dc_block_out.MLSC_W = 5.346962220268325e-09
+
+SP Optim_all_params[1].SP2[18861] <semester_task_lib:big_schem:schematic>  optIter=18861  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18861:
+  CurrentEF: 4.69901090059457
+  Optimization variables:
+    cell_1.C_stab = 3.822983145713806e-12
+    cell_1.R_stab = 20.01563086795691
+    dc_block_in.C_dc_block = 7.401630459585191e-06
+    dc_block_in.MLIN1_L = 4.546817840009307e-03
+    dc_block_in.MLIN1_W = 3.64277416488087e-03
+    dc_block_in.MLIN2_L = 13.94724115256389e-03
+    dc_block_in.MLIN2_W = 1.000021465325328e-03
+    dc_block_in.MLSC_L = 3.530857527657082e-03
+    dc_block_in.MLSC_W = 110.7044021612182e-06
+    dc_block_out.C_dc_block = 349.8282966519182e-09
+    dc_block_out.MLIN1_L = 14.82276915651722e-03
+    dc_block_out.MLIN2_L = 10.18435414578557e-03
+    dc_block_out.MLIN2_W = 1.00008719195404e-03
+    dc_block_out.MLSC_L = 25.08745916830283e-03
+    dc_block_out.MLSC_W = 4.102892223512754e-09
+
+SP Optim_all_params[1].SP2[18862] <semester_task_lib:big_schem:schematic>  optIter=18862  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18862:
+  CurrentEF: 4.48336984406434
+  Optimization variables:
+    cell_1.C_stab = 3.267917193472385e-12
+    cell_1.R_stab = 21.44493964456617
+    dc_block_in.C_dc_block = 9.231413836038898e-06
+    dc_block_in.MLIN1_L = 4.678338170259016e-03
+    dc_block_in.MLIN1_W = 3.640486334461662e-03
+    dc_block_in.MLIN2_L = 14.02298129949836e-03
+    dc_block_in.MLIN2_W = 1.005665330514039e-03
+    dc_block_in.MLSC_L = 3.87540414366278e-03
+    dc_block_in.MLSC_W = 128.9275143909322e-06
+    dc_block_out.C_dc_block = 366.5655813089616e-09
+    dc_block_out.MLIN1_L = 14.78531533212449e-03
+    dc_block_out.MLIN2_L = 8.868860566292073e-03
+    dc_block_out.MLIN2_W = 1.000167253064286e-03
+    dc_block_out.MLSC_L = 25.31326929131153e-03
+    dc_block_out.MLSC_W = 2.644608934409917e-09
+
+SP Optim_all_params[1].SP2[18863] <semester_task_lib:big_schem:schematic>  optIter=18863  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18863:
+  CurrentEF: 4.48322211065349
+  Optimization variables:
+    cell_1.C_stab = 3.260250516235828e-12
+    cell_1.R_stab = 21.47302325417968
+    dc_block_in.C_dc_block = 9.299197876305467e-06
+    dc_block_in.MLIN1_L = 4.680901663692416e-03
+    dc_block_in.MLIN1_W = 3.64047438432604e-03
+    dc_block_in.MLIN2_L = 14.02412119572217e-03
+    dc_block_in.MLIN2_W = 1.005723847585715e-03
+    dc_block_in.MLSC_L = 3.879626039020035e-03
+    dc_block_in.MLSC_W = 129.0739097830823e-06
+    dc_block_out.C_dc_block = 367.0625505841381e-09
+    dc_block_out.MLIN1_L = 14.78463191261267e-03
+    dc_block_out.MLIN2_L = 8.842432608717183e-03
+    dc_block_out.MLIN2_W = 1.000169154028819e-03
+    dc_block_out.MLSC_L = 25.31684370336573e-03
+    dc_block_out.MLSC_W = 2.626068846089766e-09
+
+SP Optim_all_params[1].SP2[18864] <semester_task_lib:big_schem:schematic>  optIter=18864  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18864:
+  CurrentEF: 4.48164055864606
+  Optimization variables:
+    cell_1.C_stab = 3.251389376819134e-12
+    cell_1.R_stab = 21.49032807398894
+    dc_block_in.C_dc_block = 9.26983966130452e-06
+    dc_block_in.MLIN1_L = 4.683952062914184e-03
+    dc_block_in.MLIN1_W = 3.640233718976273e-03
+    dc_block_in.MLIN2_L = 14.02572189315114e-03
+    dc_block_in.MLIN2_W = 1.005754469078858e-03
+    dc_block_in.MLSC_L = 3.883336117928766e-03
+    dc_block_in.MLSC_W = 129.1326440035149e-06
+    dc_block_out.C_dc_block = 368.0038148079621e-09
+    dc_block_out.MLIN1_L = 14.78367579346893e-03
+    dc_block_out.MLIN2_L = 8.817717583225434e-03
+    dc_block_out.MLIN2_W = 1.000172327854152e-03
+    dc_block_out.MLSC_L = 25.32150134403725e-03
+    dc_block_out.MLSC_W = 2.604025250067935e-09
+
+SP Optim_all_params[1].SP2[18865] <semester_task_lib:big_schem:schematic>  optIter=18865  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18865:
+  CurrentEF: 4.4754891318011
+  Optimization variables:
+    cell_1.C_stab = 3.25136050581932e-12
+    cell_1.R_stab = 21.44317395589835
+    dc_block_in.C_dc_block = 9.265937574926794e-06
+    dc_block_in.MLIN1_L = 4.685637396304707e-03
+    dc_block_in.MLIN1_W = 3.640032391641818e-03
+    dc_block_in.MLIN2_L = 14.02571198816579e-03
+    dc_block_in.MLIN2_W = 1.005481211189016e-03
+    dc_block_in.MLSC_L = 3.884383878854648e-03
+    dc_block_in.MLSC_W = 129.0313549267111e-06
+    dc_block_out.C_dc_block = 368.5858333627912e-09
+    dc_block_out.MLIN1_L = 14.78442899628175e-03
+    dc_block_out.MLIN2_L = 8.785617617497063e-03
+    dc_block_out.MLIN2_W = 1.000175255546092e-03
+    dc_block_out.MLSC_L = 25.3258722060951e-03
+    dc_block_out.MLSC_W = 2.590933872619644e-09
+
+SP Optim_all_params[1].SP2[18866] <semester_task_lib:big_schem:schematic>  optIter=18866  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18866:
+  CurrentEF: 4.46715693998258
+  Optimization variables:
+    cell_1.C_stab = 3.254913315176964e-12
+    cell_1.R_stab = 21.23390595096798
+    dc_block_in.C_dc_block = 9.457454552917676e-06
+    dc_block_in.MLIN1_L = 4.690792985192086e-03
+    dc_block_in.MLIN1_W = 3.635788997975831e-03
+    dc_block_in.MLIN2_L = 14.02421805177483e-03
+    dc_block_in.MLIN2_W = 1.004137720014375e-03
+    dc_block_in.MLSC_L = 3.882612875212607e-03
+    dc_block_in.MLSC_W = 128.1589686395464e-06
+    dc_block_out.C_dc_block = 370.6968666457397e-09
+    dc_block_out.MLIN1_L = 14.78703538913593e-03
+    dc_block_out.MLIN2_L = 8.752848726551743e-03
+    dc_block_out.MLIN2_W = 1.000188061004487e-03
+    dc_block_out.MLSC_L = 25.34150071635679e-03
+    dc_block_out.MLSC_W = 2.577763759996742e-09
+
+SP Optim_all_params[1].SP2[18867] <semester_task_lib:big_schem:schematic>  optIter=18867  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18867:
+  CurrentEF: 4.46115871084074
+  Optimization variables:
+    cell_1.C_stab = 3.26166557520628e-12
+    cell_1.R_stab = 21.13548173172693
+    dc_block_in.C_dc_block = 9.331820789879524e-06
+    dc_block_in.MLIN1_L = 4.708703331650504e-03
+    dc_block_in.MLIN1_W = 3.643975354244251e-03
+    dc_block_in.MLIN2_L = 13.99497817312785e-03
+    dc_block_in.MLIN2_W = 1.002129808064967e-03
+    dc_block_in.MLSC_L = 3.88573817377173e-03
+    dc_block_in.MLSC_W = 126.7744545167304e-06
+    dc_block_out.C_dc_block = 374.7532082181643e-09
+    dc_block_out.MLIN1_L = 14.82256651207376e-03
+    dc_block_out.MLIN2_L = 8.700046547923982e-03
+    dc_block_out.MLIN2_W = 1.000207366644667e-03
+    dc_block_out.MLSC_L = 25.38265537558356e-03
+    dc_block_out.MLSC_W = 2.549557727994398e-09
+
+SP Optim_all_params[1].SP2[18868] <semester_task_lib:big_schem:schematic>  optIter=18868  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18868:
+  CurrentEF: 4.33910589816413
+  Optimization variables:
+    cell_1.C_stab = 3.278860628604889e-12
+    cell_1.R_stab = 21.00878911885149
+    dc_block_in.C_dc_block = 7.737256103100175e-06
+    dc_block_in.MLIN1_L = 4.972173435292691e-03
+    dc_block_in.MLIN1_W = 3.678722026535993e-03
+    dc_block_in.MLIN2_L = 13.56171250416582e-03
+    dc_block_in.MLIN2_W = 1.022519582226118e-03
+    dc_block_in.MLSC_L = 3.979380960852675e-03
+    dc_block_in.MLSC_W = 114.9482289853964e-06
+    dc_block_out.C_dc_block = 418.7452005218438e-09
+    dc_block_out.MLIN1_L = 14.9989888062784e-03
+    dc_block_out.MLIN2_L = 7.515076753519033e-03
+    dc_block_out.MLIN2_W = 1.000546347040784e-03
+    dc_block_out.MLSC_L = 25.83770048927704e-03
+    dc_block_out.MLSC_W = 2.061415077652782e-09
+
+SP Optim_all_params[1].SP2[18869] <semester_task_lib:big_schem:schematic>  optIter=18869  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18869:
+  CurrentEF: 4.06839067077394
+  Optimization variables:
+    cell_1.C_stab = 3.283285468816757e-12
+    cell_1.R_stab = 20.91550846897648
+    dc_block_in.C_dc_block = 4.73996777056611e-06
+    dc_block_in.MLIN1_L = 5.56567102693268e-03
+    dc_block_in.MLIN1_W = 3.739207161345222e-03
+    dc_block_in.MLIN2_L = 12.42448088906519e-03
+    dc_block_in.MLIN2_W = 1.312079431605105e-03
+    dc_block_in.MLSC_L = 4.25135409053194e-03
+    dc_block_in.MLSC_W = 102.799556151588e-06
+    dc_block_out.C_dc_block = 519.5746111857808e-09
+    dc_block_out.MLIN1_L = 13.9949887212672e-03
+    dc_block_out.MLIN2_L = 4.958738998270579e-03
+    dc_block_out.MLIN2_W = 1.00188556039499e-03
+    dc_block_out.MLSC_L = 26.78968548398303e-03
+    dc_block_out.MLSC_W = 1.247171912575141e-09
+
+SP Optim_all_params[1].SP2[18870] <semester_task_lib:big_schem:schematic>  optIter=18870  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18870:
+  CurrentEF: 4.03040032286658
+  Optimization variables:
+    cell_1.C_stab = 3.278192825615406e-12
+    cell_1.R_stab = 20.91958258647623
+    dc_block_in.C_dc_block = 4.289919939185536e-06
+    dc_block_in.MLIN1_L = 5.668356467872057e-03
+    dc_block_in.MLIN1_W = 3.748343274874296e-03
+    dc_block_in.MLIN2_L = 12.21200343305627e-03
+    dc_block_in.MLIN2_W = 1.389638297866936e-03
+    dc_block_in.MLSC_L = 4.312361005958191e-03
+    dc_block_in.MLSC_W = 102.0887688380526e-06
+    dc_block_out.C_dc_block = 537.2150853680651e-09
+    dc_block_out.MLIN1_L = 13.65360363180445e-03
+    dc_block_out.MLIN2_L = 4.552176754979092e-03
+    dc_block_out.MLIN2_W = 1.002199347889383e-03
+    dc_block_out.MLSC_L = 26.94801445004955e-03
+    dc_block_out.MLSC_W = 1.154191126581282e-09
+Quasi-Newton optimizer ends after 18870 trials and 1280 evaluations with EF=4.030e+00
+
+SP Optim_all_params[1].SP2[18871] <semester_task_lib:big_schem:schematic>  optIter=18871  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18871:
+  CurrentEF: 4.31492397074764
+  Optimization variables:
+    cell_1.C_stab = 3.278192825615406e-12
+    cell_1.R_stab = 20.91958258647623
+    dc_block_in.C_dc_block = 4.289919939185536e-06
+    dc_block_in.MLIN1_L = 5.668356467872057e-03
+    dc_block_in.MLIN1_W = 3.748343274874296e-03
+    dc_block_in.MLIN2_L = 12.21200343305627e-03
+    dc_block_in.MLIN2_W = 1.389638297866936e-03
+    dc_block_in.MLSC_L = 4.312361005958191e-03
+    dc_block_in.MLSC_W = 102.0887688380526e-06
+    dc_block_out.C_dc_block = 537.2150853680651e-09
+    dc_block_out.MLIN1_L = 13.65360363180445e-03
+    dc_block_out.MLIN2_L = 4.552176754979092e-03
+    dc_block_out.MLIN2_W = 1.002199347889383e-03
+    dc_block_out.MLSC_L = 26.94801445004955e-03
+    dc_block_out.MLSC_W = 1.154191126581282e-09
+
+SP Optim_all_params[1].SP2[18872] <semester_task_lib:big_schem:schematic>  optIter=18872  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18872:
+  CurrentEF: 4.27944218954429
+  Optimization variables:
+    cell_1.C_stab = 3.274468339979649e-12
+    cell_1.R_stab = 21.13077841281818
+    dc_block_in.C_dc_block = 4.247224599601381e-06
+    dc_block_in.MLIN1_L = 5.611736480436266e-03
+    dc_block_in.MLIN1_W = 3.710759842125553e-03
+    dc_block_in.MLIN2_L = 12.08973339783452e-03
+    dc_block_in.MLIN2_W = 1.403634680793396e-03
+    dc_block_in.MLSC_L = 4.355494616948184e-03
+    dc_block_in.MLSC_W = 101.2639375572533e-06
+    dc_block_out.C_dc_block = 531.8694687239696e-09
+    dc_block_out.MLIN1_L = 13.7843822592281e-03
+    dc_block_out.MLIN2_L = 4.597848522607676e-03
+    dc_block_out.MLIN2_W = 1.000298304698688e-03
+    dc_block_out.MLSC_L = 27.21437035361123e-03
+    dc_block_out.MLSC_W = 1.142972861183807e-09
+
+SP Optim_all_params[1].SP2[18873] <semester_task_lib:big_schem:schematic>  optIter=18873  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18873:
+  CurrentEF: 4.25708844847866
+  Optimization variables:
+    cell_1.C_stab = 3.321933403611183e-12
+    cell_1.R_stab = 21.14945424326864
+    dc_block_in.C_dc_block = 4.244552400692694e-06
+    dc_block_in.MLIN1_L = 5.585014206093804e-03
+    dc_block_in.MLIN1_W = 3.710759850065927e-03
+    dc_block_in.MLIN2_L = 12.07456823798543e-03
+    dc_block_in.MLIN2_W = 1.403173924388995e-03
+    dc_block_in.MLSC_L = 4.405242182651963e-03
+    dc_block_in.MLSC_W = 100.8829063752344e-06
+    dc_block_out.C_dc_block = 531.1674873795055e-09
+    dc_block_out.MLIN1_L = 13.78493042962146e-03
+    dc_block_out.MLIN2_L = 4.600755575496413e-03
+    dc_block_out.MLIN2_W = 1.000298686176457e-03
+    dc_block_out.MLSC_L = 27.21437119125096e-03
+    dc_block_out.MLSC_W = 1.541976634413004e-09
+
+SP Optim_all_params[1].SP2[18874] <semester_task_lib:big_schem:schematic>  optIter=18874  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18874:
+  CurrentEF: 4.25114091637595
+  Optimization variables:
+    cell_1.C_stab = 3.335888400673866e-12
+    cell_1.R_stab = 21.15482007485245
+    dc_block_in.C_dc_block = 4.243785715384765e-06
+    dc_block_in.MLIN1_L = 5.577907115893831e-03
+    dc_block_in.MLIN1_W = 3.710759781915146e-03
+    dc_block_in.MLIN2_L = 12.07052292273311e-03
+    dc_block_in.MLIN2_W = 1.40304797692041e-03
+    dc_block_in.MLSC_L = 4.418738407396553e-03
+    dc_block_in.MLSC_W = 100.8146572712363e-06
+    dc_block_out.C_dc_block = 531.0044845155717e-09
+    dc_block_out.MLIN1_L = 13.78509740401339e-03
+    dc_block_out.MLIN2_L = 4.601596054206028e-03
+    dc_block_out.MLIN2_W = 1.000298789344003e-03
+    dc_block_out.MLSC_L = 27.21443605906581e-03
+    dc_block_out.MLSC_W = 1.038801548071206e-09
+
+SP Optim_all_params[1].SP2[18875] <semester_task_lib:big_schem:schematic>  optIter=18875  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18875:
+  CurrentEF: 4.21214775104189
+  Optimization variables:
+    cell_1.C_stab = 3.093220211565494e-12
+    cell_1.R_stab = 21.29586973097252
+    dc_block_in.C_dc_block = 4.221934845309625e-06
+    dc_block_in.MLIN1_L = 5.658365654480949e-03
+    dc_block_in.MLIN1_W = 3.710758658739734e-03
+    dc_block_in.MLIN2_L = 12.09538174912482e-03
+    dc_block_in.MLIN2_W = 1.40181845652618e-03
+    dc_block_in.MLSC_L = 4.744564477382332e-03
+    dc_block_in.MLSC_W = 100.0018872172831e-06
+    dc_block_out.C_dc_block = 527.106673999806e-09
+    dc_block_out.MLIN1_L = 13.79026592899998e-03
+    dc_block_out.MLIN2_L = 4.617449483873176e-03
+    dc_block_out.MLIN2_W = 1.000298673772186e-03
+    dc_block_out.MLSC_L = 27.21560063876729e-03
+    dc_block_out.MLSC_W = 65.6670322411228e-09
+
+SP Optim_all_params[1].SP2[18876] <semester_task_lib:big_schem:schematic>  optIter=18876  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18876:
+  CurrentEF: 4.17740294051411
+  Optimization variables:
+    cell_1.C_stab = 2.918454267084598e-12
+    cell_1.R_stab = 21.67835529060359
+    dc_block_in.C_dc_block = 4.152232333297478e-06
+    dc_block_in.MLIN1_L = 5.722758050532816e-03
+    dc_block_in.MLIN1_W = 3.710754020130882e-03
+    dc_block_in.MLIN2_L = 12.10333219297404e-03
+    dc_block_in.MLIN2_W = 1.381519659745841e-03
+    dc_block_in.MLSC_L = 5.071300037378959e-03
+    dc_block_in.MLSC_W = 106.9488735431989e-06
+    dc_block_out.C_dc_block = 521.7716106747394e-09
+    dc_block_out.MLIN1_L = 13.81077254511164e-03
+    dc_block_out.MLIN2_L = 4.679926637820209e-03
+    dc_block_out.MLIN2_W = 1.000301429590813e-03
+    dc_block_out.MLSC_L = 27.19941320770674e-03
+    dc_block_out.MLSC_W = 9.991208040388303e-09
+
+SP Optim_all_params[1].SP2[18877] <semester_task_lib:big_schem:schematic>  optIter=18877  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18877:
+  CurrentEF: 4.0055996674029
+  Optimization variables:
+    cell_1.C_stab = 3.003584839403629e-12
+    cell_1.R_stab = 29.3781671269054
+    dc_block_in.C_dc_block = 3.35452888058599e-06
+    dc_block_in.MLIN1_L = 6.043664722999395e-03
+    dc_block_in.MLIN1_W = 3.710565864392613e-03
+    dc_block_in.MLIN2_L = 12.13635477689484e-03
+    dc_block_in.MLIN2_W = 1.156042070495695e-03
+    dc_block_in.MLSC_L = 5.623877415189302e-03
+    dc_block_in.MLSC_W = 113.8525526226616e-06
+    dc_block_out.C_dc_block = 499.4481110730704e-09
+    dc_block_out.MLIN1_L = 14.00851008047999e-03
+    dc_block_out.MLIN2_L = 5.418291569259211e-03
+    dc_block_out.MLIN2_W = 1.000341067681957e-03
+    dc_block_out.MLSC_L = 27.27295654539421e-03
+    dc_block_out.MLSC_W = 141.8501090707723e-09
+
+SP Optim_all_params[1].SP2[18878] <semester_task_lib:big_schem:schematic>  optIter=18878  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18878:
+  CurrentEF: 3.99149055763774
+  Optimization variables:
+    cell_1.C_stab = 3.022358909249306e-12
+    cell_1.R_stab = 30.14088666995991
+    dc_block_in.C_dc_block = 3.286652245013757e-06
+    dc_block_in.MLIN1_L = 6.07161956967596e-03
+    dc_block_in.MLIN1_W = 3.710558441846353e-03
+    dc_block_in.MLIN2_L = 12.13608992607164e-03
+    dc_block_in.MLIN2_W = 1.139898440005645e-03
+    dc_block_in.MLSC_L = 5.659174547835985e-03
+    dc_block_in.MLSC_W = 113.0191896732399e-06
+    dc_block_out.C_dc_block = 497.0982696733045e-09
+    dc_block_out.MLIN1_L = 14.02627478071137e-03
+    dc_block_out.MLIN2_L = 5.486740590086353e-03
+    dc_block_out.MLIN2_W = 1.000344799462811e-03
+    dc_block_out.MLSC_L = 27.2838944928047e-03
+    dc_block_out.MLSC_W = 140.4674609624781e-09
+
+SP Optim_all_params[1].SP2[18879] <semester_task_lib:big_schem:schematic>  optIter=18879  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18879:
+  CurrentEF: 3.85507223792583
+  Optimization variables:
+    cell_1.C_stab = 2.960881307721138e-12
+    cell_1.R_stab = 34.71673144053291
+    dc_block_in.C_dc_block = 2.20612792294853e-06
+    dc_block_in.MLIN1_L = 6.866128998874049e-03
+    dc_block_in.MLIN1_W = 3.710325756801107e-03
+    dc_block_in.MLIN2_L = 11.57012860965172e-03
+    dc_block_in.MLIN2_W = 1.005802933716093e-03
+    dc_block_in.MLSC_L = 6.628546083578658e-03
+    dc_block_in.MLSC_W = 106.8570673880927e-06
+    dc_block_out.C_dc_block = 554.0599976521408e-09
+    dc_block_out.MLIN1_L = 14.30168639322775e-03
+    dc_block_out.MLIN2_L = 6.450615129636051e-03
+    dc_block_out.MLIN2_W = 1.000482322029496e-03
+    dc_block_out.MLSC_L = 27.75202099326754e-03
+    dc_block_out.MLSC_W = 253.6665070366581e-09
+
+SP Optim_all_params[1].SP2[18880] <semester_task_lib:big_schem:schematic>  optIter=18880  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18880:
+  CurrentEF: 3.78858055348515
+  Optimization variables:
+    cell_1.C_stab = 2.936766408383846e-12
+    cell_1.R_stab = 35.35821379121905
+    dc_block_in.C_dc_block = 1.876796487107786e-06
+    dc_block_in.MLIN1_L = 7.113234662198508e-03
+    dc_block_in.MLIN1_W = 3.710265445868615e-03
+    dc_block_in.MLIN2_L = 11.34579207516759e-03
+    dc_block_in.MLIN2_W = 1.000013462939379e-03
+    dc_block_in.MLSC_L = 6.886472533770927e-03
+    dc_block_in.MLSC_W = 103.4362012177581e-06
+    dc_block_out.C_dc_block = 568.5152388634234e-09
+    dc_block_out.MLIN1_L = 14.37747112580038e-03
+    dc_block_out.MLIN2_L = 6.65829190179312e-03
+    dc_block_out.MLIN2_W = 1.000581237196008e-03
+    dc_block_out.MLSC_L = 27.6014875202944e-03
+    dc_block_out.MLSC_W = 243.0383078479208e-09
+
+SP Optim_all_params[1].SP2[18881] <semester_task_lib:big_schem:schematic>  optIter=18881  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18881:
+  CurrentEF: 3.78268045786835
+  Optimization variables:
+    cell_1.C_stab = 2.933843895792961e-12
+    cell_1.R_stab = 35.40438895970324
+    dc_block_in.C_dc_block = 1.839756681083483e-06
+    dc_block_in.MLIN1_L = 7.134148798262214e-03
+    dc_block_in.MLIN1_W = 3.710259544429549e-03
+    dc_block_in.MLIN2_L = 11.32915822012254e-03
+    dc_block_in.MLIN2_W = 1.000011817180099e-03
+    dc_block_in.MLSC_L = 6.912221382217799e-03
+    dc_block_in.MLSC_W = 103.1505375029795e-06
+    dc_block_out.C_dc_block = 569.6294614374056e-09
+    dc_block_out.MLIN1_L = 14.38538930613571e-03
+    dc_block_out.MLIN2_L = 6.681841975942496e-03
+    dc_block_out.MLIN2_W = 1.000592607824509e-03
+    dc_block_out.MLSC_L = 27.59327377330042e-03
+    dc_block_out.MLSC_W = 241.8326538098045e-09
+
+SP Optim_all_params[1].SP2[18882] <semester_task_lib:big_schem:schematic>  optIter=18882  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18882:
+  CurrentEF: 3.58416757829704
+  Optimization variables:
+    cell_1.C_stab = 2.264019325375557e-12
+    cell_1.R_stab = 41.81889487664972
+    dc_block_in.C_dc_block = 182.349956966078e-09
+    dc_block_in.MLIN1_L = 8.279406084532648e-03
+    dc_block_in.MLIN1_W = 3.709819084382786e-03
+    dc_block_in.MLIN2_L = 10.64951089712465e-03
+    dc_block_in.MLIN2_W = 1.085596332032718e-03
+    dc_block_in.MLSC_L = 8.875051276416629e-03
+    dc_block_in.MLSC_W = 118.3168942666484e-06
+    dc_block_out.C_dc_block = 715.0820417384822e-09
+    dc_block_out.MLIN1_L = 14.85690484406758e-03
+    dc_block_out.MLIN2_L = 8.540306537953839e-03
+    dc_block_out.MLIN2_W = 1.001430939181953e-03
+    dc_block_out.MLSC_L = 26.80060496855291e-03
+    dc_block_out.MLSC_W = 206.0925411672797e-09
+
+SP Optim_all_params[1].SP2[18883] <semester_task_lib:big_schem:schematic>  optIter=18883  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18883:
+  CurrentEF: 3.3341603719432
+  Optimization variables:
+    cell_1.C_stab = 2.151962190866471e-12
+    cell_1.R_stab = 43.67448036848012
+    dc_block_in.C_dc_block = 1.004936919693137e-09
+    dc_block_in.MLIN1_L = 8.52121887025044e-03
+    dc_block_in.MLIN1_W = 3.709732529203236e-03
+    dc_block_in.MLIN2_L = 10.48913480677029e-03
+    dc_block_in.MLIN2_W = 1.122392957498431e-03
+    dc_block_in.MLSC_L = 9.261815831119236e-03
+    dc_block_in.MLSC_W = 127.2854168060164e-06
+    dc_block_out.C_dc_block = 747.3153760241695e-09
+    dc_block_out.MLIN1_L = 14.90109804824711e-03
+    dc_block_out.MLIN2_L = 8.832153552083459e-03
+    dc_block_out.MLIN2_W = 1.001613012935804e-03
+    dc_block_out.MLSC_L = 26.64376113799018e-03
+    dc_block_out.MLSC_W = 217.1287372803781e-09
+
+SP Optim_all_params[1].SP2[18884] <semester_task_lib:big_schem:schematic>  optIter=18884  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18884:
+  CurrentEF: 3.33382205190958
+  Optimization variables:
+    cell_1.C_stab = 2.153412871062755e-12
+    cell_1.R_stab = 43.64626354563795
+    dc_block_in.C_dc_block = 1.000663592058118e-09
+    dc_block_in.MLIN1_L = 8.518636115015825e-03
+    dc_block_in.MLIN1_W = 3.70973371956697e-03
+    dc_block_in.MLIN2_L = 10.48975157949506e-03
+    dc_block_in.MLIN2_W = 1.121682281540935e-03
+    dc_block_in.MLSC_L = 9.255707731492389e-03
+    dc_block_in.MLSC_W = 127.1767028161122e-06
+    dc_block_out.C_dc_block = 746.945221420283e-09
+    dc_block_out.MLIN1_L = 14.90073390338217e-03
+    dc_block_out.MLIN2_L = 8.829704449246974e-03
+    dc_block_out.MLIN2_W = 1.001609783424089e-03
+    dc_block_out.MLSC_L = 26.64404523727484e-03
+    dc_block_out.MLSC_W = 216.8334553707391e-09
+
+SP Optim_all_params[1].SP2[18885] <semester_task_lib:big_schem:schematic>  optIter=18885  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18885:
+  CurrentEF: 3.25150804743125
+  Optimization variables:
+    cell_1.C_stab = 2.175079710781574e-12
+    cell_1.R_stab = 44.08404169685306
+    dc_block_in.C_dc_block = 1.000613025673374e-09
+    dc_block_in.MLIN1_L = 8.433252466480514e-03
+    dc_block_in.MLIN1_W = 3.709733747212891e-03
+    dc_block_in.MLIN2_L = 10.48974114208444e-03
+    dc_block_in.MLIN2_W = 1.132980262572583e-03
+    dc_block_in.MLSC_L = 9.347843708646806e-03
+    dc_block_in.MLSC_W = 127.1742155924244e-06
+    dc_block_out.C_dc_block = 754.4165393527438e-09
+    dc_block_out.MLIN1_L = 14.90072923615626e-03
+    dc_block_out.MLIN2_L = 8.741245768282592e-03
+    dc_block_out.MLIN2_W = 1.001609703125956e-03
+    dc_block_out.MLSC_L = 26.90766801727613e-03
+    dc_block_out.MLSC_W = 1.949541574272327e-06
+
+SP Optim_all_params[1].SP2[18886] <semester_task_lib:big_schem:schematic>  optIter=18886  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18886:
+  CurrentEF: 3.23671297602363
+  Optimization variables:
+    cell_1.C_stab = 2.22953736782074e-12
+    cell_1.R_stab = 44.08404170660253
+    dc_block_in.C_dc_block = 1.00061302568065e-09
+    dc_block_in.MLIN1_L = 8.433252466450233e-03
+    dc_block_in.MLIN1_W = 3.709733747212891e-03
+    dc_block_in.MLIN2_L = 10.48974114140615e-03
+    dc_block_in.MLIN2_W = 1.1329802626548e-03
+    dc_block_in.MLSC_L = 9.347843720345755e-03
+    dc_block_in.MLSC_W = 127.1742155924286e-06
+    dc_block_out.C_dc_block = 754.4165392724973e-09
+    dc_block_out.MLIN1_L = 14.90072923615569e-03
+    dc_block_out.MLIN2_L = 8.74124576917442e-03
+    dc_block_out.MLIN2_W = 1.001609703125957e-03
+    dc_block_out.MLSC_L = 26.90766801416267e-03
+    dc_block_out.MLSC_W = 1.949541574272327e-06
+
+SP Optim_all_params[1].SP2[18887] <semester_task_lib:big_schem:schematic>  optIter=18887  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18887:
+  CurrentEF: 3.22453917794555
+  Optimization variables:
+    cell_1.C_stab = 2.271967135369778e-12
+    cell_1.R_stab = 44.0860828298897
+    dc_block_in.C_dc_block = 1.000627373206953e-09
+    dc_block_in.MLIN1_L = 8.432485525619551e-03
+    dc_block_in.MLIN1_W = 3.7097854068694e-03
+    dc_block_in.MLIN2_L = 10.48825231619893e-03
+    dc_block_in.MLIN2_W = 1.133111668274725e-03
+    dc_block_in.MLSC_L = 9.365226684964706e-03
+    dc_block_in.MLSC_W = 127.1742215518145e-06
+    dc_block_out.C_dc_block = 712.7497841543374e-09
+    dc_block_out.MLIN1_L = 14.90076284799734e-03
+    dc_block_out.MLIN2_L = 8.744857637728767e-03
+    dc_block_out.MLIN2_W = 1.001609703679697e-03
+    dc_block_out.MLSC_L = 26.91060231720695e-03
+    dc_block_out.MLSC_W = 1.94954210255947e-06
+
+SP Optim_all_params[1].SP2[18888] <semester_task_lib:big_schem:schematic>  optIter=18888  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18888:
+  CurrentEF: 3.22140208533306
+  Optimization variables:
+    cell_1.C_stab = 2.281520888209343e-12
+    cell_1.R_stab = 44.08086952498416
+    dc_block_in.C_dc_block = 1.000631490307569e-09
+    dc_block_in.MLIN1_L = 8.437977145285063e-03
+    dc_block_in.MLIN1_W = 3.709796866994774e-03
+    dc_block_in.MLIN2_L = 10.49065010524147e-03
+    dc_block_in.MLIN2_W = 1.13308802144484e-03
+    dc_block_in.MLSC_L = 9.369828191428394e-03
+    dc_block_in.MLSC_W = 127.1742233489164e-06
+    dc_block_out.C_dc_block = 703.4765076760669e-09
+    dc_block_out.MLIN1_L = 14.90077474811487e-03
+    dc_block_out.MLIN2_L = 8.745612947514513e-03
+    dc_block_out.MLIN2_W = 1.001609703787845e-03
+    dc_block_out.MLSC_L = 26.91059392578938e-03
+    dc_block_out.MLSC_W = 1.949542212167289e-06
+Gradient optimizer ends after 18888 trials and 514 evaluations with EF=3.221e+00
+
+SP Optim_all_params[1].SP2[18889] <semester_task_lib:big_schem:schematic>  optIter=18889  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #18889:
+  CurrentEF: 3.22140212574842
+  Optimization variables:
+    cell_1.C_stab = 2.281520888209343e-12
+    cell_1.R_stab = 44.08087056027182
+    dc_block_in.C_dc_block = 1.000631509392406e-09
+    dc_block_in.MLIN1_L = 8.437977455030797e-03
+    dc_block_in.MLIN1_W = 3.709796866994774e-03
+    dc_block_in.MLIN2_L = 10.49064951952292e-03
+    dc_block_in.MLIN2_W = 1.133087981876288e-03
+    dc_block_in.MLSC_L = 9.369827794533298e-03
+    dc_block_in.MLSC_W = 127.1742233489164e-06
+    dc_block_out.C_dc_block = 703.4764698667788e-09
+    dc_block_out.MLIN1_L = 14.90077474811487e-03
+    dc_block_out.MLIN2_L = 8.745612719500338e-03
+    dc_block_out.MLIN2_W = 1.001609703787845e-03
+    dc_block_out.MLSC_L = 26.91059315073829e-03
+    dc_block_out.MLSC_W = 1.949542212167289e-06
+
+SP Optim_all_params[1].SP2[21412] <semester_task_lib:big_schem:schematic>  optIter=21412  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #21412:
+  CurrentEF: 0.46835743702892
+  Optimization variables:
+    cell_1.C_stab = 2.281520888209343e-12
+    cell_1.R_stab = 44.08086952498416
+    dc_block_in.C_dc_block = 1.000631490307569e-09
+    dc_block_in.MLIN1_L = 8.437977145285063e-03
+    dc_block_in.MLIN1_W = 3.709796866994774e-03
+    dc_block_in.MLIN2_L = 10.49065010524147e-03
+    dc_block_in.MLIN2_W = 1.13308802144484e-03
+    dc_block_in.MLSC_L = 9.369828191428394e-03
+    dc_block_in.MLSC_W = 127.1742233489164e-06
+    dc_block_out.C_dc_block = 703.4765076760669e-09
+    dc_block_out.MLIN1_L = 14.90077474811487e-03
+    dc_block_out.MLIN2_L = 8.745612947514513e-03
+    dc_block_out.MLIN2_W = 1.001609703787845e-03
+    dc_block_out.MLSC_L = 26.91059392578938e-03
+    dc_block_out.MLSC_W = 1.949542212167289e-06
+
+SP Optim_all_params[1].SP2[21859] <semester_task_lib:big_schem:schematic>  optIter=21859  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #21859:
+  CurrentEF: 4.42707040190573
+  Optimization variables:
+    cell_1.C_stab = 2.281520888209343e-12
+    cell_1.R_stab = 44.08086952498416
+    dc_block_in.C_dc_block = 1.000631490307569e-09
+    dc_block_in.MLIN1_L = 8.437977145285063e-03
+    dc_block_in.MLIN1_W = 3.709796866994774e-03
+    dc_block_in.MLIN2_L = 10.49065010524147e-03
+    dc_block_in.MLIN2_W = 1.13308802144484e-03
+    dc_block_in.MLSC_L = 9.369828191428394e-03
+    dc_block_in.MLSC_W = 127.1742233489164e-06
+    dc_block_out.C_dc_block = 703.4765076760669e-09
+    dc_block_out.MLIN1_L = 14.90077414836853e-03
+    dc_block_out.MLIN2_L = 8.745612947514513e-03
+    dc_block_out.MLIN2_W = 1.001609703787845e-03
+    dc_block_out.MLSC_L = 26.91059392578938e-03
+    dc_block_out.MLSC_W = 1.949542212167289e-06
+
+SP Optim_all_params[1].SP2[22942] <semester_task_lib:big_schem:schematic>  optIter=22942  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #22942:
+  CurrentEF: 4.4178060781315
+  Optimization variables:
+    cell_1.C_stab = 2.294993327706444e-12
+    cell_1.R_stab = 44.08087078664742
+    dc_block_in.C_dc_block = 1.003194543104406e-09
+    dc_block_in.MLIN1_L = 8.437976578985016e-03
+    dc_block_in.MLIN1_W = 3.709796707168643e-03
+    dc_block_in.MLIN2_L = 10.49065037659595e-03
+    dc_block_in.MLIN2_W = 1.133088055278431e-03
+    dc_block_in.MLSC_L = 9.369828800752253e-03
+    dc_block_in.MLSC_W = 127.1739834181957e-06
+    dc_block_out.C_dc_block = 703.4762140718305e-09
+    dc_block_out.MLIN1_L = 14.9007746765779e-03
+    dc_block_out.MLIN2_L = 8.745613298792613e-03
+    dc_block_out.MLIN2_W = 1.001609724750029e-03
+    dc_block_out.MLSC_L = 26.91059414265643e-03
+    dc_block_out.MLSC_W = 1.949546668584623e-06
+
+SP Optim_all_params[1].SP2[24878] <semester_task_lib:big_schem:schematic>  optIter=24878  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #24878:
+  CurrentEF: 4.41728937319883
+  Optimization variables:
+    cell_1.C_stab = 2.285315074861467e-12
+    cell_1.R_stab = 44.08087506996572
+    dc_block_in.C_dc_block = 1.011485772742164e-09
+    dc_block_in.MLIN1_L = 8.437976506929557e-03
+    dc_block_in.MLIN1_W = 3.709796668599287e-03
+    dc_block_in.MLIN2_L = 10.49065052227932e-03
+    dc_block_in.MLIN2_W = 1.133088066862951e-03
+    dc_block_in.MLSC_L = 9.369827453575156e-03
+    dc_block_in.MLSC_W = 127.1736951740484e-06
+    dc_block_out.C_dc_block = 703.4773558313209e-09
+    dc_block_out.MLIN1_L = 14.90077529381857e-03
+    dc_block_out.MLIN2_L = 8.745611823326966e-03
+    dc_block_out.MLIN2_W = 1.001609950986966e-03
+    dc_block_out.MLSC_L = 26.91059442301266e-03
+    dc_block_out.MLSC_W = 1.949590288936499e-06
+
+SP Optim_all_params[1].SP2[26098] <semester_task_lib:big_schem:schematic>  optIter=26098  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #26098:
+  CurrentEF: 4.41384131859621
+  Optimization variables:
+    cell_1.C_stab = 2.287580629241217e-12
+    cell_1.R_stab = 44.08087410082373
+    dc_block_in.C_dc_block = 1.011674302284855e-09
+    dc_block_in.MLIN1_L = 8.437976949653628e-03
+    dc_block_in.MLIN1_W = 3.709796676933511e-03
+    dc_block_in.MLIN2_L = 10.49064993462601e-03
+    dc_block_in.MLIN2_W = 1.13308801982663e-03
+    dc_block_in.MLSC_L = 9.369827521052726e-03
+    dc_block_in.MLSC_W = 127.173678552394e-06
+    dc_block_out.C_dc_block = 703.4772365742776e-09
+    dc_block_out.MLIN1_L = 14.90077492468354e-03
+    dc_block_out.MLIN2_L = 8.745611836817836e-03
+    dc_block_out.MLIN2_W = 1.001609997827738e-03
+    dc_block_out.MLSC_L = 26.91059511151024e-03
+    dc_block_out.MLSC_W = 1.94959444743534e-06
+
+SP Optim_all_params[1].SP2[27441] <semester_task_lib:big_schem:schematic>  optIter=27441  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #27441:
+  CurrentEF: 4.41315341162842
+  Optimization variables:
+    cell_1.C_stab = 2.291682793581463e-12
+    cell_1.R_stab = 44.08087599097328
+    dc_block_in.C_dc_block = 1.011231800019503e-09
+    dc_block_in.MLIN1_L = 8.437977074857984e-03
+    dc_block_in.MLIN1_W = 3.709796734766345e-03
+    dc_block_in.MLIN2_L = 10.49065028603132e-03
+    dc_block_in.MLIN2_W = 1.133087983142694e-03
+    dc_block_in.MLSC_L = 9.369827284332459e-03
+    dc_block_in.MLSC_W = 127.17335290458e-06
+    dc_block_out.C_dc_block = 703.4780881472042e-09
+    dc_block_out.MLIN1_L = 14.90077436720361e-03
+    dc_block_out.MLIN2_L = 8.745611881605346e-03
+    dc_block_out.MLIN2_W = 1.001609891439866e-03
+    dc_block_out.MLSC_L = 26.91059329680939e-03
+    dc_block_out.MLSC_W = 1.949586154177112e-06
+
+SP Optim_all_params[1].SP2[30429] <semester_task_lib:big_schem:schematic>  optIter=30429  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #30429:
+  CurrentEF: 4.41269196102424
+  Optimization variables:
+    cell_1.C_stab = 2.29063622634081e-12
+    cell_1.R_stab = 44.08087911209236
+    dc_block_in.C_dc_block = 1.012077251273387e-09
+    dc_block_in.MLIN1_L = 8.437978283760098e-03
+    dc_block_in.MLIN1_W = 3.709796749580713e-03
+    dc_block_in.MLIN2_L = 10.49065182340046e-03
+    dc_block_in.MLIN2_W = 1.133087706253549e-03
+    dc_block_in.MLSC_L = 9.369825976683318e-03
+    dc_block_in.MLSC_W = 127.1711169409949e-06
+    dc_block_out.C_dc_block = 703.4704698293814e-09
+    dc_block_out.MLIN1_L = 14.90077326571386e-03
+    dc_block_out.MLIN2_L = 8.745611664670448e-03
+    dc_block_out.MLIN2_W = 1.001609542433953e-03
+    dc_block_out.MLSC_L = 26.91059352586801e-03
+    dc_block_out.MLSC_W = 1.949281838355031e-06
+
+SP Optim_all_params[1].SP2[35713] <semester_task_lib:big_schem:schematic>  optIter=35713  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35713:
+  CurrentEF: 4.41269203733763
+  Optimization variables:
+    cell_1.C_stab = 2.29063622634081e-12
+    cell_1.R_stab = 44.08087911209236
+    dc_block_in.C_dc_block = 1.012077251273387e-09
+    dc_block_in.MLIN1_L = 8.437978283760098e-03
+    dc_block_in.MLIN1_W = 3.709796517904166e-03
+    dc_block_in.MLIN2_L = 10.49065182340046e-03
+    dc_block_in.MLIN2_W = 1.133087706253549e-03
+    dc_block_in.MLSC_L = 9.369825976683318e-03
+    dc_block_in.MLSC_W = 127.1711169409949e-06
+    dc_block_out.C_dc_block = 703.4704698293814e-09
+    dc_block_out.MLIN1_L = 14.90077326571386e-03
+    dc_block_out.MLIN2_L = 8.745611600162533e-03
+    dc_block_out.MLIN2_W = 1.001609542433953e-03
+    dc_block_out.MLSC_L = 26.9105947035451e-03
+    dc_block_out.MLSC_W = 1.949281838355031e-06
+Gradient optimizer ends after 35713 trials and 27 evaluations with EF=4.413e+00
+
+SP Optim_all_params[1].SP2[35714] <semester_task_lib:big_schem:schematic>  optIter=35714  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35714:
+  CurrentEF: 4.41269174227327
+  Optimization variables:
+    cell_1.C_stab = 2.290636226534844e-12
+    cell_1.R_stab = 44.08088002929707
+    dc_block_in.C_dc_block = 1.012077217172191e-09
+    dc_block_in.MLIN1_L = 8.437977931465723e-03
+    dc_block_in.MLIN1_W = 3.709796517904166e-03
+    dc_block_in.MLIN2_L = 10.49065226305479e-03
+    dc_block_in.MLIN2_W = 1.133087671635264e-03
+    dc_block_in.MLSC_L = 9.369825640083282e-03
+    dc_block_in.MLSC_W = 127.1711120034468e-06
+    dc_block_out.C_dc_block = 703.4704446521719e-09
+    dc_block_out.MLIN1_L = 14.90077240346822e-03
+    dc_block_out.MLIN2_L = 8.745611925057427e-03
+    dc_block_out.MLIN2_W = 1.001609590452779e-03
+    dc_block_out.MLSC_L = 26.91059605911495e-03
+    dc_block_out.MLSC_W = 1.949281907769619e-06
+
+SP Optim_all_params[1].SP2[35715] <semester_task_lib:big_schem:schematic>  optIter=35715  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35715:
+  CurrentEF: 4.4126221558287
+  Optimization variables:
+    cell_1.C_stab = 2.289820805191994e-12
+    cell_1.R_stab = 44.08087911299228
+    dc_block_in.C_dc_block = 1.012077250736184e-09
+    dc_block_in.MLIN1_L = 8.437978283424193e-03
+    dc_block_in.MLIN1_W = 3.709796517904812e-03
+    dc_block_in.MLIN2_L = 10.49065182329812e-03
+    dc_block_in.MLIN2_W = 1.133087706217308e-03
+    dc_block_in.MLSC_L = 9.369825976384515e-03
+    dc_block_in.MLSC_W = 127.1711169398714e-06
+    dc_block_out.C_dc_block = 703.4704691844019e-09
+    dc_block_out.MLIN1_L = 14.90077326571126e-03
+    dc_block_out.MLIN2_L = 8.745611600227854e-03
+    dc_block_out.MLIN2_W = 1.001609542433866e-03
+    dc_block_out.MLSC_L = 26.91059470325749e-03
+    dc_block_out.MLSC_W = 1.949281837809598e-06
+
+SP Optim_all_params[1].SP2[35716] <semester_task_lib:big_schem:schematic>  optIter=35716  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35716:
+  CurrentEF: 4.41251569672551
+  Optimization variables:
+    cell_1.C_stab = 2.289405383169651e-12
+    cell_1.R_stab = 44.08095846237058
+    dc_block_in.C_dc_block = 1.012074357480742e-09
+    dc_block_in.MLIN1_L = 8.437952881691168e-03
+    dc_block_in.MLIN1_W = 3.709796533665161e-03
+    dc_block_in.MLIN2_L = 10.4906446285357e-03
+    dc_block_in.MLIN2_W = 1.133084765240317e-03
+    dc_block_in.MLSC_L = 9.369798337049593e-03
+    dc_block_in.MLSC_W = 127.1722779203927e-06
+    dc_block_out.C_dc_block = 703.4546826729566e-09
+    dc_block_out.MLIN1_L = 14.90077300783367e-03
+    dc_block_out.MLIN2_L = 8.745615185055341e-03
+    dc_block_out.MLIN2_W = 1.001609536961364e-03
+    dc_block_out.MLSC_L = 26.91056479573537e-03
+    dc_block_out.MLSC_W = 1.950417964529712e-06
+
+SP Optim_all_params[1].SP2[35717] <semester_task_lib:big_schem:schematic>  optIter=35717  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35717:
+  CurrentEF: 4.41040314972338
+  Optimization variables:
+    cell_1.C_stab = 2.289254270493984e-12
+    cell_1.R_stab = 44.08446524495624
+    dc_block_in.C_dc_block = 1.010085322224768e-09
+    dc_block_in.MLIN1_L = 8.436866023578581e-03
+    dc_block_in.MLIN1_W = 3.709799123668496e-03
+    dc_block_in.MLIN2_L = 10.49034533164507e-03
+    dc_block_in.MLIN2_W = 1.132948145025937e-03
+    dc_block_in.MLSC_L = 9.368662982052694e-03
+    dc_block_in.MLSC_W = 127.1656118234517e-06
+    dc_block_out.C_dc_block = 700.9113598895638e-09
+    dc_block_out.MLIN1_L = 14.90076337884532e-03
+    dc_block_out.MLIN2_L = 8.74589144656341e-03
+    dc_block_out.MLIN2_W = 1.001609192114506e-03
+    dc_block_out.MLSC_L = 26.90933862494935e-03
+    dc_block_out.MLSC_W = 1.959385449863039e-06
+
+SP Optim_all_params[1].SP2[35718] <semester_task_lib:big_schem:schematic>  optIter=35718  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35718:
+  CurrentEF: 4.37173510432624
+  Optimization variables:
+    cell_1.C_stab = 2.295682467520237e-12
+    cell_1.R_stab = 44.17115106089473
+    dc_block_in.C_dc_block = 1.009763642010512e-09
+    dc_block_in.MLIN1_L = 8.433812373299664e-03
+    dc_block_in.MLIN1_W = 3.709819651575381e-03
+    dc_block_in.MLIN2_L = 10.49813549005049e-03
+    dc_block_in.MLIN2_W = 1.127736088795108e-03
+    dc_block_in.MLSC_L = 9.313899342074161e-03
+    dc_block_in.MLSC_W = 129.7301576751451e-06
+    dc_block_out.C_dc_block = 675.3936203584308e-09
+    dc_block_out.MLIN1_L = 14.90041837989724e-03
+    dc_block_out.MLIN2_L = 8.7538794007768e-03
+    dc_block_out.MLIN2_W = 1.001598067531175e-03
+    dc_block_out.MLSC_L = 26.86338852931362e-03
+    dc_block_out.MLSC_W = 1.993193750906503e-06
+
+SP Optim_all_params[1].SP2[35719] <semester_task_lib:big_schem:schematic>  optIter=35719  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35719:
+  CurrentEF: 3.60435908787077
+  Optimization variables:
+    cell_1.C_stab = 2.534428283572197e-12
+    cell_1.R_stab = 46.07488109432561
+    dc_block_in.C_dc_block = 1.567372696910752e-09
+    dc_block_in.MLIN1_L = 8.169152601869765e-03
+    dc_block_in.MLIN1_W = 3.710021796076232e-03
+    dc_block_in.MLIN2_L = 10.54362740000038e-03
+    dc_block_in.MLIN2_W = 1.049500398046982e-03
+    dc_block_in.MLSC_L = 8.291825779275147e-03
+    dc_block_in.MLSC_W = 205.5263581467585e-06
+    dc_block_out.C_dc_block = 396.4631196121045e-09
+    dc_block_out.MLIN1_L = 14.89343241709983e-03
+    dc_block_out.MLIN2_L = 8.903700225832126e-03
+    dc_block_out.MLIN2_W = 1.00139263542439e-03
+    dc_block_out.MLSC_L = 25.99021170448513e-03
+    dc_block_out.MLSC_W = 1.94004761998565e-06
+
+SP Optim_all_params[1].SP2[35720] <semester_task_lib:big_schem:schematic>  optIter=35720  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35720:
+  CurrentEF: 2.5186866355421
+  Optimization variables:
+    cell_1.C_stab = 3.074146419763565e-12
+    cell_1.R_stab = 47.95595404414629
+    dc_block_in.C_dc_block = 79.36118143768546e-09
+    dc_block_in.MLIN1_L = 7.522703911895234e-03
+    dc_block_in.MLIN1_W = 3.710756655179931e-03
+    dc_block_in.MLIN2_L = 10.62283855331246e-03
+    dc_block_in.MLIN2_W = 1.00085298593944e-03
+    dc_block_in.MLSC_L = 5.863464600783264e-03
+    dc_block_in.MLSC_W = 634.2210452129705e-06
+    dc_block_out.C_dc_block = 32.56868298975314e-09
+    dc_block_out.MLIN1_L = 14.87423445039835e-03
+    dc_block_out.MLIN2_L = 9.153962165419433e-03
+    dc_block_out.MLIN2_W = 1.001034703450284e-03
+    dc_block_out.MLSC_L = 24.38720195896205e-03
+    dc_block_out.MLSC_W = 1.870002314174082e-06
+
+SP Optim_all_params[1].SP2[35721] <semester_task_lib:big_schem:schematic>  optIter=35721  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35721:
+  CurrentEF: 2.46959405387368
+  Optimization variables:
+    cell_1.C_stab = 3.129394896328449e-12
+    cell_1.R_stab = 47.86088662676909
+    dc_block_in.C_dc_block = 171.6093173241461e-09
+    dc_block_in.MLIN1_L = 7.455872309282359e-03
+    dc_block_in.MLIN1_W = 3.710802828672858e-03
+    dc_block_in.MLIN2_L = 10.66021349073658e-03
+    dc_block_in.MLIN2_W = 1.000001389338636e-03
+    dc_block_in.MLSC_L = 5.675612218187902e-03
+    dc_block_in.MLSC_W = 628.5558087159828e-06
+    dc_block_out.C_dc_block = 46.09672392340144e-09
+    dc_block_out.MLIN1_L = 14.85643960727492e-03
+    dc_block_out.MLIN2_L = 9.170237244453738e-03
+    dc_block_out.MLIN2_W = 1.000936918391163e-03
+    dc_block_out.MLSC_L = 24.36965802119453e-03
+    dc_block_out.MLSC_W = 1.869182147267741e-06
+
+SP Optim_all_params[1].SP2[35722] <semester_task_lib:big_schem:schematic>  optIter=35722  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35722:
+  CurrentEF: 2.36880628222103
+  Optimization variables:
+    cell_1.C_stab = 3.210986942052841e-12
+    cell_1.R_stab = 47.11255304263142
+    dc_block_in.C_dc_block = 439.4800804815605e-09
+    dc_block_in.MLIN1_L = 7.341443246931308e-03
+    dc_block_in.MLIN1_W = 3.710809626554267e-03
+    dc_block_in.MLIN2_L = 10.72539125731075e-03
+    dc_block_in.MLIN2_W = 1.002746301107051e-03
+    dc_block_in.MLSC_L = 5.437515398354232e-03
+    dc_block_in.MLSC_W = 587.0801852781795e-06
+    dc_block_out.C_dc_block = 95.07774108761079e-09
+    dc_block_out.MLIN1_L = 14.82661054537379e-03
+    dc_block_out.MLIN2_L = 9.210104004980534e-03
+    dc_block_out.MLIN2_W = 1.000785869103145e-03
+    dc_block_out.MLSC_L = 24.23364551932791e-03
+    dc_block_out.MLSC_W = 1.863102875551209e-06
+
+SP Optim_all_params[1].SP2[35723] <semester_task_lib:big_schem:schematic>  optIter=35723  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35723:
+  CurrentEF: 2.16706128365918
+  Optimization variables:
+    cell_1.C_stab = 3.394723922014236e-12
+    cell_1.R_stab = 45.72652418254678
+    dc_block_in.C_dc_block = 1.806841408151842e-06
+    dc_block_in.MLIN1_L = 7.061383324363054e-03
+    dc_block_in.MLIN1_W = 3.710766227055534e-03
+    dc_block_in.MLIN2_L = 10.95239438884114e-03
+    dc_block_in.MLIN2_W = 1.032671444792419e-03
+    dc_block_in.MLSC_L = 5.189266062307767e-03
+    dc_block_in.MLSC_W = 597.9492060372976e-06
+    dc_block_out.C_dc_block = 240.7606434528789e-09
+    dc_block_out.MLIN1_L = 14.71764136664955e-03
+    dc_block_out.MLIN2_L = 9.462124011780331e-03
+    dc_block_out.MLIN2_W = 1.000507897493792e-03
+    dc_block_out.MLSC_L = 23.67689996628282e-03
+    dc_block_out.MLSC_W = 1.859268232884584e-06
+
+SP Optim_all_params[1].SP2[35724] <semester_task_lib:big_schem:schematic>  optIter=35724  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35724:
+  CurrentEF: 1.81895900248263
+  Optimization variables:
+    cell_1.C_stab = 3.879042066633701e-12
+    cell_1.R_stab = 41.50883548265566
+    dc_block_in.C_dc_block = 6.661603624126082e-06
+    dc_block_in.MLIN1_L = 6.428185277556503e-03
+    dc_block_in.MLIN1_W = 3.710086115024552e-03
+    dc_block_in.MLIN2_L = 11.32808080217944e-03
+    dc_block_in.MLIN2_W = 1.208862092061184e-03
+    dc_block_in.MLSC_L = 4.252661201124835e-03
+    dc_block_in.MLSC_W = 518.9629081885514e-06
+    dc_block_out.C_dc_block = 781.1399858728183e-09
+    dc_block_out.MLIN1_L = 14.24400625247103e-03
+    dc_block_out.MLIN2_L = 9.785573845401553e-03
+    dc_block_out.MLIN2_W = 1.000170078280775e-03
+    dc_block_out.MLSC_L = 22.92245997115783e-03
+    dc_block_out.MLSC_W = 1.840192345406628e-06
+
+SP Optim_all_params[1].SP2[35725] <semester_task_lib:big_schem:schematic>  optIter=35725  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35725:
+  CurrentEF: 1.58817653845163
+  Optimization variables:
+    cell_1.C_stab = 4.314952291548252e-12
+    cell_1.R_stab = 37.34682261759268
+    dc_block_in.C_dc_block = 13.57015590782855e-06
+    dc_block_in.MLIN1_L = 5.861005484513166e-03
+    dc_block_in.MLIN1_W = 3.709127119201938e-03
+    dc_block_in.MLIN2_L = 11.63767021374626e-03
+    dc_block_in.MLIN2_W = 1.482861739003784e-03
+    dc_block_in.MLSC_L = 3.45086443775535e-03
+    dc_block_in.MLSC_W = 470.9855551168772e-06
+    dc_block_out.C_dc_block = 1.575513828608862e-06
+    dc_block_out.MLIN1_L = 13.64254943943377e-03
+    dc_block_out.MLIN2_L = 10.96404489939753e-03
+    dc_block_out.MLIN2_W = 1.000042716635857e-03
+    dc_block_out.MLSC_L = 21.23499233099573e-03
+    dc_block_out.MLSC_W = 1.907291692085797e-06
+
+SP Optim_all_params[1].SP2[35726] <semester_task_lib:big_schem:schematic>  optIter=35726  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35726:
+  CurrentEF: 1.49423096443134
+  Optimization variables:
+    cell_1.C_stab = 4.571180783212185e-12
+    cell_1.R_stab = 36.03929959112269
+    dc_block_in.C_dc_block = 19.58512554617068e-06
+    dc_block_in.MLIN1_L = 5.472592645546115e-03
+    dc_block_in.MLIN1_W = 3.708531021621061e-03
+    dc_block_in.MLIN2_L = 12.0519448015182e-03
+    dc_block_in.MLIN2_W = 1.694812216586874e-03
+    dc_block_in.MLSC_L = 3.342237749096798e-03
+    dc_block_in.MLSC_W = 533.1055919504606e-06
+    dc_block_out.C_dc_block = 2.066321952713799e-06
+    dc_block_out.MLIN1_L = 13.1275608864683e-03
+    dc_block_out.MLIN2_L = 11.39487562880673e-03
+    dc_block_out.MLIN2_W = 1.000021215667476e-03
+    dc_block_out.MLSC_L = 20.64345909382903e-03
+    dc_block_out.MLSC_W = 1.940320365741849e-06
+
+SP Optim_all_params[1].SP2[35727] <semester_task_lib:big_schem:schematic>  optIter=35727  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35727:
+  CurrentEF: 1.44359226736108
+  Optimization variables:
+    cell_1.C_stab = 4.766862019896507e-12
+    cell_1.R_stab = 34.63303683393254
+    dc_block_in.C_dc_block = 24.21456704885067e-06
+    dc_block_in.MLIN1_L = 5.210531313365819e-03
+    dc_block_in.MLIN1_W = 3.708129735785076e-03
+    dc_block_in.MLIN2_L = 12.2673471740359e-03
+    dc_block_in.MLIN2_W = 1.869471744712576e-03
+    dc_block_in.MLSC_L = 3.239619299696633e-03
+    dc_block_in.MLSC_W = 586.1316773405704e-06
+    dc_block_out.C_dc_block = 2.440891480220744e-06
+    dc_block_out.MLIN1_L = 12.968619840569e-03
+    dc_block_out.MLIN2_L = 11.80778271805765e-03
+    dc_block_out.MLIN2_W = 1.000013684259144e-03
+    dc_block_out.MLSC_L = 20.11144384997237e-03
+    dc_block_out.MLSC_W = 1.982866818974726e-06
+Quasi-Newton optimizer ends after 35727 trials and 944 evaluations with EF=1.444e+00
+
+SP Optim_all_params[1].SP2[35728] <semester_task_lib:big_schem:schematic>  optIter=35728  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35728:
+  CurrentEF: 9.33235338734598
+  Optimization variables:
+    cell_1.C_stab = 4.766862019896507e-12
+    cell_1.R_stab = 34.63303683393283
+    dc_block_in.C_dc_block = 24.21456704884962e-06
+    dc_block_in.MLIN1_L = 5.210531313365876e-03
+    dc_block_in.MLIN1_W = 3.708129735785077e-03
+    dc_block_in.MLIN2_L = 12.26734717403586e-03
+    dc_block_in.MLIN2_W = 1.869471744712537e-03
+    dc_block_in.MLSC_L = 3.239619299696656e-03
+    dc_block_in.MLSC_W = 586.1316773405591e-06
+    dc_block_out.C_dc_block = 2.440891480220657e-06
+    dc_block_out.MLIN1_L = 12.96861984056903e-03
+    dc_block_out.MLIN2_L = 11.80778271805756e-03
+    dc_block_out.MLIN2_W = 1.000013684259144e-03
+    dc_block_out.MLSC_L = 20.11144384997248e-03
+    dc_block_out.MLSC_W = 1.982866818974726e-06
+
+SP Optim_all_params[1].SP2[35729] <semester_task_lib:big_schem:schematic>  optIter=35729  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35729:
+  CurrentEF: 8.64466244478273
+  Optimization variables:
+    cell_1.C_stab = 5.597342936734948e-12
+    cell_1.R_stab = 40.81665215716951
+    dc_block_in.C_dc_block = 24.21456704923337e-06
+    dc_block_in.MLIN1_L = 4.862301916018792e-03
+    dc_block_in.MLIN1_W = 3.718105369620977e-03
+    dc_block_in.MLIN2_L = 11.9870232053954e-03
+    dc_block_in.MLIN2_W = 1.891498774448066e-03
+    dc_block_in.MLSC_L = 3.245524817556894e-03
+    dc_block_in.MLSC_W = 577.8199424810657e-06
+    dc_block_out.C_dc_block = 2.440891483155551e-06
+    dc_block_out.MLIN1_L = 13.08004230692652e-03
+    dc_block_out.MLIN2_L = 12.04658988000842e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 20.11144092991465e-03
+    dc_block_out.MLSC_W = 1.982866929780298e-06
+
+SP Optim_all_params[1].SP2[35730] <semester_task_lib:big_schem:schematic>  optIter=35730  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35730:
+  CurrentEF: 8.3672068738562
+  Optimization variables:
+    cell_1.C_stab = 6.429382446789716e-12
+    cell_1.R_stab = 42.81240174591598
+    dc_block_in.C_dc_block = 24.21456704934409e-06
+    dc_block_in.MLIN1_L = 4.895792237393462e-03
+    dc_block_in.MLIN1_W = 3.718105468876474e-03
+    dc_block_in.MLIN2_L = 11.96182476780497e-03
+    dc_block_in.MLIN2_W = 1.70214833384616e-03
+    dc_block_in.MLSC_L = 3.256316166152208e-03
+    dc_block_in.MLSC_W = 562.2652051851772e-06
+    dc_block_out.C_dc_block = 2.440891483270962e-06
+    dc_block_out.MLIN1_L = 12.58208382124768e-03
+    dc_block_out.MLIN2_L = 12.31081265612686e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 20.11143554320015e-03
+    dc_block_out.MLSC_W = 1.982867146457327e-06
+
+SP Optim_all_params[1].SP2[35731] <semester_task_lib:big_schem:schematic>  optIter=35731  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35731:
+  CurrentEF: 8.35999405363974
+  Optimization variables:
+    cell_1.C_stab = 6.85918149129648e-12
+    cell_1.R_stab = 39.30648575456355
+    dc_block_in.C_dc_block = 24.21456704169662e-06
+    dc_block_in.MLIN1_L = 4.848827786986671e-03
+    dc_block_in.MLIN1_W = 3.718105512372896e-03
+    dc_block_in.MLIN2_L = 11.91133568762039e-03
+    dc_block_in.MLIN2_W = 1.479618180254737e-03
+    dc_block_in.MLSC_L = 3.273090306622466e-03
+    dc_block_in.MLSC_W = 536.2725490232958e-06
+    dc_block_out.C_dc_block = 2.440891487802598e-06
+    dc_block_out.MLIN1_L = 13.25933268395665e-03
+    dc_block_out.MLIN2_L = 13.19735601996642e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 20.11142323417883e-03
+    dc_block_out.MLSC_W = 1.98286751651989e-06
+
+SP Optim_all_params[1].SP2[35732] <semester_task_lib:big_schem:schematic>  optIter=35732  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35732:
+  CurrentEF: 8.1805688035806
+  Optimization variables:
+    cell_1.C_stab = 6.914790484990845e-12
+    cell_1.R_stab = 38.09419513422262
+    dc_block_in.C_dc_block = 24.21456704031796e-06
+    dc_block_in.MLIN1_L = 4.847916986051766e-03
+    dc_block_in.MLIN1_W = 3.708940113507545e-03
+    dc_block_in.MLIN2_L = 11.91783618027804e-03
+    dc_block_in.MLIN2_W = 1.600472178974234e-03
+    dc_block_in.MLSC_L = 3.277412250251559e-03
+    dc_block_in.MLSC_W = 528.1604873549282e-06
+    dc_block_out.C_dc_block = 2.44089147367036e-06
+    dc_block_out.MLIN1_L = 12.61142767079826e-03
+    dc_block_out.MLIN2_L = 13.02967813925992e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 20.11142332100278e-03
+    dc_block_out.MLSC_W = 1.982867550386388e-06
+
+SP Optim_all_params[1].SP2[35733] <semester_task_lib:big_schem:schematic>  optIter=35733  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35733:
+  CurrentEF: 8.11029891514365
+  Optimization variables:
+    cell_1.C_stab = 7.115184598664882e-12
+    cell_1.R_stab = 33.33054736015735
+    dc_block_in.C_dc_block = 24.21456704115808e-06
+    dc_block_in.MLIN1_L = 4.792277772765451e-03
+    dc_block_in.MLIN1_W = 3.713655839948993e-03
+    dc_block_in.MLIN2_L = 11.86505924663967e-03
+    dc_block_in.MLIN2_W = 1.64478745713858e-03
+    dc_block_in.MLSC_L = 3.291480136218434e-03
+    dc_block_in.MLSC_W = 504.8995442715514e-06
+    dc_block_out.C_dc_block = 2.440891485912798e-06
+    dc_block_out.MLIN1_L = 12.47021150070462e-03
+    dc_block_out.MLIN2_L = 13.34695266294333e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 20.11141678101546e-03
+    dc_block_out.MLSC_W = 1.982867816064187e-06
+
+SP Optim_all_params[1].SP2[35734] <semester_task_lib:big_schem:schematic>  optIter=35734  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35734:
+  CurrentEF: 8.06161988837623
+  Optimization variables:
+    cell_1.C_stab = 7.236670237774456e-12
+    cell_1.R_stab = 27.52860659201304
+    dc_block_in.C_dc_block = 24.21456704531999e-06
+    dc_block_in.MLIN1_L = 4.917431566518756e-03
+    dc_block_in.MLIN1_W = 3.740101707628315e-03
+    dc_block_in.MLIN2_L = 11.91243570450068e-03
+    dc_block_in.MLIN2_W = 1.386220766989044e-03
+    dc_block_in.MLSC_L = 3.300592752337449e-03
+    dc_block_in.MLSC_W = 493.0643713991355e-06
+    dc_block_out.C_dc_block = 2.440891529051547e-06
+    dc_block_out.MLIN1_L = 12.41661842748485e-03
+    dc_block_out.MLIN2_L = 13.61093045273748e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 20.11141189441858e-03
+    dc_block_out.MLSC_W = 1.982868089388166e-06
+
+SP Optim_all_params[1].SP2[35735] <semester_task_lib:big_schem:schematic>  optIter=35735  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35735:
+  CurrentEF: 7.95783930933606
+  Optimization variables:
+    cell_1.C_stab = 7.446472213316818e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.2145473233369e-06
+    dc_block_in.MLIN1_L = 4.937558355248664e-03
+    dc_block_in.MLIN1_W = 3.755981575993401e-03
+    dc_block_in.MLIN2_L = 11.94908957296544e-03
+    dc_block_in.MLIN2_W = 1.239529629443354e-03
+    dc_block_in.MLSC_L = 3.325675420554431e-03
+    dc_block_in.MLSC_W = 478.948954644905e-06
+    dc_block_out.C_dc_block = 2.440695330779111e-06
+    dc_block_out.MLIN1_L = 12.31616159729076e-03
+    dc_block_out.MLIN2_L = 13.91390371779963e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 20.17881552533174e-03
+    dc_block_out.MLSC_W = 1.980400616385551e-06
+
+SP Optim_all_params[1].SP2[35736] <semester_task_lib:big_schem:schematic>  optIter=35736  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35736:
+  CurrentEF: 7.91995066613887
+  Optimization variables:
+    cell_1.C_stab = 7.465167700342656e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21454732325597e-06
+    dc_block_in.MLIN1_L = 4.840797483588398e-03
+    dc_block_in.MLIN1_W = 3.762190292664229e-03
+    dc_block_in.MLIN2_L = 11.89272984532529e-03
+    dc_block_in.MLIN2_W = 1.432648719285494e-03
+    dc_block_in.MLSC_L = 3.329406985719e-03
+    dc_block_in.MLSC_W = 472.0637581160893e-06
+    dc_block_out.C_dc_block = 2.440695330987395e-06
+    dc_block_out.MLIN1_L = 12.27744023384621e-03
+    dc_block_out.MLIN2_L = 13.95138727856159e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 20.17881459032516e-03
+    dc_block_out.MLSC_W = 1.980400663943331e-06
+
+SP Optim_all_params[1].SP2[35737] <semester_task_lib:big_schem:schematic>  optIter=35737  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35737:
+  CurrentEF: 7.88947764011193
+  Optimization variables:
+    cell_1.C_stab = 7.529072806593554e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21454732712338e-06
+    dc_block_in.MLIN1_L = 4.810523312513412e-03
+    dc_block_in.MLIN1_W = 3.790023788861315e-03
+    dc_block_in.MLIN2_L = 11.86078782858615e-03
+    dc_block_in.MLIN2_W = 1.473906478328042e-03
+    dc_block_in.MLSC_L = 3.338913026865317e-03
+    dc_block_in.MLSC_W = 458.349741050392e-06
+    dc_block_out.C_dc_block = 2.440695376523099e-06
+    dc_block_out.MLIN1_L = 12.18936978780204e-03
+    dc_block_out.MLIN2_L = 14.11547723533752e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 20.17881089588132e-03
+    dc_block_out.MLSC_W = 1.980400907235319e-06
+
+SP Optim_all_params[1].SP2[35738] <semester_task_lib:big_schem:schematic>  optIter=35738  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35738:
+  CurrentEF: 7.87833407444815
+  Optimization variables:
+    cell_1.C_stab = 7.564840023247011e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21454732718524e-06
+    dc_block_in.MLIN1_L = 4.8859652662659e-03
+    dc_block_in.MLIN1_W = 3.787089534637147e-03
+    dc_block_in.MLIN2_L = 11.90774537707931e-03
+    dc_block_in.MLIN2_W = 1.303009684192447e-03
+    dc_block_in.MLSC_L = 3.344150431019694e-03
+    dc_block_in.MLSC_W = 449.2308092079592e-06
+    dc_block_out.C_dc_block = 2.440695374024995e-06
+    dc_block_out.MLIN1_L = 12.16797329864567e-03
+    dc_block_out.MLIN2_L = 14.22585293370155e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 20.17880774928863e-03
+    dc_block_out.MLSC_W = 1.980401039222929e-06
+
+SP Optim_all_params[1].SP2[35739] <semester_task_lib:big_schem:schematic>  optIter=35739  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35739:
+  CurrentEF: 7.8169539054054
+  Optimization variables:
+    cell_1.C_stab = 7.894143865598247e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21462074888035e-06
+    dc_block_in.MLIN1_L = 4.995100375021212e-03
+    dc_block_in.MLIN1_W = 3.858533313592442e-03
+    dc_block_in.MLIN2_L = 11.77395287187319e-03
+    dc_block_in.MLIN2_W = 1.198237175732583e-03
+    dc_block_in.MLSC_L = 3.338290251399453e-03
+    dc_block_in.MLSC_W = 362.881525381136e-06
+    dc_block_out.C_dc_block = 2.441425828721193e-06
+    dc_block_out.MLIN1_L = 11.64003928641155e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.92788746365528e-03
+    dc_block_out.MLSC_W = 1.98958712933325e-06
+
+SP Optim_all_params[1].SP2[35740] <semester_task_lib:big_schem:schematic>  optIter=35740  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35740:
+  CurrentEF: 7.79889745246694
+  Optimization variables:
+    cell_1.C_stab = 7.607269670686938e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21462072921565e-06
+    dc_block_in.MLIN1_L = 4.8230654840801e-03
+    dc_block_in.MLIN1_W = 3.890813463917131e-03
+    dc_block_in.MLIN2_L = 11.85987089579151e-03
+    dc_block_in.MLIN2_W = 1.278550732040555e-03
+    dc_block_in.MLSC_L = 3.371564296929563e-03
+    dc_block_in.MLSC_W = 299.659490222527e-06
+    dc_block_out.C_dc_block = 2.4414258951584e-06
+    dc_block_out.MLIN1_L = 12.07058866080789e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.92787229979261e-03
+    dc_block_out.MLSC_W = 1.989587948089791e-06
+
+SP Optim_all_params[1].SP2[35741] <semester_task_lib:big_schem:schematic>  optIter=35741  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35741:
+  CurrentEF: 7.74771531759013
+  Optimization variables:
+    cell_1.C_stab = 7.618270949314814e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21462072815324e-06
+    dc_block_in.MLIN1_L = 4.916469322330693e-03
+    dc_block_in.MLIN1_W = 3.885326543585227e-03
+    dc_block_in.MLIN2_L = 11.92003236648212e-03
+    dc_block_in.MLIN2_W = 1.12665608868689e-03
+    dc_block_in.MLSC_L = 3.372518363132397e-03
+    dc_block_in.MLSC_W = 298.0963146239587e-06
+    dc_block_out.C_dc_block = 2.441425892398986e-06
+    dc_block_out.MLIN1_L = 11.89389207564115e-03
+    dc_block_out.MLIN2_L = 14.95841175240175e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.92787176606813e-03
+    dc_block_out.MLSC_W = 1.989587995497203e-06
+
+SP Optim_all_params[1].SP2[35742] <semester_task_lib:big_schem:schematic>  optIter=35742  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35742:
+  CurrentEF: 7.737035339825
+  Optimization variables:
+    cell_1.C_stab = 7.629167204459663e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21462073009183e-06
+    dc_block_in.MLIN1_L = 4.883292945962165e-03
+    dc_block_in.MLIN1_W = 3.897145535454055e-03
+    dc_block_in.MLIN2_L = 11.90496568810625e-03
+    dc_block_in.MLIN2_W = 1.181604036743097e-03
+    dc_block_in.MLSC_L = 3.376396835250944e-03
+    dc_block_in.MLSC_W = 291.4964535820679e-06
+    dc_block_out.C_dc_block = 2.441425911973639e-06
+    dc_block_out.MLIN1_L = 11.8549113662213e-03
+    dc_block_out.MLIN2_L = 14.99259013030911e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.92787016522324e-03
+    dc_block_out.MLSC_W = 1.989588106100381e-06
+
+SP Optim_all_params[1].SP2[35743] <semester_task_lib:big_schem:schematic>  optIter=35743  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35743:
+  CurrentEF: 7.73022637374383
+  Optimization variables:
+    cell_1.C_stab = 7.637400706223464e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.2146207301184e-06
+    dc_block_in.MLIN1_L = 4.923631696577419e-03
+    dc_block_in.MLIN1_W = 3.894933614660706e-03
+    dc_block_in.MLIN2_L = 11.93350580429321e-03
+    dc_block_in.MLIN2_W = 1.091717924597843e-03
+    dc_block_in.MLSC_L = 3.378206254859786e-03
+    dc_block_in.MLSC_W = 287.8473723523357e-06
+    dc_block_out.C_dc_block = 2.441425912979341e-06
+    dc_block_out.MLIN1_L = 11.85302837095329e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.92786889924688e-03
+    dc_block_out.MLSC_W = 1.989588155375803e-06
+
+SP Optim_all_params[1].SP2[35744] <semester_task_lib:big_schem:schematic>  optIter=35744  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35744:
+  CurrentEF: 7.72506238175372
+  Optimization variables:
+    cell_1.C_stab = 7.644392515963993e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21462073076872e-06
+    dc_block_in.MLIN1_L = 4.894055904627426e-03
+    dc_block_in.MLIN1_W = 3.895936513959382e-03
+    dc_block_in.MLIN2_L = 11.92581451930878e-03
+    dc_block_in.MLIN2_W = 1.136291380839249e-03
+    dc_block_in.MLSC_L = 3.381563513055796e-03
+    dc_block_in.MLSC_W = 279.2993727711306e-06
+    dc_block_out.C_dc_block = 2.441425904061453e-06
+    dc_block_out.MLIN1_L = 11.84394498017371e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.92786730823026e-03
+    dc_block_out.MLSC_W = 1.98958825135753e-06
+
+SP Optim_all_params[1].SP2[35745] <semester_task_lib:big_schem:schematic>  optIter=35745  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35745:
+  CurrentEF: 7.7225462666055
+  Optimization variables:
+    cell_1.C_stab = 7.650652599742224e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21462073151917e-06
+    dc_block_in.MLIN1_L = 4.922245258083601e-03
+    dc_block_in.MLIN1_W = 3.889728473778494e-03
+    dc_block_in.MLIN2_L = 11.95761665018931e-03
+    dc_block_in.MLIN2_W = 1.056036299944296e-03
+    dc_block_in.MLSC_L = 3.383728626216926e-03
+    dc_block_in.MLSC_W = 273.7034203779075e-06
+    dc_block_out.C_dc_block = 2.441425895322452e-06
+    dc_block_out.MLIN1_L = 11.84533119300347e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.92786598118385e-03
+    dc_block_out.MLSC_W = 1.989588321070914e-06
+
+SP Optim_all_params[1].SP2[35746] <semester_task_lib:big_schem:schematic>  optIter=35746  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35746:
+  CurrentEF: 7.66649605265635
+  Optimization variables:
+    cell_1.C_stab = 7.482273906659926e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463090915161e-06
+    dc_block_in.MLIN1_L = 4.854288347534525e-03
+    dc_block_in.MLIN1_W = 3.931694806477881e-03
+    dc_block_in.MLIN2_L = 12.10350733249299e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.411706825522577e-03
+    dc_block_in.MLSC_W = 184.8587120342501e-06
+    dc_block_out.C_dc_block = 2.441526699425708e-06
+    dc_block_out.MLIN1_L = 11.85481662060277e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89321692325532e-03
+    dc_block_out.MLSC_W = 1.990856431955257e-06
+
+SP Optim_all_params[1].SP2[35747] <semester_task_lib:big_schem:schematic>  optIter=35747  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35747:
+  CurrentEF: 7.65316823659118
+  Optimization variables:
+    cell_1.C_stab = 7.599875144602482e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463090932819e-06
+    dc_block_in.MLIN1_L = 4.83518196749574e-03
+    dc_block_in.MLIN1_W = 3.925938228505511e-03
+    dc_block_in.MLIN2_L = 12.12622519780844e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.420258915842488e-03
+    dc_block_in.MLSC_W = 167.5822818780696e-06
+    dc_block_out.C_dc_block = 2.441526696107874e-06
+    dc_block_out.MLIN1_L = 11.7449383203305e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89320987383563e-03
+    dc_block_out.MLSC_W = 1.990856812455338e-06
+
+SP Optim_all_params[1].SP2[35748] <semester_task_lib:big_schem:schematic>  optIter=35748  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35748:
+  CurrentEF: 7.65290625812239
+  Optimization variables:
+    cell_1.C_stab = 7.610798795063589e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.2146309115827e-06
+    dc_block_in.MLIN1_L = 4.803528355077824e-03
+    dc_block_in.MLIN1_W = 3.939513070963553e-03
+    dc_block_in.MLIN2_L = 12.12738507524999e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.422323029999398e-03
+    dc_block_in.MLSC_W = 168.1736472846041e-06
+    dc_block_out.C_dc_block = 2.441526720322644e-06
+    dc_block_out.MLIN1_L = 11.91586623712782e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.8932074409257e-03
+    dc_block_out.MLSC_W = 1.990856960068217e-06
+
+SP Optim_all_params[1].SP2[35749] <semester_task_lib:big_schem:schematic>  optIter=35749  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35749:
+  CurrentEF: 7.64995512963237
+  Optimization variables:
+    cell_1.C_stab = 7.616504931809446e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463091160462e-06
+    dc_block_in.MLIN1_L = 4.806559656506892e-03
+    dc_block_in.MLIN1_W = 3.927899754307842e-03
+    dc_block_in.MLIN2_L = 12.13726195664951e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.422935794017385e-03
+    dc_block_in.MLSC_W = 164.4849452653758e-06
+    dc_block_out.C_dc_block = 2.441526705507837e-06
+    dc_block_out.MLIN1_L = 11.85018572230777e-03
+    dc_block_out.MLIN2_L = 14.99354230580556e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89320645973938e-03
+    dc_block_out.MLSC_W = 1.990856983571677e-06
+
+SP Optim_all_params[1].SP2[35750] <semester_task_lib:big_schem:schematic>  optIter=35750  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35750:
+  CurrentEF: 7.64985476657551
+  Optimization variables:
+    cell_1.C_stab = 7.629076758312229e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463091605222e-06
+    dc_block_in.MLIN1_L = 4.805224681238521e-03
+    dc_block_in.MLIN1_W = 3.951097948832918e-03
+    dc_block_in.MLIN2_L = 12.15266923355788e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.426161355047543e-03
+    dc_block_in.MLSC_W = 167.039640672874e-06
+    dc_block_out.C_dc_block = 2.441526747910554e-06
+    dc_block_out.MLIN1_L = 11.80193715464841e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89320336354266e-03
+    dc_block_out.MLSC_W = 1.990857262013169e-06
+
+SP Optim_all_params[1].SP2[35751] <semester_task_lib:big_schem:schematic>  optIter=35751  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35751:
+  CurrentEF: 7.6490623394731
+  Optimization variables:
+    cell_1.C_stab = 7.633401042500717e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463091464773e-06
+    dc_block_in.MLIN1_L = 4.796352979620902e-03
+    dc_block_in.MLIN1_W = 3.952501144343233e-03
+    dc_block_in.MLIN2_L = 12.15451511248477e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.427350159611508e-03
+    dc_block_in.MLSC_W = 165.9686212338542e-06
+    dc_block_out.C_dc_block = 2.441526749438804e-06
+    dc_block_out.MLIN1_L = 11.83787462622331e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89320180849247e-03
+    dc_block_out.MLSC_W = 1.990857343483532e-06
+
+SP Optim_all_params[1].SP2[35752] <semester_task_lib:big_schem:schematic>  optIter=35752  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35752:
+  CurrentEF: 7.64843256117213
+  Optimization variables:
+    cell_1.C_stab = 7.641694600654022e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463091648055e-06
+    dc_block_in.MLIN1_L = 4.78686459331104e-03
+    dc_block_in.MLIN1_W = 3.95750263815928e-03
+    dc_block_in.MLIN2_L = 12.17310685823053e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.428768879517151e-03
+    dc_block_in.MLSC_W = 164.4202555967926e-06
+    dc_block_out.C_dc_block = 2.441526751127983e-06
+    dc_block_out.MLIN1_L = 11.81897622626588e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89320021573302e-03
+    dc_block_out.MLSC_W = 1.990857469071349e-06
+
+SP Optim_all_params[1].SP2[35753] <semester_task_lib:big_schem:schematic>  optIter=35753  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35753:
+  CurrentEF: 7.64802926832726
+  Optimization variables:
+    cell_1.C_stab = 7.646530822376521e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463159874852e-06
+    dc_block_in.MLIN1_L = 4.782198645935554e-03
+    dc_block_in.MLIN1_W = 3.958699741547881e-03
+    dc_block_in.MLIN2_L = 12.17839664262581e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.430980730977559e-03
+    dc_block_in.MLSC_W = 164.407850057818e-06
+    dc_block_out.C_dc_block = 2.441533615120488e-06
+    dc_block_out.MLIN1_L = 11.82218404997963e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084508558293e-03
+    dc_block_out.MLSC_W = 1.990943795174236e-06
+
+SP Optim_all_params[1].SP2[35754] <semester_task_lib:big_schem:schematic>  optIter=35754  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35754:
+  CurrentEF: 7.64802612074872
+  Optimization variables:
+    cell_1.C_stab = 7.646684975483709e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463159884006e-06
+    dc_block_in.MLIN1_L = 4.781594807591111e-03
+    dc_block_in.MLIN1_W = 3.959012603684247e-03
+    dc_block_in.MLIN2_L = 12.17923461580967e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.431145358027562e-03
+    dc_block_in.MLSC_W = 164.4711767415949e-06
+    dc_block_out.C_dc_block = 2.44153361586037e-06
+    dc_block_out.MLIN1_L = 11.82279887501267e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084479178745e-03
+    dc_block_out.MLSC_W = 1.990943811437779e-06
+
+SP Optim_all_params[1].SP2[35755] <semester_task_lib:big_schem:schematic>  optIter=35755  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35755:
+  CurrentEF: 7.64799681173353
+  Optimization variables:
+    cell_1.C_stab = 7.646687132339884e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463159890995e-06
+    dc_block_in.MLIN1_L = 4.781574318630624e-03
+    dc_block_in.MLIN1_W = 3.959431786181201e-03
+    dc_block_in.MLIN2_L = 12.17924153624307e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.431173069967344e-03
+    dc_block_in.MLSC_W = 164.5524939796015e-06
+    dc_block_out.C_dc_block = 2.441533616570224e-06
+    dc_block_out.MLIN1_L = 11.82315082628323e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084476428115e-03
+    dc_block_out.MLSC_W = 1.990943813944047e-06
+
+SP Optim_all_params[1].SP2[35756] <semester_task_lib:big_schem:schematic>  optIter=35756  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35756:
+  CurrentEF: 7.64799331799885
+  Optimization variables:
+    cell_1.C_stab = 7.646726195185243e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463159889471e-06
+    dc_block_in.MLIN1_L = 4.781512871733879e-03
+    dc_block_in.MLIN1_W = 3.959319760067636e-03
+    dc_block_in.MLIN2_L = 12.17928900975332e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.431183621988297e-03
+    dc_block_in.MLSC_W = 164.5062227886051e-06
+    dc_block_out.C_dc_block = 2.441533616347993e-06
+    dc_block_out.MLIN1_L = 11.823175165189e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084474543087e-03
+    dc_block_out.MLSC_W = 1.990943814580142e-06
+
+SP Optim_all_params[1].SP2[35757] <semester_task_lib:big_schem:schematic>  optIter=35757  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35757:
+  CurrentEF: 7.6479829739445
+  Optimization variables:
+    cell_1.C_stab = 7.646638265425234e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463159890257e-06
+    dc_block_in.MLIN1_L = 4.781458196807889e-03
+    dc_block_in.MLIN1_W = 3.959318422508536e-03
+    dc_block_in.MLIN2_L = 12.17942589464467e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.43120172718556e-03
+    dc_block_in.MLSC_W = 164.4972048147483e-06
+    dc_block_out.C_dc_block = 2.441533616245549e-06
+    dc_block_out.MLIN1_L = 11.82310417728738e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084470163252e-03
+    dc_block_out.MLSC_W = 1.990943816588625e-06
+
+SP Optim_all_params[1].SP2[35758] <semester_task_lib:big_schem:schematic>  optIter=35758  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35758:
+  CurrentEF: 7.64798176913059
+  Optimization variables:
+    cell_1.C_stab = 7.64663790561349e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463159891149e-06
+    dc_block_in.MLIN1_L = 4.781437433081033e-03
+    dc_block_in.MLIN1_W = 3.959371850024702e-03
+    dc_block_in.MLIN2_L = 12.17944823246768e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.431207891572048e-03
+    dc_block_in.MLSC_W = 164.5050799887706e-06
+    dc_block_out.C_dc_block = 2.441533616339552e-06
+    dc_block_out.MLIN1_L = 11.82316905408217e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084469478861e-03
+    dc_block_out.MLSC_W = 1.990943817107612e-06
+
+SP Optim_all_params[1].SP2[35759] <semester_task_lib:big_schem:schematic>  optIter=35759  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35759:
+  CurrentEF: 7.6479785364082
+  Optimization variables:
+    cell_1.C_stab = 7.646638716396115e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463159891168e-06
+    dc_block_in.MLIN1_L = 4.781436019860725e-03
+    dc_block_in.MLIN1_W = 3.959378618616659e-03
+    dc_block_in.MLIN2_L = 12.17944972871869e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.431208662122371e-03
+    dc_block_in.MLSC_W = 164.5060899541979e-06
+    dc_block_out.C_dc_block = 2.441533616351427e-06
+    dc_block_out.MLIN1_L = 11.82317682494299e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084469393235e-03
+    dc_block_out.MLSC_W = 1.990943817172418e-06
+Minimax optimizer ends after 35760 trials and 1264 evaluations with EF=7.648e+00
+
+SP Optim_all_params[1].SP2[35760] <semester_task_lib:big_schem:schematic>  optIter=35760  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #35760:
+  CurrentEF: 7.64798000212861
+  Optimization variables:
+    cell_1.C_stab = 7.646638717065722e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463159891168e-06
+    dc_block_in.MLIN1_L = 4.781436029513334e-03
+    dc_block_in.MLIN1_W = 3.959378618579587e-03
+    dc_block_in.MLIN2_L = 12.17944973366715e-03
+    dc_block_in.MLIN2_W = 1.000000000266927e-03
+    dc_block_in.MLSC_L = 3.431208662124912e-03
+    dc_block_in.MLSC_W = 164.5060897840601e-06
+    dc_block_out.C_dc_block = 2.441533616351426e-06
+    dc_block_out.MLIN1_L = 11.82317682619417e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084469393233e-03
+    dc_block_out.MLSC_W = 1.990943817172418e-06
+
+SP Optim_all_params[1].SP2[36588] <semester_task_lib:big_schem:schematic>  optIter=36588  freq=(0 Hz->10 GHz)
+
+
+SP Optim_all_params[1].SP2[36588] <semester_task_lib:big_schem:schematic>  optIter=36588  freq=(0 Hz->10 GHz)
+
+
+SP Optim_all_params[1].SP2[36588] <semester_task_lib:big_schem:schematic>  optIter=36588  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36588:
+  CurrentEF: 7.64798058537461
+  Optimization variables:
+    cell_1.C_stab = 7.646638716396115e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463159891168e-06
+    dc_block_in.MLIN1_L = 4.781435834016389e-03
+    dc_block_in.MLIN1_W = 3.959378595612177e-03
+    dc_block_in.MLIN2_L = 12.17944949037141e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.431208662122371e-03
+    dc_block_in.MLSC_W = 164.5060899541979e-06
+    dc_block_out.C_dc_block = 2.441533616351427e-06
+    dc_block_out.MLIN1_L = 11.82317757616425e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084614017279e-03
+    dc_block_out.MLSC_W = 1.990943817172418e-06
+
+SP Optim_all_params[1].SP2[36708] <semester_task_lib:big_schem:schematic>  optIter=36708  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36708:
+  CurrentEF: 5.69970738324152
+  Optimization variables:
+    cell_1.C_stab = 7.646638716396115e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463159891168e-06
+    dc_block_in.MLIN1_L = 4.781436019860725e-03
+    dc_block_in.MLIN1_W = 3.959378618616659e-03
+    dc_block_in.MLIN2_L = 12.17944972871869e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.431208662122371e-03
+    dc_block_in.MLSC_W = 164.5060899541979e-06
+    dc_block_out.C_dc_block = 2.441533616351427e-06
+    dc_block_out.MLIN1_L = 11.82317682494299e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084469393235e-03
+    dc_block_out.MLSC_W = 1.990943817172418e-06
+
+SP Optim_all_params[1].SP2[36709] <semester_task_lib:big_schem:schematic>  optIter=36709  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36709:
+  CurrentEF: 5.6997073781979
+  Optimization variables:
+    cell_1.C_stab = 7.646638721227646e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463159891168e-06
+    dc_block_in.MLIN1_L = 4.781436019860725e-03
+    dc_block_in.MLIN1_W = 3.959378618616659e-03
+    dc_block_in.MLIN2_L = 12.17944972871869e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.431208662122368e-03
+    dc_block_in.MLSC_W = 164.5060899541974e-06
+    dc_block_out.C_dc_block = 2.44153361635143e-06
+    dc_block_out.MLIN1_L = 11.82317682494299e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084469393235e-03
+    dc_block_out.MLSC_W = 1.990943817172432e-06
+
+SP Optim_all_params[1].SP2[36710] <semester_task_lib:big_schem:schematic>  optIter=36710  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36710:
+  CurrentEF: 1.97746165749759
+  Optimization variables:
+    cell_1.C_stab = 12.54487981647253e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21463160011165e-06
+    dc_block_in.MLIN1_L = 4.781436106086723e-03
+    dc_block_in.MLIN1_W = 3.959378618616659e-03
+    dc_block_in.MLIN2_L = 12.17944976460178e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.431204610538619e-03
+    dc_block_in.MLSC_W = 164.5064534653471e-06
+    dc_block_out.C_dc_block = 2.44153361419266e-06
+    dc_block_out.MLIN1_L = 11.82317648097017e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89084491328173e-03
+    dc_block_out.MLSC_W = 1.990944208665518e-06
+
+SP Optim_all_params[1].SP2[36711] <semester_task_lib:big_schem:schematic>  optIter=36711  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36711:
+  CurrentEF: 0.627791453997329
+  Optimization variables:
+    cell_1.C_stab = 12.45820610225201e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21456430606401e-06
+    dc_block_in.MLIN1_L = 4.834971078490679e-03
+    dc_block_in.MLIN1_W = 3.959378838402686e-03
+    dc_block_in.MLIN2_L = 12.20793094535228e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.360718210758401e-03
+    dc_block_in.MLSC_W = 171.4199563389329e-06
+    dc_block_out.C_dc_block = 2.441544100257707e-06
+    dc_block_out.MLIN1_L = 11.81878626041305e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89428835917272e-03
+    dc_block_out.MLSC_W = 2.025315862994641e-06
+
+SP Optim_all_params[1].SP2[36712] <semester_task_lib:big_schem:schematic>  optIter=36712  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36712:
+  CurrentEF: 0.621549741323426
+  Optimization variables:
+    cell_1.C_stab = 12.17759208381176e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21456753575322e-06
+    dc_block_in.MLIN1_L = 4.82291876223707e-03
+    dc_block_in.MLIN1_W = 3.959378824473977e-03
+    dc_block_in.MLIN2_L = 12.20182947034755e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.350632767757628e-03
+    dc_block_in.MLSC_W = 172.3528116380663e-06
+    dc_block_out.C_dc_block = 2.44157586029415e-06
+    dc_block_out.MLIN1_L = 11.81726005902678e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.89437584491131e-03
+    dc_block_out.MLSC_W = 2.091407530707075e-06
+
+SP Optim_all_params[1].SP2[36713] <semester_task_lib:big_schem:schematic>  optIter=36713  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36713:
+  CurrentEF: 0.616454086053109
+  Optimization variables:
+    cell_1.C_stab = 12.25393265485764e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.21414236744282e-06
+    dc_block_in.MLIN1_L = 4.818844113078331e-03
+    dc_block_in.MLIN1_W = 3.959379599114114e-03
+    dc_block_in.MLIN2_L = 12.20743208139014e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.357901462546091e-03
+    dc_block_in.MLSC_W = 173.1507349579431e-06
+    dc_block_out.C_dc_block = 2.442690673978236e-06
+    dc_block_out.MLIN1_L = 11.81184219039738e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.88117515567183e-03
+    dc_block_out.MLSC_W = 4.030897654232337e-06
+
+SP Optim_all_params[1].SP2[36714] <semester_task_lib:big_schem:schematic>  optIter=36714  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36714:
+  CurrentEF: 0.612775338631099
+  Optimization variables:
+    cell_1.C_stab = 12.33259659260511e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.20807080781969e-06
+    dc_block_in.MLIN1_L = 4.740072281123331e-03
+    dc_block_in.MLIN1_W = 3.95939352807505e-03
+    dc_block_in.MLIN2_L = 12.3329184626301e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.457700356822419e-03
+    dc_block_in.MLSC_W = 198.1987100378873e-06
+    dc_block_out.C_dc_block = 2.466567944141447e-06
+    dc_block_out.MLIN1_L = 11.61502811520703e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.80080194568455e-03
+    dc_block_out.MLSC_W = 6.662471759612905e-06
+
+SP Optim_all_params[1].SP2[36715] <semester_task_lib:big_schem:schematic>  optIter=36715  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36715:
+  CurrentEF: 0.611547126570977
+  Optimization variables:
+    cell_1.C_stab = 12.48866642266512e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.19868313212339e-06
+    dc_block_in.MLIN1_L = 4.630988934884625e-03
+    dc_block_in.MLIN1_W = 3.959411848099155e-03
+    dc_block_in.MLIN2_L = 12.50158133170437e-03
+    dc_block_in.MLIN2_W = 1e-03
+    dc_block_in.MLSC_L = 3.577330319092964e-03
+    dc_block_in.MLSC_W = 238.4577380290324e-06
+    dc_block_out.C_dc_block = 2.50233901721982e-06
+    dc_block_out.MLIN1_L = 11.54459519370268e-03
+    dc_block_out.MLIN2_L = 15e-03
+    dc_block_out.MLIN2_W = 1e-03
+    dc_block_out.MLSC_L = 19.56626717911428e-03
+    dc_block_out.MLSC_W = 10.04907920226338e-06
+
+SP Optim_all_params[1].SP2[36716] <semester_task_lib:big_schem:schematic>  optIter=36716  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36716:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951193e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.7213253193882e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.446495302525807e-03
+    dc_block_in.MLSC_W = 782.5491749964826e-06
+    dc_block_out.C_dc_block = 2.817996085022489e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999773219057e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402225e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36717] <semester_task_lib:big_schem:schematic>  optIter=36717  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36717:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.00000026758758e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000738111739e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36718] <semester_task_lib:big_schem:schematic>  optIter=36718  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36718:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000738857572e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36719] <semester_task_lib:big_schem:schematic>  optIter=36719  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36719:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36720] <semester_task_lib:big_schem:schematic>  optIter=36720  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36720:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36721] <semester_task_lib:big_schem:schematic>  optIter=36721  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36721:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36722] <semester_task_lib:big_schem:schematic>  optIter=36722  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36722:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36723] <semester_task_lib:big_schem:schematic>  optIter=36723  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36723:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36724] <semester_task_lib:big_schem:schematic>  optIter=36724  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36724:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36725] <semester_task_lib:big_schem:schematic>  optIter=36725  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36725:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36726] <semester_task_lib:big_schem:schematic>  optIter=36726  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36726:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36727] <semester_task_lib:big_schem:schematic>  optIter=36727  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36727:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36728] <semester_task_lib:big_schem:schematic>  optIter=36728  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36728:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36729] <semester_task_lib:big_schem:schematic>  optIter=36729  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36729:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000393441846e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36730] <semester_task_lib:big_schem:schematic>  optIter=36730  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36730:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36731] <semester_task_lib:big_schem:schematic>  optIter=36731  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36731:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36732] <semester_task_lib:big_schem:schematic>  optIter=36732  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36732:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
+    dc_block_in.MLIN2_L = 13.72132531938818e-03
+    dc_block_in.MLIN2_W = 1.000000303567187e-03
+    dc_block_in.MLSC_L = 4.44649530252579e-03
+    dc_block_in.MLSC_W = 782.5491749964684e-06
+    dc_block_out.C_dc_block = 2.817996085022482e-06
+    dc_block_out.MLIN1_L = 11.69561277696477e-03
+    dc_block_out.MLIN2_L = 14.99999682251831e-03
+    dc_block_out.MLIN2_W = 1.000000706620598e-03
+    dc_block_out.MLSC_L = 17.11905299402229e-03
+    dc_block_out.MLSC_W = 50.71115146020614e-06
+
+SP Optim_all_params[1].SP2[36733] <semester_task_lib:big_schem:schematic>  optIter=36733  freq=(0 Hz->10 GHz)
+
+Iteration/Trial #36733:
+  CurrentEF: 0.602995658522207
+  Optimization variables:
+    cell_1.C_stab = 13.16535329818726e-12
+    cell_1.R_stab = 20
+    dc_block_in.C_dc_block = 24.13027480505594e-06
+    dc_block_in.MLIN1_L = 3.740667749951209e-03
+    dc_block_in.MLIN1_W = 3.95956341093186e-03
