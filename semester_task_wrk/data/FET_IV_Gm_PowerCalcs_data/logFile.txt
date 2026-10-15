@@ -2,10 +2,10 @@
 hpeesofsim (*) 650.shp Jul 29 2026, MINT version 5
     (64-bit windows built: Wed Jul 29, 2026 11:10:28 +0000)
 
-***** Simulation started at Mon Sep 21 12:28:41 2026
+***** Simulation started at Thu Oct 15 11:03:21 2026
       Running on host: "LAPTOP-VDFVMML2"
-      In Directory: "C:\Users\nathr\Documents\BIELSYS\sem7\semester_task_wrk\data"
-      Process ID: 19396
+      In Directory: "C:\Users\nathr\Documents\BIELSYS\sem7\ttt4201\ttt4201_semester_task\semester_task_wrk\data"
+      Process ID: 5828
 
 
 CT Sweep1[1] <semester_task_lib:FET_IV_Gm_PowerCalcs:schematic>   VGS=(-3->0)
@@ -24139,13 +24139,13 @@ AC Sweep1[1].Sweep2[16/16].AC1[501/501] <semester_task_lib:FET_IV_Gm_PowerCalcs:
 
 
 Resource usage:
-    Total CPU time            =    19.58 seconds.
-    Simulation stopwatch time =    14.04 seconds.
-    Total stopwatch time      =    15.65 seconds.
+    Total CPU time            =    16.78 seconds.
+    Simulation stopwatch time =    13.79 seconds.
+    Total stopwatch time      =    15.24 seconds.
 
     Memory used:  175 MBytes
 
-    Max threads used:  29
+    Max threads used:  27
         (NOTE: max threads includes very-low-CPU-usage support threads,
          as well as high-CPU-usage computational threads.)
 

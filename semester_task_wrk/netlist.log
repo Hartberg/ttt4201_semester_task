@@ -1,7 +1,7 @@
-; Top Design: "semester_task_lib:big_schem:schematic"
+; Top Design: "semester_task_lib:HB1TonePAE_Pswp:schematic"
 ; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="semester_task_lib:big_schem:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="semester_task_lib:HB1TonePAE_Pswp:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 ; Library Name: Johanson_lib
 ; Cell Name: CapJT
 ; View Name: schematic
@@ -20,24 +20,27 @@ define dc_block_in ( P1  P2 )
 ;parameters 
 MTAPER:Taper1  N__5 N__9 Subst="MSub1" W1=MLIN2_W W2=1 mm L=1 mm 
 CapJT:Kap1  N__9 N__2 C=C_dc_block 
-MLIN2:TL2  N__12 N__5 Subst="MSub1" W=MLIN2_W L=MLIN2_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL2  N__14 N__5 Subst="MSub1" W=MLIN2_W L=MLIN2_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MLIN2:TL3  N__8 P2 Subst="MSub1" W=2.8 mm L=MLIN1_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MTAPER:Taper2  N__8 N__2 Subst="MSub1" W1=2.8 mm W2=1 mm L=1 mm 
 MGAP:Gap4  N__2 N__9 Subst="MSub1" W=1 mm S=0.5 mm 
-MTEE_ADS:Tee1  N__10 N__12 N__3 Subst="MSub1" W1=2.8 mm W2=MLIN2_W W3=MLSC_W 
+MTEE_ADS:Tee1  N__10 N__13 N__12 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=MLSC_W 
 Short:Tee2  N__4 P1 Mode=0 SaveCurrent=no
 
-MLSC_W=0.000650954 notune{ 0.0001 to 0.015 logScale } opt{ 0.0001 to 0.015 }
-MLSC_L=0.00387745368597 tune{ 0.0001 to 0.015 logScale } opt{ 0.0001 to 0.015 }
-C_dc_block=1.25892541179e-06 tune{ 1e-09 to 0.0001 logScale } opt{ 1e-09 to 0.0001 }
-MLIN1_L=0.00346117 opt{ 0.0015 to 0.015 }
-MLIN2_L=0.014325 tune{ 0.0015 to 0.015 by 0.0002 } opt{ 0.0015 to 0.015 }
-MLIN3_L=0.002 notune{ 0.0015 to 0.015 by 0.0002 } noopt{ 0.0015 to 0.015 }
-MLIN1_W=0.00364779 opt{ 0.001 to 0.004 }
-MLIN2_W=0.00100061 opt{ 0.001 to 0.004 }
+MLSC_W=0.00100001 notune{ 0.0001 to 0.015 logScale } opt{ 0.001 to 0.03 }
+MLSC_L=0.00595751 tune{ 0.0001 to 0.015 logScale } opt{ 0.0001 to 0.035 }
+C_dc_block=9.67509e-11 tune{ 1e-09 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
+C_dc_block_real=82e-12
+MLIN1_L=0.00220432 opt{ 0.0015 to 0.015 }
+MLIN2_L=0.00992347 tune{ 0.0015 to 0.015 by 0.0002 } opt{ 0.0015 to 0.015 }
+MLIN3_L=0.002 tune{ 0.0015 to 0.4 by 0.0002 } noopt{ 0.0015 to 0.015 }
+MLIN1_W=0.00287243 opt{ 0.001 to 0.004 }
+MLIN2_W=0.00114478 opt{ 0.001 to 0.004 }
 MLIN3_W=0.0028 noopt{ 0.001 to 0.004 }
 MLIN2:TL6  N__4 N__10 Subst="MSub1" W=2.8 mm L=MLIN3_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MLSC2:TL8  N__3 Subst="MSub1" W=MLSC_W L=MLSC_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MTAPER:Taper3  N__14 N__13 Subst="MSub1" W1=MLIN2_W W2=2.8 mm L=1 mm 
+VIA:V1  N__17 0 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
+MLIN2:TL9  N__12 N__17 Subst="MSub1" W=MLSC_W L=MLSC_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 end dc_block_in
 
 ; Library Name: semester_task_lib
@@ -45,27 +48,30 @@ end dc_block_in
 ; View Name: schematic
 define dc_block_out ( P1  P2 ) 
 ;parameters 
-MTAPER:Taper2  N__6 N__7 Subst="MSub1" W1=MLIN1_L W2=1 mm L=1 mm 
+MTAPER:Taper2  N__6 N__7 Subst="MSub1" W1=2.8 mm W2=1 mm L=1 mm 
 MTAPER:Taper1  N__5 N__8 Subst="MSub1" W1=MLIN2_W W2=1 mm L=1 mm 
-CapJT:Kap1  N__8 N__7 C=C_dc_block 
-MLIN2:TL6  P2 N__2 Subst="MSub1" W=2.8 mm L=MLIN3_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+CapJT:Kap1  N__8 N__7 C=C_dc_block_real 
+MLIN2:TL6  P2 N__2 Subst="MSub1" W=2.8 mm L=2 mm tune{ 1 mm to 300 mm by 0.2 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MLIN2:TL3  N__6 P1 Subst="MSub1" W=2.8 mm L=MLIN1_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MLIN2:TL2  N__9 N__5 Subst="MSub1" W=MLIN2_W L=MLIN2_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL2  N__10 N__5 Subst="MSub1" W=MLIN2_W L=MLIN2_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MGAP:Gap4  N__7 N__8 Subst="MSub1" W=1 mm S=0.5 mm 
-MTEE_ADS:Tee1  N__9 N__2 N__4 Subst="MSub1" W1=2.8 mm W2=MLIN2_W W3=MLSC_W 
+MTEE_ADS:Tee1  N__11 N__2 N__9 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
 
 MLEF_L=1 tune{ 1e-09 to 0.0001 logScale } noopt{ 1e-09 to 1 }
-MLSC_L=0.0248529 tune{ 1e-05 to 0.035 by 0.000142036 } opt{ 1e-05 to 0.035 }
-MLEF_W=0.0028 notune{ 0.001 to 0.004 logScale }  noopt{ 1e-09 to 0.0028 }
-MLSC_W=0.0028 notune{ 0.001 to 0.004 logScale }  opt{ 1e-09 to 0.0028 }
-C_dc_block=1.1220184543e-07 tune{ 1e-09 to 0.0001 logScale } opt{ 1e-09 to 0.0001 }
-MLIN1_L=0.015 tune{ 0.0015 to 0.015 by 0.000275448 } opt{ 0.0015 to 0.015 }
-MLIN2_L=0.011355 tune{ 0.0015 to 0.015 by 0.00132354 } opt{ 0.0015 to 0.015 }
+MLSC_L=0.0145449 tune{ 1e-05 to 0.035 by 0.000142036 } opt{ 0 to 0.035 }
+MLEF_W=0.0028 notune{ 0.001 to 0.004 logScale } noopt{ 1e-09 to 0.0028 }
+MLSC_W=0.00230941 notune{ 0.00 to 0.004 logScale } opt{ 0.001 to 0.005 }
+C_dc_block=5.37496e-05 tune{ 1e-09 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
+C_dc_block_real=10e-12
+MLIN1_L=0.0118118 tune{ 0.0015 to 0.015 by 0.000275448 } opt{ 0.0015 to 0.015 }
+MLIN2_L=0.00956244 tune{ 0.0015 to 0.015 by 0.00132354 } opt{ 0.0015 to 0.015 }
 MLIN3_L=0.00686194 opt{ 0.0015 to 0.015 }
 MLIN1_W=0.00398996 opt{ 0.001 to 0.004 }
-MLIN2_W=0.001003 opt{ 0.001 to 0.004 }
+MLIN2_W=0.00111992 opt{ 0.001 to 0.004 }
 MLIN3_W=0.0031958 opt{ 0.001 to 0.004 }
-MLSC2:TL8  N__4 Subst="MSub1" W=MLSC_W L=MLSC_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MTAPER:Taper3  N__11 N__10 Subst="MSub1" W1=2.8 mm W2=MLIN2_W L=1 mm 
+MLIN2:TL9  N__9 N__3 Subst="MSub1" W=MLSC_W L=MLSC_L Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+VIA:V1  N__3 0 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
 end dc_block_out
 
 ; Library Name: semester_task_lib
@@ -73,36 +79,37 @@ end dc_block_out
 ; View Name: schematic
 define dc_feed_vds ( P1  P2 ) 
 ;parameters 
-MLIN2:TL10  N__7 N__8 Subst="MSub1" W=1 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL10  N__7 N__8 Subst="MSub1" W=1 mm L=1 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MLIN2:TL8  N__25 P2 Subst="MSub1" W=2.8 mm L=20 mm notune{ 2 mm to 6 mm by 0.4 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MLIN2:TL7  N__23 N__26 Subst="MSub1" W=1 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+VIA:V7  N__23 0 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
 MLIN2:TL6  N__12 N__11 Subst="MSub1" W=2.8 mm tune{ 1.4 mm to 4.199999999999999 mm by 0.27999999999999997 mm } L=3 mm notune{ 1.5 mm to 4.5 mm by 0.30000000000000004 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MLIN2:TL4  N__10 N__13 Subst="MSub1" W=1 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MLIN2:TL9  N__22 N__21 Subst="MSub1" W=1 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+VIA:V1  N__10 0 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
+VIA:V6  N__21 0 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
 MLIN2:TL3  N__5 N__14 Subst="MSub1" W=2.8 mm L=1 mm notune{ 0.5 mm to 1.5 mm by 0.1 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MLIN2:TL1  N__9 P1 Subst="MSub1" W=2.8 mm L=16.8 mm notune{ 8.4 mm to 25.200000000000003 mm by 1.6800000000000002 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MGAP:Gap4  N__27 N__8 Subst="MSub1" W=1 mm S=0.5 mm 
-MGAP:Gap5  N__20 N__21 Subst="MSub1" W=1 mm S=0.5 mm 
-MGAP:Gap2  N__26 N__24 Subst="MSub1" W=1 mm S=0.5 mm 
-MGAP:Gap1  N__15 N__10 Subst="MSub1" W=1 mm S=0.5 mm 
 
 L=0.0114363276764 tune{ 0.008 to 0.02 logScale }
 C1=1e-12 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
-C3=8.27246e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
-C4=8.28742e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
-C2=9.58532e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
+C1_real=1e-12
+C3_real=1e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
+C4_real=1e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
+C2_real=1e-05 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
+GRM31:C2  N__20 N__22 PartNumber=685 
+GRM31:C3  N__24 N__26 PartNumber=685 
+GRM31:C1  N__15 N__13 PartNumber=685 
 model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
-CapJT:Kap5  N__8 N__27 C=C1 F 
-CapJT:Kap4  N__21 N__20 C=C2 F 
-CapJT:Kap3  N__26 N__24 C=C4 F 
-CapJT:Kap1  N__15 N__10 C=C3 F 
+CapJT:Kap5  N__8 N__27 C=C1_real F 
+MGAP:Gap5  N__20 N__22 Subst="MSub1" W=1.8 mm S=1.75 mm 
+MGAP:Gap6  N__24 N__26 Subst="MSub1" W=1.8 mm S=1.75 mm 
+MGAP:Gap1  N__15 N__13 Subst="MSub1" W=1.8 mm S=1.75 mm 
 MCROS:Cros2  N__20 N__11 N__24 N__25 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
 MCROS:Cros1  N__15 N__14 N__18 N__12 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
 MCROS:Cros3  N__9 N__27 N__5 N__3 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
 VIA:V5  0 N__7 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
-VIA:V4  0 N__22 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
-VIA:V3  0 N__23 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
-VIA:V1  N__13 0 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
+MLIN2:TL11  N__22 N__21 Subst="MSub1" W=1.8 mm L=1.2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL12  N__26 N__23 Subst="MSub1" W=1.8 mm L=1.2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL4  N__13 N__10 Subst="MSub1" W=1.8 mm L=1.2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MRSTUB:Stub1  N__3 Subst="MSub1" Wi=2.8 mm L=L Angle=70 
 end dc_feed_vds
 
@@ -112,36 +119,47 @@ end dc_feed_vds
 define dc_feed_vgs ( P1  P2 ) 
 ;parameters 
 MLIN2:TL1  N__23 P2 Subst="MSub1" W=2.8 mm L=16.8 mm notune{ 8.4 mm to 25.200000000000003 mm by 1.6800000000000002 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MLIN2:TL10  N__4 N__12 Subst="MSub1" W=1 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL10  N__4 N__12 Subst="MSub1" W=1 mm L=1 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MCROS:Cros3  N__23 N__27 N__24 N__14 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
-MLIN2:TL3  N__24 N__3 Subst="MSub1" W=2.8 mm L=1 mm notune{ 0.5 mm to 1.5 mm by 0.1 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL3  N__24 N__3 Subst="MSub1" W=2.8 mm L=1 mm tune{ 0.5 mm to 1.5 mm by 0.1 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
-MLIN2:TL9  N__17 N__22 Subst="MSub1" W=1 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-CapJT:Kap1  N__28 N__2 C=C3 F 
-MCROS:Cros1  N__28 N__3 N__31 N__11 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
-MLIN2:TL4  N__2 N__8 Subst="MSub1" W=1 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL9  N__17 N__22 Subst="MSub1" W=1.8 mm L=1.2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+
+#ifndef muRataLibWeb_C
+#define muRataLibWeb_C
+; models
+#include "C:/Users/nathr/Documents/BIELSYS/sem7/ttt4201/ttt4201_semester_task/examples/muRataLibWeb_C_confidential/circuit/models/encode.net"
+#endif
+
+
+MCROS:Cros1  N__21 N__3 N__31 N__11 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
+MLIN2:TL4  N__26 N__8 Subst="MSub1" W=1.8 mm L=1.2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 VIA:V1  N__8 0 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
-MLIN2:TL6  N__11 N__15 Subst="MSub1" W=2.8 mm tune{ 1.4 mm to 4.199999999999999 mm by 0.27999999999999997 mm } L=3 mm notune{ 1.5 mm to 4.5 mm by 0.30000000000000004 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL6  N__11 N__15 Subst="MSub1" W=2.8 mm tune{ 1.4 mm to 4.199999999999999 mm by 0.27999999999999997 mm } L=3 mm tune{ 1.5 mm to 4.5 mm by 0.30000000000000004 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MCROS:Cros2  N__13 N__15 N__29 N__18 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm W4=2.8 mm 
-MLIN2:TL7  N__6 N__30 Subst="MSub1" W=1 mm L=0.5 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-CapJT:Kap3  N__30 N__29 C=C4 F 
+MLIN2:TL7  N__6 N__30 Subst="MSub1" W=1.8 mm L=1.2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+GRM31:C3  N__30 N__29 PartNumber=685 
 VIA:V3  0 N__6 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
 MLIN2:TL8  N__18 P1 Subst="MSub1" W=2.8 mm L=20 mm notune{ 2 mm to 6 mm by 0.4 mm } Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-CapJT:Kap4  N__22 N__13 C=C2 F 
+GRM31:C2  N__13 N__22 PartNumber=685 
 VIA:V4  0 N__17 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
 
 L=0.0114363276764 tune{ 0.008 to 0.02 logScale }
 C1=1e-12 tune{ 1e-12 to 0.0001 logScale } noopt{ 1e-12 to 0.0001 }
+C1_real=1e-12
 C3=8.27246e-05 tune{ 1e-12 to 0.0001 logScale } noopt{ 1e-12 to 0.0001 }
-C4=8.28742e-05 tune{ 1e-12 to 0.0001 logScale } noopt{ 1e-12 to 0.0001 }
+C3_real=10e-6
+C4_real=10e-6
 C2=9.58532e-05 tune{ 1e-12 to 0.0001 logScale } noopt{ 1e-12 to 0.0001 }
+C2_real=10e-6
 MRSTUB:Stub1  N__27 Subst="MSub1" Wi=2.8 mm L=L Angle=70 
-CapJT:Kap5  N__12 N__14 C=C1 F 
+CapJT:Kap5  N__12 N__14 C=C1_real F 
 VIA:V5  0 N__4 D1=0.375 mm D2=0.375 mm H=1.52 mm T=0.00375 mm 
-MGAP:Gap1  N__28 N__2 Subst="MSub1" W=1 mm S=0.5 mm 
-MGAP:Gap2  N__30 N__29 Subst="MSub1" W=1 mm S=0.5 mm 
+GRM31:C1  N__21 N__26 PartNumber=685 
+MGAP:Gap1  N__21 N__26 Subst="MSub1" W=1.8 mm S=1.75 mm 
+MGAP:Gap2  N__30 N__29 Subst="MSub1" W=11.8 mm S=1.75 mm 
 MGAP:Gap4  N__14 N__12 Subst="MSub1" W=1 mm S=0.5 mm 
-MGAP:Gap5  N__13 N__22 Subst="MSub1" W=1 mm S=0.5 mm 
+MGAP:Gap5  N__13 N__22 Subst="MSub1" W=1.8 mm S=1.75 mm 
 end dc_feed_vgs
 
 ; Library Name: semester_task_lib
@@ -153,43 +171,105 @@ define cell_1 ( P1  P2  P3  P4 )
 "CG2H40010F_v2":X1  N__15 N__6 0 Rth=7.83 Tbase=25 VDN=28 x1=1 x2=1 
 dc_feed_vds:X3  N__17 P4 
 dc_block_in:X2  P1 N__1 
-dc_block_out:X4  N__18 P3 
+dc_block_out:X4  N__19 P3 
 dc_feed_vgs:X5  P2 N__0 
 model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
-MLIN2:TL1  N__6 N__13 Subst="MSub1" W=2.8 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MLIN2:TL2  N__10 N__15 Subst="MSub1" W=2.8 mm L=2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
-MTEE_ADS:Tee1  N__18 N__13 N__17 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
+MLIN2:TL1  N__6 N__13 Subst="MSub1" W=2.8 mm L=MLIN2_transistor Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL2  N__10 N__15 Subst="MSub1" W=2.8 mm L=MLIN_transistor Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MTEE_ADS:Tee1  N__19 N__13 N__17 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
 MTEE_ADS:Tee2  N__14 N__1 N__0 Subst="MSub1" W1=2.8 mm W2=2.8 mm W3=2.8 mm 
-MGAP:Gap1  N__15 N__6 Subst="MSub1" W=0.625 mm S=0.25 mm 
-MTAPER:Taper1  N__14 N__21 Subst="MSub1" W1=2.8 mm W2=1.2 mm L=2.5 mm 
-MTAPER:Taper2  N__10 N__20 Subst="MSub1" W1=2.8 mm W2=1.2 mm L=2.5 mm 
-MGAP:Gap2  N__20 N__21 Subst="MSub1" W=1.2 mm S=0.5 mm 
-CapJT:Kap1  N__21 N__20 C=C_stab 
-R:R1  N__21 N__20 R=R_stab Ohm Noise=yes 
+MGAP:Gap1  N__15 N__6 Subst="MSub1" W=2.8 mm S=4.1 mm 
+MTAPER:Taper1  N__14 N__21 Subst="MSub1" W1=2.8 mm W2=2.3 mm L=2.5 mm 
+MTAPER:Taper2  N__10 N__20 Subst="MSub1" W1=2.8 mm W2=2.3 mm L=2.5 mm 
+MGAP:Gap2  N__20 N__21 Subst="MSub1" W=2.3 mm S=0.5 mm 
+CapJT:Kap1  N__21 N__20 C=C_stab_real 
+R:R1  N__21 N__20 R=R_stab_real Ohm Noise=yes 
 
-R_stab=34.756016575 tune{ 20 to 200 logScale } opt{ 20 to 100 }
-C_stab=9.12010839356e-12 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
+R_stab=67.5531 tune{ 20 to 200 logScale } opt{ 20 to 100 }
+MLIN_transistor=0.00602875 opt{ 0.002 to 0.01 }
+MLIN2_transistor=0.00343893 opt{ 0.003 to 0.01 }
+R_stab_real=68
+C_stab=6.81444e-08 tune{ 1e-12 to 0.0001 logScale } opt{ 1e-12 to 0.0001 }
+C_stab_real=3.9e-12
+
+#ifndef muRataLibWeb_C
+#define muRataLibWeb_C
+; models
+#include "C:/Users/nathr/Documents/BIELSYS/sem7/ttt4201/ttt4201_semester_task/examples/muRataLibWeb_C_confidential/circuit/models/encode.net"
+#endif
+
+
 end cell_1
 
-cell_1:X1  N__3 N__2 N__0 N__10 
-Port:Term1  N__3 0 Num=1 Z=50 Ohm Noise=yes 
-Port:Term2  N__0 0 Num=2 Z=50 Ohm Noise=yes 
-V_Source:SRC1  N__2 0 Type="V_DC" Vdc=Vg SaveCurrent=1 
-V_Source:SRC2  N__10 0 Type="V_DC" Vdc=Vd V SaveCurrent=1 
+HB:HB1 MaxOrder=4 Freq[1]=RFfreq Order[1]=5 StatusLevel=2 FundOversample=1 \
+Restart=no OutputBudgetIV=no UseOutFile=no \
+HBSS_WSP=0 UseInFile=no SS_Freq=1.0 kHz SweepVar="RFpower" SweepPlan="Swp25to28" OutputPlan="HB1_Output" 
 
-Vd=28
-Vg=-2.7
-aele MaxGain1=max_gain(S);
+OutputPlan:HB1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      EquationName[1]="Zload" \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
 
-Optim:"Optim_all_params" OptimType="random" ErrorForm="L2" SAProgressReport=0 MaxIters=250000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="SP2" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=yes UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=no OptVar[1]="dc_block_in.MLSC_W" OptVar[2]="dc_block_in.MLSC_L" OptVar[3]="dc_block_out.MLSC_W" OptVar[4]="dc_block_out.MLSC_L" OptVar[5]="dc_block_out.MLIN2_W" OptVar[6]="dc_block_out.MLIN2_L" OptVar[7]="dc_block_out.MLIN1_L" OptVar[8]="dc_block_out.C_dc_block" OptVar[9]="cell_1.R_stab" OptVar[10]="dc_block_in.MLIN3_W" OptVar[11]="dc_block_in.MLIN3_L" OptVar[12]="dc_block_in.MLIN2_L" OptVar[13]="dc_block_in.MLIN2_W" OptVar[14]="dc_block_in.MLIN1_W" OptVar[15]="dc_block_in.MLIN1_L" OptVar[16]="dc_block_in.C_dc_block" OptVar[17]="cell_1.C_stab" UseAllGoals=yes GoalName[1]="OptimGoal_gain" SaveCurrentEF=yes InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 CoranaSkip=0.0 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+Tran:HB1_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+Freq[1]=RFfreq Order[1]=5 
 
-OptimGoal:OptimGoal_gain Expr="dB(S(2,1))" SimInstanceName="SP2" Weight=1 \
+Component:tahb_HB1 Module="ATAHB" Type="ModelExtractor" \ 
+ Tran_Analysis="HB1_tran" HB_Analysis="HB1" 
+
+cell_1:X1  Vinput N__12 N__14 N__10 
+Port:Term1  Vload 0 Num=2 Z=Zload Noise=yes 
+Short:Iload  N__14 Vload Mode=0 SaveCurrent=yes 
+Short:Is_high  Vs_high N__10 Mode=0 SaveCurrent=yes 
+V_Source:G3  Vs_high 0 Type="V_DC" Vdc=Vhigh SaveCurrent=1 
+Port:PORT1  N__9 0 Num=1 Z=50 Ohm P[1]=dbmtow(RFpower) Freq[1]=RFfreq    Noise=yes 
+Short:I_input  N__9 Vinput Mode=0 SaveCurrent=yes 
+OptimGoal:OptimMu Expr="Mu1" SimInstanceName="SP2" Weight=1 \
 IndepVar[1]="freq" \
-SpecLimitLine[1]="OptimGoal_gain_limit1" 
-SpecLimitLine:"OptimGoal_gain_limit1" Type="GreaterThan" Min=18 Weight=2 \
-IndepVar[1]="freq" IndepMin[1]=2.35e+09 IndepMax[1]=2.45e+09 
+SpecLimitLine[1]="OptimMu_limit1" 
+SpecLimitLine:"OptimMu_limit1" Type="GreaterThan" Min=1.1 Weight=50 \
+IndepVar[1]="freq" IndepMin[1]=5e+07 
+OptimGoal:OptimMuPrime Expr="MuPrime1" SimInstanceName="SP2" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimMuPrime_limit1" 
+SpecLimitLine:"OptimMuPrime_limit1" Type="GreaterThan" Min=1.1 Weight=50 \
+IndepVar[1]="freq" IndepMin[1]=5e+07 
+Short:Is_low  Vs_low N__12 Mode=0 SaveCurrent=yes 
+V_Source:SRC2  Vs_low 0 Type="V_DC" Vdc=Vlow SaveCurrent=1 
+OptimGoal:Optim_Pout_F Expr="Pdel_dBm" SimInstanceName="HB1" Weight=1 \
+IndepVar[1]="RFpower" \
+SpecLimitLine[1]="Optim_Pout_F_limit1" 
+SpecLimitLine:"Optim_Pout_F_limit1" Type="GreaterThan" Min=43 Weight=10 \
+IndepVar[1]="RFpower" IndepMin[1]=27 IndepMax[1]=28 
+
+
+SweepPlan:Sweep_inputpower SweepPlan[1]="Sweep_inputpower_seg1" \ 
+SweepPlan[2]="Sweep_inputpower_seg2" 
+SweepPlan:Sweep_inputpower_seg1 Start=0 Stop=10 Step=2.5 
+SweepPlan:Sweep_inputpower_seg2 Start=11 Stop=30 Step=1 
+
+RFfreq=2.4 GHz
+Zload=50
+Vhigh=28 V
+Vlow=-2.7 V tune{ -4.050000000000001 V to -1.35 V by 0.1 V }
+RFpower=27
+aele Pdel_W=0.5*real(HB.Vload[1]*conj(HB.Iload.i[1]));Pdel_dBm=10*log(Pdel_W)+30;Pdc=real(Vs_high[0]*Is_high.i[0]+Vs_low[0]*Is_low.i[0]);P_In_Watts=0.5*real(Vinput[1]*conj(I_input.i[1]));PAE=max2(100*(Pdel_W-P_In_Watts)/Pdc,0);Gain_Transducer=Pdel_dBm-RFpower;
+I_Source:SRC3  0 Vload Type="I_1Tone" I[1]=0 Freq[1]=RFfreq  I_USB[1]=1 A  Iac=polar(1,0) mA 
 S_Param:SP2 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
-SweepVar="freq" SweepPlan="SwpPlan1" OutputPlan="SP2_Output" 
+SweepVar="freq" SweepPlan="Swp0_24_10" OutputPlan="SP2_Output" 
 
 OutputPlan:SP2_Output \
       Type="Output" \
@@ -202,31 +282,28 @@ OutputPlan:SP2_Output \
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
 aele Mu1=mu(S);
 aele MuPrime1=mu_prime(S);
-OptimGoal:OptimGoal_impedance_imag Expr="imag(S(1,1))" SimInstanceName="SP2" Weight=5 \
-IndepVar[1]="freq" \
-SpecLimitLine[1]="OptimGoal_impedance_imag_limit1" 
-SpecLimitLine:"OptimGoal_impedance_imag_limit1" Type="Inside" Min=-0.07 Max=0.07 Weight=5 \
-IndepVar[1]="freq" IndepMin[1]=2.35e+09 IndepMax[1]=2.45e+09 
+
+SweepPlan:Swp25to28 SweepPlan[1]="Swp25to28_seg1" 
+SweepPlan:Swp25to28_seg1 Start=25 Stop=28 Step=1 
+
+Optim:"Optim_all_params_real_valued" OptimType="random" ErrorForm="L2" SAProgressReport=0 MaxIters=250000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=yes UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=no OptVar[1]="cell_1.MLIN_transistor" OptVar[2]="dc_block_in.MLSC_L" OptVar[3]="dc_block_out.MLSC_W" OptVar[4]="dc_block_out.MLSC_L" OptVar[5]="dc_block_out.MLIN2_W" OptVar[6]="dc_block_out.MLIN2_L" OptVar[7]="dc_block_out.MLIN1_L" OptVar[8]="dc_block_in.MLIN3_W" OptVar[9]="dc_block_in.MLIN3_L" OptVar[10]="dc_block_in.MLIN2_L" OptVar[11]="dc_block_in.MLIN2_W" OptVar[12]="dc_block_in.MLIN1_W" OptVar[13]="dc_block_in.MLIN1_L" UseAllGoals=no GoalName[1]="OptimGoal_impedance_imag" GoalName[2]="OptimGoal_impedance_real" GoalName[3]="OptimMuPrime" GoalName[4]="OptimMu" GoalName[5]="Optim_Pout_F" SaveCurrentEF=yes InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 CoranaSkip=0.0 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+
 OptimGoal:OptimGoal_impedance_real Expr="real(S(1,1))" SimInstanceName="SP2" Weight=5 \
 IndepVar[1]="freq" \
 SpecLimitLine[1]="OptimGoal_impedance_real_limit1" 
-SpecLimitLine:"OptimGoal_impedance_real_limit1" Type="Inside" Min=-0.07 Max=0.07 Weight=5 \
-IndepVar[1]="freq" IndepMin[1]=2.35e+09 IndepMax[1]=2.45e+09 
-OptimGoal:OptimGoal1 Expr="MuPrime1" SimInstanceName="SP2" Weight=100 \
+SpecLimitLine:"OptimGoal_impedance_real_limit1" Type="Inside" Min=-0.15 Max=0.15 Weight=5 \
+IndepVar[1]="freq" IndepMin[1]=2.38e+09 IndepMax[1]=2.43e+09 
+
+
+
+SweepPlan:Swp0_24_10 SweepPlan[1]="Swp0_24_10_seg1" \ 
+SweepPlan[2]="Swp0_24_10_seg2" \ 
+SweepPlan[3]="Swp0_24_10_seg3" 
+SweepPlan:Swp0_24_10_seg1 Start=2.5e9 Stop=10e9 Lin=10 
+SweepPlan:Swp0_24_10_seg2 Start=2.3e9 Stop=2.5e9 Lin=10 
+SweepPlan:Swp0_24_10_seg3 Start=0 Stop=2.3e9 Lin=20 
+OptimGoal:OptimGoal_impedance_imag Expr="imag(S(1,1))" SimInstanceName="SP2" Weight=5 \
 IndepVar[1]="freq" \
-SpecLimitLine[1]="OptimGoal1_limit1" 
-SpecLimitLine:"OptimGoal1_limit1" Type="GreaterThan" Min=1.08 Weight=50 \
-IndepVar[1]="freq" IndepMin[1]=5e+07 
-
-
-
-
-SweepPlan:SwpPlan1 SweepPlan[1]="SwpPlan1_seg1" \ 
-SweepPlan[2]="SwpPlan1_seg2" \ 
-SweepPlan[3]="SwpPlan1_seg3" \ 
-SweepPlan[4]="SwpPlan1_seg4" 
-SweepPlan:SwpPlan1_seg1 Start=2.5e9 Stop=10e9 Lin=10 
-SweepPlan:SwpPlan1_seg2 Start=2.2e9 Stop=2.5e9 Lin=30 
-SweepPlan:SwpPlan1_seg3 Start=400e6 Stop=2.2e9 Lin=10 
-SweepPlan:SwpPlan1_seg4 Start=0 Stop=400e6 Lin=10 
-model MSub1 MSUB H=1.52 mm Er=4.6 Mur=1 Cond=5.96E+7 Hu=1e+33 mm T=35 um TanD=0.02 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+SpecLimitLine[1]="OptimGoal_impedance_imag_limit1" 
+SpecLimitLine:"OptimGoal_impedance_imag_limit1" Type="Inside" Min=-0.15 Max=0.15 Weight=5 \
+IndepVar[1]="freq" IndepMin[1]=2.38e+09 IndepMax[1]=2.43e+09 
