@@ -1,7 +1,5 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows>
-        <Layout cell="HB1TonePAE_Pswp" geom="1,0,1,200,135,1536,821,1920,1080" height="821" lib="semester_task_lib" view="layout" width="1536" x1="200" y1="97"/>
-    </Windows>
+    <Windows/>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

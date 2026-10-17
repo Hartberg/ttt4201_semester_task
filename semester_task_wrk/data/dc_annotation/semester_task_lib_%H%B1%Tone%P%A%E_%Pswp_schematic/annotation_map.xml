@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<annotation_files Simulator="hpeesofsim" Time="Thu Oct 15 13:43:08 2026" Version="1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation_files Simulator="hpeesofsim" Time="Sat Oct 17 16:03:14 2026" Version="1.0">
  <File name="annotation_1.xml">
-  <Controller name="SP2">
-   <P>optIter: 0</P>
+  <Controller name="HB1_(DC)">
+   <P>RFpower: 2.5000000000000000e+01</P>
+   <P>freq: 0.0000000000000000e+00</P>
+  </Controller>
+ </File>
+ <File name="annotation_2.xml">
+  <Controller name="HB1_(HB)">
+   <P>RFpower: 2.5000000000000000e+01</P>
    <P>freq: 0.0000000000000000e+00</P>
   </Controller>
  </File>
