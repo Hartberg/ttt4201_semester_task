@@ -1,5 +1,8 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Schematic cell="dc_block_in" geom="1,0,0,41,38,958,981,1920,1080" height="981" lib="semester_task_lib" view="schematic" width="958" x1="41" y1="0"/>
+        <DDS name="big_schem.dds"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
